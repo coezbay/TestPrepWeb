@@ -740,5 +740,405 @@
       "c": "FALSCH - Während das Testen von fixierten Fehlern wichtig ist, ist es nicht die primäre Definition von Regressionstests.",
       "d": "KORREKT - Regressionstests zielen darauf ab, die Stabilität und Zuverlässigkeit der Software nach Änderungen zu gewährleisten, indem sichergestellt wird, dass keine neuen Fehler in unveränderte Bereiche eingeführt wurden."
     }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist ein typisches Ziel des Testens von Software?",
+    "antworten": {
+      "a": "Fehlerwirkungen und Fehlerzustände aufdecken",
+      "b": "Validierung von Projektplänen",
+      "c": "Sicherstellen von vollständigen Tests",
+      "d": "Vergleich der Istergebnisse mit den erwarteten Ergebnissen"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Eines der typischen Hauptziele des Testens aus dem Lehrplan (1.1.1).",
+      "b": "FALSCH – Die Validierung des Projektplans ist eine Projektmanagementaktivität.",
+      "c": "FALSCH – Widerspruch zum Grundsatz 2; Vollständiges Test ist nicht möglich. (CTFL CORE Syllabus 2018, V.3.1; Abschnitt 1.3).",
+      "d": "FALSCH – „Vergleich der Istergebnisse mit den erwarteten Ergebnissen“ ist eine Aktivität der Testdurchführung, aber kein Testziel. (CTFL CORE Syllabus 2018, V.3.1; Abschnitt 1.4.2, Testdurchführung)."
+    }
+  },
+  {
+    "frage": "Welches der folgenden Beispiele ist eine Fehlerwirkung in einem Tempomat eines Autos?",
+    "antworten": {
+      "a": "Der Entwickler des Systems hat vergessen, Variablen nach einem Ausschneiden und Einfügen umzubenennen.",
+      "b": "Nicht benötigter Code, der beim Rückwärtsfahren einen Alarm auslöst, wurde in das System aufgenommen.",
+      "c": "Das System hält die eingestellte Geschwindigkeit nicht mehr ein, wenn die Radiolautstärke erhöht oder verringert wird.",
+      "d": "Die System-Entwurfsspezifikation gibt die Geschwindigkeit falsch an."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Dies ist ein Beispiel für einen vom Entwickler begangenen Fehler (Fehlhandlung).",
+      "b": "FALSCH – Dies ist ein Beispiel für einen Fehlerzustand (etwas, das im Code falsch ist und einen Fehler verursachen kann).",
+      "c": "KORREKT – Dies ist eine Abweichung von der erwarteten Funktionalität - ein Tempomat sollte nicht von der Lautstärkeeinstellung des Radios betroffen sein.",
+      "d": "FALSCH – Dies ist ein Beispiel für einen Defekt (Fehlerzustand in einer Spezifikation, die eine Fehlerwirkung verursachen kann, wenn gegen die Spezifikation anschließend implementiert wird)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist eher ein Fehlerzustand als eine Grundursache für einen Fehlerzustand in einem Fitness-Tracker?",
+    "antworten": {
+      "a": "Der Anforderungsmanager war mit der Domäne des Fitnesstrainings nicht vertraut und ging zu Unrecht davon aus, dass die Benutzer die Herzschlag Frequenz in Schlägen pro Stunde ablesen wollen.",
+      "b": "Der Tester des Smartphone-Interfaces war nicht im zustandsbasierten Testen geschult und hat daher einen signifikanten Fehler übersehen.",
+      "c": "Eine vom Entwickler für die GPS-Funktion fehlerhaft implementierte Konfigurationsvariable kann während der Sommerzeit zu Standortproblemen führen.",
+      "d": "Die Designerin der Benutzeroberfläche hat noch nie an tragbaren Geräten gearbeitet und missverstand deshalb die Auswirkungen von reflektiertem Sonnenlicht."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Die mangelnde Vertrautheit des Anforderungsmanagers mit der Fitnessdomäne ist eine Grundursache für einen Fehlerzustand.",
+      "b": "FALSCH – Die fehlende Schulung des Testers im zustandsbasierten Testen war eine Grundursache für den Fehler.",
+      "c": "KORREKT – Die fehlerhaft implementierte Konfigurationsvariable stellt einen Fehlerzustand in der Software des Fitness-Trackers dar, der zu Standortproblemen führen kann.",
+      "d": "FALSCH – Die mangelnde Erfahrung bei der Gestaltung von Benutzeroberflächen für tragbare Geräte ist eine Grundursache für einen Fehlerzustand."
+    }
+  },
+  {
+    "frage": "Als Ergebnis der Risikoanalyse werden mehr Tests auf die Bereiche des Systems unter Test angewendet, in denen die ersten Tests mehr Fehler als in den anderen Bereichen aufgedeckt haben. Welcher der folgenden Grundsätze des Testens wird angewendet?",
+    "antworten": {
+      "a": "Vorsicht vor dem Pestizid-Paradoxon.",
+      "b": "Das Testen ist kontextabhängig.",
+      "c": "Trugschluss: Keine Fehler bedeutet brauchbares System.",
+      "d": "Häufung von Fehlerzuständen."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Das Pestizid-Paradoxon bezieht sich darauf, dass die Wiederholung derselben Tests dazu führen kann, dass einige Fehler unentdeckt bleiben.",
+      "b": "FALSCH – Dies bezieht sich darauf, dass der Testansatz je nach Kontext variieren sollte.",
+      "c": "FALSCH – Dieses Prinzip besagt, dass das Fehlen von Fehlern nicht zwangsläufig bedeutet, dass das System fehlerfrei ist.",
+      "d": "KORREKT – Dieses Prinzip besagt, dass sich Fehler oft in bestimmten Bereichen häufen, und darauf sollte der Testfokus verstärkt werden."
+    }
+  },
+  {
+    "frage": "Gegeben seien die folgenden Listen von Testaktivitäten (A.-D.) und Testaufgaben (1.-4.): A. Testentwurf B. Testrealisierung C. Testdurchführung D. Testabschluss 1. Erfassung von Änderungsanforderungen für offene Fehlerberichte 2. Identifizierung von Testdaten zur Unterstützung der Testfälle 3. Priorisierung von Testabläufen und Vorbereitung von Testdaten 4. Analyse von Abweichungen, um deren Ursache zu ermitteln Welches ist die korrekte Paarung von Testaktivitäten und Testaufgaben?",
+    "antworten": {
+      "a": "A-2, B-3, C-4, D-1",
+      "b": "A-2, B-1, C-3, D-4",
+      "c": "A-3, B-2, C-4, D-1",
+      "d": "A-3, B-2, C-1, D-4"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT - Die korrekte Zuordnung von Testaktivitäten und Testaufgaben laut Lehrplan (1.4.2) ist: A-2, B-3, C-4, D-1.",
+      "b": "FALSCH - Die Zuordnung ist nicht korrekt.",
+      "c": "FALSCH - Die Zuordnung ist nicht korrekt.",
+      "d": "FALSCH - Die Zuordnung ist nicht korrekt."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie ein Mehrwert durch Aufrechterhaltung und Wartung der Verfolgbarkeit zwischen Testbasis und Testartefakten erzielt wird?",
+    "antworten": {
+      "a": "Wartungstests können basierend auf Änderungen der ursprünglichen Anforderungen vollständig automatisiert werden.",
+      "b": "Es kann festgestellt werden, ob ein neuer Testfall eine höhere Abdeckung der Anforderungen erreicht.",
+      "c": "Testmanager können feststellen, welche Tester die Fehler mit dem höchsten Schweregrad gefunden haben.",
+      "d": "Bereiche, die möglicherweise durch Seiteneffekte einer Änderung beeinflusst werden, können durch Regressionstests gezielt überprüft werden."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH - Die Verfolgbarkeit unterstützt die Automatisierung von Wartungstests nicht.",
+      "b": "KORREKT - Die Verfolgbarkeit ermöglicht es festzustellen, ob neue Testfälle eine höhere Abdeckung der Anforderungen erreichen.",
+      "c": "FALSCH - Die Verfolgbarkeit zwischen Testbasis und Testartefakten bietet keine Informationen darüber, welche Tester Fehler mit dem höchsten Schweregrad gefunden haben.",
+      "d": "FALSCH - Seiteneffekte einer Änderung betreffen nicht direkt verfolgbare Bereiche."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Eigenschaften findet man EHER in der Denkweise eines Testers als in der Denkweise eines Entwicklers?",
+    "antworten": {
+      "a": "Die Leistung eines Testers wächst und reift mit steigender Erfahrung.",
+      "b": "Die Fähigkeit zu erkennen, was an Lösungen falsch sein könnte.",
+      "c": "Gute Kommunikation mit Teammitgliedern.",
+      "d": "Aufmerksamkeit für Details."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH - Sowohl Entwickler als auch Tester profitieren von Erfahrung.",
+      "b": "KORREKT - Tester sind eher darauf fokussiert zu erkennen, was an Lösungen falsch sein könnte.",
+      "c": "FALSCH - Sowohl Entwickler als auch Tester sollten gute Kommunikationsfähigkeiten haben.",
+      "d": "FALSCH - Sowohl Entwickler als auch Tester müssen auf Details achten."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen vergleicht die Zwecke der Fehlernachtests und Regressionstests AM BESTEN miteinander?",
+    "antworten": {
+      "a": "Der Regressionstest stellt sicher, dass alle früher durchgeführten Tests immer noch korrekt laufen, während der Fehlernachtest sicherstellt, dass Korrekturen an einem Teil des Systems die anderen Teile nicht negativ beeinflussen.",
+      "b": "Der Fehlernachtest prüft, dass ein vorher gefundener Fehlerzustand korrigiert wurde, während der Regressionstest sicherstellt, dass die Korrektur keine anderen Teile des Systems negativ beeinflusst hat.",
+      "c": "Der Regressionstest stellt sicher, dass Korrekturen an einem Teil des Systems die anderen Teile nicht negativ beeinflussen, während der Fehlernachtest prüft, dass alle früher durchgeführten Tests immer noch die gleichen Ergebnisse produzieren.",
+      "d": "Der Fehlernachtest bestätigt, dass die Änderungen am System erfolgreich durchgeführt wurden, während der Regressionstest Tests durchführt, die vorher fehlgeschlagen sind, um sicherzustellen, dass sie jetzt korrekt funktionieren."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Obwohl die Beschreibung des Regressionstests weitgehend richtig ist, ist die Beschreibung des Fehlernachtests (welcher bestätigen sollte, dass ein Fehlerzustand behoben wurde) falsch.",
+      "b": "KORREKT – Die Beschreibungen von Fehlernachtest und Regressionstest entsprechen sinngemäß dem CTFL Lehrplan 2018, Abschnitt 2.3.",
+      "c": "FALSCH – Obwohl die Beschreibung des Regressionstests weitgehend richtig ist, ist die Beschreibung des Fehlernachtests (erneute Durchführung aller früher durchgeführten Tests) falsch. Der Zweck des Fehlernachtests ist zu prüfen, ob Tests, die früher fehlgeschlagen sind, jetzt korrekt funktionieren.",
+      "d": "FALSCH – Obwohl die Beschreibung des Fehlernachtests weitgehend richtig ist, ist die Beschreibung des Regressionstests (Tests durchzuführen, die vorher fehlgeschlagen sind) falsch. Das würde eher einer detaillierteren Beschreibung des Fehlernachtests entsprechen."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt eine Aufgabe der Auswirkungsanalyse im Wartungstest KORREKT?",
+    "antworten": {
+      "a": "Die Auswirkungsanalyse unterstützt bei der Entscheidung, ob sich eine Fehlerkorrektur beim zu wartenden System lohnt.",
+      "b": "Die Auswirkungsanalyse identifiziert, wie Daten in das gewartete System zu migrieren sind.",
+      "c": "Die Auswirkungsanalyse unterstützt bei der Entscheidung, welche Hot Fixes den meisten Nutzen für den Benutzer haben.",
+      "d": "Die Auswirkungsanalyse unterstützt die Ermittlung der Effektivität neuer Wartungstestfälle."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Die Auswirkungsanalyse kann verwendet werden, um die Bereiche des Systems zu identifizieren, die von einer Fehlerbehebung betroffen sind. Daher kann das Ausmaß der Auswirkungen (z. B. nötige Regressionstests) verwendet werden, um bei der Entscheidung zu helfen, ob die Veränderung vorgenommen werden sollte (Siehe CTFL CORE Lehrplan 2018, Abschnitt 2.4.2).",
+      "b": "FALSCH – Obwohl der Test der migrierten Daten Teil des Wartungstests ist (siehe Konvertierungstest), ermittelt die Auswirkungsanalyse nicht, wie dieser Test auszusehen hat.",
+      "c": "FALSCH – Die Auswirkungsanalyse ermittelt, welche Teile eines Systems von einer Änderung betroffen sind. Somit kann sie den Unterschied zwischen verschiedenen Hot Fixes in Hinsicht auf die Auswirkungen auf das System aufzeigen. Sie gibt aber keine Hinweise darauf, welchen Nutzen die Änderungen für den Benutzer haben.",
+      "d": "FALSCH – Die Auswirkungsanalyse ermittelt, welche Teile eines Systems von einer Änderung betroffen sind. Sie kann aber keine Anhaltspunkte zur Effektivität von Testfällen liefern."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen gibt den Nutzen des statischen Tests KORREKT wieder?",
+    "antworten": {
+      "a": "Nach der Einführung von Reviews stellten wir fest, dass sich sowohl die Qualität der Spezifikationen als auch die für Entwicklung und Test benötigte Zeit erhöht haben.",
+      "b": "Durch die Anwendung von statischem Test können wir den Test besser steuern und haben ein günstigeres Fehlermanagement, weil sich Fehlerzustände später im Lebenszyklus leichter finden lassen.",
+      "c": "Da wir jetzt statische Analyse nutzen, haben fehlende Anforderungen abgenommen und die Kommunikation zwischen Testern und Entwicklern hat sich verbessert.",
+      "d": "Seitdem wir statische Analysen eingeführt haben, finden wir Programmierfehler, die wir allein durch dynamischen Test möglicherweise nicht gefunden hätten."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Reviews sollten die Qualität der Spezifikationen erhöhen, aber die für Entwicklung und Test benötigte Zeit verringern (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.1.2).",
+      "b": "FALSCH – Die Behebung von Fehlerzuständen ist im Allgemeinen früher im Lebenszyklus leichter (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.1.2).",
+      "c": "FALSCH – Reviews führen zu weniger fehlenden Anforderungen und besserer Kommunikation zwischen Testern und Entwicklern, aber Letzteres gilt nicht für statische Analysen (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.1.2).",
+      "d": "KORREKT – Dies ist ein Nutzen der statischen Analyse (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.1.2)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen zur Anwendung von Checklisten bei einem formalen Review ist KORREKT?",
+    "antworten": {
+      "a": "Im Rahmen der Planung des Reviews erstellen die Reviewer die für das Review benötigten Checklisten.",
+      "b": "Im Rahmen der Befundkommunikation füllen die Reviewer die für das Review bereitgestellten Checklisten aus.",
+      "c": "Im Rahmen der Reviewsitzung erstellen die Reviewer auf Basis der für das Review bereitgestellten Checklisten Fehlerberichte.",
+      "d": "Im Rahmen des Reviewbeginns (Kick-Off) erhalten die Reviewer die für das Review benötigten Checklisten."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – In der Planung wird entschieden, ob Checklisten eingesetzt werden (vgl. Lehrplan, Abschnitt 3.2.1). Die Erstellung der Checklisten ist nicht Teil der Planung. Außerdem sind die Reviewer weder in die Planung involviert, noch für die Erstellung der Checklisten verantwortlich (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.2).",
+      "b": "FALSCH – In der Befundkommunikation werden im individuellen Review identifizierte potenzielle Fehlerzustände kommuniziert. Das Ausfüllen von Checklisten durch die Reviewer erfolgt, wenn überhaupt, bereits im individuellen Review (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.1).",
+      "c": "FALSCH – In der Reviewsitzung kommunizieren die Reviewer die im Rahmen des individuellen Reviews identifizierten potenziellen Fehlerzustände des Arbeitsergebnisses (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.1). Fehlerberichte werden erst in der Aktivität Fehlerbehebung und Bericht erstellt.",
+      "d": "KORREKT – Der Reviewbeginn (Kick-Off) umfasst das Verteilen des Arbeitsergebnisses und anderer Materialien, wie Checklisten (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.1)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen gibt die Rollen und Verantwortlichkeiten in einem formalen Review KORREKT wieder?",
+    "antworten": {
+      "a": "Management – Entscheidet über die Durchführung von Reviews",
+      "b": "Reviewleiter – Stellt den erfolgreichen Ablauf von Reviewsitzungen sicher",
+      "c": "Protokollant – Behebt Fehlerzustände im Arbeitsergebnis, das einem Review unterzogen wurde",
+      "d": "Moderator – Überwacht die stetige Kosteneffizienz"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Das Management entscheidet über die Durchführung von Reviews (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.2).",
+      "b": "FALSCH – Der Moderator stellt den erfolgreichen Ablauf von Reviewsitzungen sicher (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.2).",
+      "c": "FALSCH – Der Autor behebt Fehlerzustände im Arbeitsergebnis, das einem Review unterzogen wurde (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.2).",
+      "d": "FALSCH – Das Management überwacht die stetige Kosten-Wirksamkeits-Analyse (Siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.2)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN exploratives Testen?",
+    "antworten": {
+      "a": "Eine Testvorgehensweise/ein Testansatz, bei der eine intensive Untersuchung des Hintergrunds des Testobjekts dazu genutzt wird, mögliche Schwachstellen zu identifizieren, die durch Testfälle untersucht werden.",
+      "b": "Eine Testvorgehensweise/ein Testansatz bei dem die Tester, basierend auf ihrem Wissen, der Erkundung des Testelements und dem Ergebnis früherer Tests, dynamisch Tests entwerfen und durchführen.",
+      "c": "Eine Testvorgehensweise/ein Testansatz, bei dem die Testaktivitäten - insbesondere Testanalyse und Testentwurf - als unterbrechungsfreie Sitzungen geplant werden, oft in Verbindung mit checklisten-basiertem Testen.",
+      "d": "Eine Testvorgehensweise/ein Testansatz, das auf der Erfahrung, dem Wissen und der Intuition des Testers basiert."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Exploratives Testen wird meistens bei kurzfristigen Zeitvorgaben durchgeführt, daher sind intensive Untersuchungen des Hintergrunds des Testobjekts eher ungewöhnlich.",
+      "b": "KORREKT – Ein Testansatz, bei dem die Tests dynamisch entworfen und ausgeführt werden, basierend auf Wissen, der Erkundung des Testelements und den Ergebnissen früherer Tests. (Definition Glossar V.3.3)",
+      "c": "FALSCH – Basiert auf der Definition des Glossars für sitzungsbasiertes Testen, jedoch wurde Testdurchführung durch Testanalyse ersetzt.",
+      "d": "FALSCH – Basiert auf der Definition des Glossars für erfahrungsbasiertes Testen."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Zuordnungen von Beschreibungen zu verschiedenen Kategorien von Testverfahren trifft AM BESTEN zu?",
+    "antworten": {
+      "a": "Black – 4, 5; White – 1, 2; Erfahrung – 3",
+      "b": "Black – 3; White – 1, 2; Erfahrung – 4, 5",
+      "c": "Black – 4; White – 1, 2; Erfahrung – 3, 5",
+      "d": "Black – 1, 3, 5; White – 2; Erfahrung – 4"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Black-Box-Testverfahren: Abweichungen von Anforderungen werden überprüft (4) User-Stories werden als Testbasis herangezogen (5). White-Box-Testverfahren: Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen (1) Verarbeitung innerhalb des Testobjekts wird überprüft (2). erfahrungsbasiertes Testverfahren: Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung (3).",
+      "b": "FALSCH – Die Zuordnung entspricht nicht der Definition der Testverfahren im Syllabus.",
+      "c": "FALSCH – Die Zuordnung entspricht nicht der Definition der Testverfahren im Syllabus.",
+      "d": "FALSCH – Die Zuordnung entspricht nicht der Definition der Testverfahren im Syllabus."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie Testfälle aus Anwendungsfällen entworfen werden?",
+    "antworten": {
+      "a": "Testfälle werden entworfen, um das im Anwendungsfall definierte grundlegende, Sonder- und Fehlerbehandlungs-Verhalten des Systems in Interaktion mit den Akteuren auszuführen.",
+      "b": "Testfälle werden entworfen, indem die vom Anwendungsfall betroffenen Komponenten identifiziert und Integrationstests erstellt werden, welche die Interaktionen dieser Komponenten ausführen.",
+      "c": "Testfälle werden entworfen, indem die Interaktionen der Akteure mit dem System analysiert werden, um sicherzustellen, dass die Benutzungsschnittstelle des Systems leicht bedienbar ist.",
+      "d": "Testfälle werden entworfen, mit denen alle Entscheidungspunkte im Geschäftsprozess des Anwendungsfalls ausgeführt werden, um eine 100%-ige Entscheidungsüberdeckung zu erreichen."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Im Lehrplan unter 4.2.5 Anwendungsfallbasierter Test steht: Jeder Anwendungsfall definiert ein bestimmtes Verhalten, das ein Objekt in Zusammenarbeit mit einem oder mehreren Akteuren ausführen kann. Weiter unten ist zu lesen: Ein Anwendungsfall besteht aus mehreren möglichen Varianten seines grundlegenden Verhaltens, was u. a. Sonder- und Fehlerbehandlungen einschließt (Antwort- und Wiederherstellungsmechanismen des Systems nach Programmier-, Anwendungs- und Kommunikationsfehler, die z. B. zu Fehlermeldungen führen). Tests werden entworfen, um das definierte Verhalten nachzuweisen (grundlegendes, außergewöhnliches oder alternatives Verhalten und die Fehlerbehandlungsroutinen).",
+      "b": "FALSCH – Anwendungsfälle spezifizieren normalerweise Anforderungen und schließen daher nicht die Komponenten ein, die sie implementieren.",
+      "c": "FALSCH – Anwendungsfallbasierte Tests führen zwar Interaktionen des Systems mit einem oder mehreren Akteuren aus. Aber sie konzentrieren sich auf die Funktionalität und betrachten nicht die leichte Bedienbarkeit der Benutzungsschnittstelle.",
+      "d": "FALSCH – Tests decken zwar die Ablaufpfade des Anwendungsfalls ab, es geht jedoch nicht um eine Entscheidungsüberdeckung in diesen Pfaden, und bestimmt nicht in den Kontrollfluss im Geschäftsprozess."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Beschreibungen der Anweisungsüberdeckung ist korrekt?",
+    "antworten": {
+      "a": "Die Anweisungsüberdeckung ist ein Maß für die Anzahl der Quellcodezeilen (ohne Kommentare), die im Test ausgeführt wurden.",
+      "b": "Die Anweisungsüberdeckung ist ein Maß für den prozentualen Anteil der ausführbaren Anweisungen im Quellcode, die im Test ausgeführt wurden.",
+      "c": "Die Anweisungsüberdeckung ist ein Maß für den prozentualen Anteil der Quellcodezeilen (ohne Kommentare), die im Test ausgeführt wurden.",
+      "d": "Die Anweisungsüberdeckung ist ein Maß für die Anzahl der ausführbaren Anweisungen im Quellcode, die im Test ausgeführt wurden."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Die Anweisungsüberdeckung bezieht sich auf durch Tests ausführbare Anweisungen. In einer Zeile können mehrere solcher Anweisungen stehen, und eine Anweisung kann sich über mehrere Zeilen erstrecken.",
+      "b": "KORREKT – Der prozentuale Anteil der ausführbaren Anweisungen ist der Anteil im Test ausgeführter Anweisungen bezogen auf alle Anweisungen, also (Anzahl durch die Testsuite ausgeführter Anweisungen / Anzahl alle Anweisungen) x 100%.",
+      "c": "FALSCH – Die Anweisungsüberdeckung bezieht sich nicht auf Quellcodezeilen, sondern auf durch Tests ausführbare Anweisungen, s. Begründung zu a).",
+      "d": "FALSCH – Die Anweisungsüberdeckung bezieht sich nicht auf die absolute Anzahl der von der Testsuite ausgeführten Anweisungen, sondern auf deren Anteil bezogen auf alle ausführbaren Anweisungen."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Beschreibungen der Entscheidungsüberdeckung ist zutreffend?",
+    "antworten": {
+      "a": "Die Entscheidungsüberdeckung ist ein Maß für den prozentualen Anteil möglicher Pfade durch den Quellcode, die im Test ausgeführt wurden.",
+      "b": "Die Entscheidungsüberdeckung ist ein Maß für den prozentualen Anteil der Geschäftsabläufe durch die Komponente, die im Test ausgeführt wurden.",
+      "c": "Die Entscheidungsüberdeckung ist ein Maß für die „IF-Anweisungen“ im Quellcode, die im Test sowohl mit dem Ergebnis „WAHR“ als auch mit „FALSCH“ ausgeführt wurden.",
+      "d": "Die Entscheidungsüberdeckung ist ein Maß für den Anteil der Entscheidungsergebnisse, die im Test ausgeführt wurden."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Ein Pfad durch den Quellcode ist ein möglicher Ablauf durch den Quellcode vom Eintrittspunkt zum Austrittspunkt, der eine Reihe von Entscheidungsergebnissen ausführen kann. Zwei verschiedene Pfade können bis auf einen die gleichen Entscheidungsergebnisse ausführen. Wird nur ein einziges Entscheidungsergebnis geändert, so wird ein anderer Pfad durchlaufen. Testfälle, die eine vollständige Entscheidungsabdeckung erzielen, sind in der Regel eine winzige Teilmenge der Testfälle, die eine vollständige Pfadüberdeckung erzielen würden. In der Praxis haben die meisten nicht-trivialen Programme (und alle Programme mit unbeschränkten Schleifen, z. B. 'while'-Schleifen) eine potenziell unendliche Anzahl möglicher Pfade, sodass die Messung des abgedeckten Prozentsatzes praktisch unmöglich ist.",
+      "b": "FALSCH – Geschäftsabläufe können im anwendungsfallbasierten Test betrachtet werden. Sie werden jedoch nicht durch die Entscheidungsüberdeckung gemessen, auch wenn sie ein oder mehrere Entscheidungsergebnisse ausführen würden.",
+      "c": "FALSCH – „IF-Anweisungen“ beinhalten zwar Entscheidungen, sind jedoch nicht die einzige Quelle für Entscheidungen, da z. B. auch Schleifen oder „CASE-Anweisungen“ Entscheidungen beinhalten, aufgrund deren Ergebnis sie ausgeführt oder nicht ausgeführt werden.",
+      "d": "KORREKT – S. Lehrplan-Auszug 4.3.2 oben."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt AM BESTEN das Konzept der intuitiven Testfallermittlung?",
+    "antworten": {
+      "a": "Die intuitive Testfallermittlung erfordert, dass Sie sich vorstellen, der Benutzer des Testobjekts zu sein und dass Sie Fehler erraten, die der Benutzer bei der Interaktion damit machen könnte.",
+      "b": "Die intuitive Testfallermittlung bezieht Ihre persönlichen Entwicklungserfahrungen und die Fehler mit ein, die Sie als Entwickler gemacht haben.",
+      "c": "Die intuitive Testfallermittlung verwendet Ihre Kenntnisse und Erfahrungen mit Fehlerzuständen, die in der Vergangenheit gefunden wurden, sowie mit typischen Fehlhandlungen von Entwicklern.",
+      "d": "Die intuitive Testfallermittlung erfordert, dass Sie die Entwicklungsaufgabe schnell selbst wiederholen, um die Art von Fehlern zu identifizieren, die Entwickler dabei möglicherweise machen könnten."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Die intuitive Testfallermittlung ist kein Gebrauchstauglichkeitstestverfahren, um zu erraten, wie die Interaktion der Benutzer mit dem Testobjekt möglicherweise fehlschlagen könnte.",
+      "b": "FALSCH – Obwohl Tester, die früher Entwickler waren, ihre persönliche Erfahrung nutzen können, um Fehler zu erraten, basiert das Verfahren nicht auf Vorkenntnissen über die Entwicklung.",
+      "c": "KORREKT – Siehe Lehrplanexzerpt oben, Fehlhandlungen sind u. a. Fehler von Entwicklern. Das Grundkonzept der intuitiven Testfallermittlung ist, dass Tester anhand von Erfahrungswerten (und manchmal auch Checklisten) erraten, welche Fehler die Entwickler möglicherweise gemacht haben könnten und welche Fehlerzustände im Testobjekt vorliegen könnten.",
+      "d": "FALSCH – Das Wiederholen der Entwicklungsaufgabe ist keine intuitive Testfallermittlung. Es wäre darüber hinaus aufgrund mehrerer Probleme nicht praktikabel, z. B. der Anforderung, dass Tester über die gleichen Fähigkeiten wie Entwickler verfügen, und dem zeitlichen Aufwand für eine wiederholte Durchführung der Entwicklung."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt am BESTEN einen Vorteil von unabhängigem Testen?",
+    "antworten": {
+      "a": "Die Verwendung eines unabhängigen Testteams erlaubt dem Projektmanagement die Verantwortung für die Qualität des finalen Arbeitsergebnisses auf das Testteam zu übertragen. Somit ist jedem bewusst, dass die Qualität in der Gesamtverantwortung des Testteams liegt.",
+      "b": "Wenn ein Testteam außerhalb der Organisation zur Verfügung gestellt werden kann, hat dies deutliche Vorteile, da dieses externe Team nicht so leicht von den Bedenken des Projektmanagements und der Notwendigkeit der Einhaltung strenger Lieferfristen beeinflusst wird.",
+      "c": "Ein unabhängiges Testteam kann vollkommen separat von den Entwicklern arbeiten, muss sich nicht von sich ändernden Projektanforderungen ablenken lassen und kann die Kommunikation mit den Entwicklern auf das Verfassen von Fehlerberichten über das Fehlermanagementsystem beschränken.",
+      "d": "Wenn Spezifikationen Mehrdeutigkeiten und/oder Inkonsistenzen enthalten, werden Annahmen zu deren Interpretation getroffen. Ein unabhängiger Tester kann hilfreich sein, um die vom Entwickler getroffenen Annahmen und vorgenommenen Interpretationen in Frage zu stellen."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Qualität sollte in der Verantwortung aller am Projekt Beteiligten liegen und nicht in der alleinigen Verantwortung des Testteams (siehe CTFL Lehrplan 2018, Abschnitt 5.1.1, „Mögliche Nachteile von Testunabhängigkeit …“, 2. Punkt).",
+      "b": "FALSCH – Zum einen ist es kein Vorteil, wenn ein externes Testteam die Lieferfristen nicht einhält, und zum anderen gibt es keinen Grund zu der Annahme, dass externe Testteams das Gefühl haben, die strengen Lieferfristen nicht einhalten zu müssen (siehe CTFL Lehrplan 2018, Abschnitt 5.1.1, „Mögliche Nachteile von Testunabhängigkeit …“, 3. Punkt).",
+      "c": "FALSCH – Es ist eine schlechte Praxis für das Testteam, völlig isoliert zu arbeiten, und außerdem sollte sich auch ein externes Testteam mit sich ändernden Projektanforderungen befassen und gut mit den Entwicklern kommunizieren (siehe CTFL Lehrplan 2018, Abschnitt 5.1.1, „Mögliche Nachteile von Testunabhängigkeit …“, 1. Punkt).",
+      "d": "KORREKT – Spezifikationen sind niemals perfekt, was bedeutet, dass Annahmen vom Entwickler getroffen werden müssen. Ein unabhängiger Tester ist nützlich, um die Annahme in Frage zu stellen und zu überprüfen (siehe CTFL Lehrplan 2018, Abschnitt 5.1.1, „Mögliche Vorteile von Testunabhängigkeit…“, 2.Punkt)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aufgaben wird AM WAHRSCHEINLICHSTEN vom Testmanager ausgeführt?",
+    "antworten": {
+      "a": "Erstellen von Testabschlussberichten auf der Grundlage der während des Tests gesammelten Informationen.",
+      "b": "Tests prüfen, die von anderen entwickelt wurden.",
+      "c": "Testdaten vorbereiten und beschaffen.",
+      "d": "Anforderungen, Spezifikationen und Modelle auf Testbarkeit analysieren, prüfen und beurteilen."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Eine der typischen Aufgaben eines Testmanagers gemäß CTFL Lehrplan 2018, Abschnitt 5.1.2.",
+      "b": "FALSCH – Eine der typischen Aufgaben eines Testers gemäß CTFL Lehrplan 2018, Abschnitt 5.1.2.",
+      "c": "FALSCH – Eine der typischen Aufgaben eines Testers gemäß CTFL Lehrplan 2018, Abschnitt 5.1.2.",
+      "d": "FALSCH – Eine der typischen Aufgaben eines Testers gemäß CTFL Lehrplan 2018, Abschnitt 5.1.2."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen über Testschätzverfahren ist korrekt?",
+    "antworten": {
+      "a": "Beim metrikbasierten Verfahren basiert die Schätzung auf Testmaßnahmen aus dem Projekt, so dass diese Schätzung erst nach Beginn des Tests verfügbar ist.",
+      "b": "Beim expertenbasierten Verfahren empfiehlt eine vom Kunden identifizierte Gruppe von Experten das erforderliche Testbudget.",
+      "c": "Beim expertenbasierten Verfahren schätzen die für die verschiedenen Testaktivitäten verantwortlichen Testmanager den erwarteten Testaufwand.",
+      "d": "Beim metrikbasierten Ansatz wird ein Durchschnitt der Testkosten, die aus mehreren vergangenen Projekten ermittelt wurden, als Testbudget verwendet."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Die Schätzungen werden möglicherweise aktualisiert, sobald weitere Informationen verfügbar sind. Es sind jedoch Schätzungen erforderlich, um die Planung vor Beginn der Tests zu unterstützen.",
+      "b": "FALSCH – Die Experten beim expertenbasierten Verfahren müssen Experten für das Testen sein und nicht für das Testobjekt.",
+      "c": "KORREKT – Beim expertenbasierten Ansatz werden die für die verschiedenen Testaktivitäten verantwortlichen Testmanager als Experten für ihr jeweiliges Gebiet betrachtet. Daher sind sie in der Lage, den erwarteten Testaufwand zu schätzen.",
+      "d": "FALSCH – Es ist zwar nützlich, die Testkosten aus früheren Projekten zu kennen, jedoch ist ein anspruchsvollerer Ansatz erforderlich, als nur den Durchschnitt vergangener Projekte zu ermitteln. (Das neue Projekt kann möglicherweise nicht mit den vergangenen Projekten vergleichbar sein, z. B. kann es viel größer oder viel kleiner sein als die vergangenen Projekte)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen definiert AM BESTEN die Risikostufe (Höhe des Risikos)?",
+    "antworten": {
+      "a": "Die Risikostufe wird berechnet, indem die Wahrscheinlichkeiten aller Problemsituationen und der daraus resultierende finanzielle Schaden addiert werden.",
+      "b": "Die Risikostufe wird geschätzt, indem die Wahrscheinlichkeit einer Bedrohung des Systems multipliziert wird mit der Wahrscheinlichkeit, dass die Bedrohung auftritt und finanzielle Schäden verursacht.",
+      "c": "Die Risikostufe wird bestimmt durch eine Kombination der Wahrscheinlichkeit eines unerwünschten Ereignisses und der erwarteten Auswirkung dieses Ereignisses.",
+      "d": "Die Risikostufe ist die Summe aller potenziellen Gefahren für ein System multipliziert mit der Summe aller potenziellen Verluste aus diesem System."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Die Risikostufe wird bestimmt, indem eine Kombination aus der Wahrscheinlichkeit von Problemsituationen und dem daraus resultierenden Schaden betrachtet wird; die Risikostufe kann jedoch nicht durch Addition dieser Faktoren berechnet werden (die Wahrscheinlichkeit würde im Bereich von 0 bis 1 liegen und der Schaden könnte in Euro beziffert sein).",
+      "b": "FALSCH – Das Risiko wird bestimmt, indem eine Kombination aus Wahrscheinlichkeit und Auswirkung berücksichtigt wird. Diese Definition berücksichtigt nur Wahrscheinlichkeit und Zufall ohne Berücksichtigung der Auswirkungen (oder des Schadens).",
+      "c": "KORREKT – Wie beschrieben im CTFL Lehrplan 2018, Abschnitt 5.5.1",
+      "d": "FALSCH – Das Risiko wird bestimmt, indem eine Kombination aus Wahrscheinlichkeit und Auswirkung berücksichtigt wird. Diese Definition berücksichtigt nur Gefahren und Verluste (eine Gefahr ist ein schlechtes Ereignis wie ein Risiko, während ein Verlust eine Form der Auswirkung ist), ohne die Wahrscheinlichkeit zu berücksichtigen."
+    }
+  },
+  {
+    "frage": "Welcher der folgenden Aussagen ist AM EHESTEN ein Beispiel für ein Produktrisiko?",
+    "antworten": {
+      "a": "Die erwarteten IT-Sicherheitsmerkmale werden von der Systemarchitektur möglicherweise nicht unterstützt.",
+      "b": "Die Entwickler haben möglicherweise nicht die Zeit, alle vom Testteam gefundenen Fehler zu beheben.",
+      "c": "Die Testfälle decken die spezifizierten Anforderungen möglicherweise nicht vollständig ab.",
+      "d": "Die Umgebung für den Performanztest ist möglicherweise nicht einsatzbereit, bevor das System zur Auslieferung ansteht."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Werden die erwarteten IT-Sicherheitsmerkmale von der Systemarchitektur nicht unterstützt, kann das System schwerwiegende Fehler aufweisen. Da hier das zu produzierende System das Problem ist, handelt es sich um ein Produktrisiko.",
+      "b": "FALSCH – Wenn die Entwickler das Budget überschreiten oder die Zeit knapp wird, ist das ein Problem mit dem Projektablauf - es ist ein Projektrisiko.",
+      "c": "FALSCH – Wenn die Testfälle die Anforderungen nicht vollständig überdecken, bedeutet dies, dass die Prüfung möglicherweise nicht die Anforderungen des Testkonzepts erfüllt - es ist ein Projektrisiko.",
+      "d": "FALSCH – Wenn die Testumgebung nicht einsatzbereit ist, bedeutet dies, dass der Test möglicherweise nicht durchgeführt werden kann, oder dass er auf einer anderen Umgebung durchgeführt werden muss, und dass er sich auf die Durchführung des Projekts auswirkt - es ist ein Projektrisiko."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen zum Zusammenhang von Produktrisiko und Testmanagement ist am wenigsten sinnvoll?",
+    "antworten": {
+      "a": "Die potenziellen Auswirkungen von IT-Sicherheitsmängeln wurden als besonders hoch eingestuft, so dass IT-Sicherheitstests vor einigen anderen Testaktivitäten priorisiert wurden.",
+      "b": "Die Tests haben ergeben, dass die Qualität des Netzwerkmoduls besser ist als erwartet, so dass nun zusätzliche Tests in diesem Bereich durchgeführt werden.",
+      "c": "Die Benutzer hatten Probleme mit der Benutzeroberfläche des bisherigen Systems, so dass zusätzliche Usability-Tests für das Ersatzsystem geplant sind.",
+      "d": "Die Zeit, die zum Laden von Webseiten benötigt wird, ist entscheidend für den Erfolg der neuen Website, weshalb für dieses Projekt ein Experte für Leistungstests eingesetzt wurde."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Da uns gesagt wird, dass Sicherheitsmängel eine besonders hohe Auswirkung haben, wird ihr Risiko höher sein. Deshalb wurde der Sicherheitstest vor einigen anderen Tests priorisiert. Der Einfluss der Produktrisikoanalyse auf den Test wurde somit KORREKT eingeschätzt.",
+      "b": "KORREKT – Da im Netzwerkmodul weniger Fehler als erwartet festgestellt wurden, sollte das wahrgenommene Risiko in diesem Bereich geringer sein, und daher sollten sich WENIGER Tests auf diesen Bereich konzentrieren und NICHT zusätzliche Tests. Daher hat die Produktrisikoanalyse den Test in dieser Situation NICHT KORREKT beeinflusst.",
+      "c": "FALSCH – Da die Anwender Probleme mit der Benutzeroberfläche des bisherigen Systems hatten, ist das Risiko der Benutzeroberfläche inzwischen sehr hoch, was dazu geführt hat, dass weitere Usability-Tests geplant sind. Der Einfluss der Produktrisikoanalyse auf den Test wurde somit KORREKT eingeschätzt. Daher hat die Produktrisikoanalyse den Umfang der Tests RICHTIG beeinflusst.",
+      "d": "FALSCH – Da die Zeit, die zum Laden von Webseiten benötigt wird, als entscheidend für den Erfolg der neuen Website eingestuft wurde, sollte die Leistung der Website als Risiko angesehen werden, und die Beschäftigung eines Experten für Leistungstests hilft, dieses Risiko zu minimieren. Somit hat die Produktrisikoanalyse den Test RICHTIG beeinflusst."
+    }
+  },
+  {
+    "frage": "Welcher der folgenden Punkte wird AM WAHRSCHEINLICHSTEN als Grund für die Verwendung eines Pilotprojekts zur Einführung eines Werkzeugs in einem Unternehmen verwendet?",
+    "antworten": {
+      "a": "Die Notwendigkeit zu bewerten, wie das Werkzeug zu bestehenden Prozessen und Vorgehensweisen passt und zu bestimmen, was geändert werden muss.",
+      "b": "Die Notwendigkeit, die Fähigkeiten zur Testautomatisierung sowie die Trainings-, Mentoring- und Coaching-Bedürfnisse der Tester zu bewerten, die das Werkzeug nutzen werden.",
+      "c": "Die Notwendigkeit zu bewerten, ob das Werkzeug die erforderliche Funktionalität bietet und bestehende Testwerkzeuge nicht dupliziert.",
+      "d": "Die Notwendigkeit, den Werkzeughersteller zu bewerten in Bezug auf die Schulung und andere Unterstützung, die er anbietet."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Gemäß Lehrplan (6.2.2).",
+      "b": "FALSCH – Die Bewertung der Fähigkeiten zur Testautomatisierung und der Trainings-, Mentoring- und Coaching-Bedürfnisse der Tester, die das Tool verwenden werden, hätte im Rahmen der Werkzeugauswahl gemäß Lehrplan (6.2.1) durchgeführt werden sollen.",
+      "c": "FALSCH – Die Entscheidung, ob das Werkzeug die erforderliche Funktionalität bietet und bestehende Werkzeuge nicht dupliziert, hätte im Rahmen der Werkzeugauswahl gemäß Lehrplan (6.2.1) getroffen werden sollen.",
+      "d": "FALSCH – Die Bewertung des Werkzeugherstellers im Hinblick auf die Schulung und andere Unterstützung, die er anbietet, hätte im Rahmen der Werkzeugauswahl gemäß Lehrplan (6.2.1) durchgeführt werden sollen."
+    }
   }
 ]
