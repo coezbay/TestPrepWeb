@@ -1,0 +1,51 @@
+Was ist Qualität?
+Wählen Sie genau EINE Option aus.
+a) Aktivitäten, die darauf fokussieren, Vertrauen in die Erfüllung der 
+Qualitätsanforderungen zu erzeugen
+b) Der Grad, zu dem eine Komponente oder ein System die expliziten und 
+impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt
+c) Der Grad, zu dem eine Komponente oder ein System Informationen und 
+Daten schützt, so dass Personen oder andere Komponenten oder Systeme 
+nur einen solchen Grad an Zugriff erhalten, der ihrer Berechtigungsart und 
+-stufe entspricht
+d) Die gesamten Kosten, die durch Qualitätssicherungsaktivitäten und durch 
+Fehlerwirkungen entstehen. Sie werden oft in Kosten der Fehlervorbeugung,
+der Kosten der Fehlerermittlung, der internen Fehlerwirkungen und den 
+externen Fehlerwirkungen aufgeteilt
+a) FALSCH – Das ist die Glossardefinition von Qualitätssicherung
+b) KORREKT – Das ist die Glossardefinition von Qualität
+c) FALSCH – Das ist die Glossardefinition von IT-Sicherheit
+d) FALSCH – Das ist die Glossardefinition von Qualitätskosten
+
+
+Welcher der folgenden Punkte ist ein typisches Testziel?
+Wählen Sie genau EINE Option aus.
+a) Verhindern von Fehlerzuständen
+b) Fehlerzustände reparieren
+c) Vergleich der tatsächlichen Ergebnisse mit den erwarteten Ergebnissen
+d) Analysieren der Fehlerursache
+a) KORREKT – Dies ist ein (im Lehrplan) aufgeführtes Ziel
+b) FALSCH – Dies ist Debugging
+c) FALSCH – Dies ist eine Aktivität innerhalb der Testausführung innerhalb des 
+Testprozesses
+d) FALSCH – Dies ist Teil der Fehlersuche
+
+
+Ein Telefonklingeln lenkt einen Programmierer kurzzeitig ab, was dazu 
+führt, dass der Programmierer die Logik, die die obere Grenze einer 
+Eingangsvariablen prüft, nicht korrekt programmiert. Später, während 
+des Systemtests, stellt ein Tester fest, dass dieses Eingabefeld ungültige 
+Eingabewerte annimmt. Die unsachgemäß kodierte Logik für die Prüfung 
+der oberen Grenze bezeichnet man als:
+Wählen Sie genau EINE Option aus.
+a) Grundursache
+b) Fehlerwirkung
+c) Fehlhandlung
+d) Fehlerzustand
+Begründung:
+a) FALSCH – Die Grundursache ist die Ablenkung, die der Programmierer beim 
+Programmieren erfahren hat
+b) FALSCH – Das Akzeptieren von ungültigen Eingängen ist die Fehlerwirkung
+c) FALSCH – Die Fehlhandlung ist der Denkfehler, der dazu geführt hat, dass der Fehler in 
+den Code eingebaut wurde
+d) KORREKT – Das Problem im Code ist ein Fehlerzustand

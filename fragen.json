@@ -1,0 +1,24 @@
+[
+  {
+    "frage": "Ein Telefonklingeln lenkt einen Programmierer kurzzeitig ab, was dazu führt, dass der Programmierer die Logik, die die obere Grenze einer Eingangsvariablen prüft, nicht korrekt programmiert. Später, während des Systemtests, stellt ein Tester fest, dass dieses Eingabefeld ungültige Eingabewerte annimmt. Die unsachgemäß kodierte Logik für die Prüfung der oberen Grenze bezeichnet man als:",
+    "antworten": {
+      "a": "Grundursache",
+      "b": "Fehlerwirkung",
+      "c": "Fehlhandlung",
+      "d": "Fehlerzustand"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Die Grundursache ist die Ablenkung, die der Programmierer beim Programmieren erfahren hat.",
+      "b": "FALSCH – Das Akzeptieren von ungültigen Eingängen ist die Fehlerwirkung.",
+      "c": "FALSCH – Die Fehlhandlung ist der Denkfehler, der dazu geführt hat, dass der Fehler in den Code eingebaut wurde.",
+      "d": "KORREKT – Das Problem im Code ist ein Fehlerzustand."
+    },
+    "begruendung": {
+      "a": "Die Grundursache bezieht sich auf den ursprünglichen Grund für einen Fehler, in diesem Fall die Ablenkung des Programmierers.",
+      "b": "Eine Fehlerwirkung ist das sichtbare Symptom oder Resultat des Fehlers, hier das Akzeptieren ungültiger Eingaben.",
+      "c": "Die Fehlhandlung ist der Akt oder das Versäumnis, das direkt zum Fehler führt, hier der Denkfehler beim Programmieren.",
+      "d": "Ein Fehlerzustand ist eine inkorrekte Codestelle, die unter bestimmten Bedingungen zu einem Fehler führt."
+    }
+  }
+]
