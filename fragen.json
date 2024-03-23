@@ -708,5 +708,37 @@
       "c": "",
       "d": ""
     }
+  },
+  {
+    "frage": "Was beschreibt am besten die Rolle eines Testers im Testprozess?",
+    "antworten": {
+      "a": "Die Überprüfung der Testumgebung und die Gewährleistung der Testbarkeit der Anwendung.",
+      "b": "Die Planung, Durchführung und Dokumentation der Tests basierend auf vordefinierten Anforderungen.",
+      "c": "Die Programmierung neuer Funktionen und die Korrektur von gefundenen Fehlern.",
+      "d": "Die ausschließliche Fokussierung auf die Automatisierung bestehender Testfälle."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH - Während die Überprüfung der Testumgebung wichtig ist, beschreibt dies nicht vollständig die Rolle eines Testers.",
+      "b": "KORREKT - Tester sind für die Planung, Durchführung und Dokumentation der Tests verantwortlich.",
+      "c": "FALSCH - Die Programmierung neuer Funktionen gehört in der Regel nicht zu den Aufgaben eines Testers.",
+      "d": "FALSCH - Testautomatisierung ist nur ein Teil des Testprozesses, nicht die gesamte Rolle eines Testers."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen zum Regressionstest ist WAHR?",
+    "antworten": {
+      "a": "Regressionstests werden durchgeführt, um sicherzustellen, dass neue Fehler in bereits getesteten Softwareteilen eingeführt wurden.",
+      "b": "Regressionstests sind nur notwendig, wenn die Software in einer agilen Umgebung entwickelt wird.",
+      "c": "Regressionstests umfassen das erneute Testen von fixierten Fehlern, um sicherzustellen, dass die Korrekturen funktionieren.",
+      "d": "Regressionstests werden durchgeführt, um sicherzustellen, dass Änderungen nicht zu Fehlern in unveränderten Bereichen der Software führen."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH - Das Ziel des Regressionstests ist es nicht, neue Fehler einzuführen, sondern sicherzustellen, dass durch Änderungen keine neuen Fehler in bereits getesteten Teilen verursacht werden.",
+      "b": "FALSCH - Regressionstests sind unabhängig von der Entwicklungsart oder -methode wichtig und notwendig.",
+      "c": "FALSCH - Während das Testen von fixierten Fehlern wichtig ist, ist es nicht die primäre Definition von Regressionstests.",
+      "d": "KORREKT - Regressionstests zielen darauf ab, die Stabilität und Zuverlässigkeit der Software nach Änderungen zu gewährleisten, indem sichergestellt wird, dass keine neuen Fehler in unveränderte Bereiche eingeführt wurden."
+    }
   }
 ]
