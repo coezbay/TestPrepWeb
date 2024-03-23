@@ -1140,5 +1140,293 @@
       "c": "FALSCH – Die Entscheidung, ob das Werkzeug die erforderliche Funktionalität bietet und bestehende Werkzeuge nicht dupliziert, hätte im Rahmen der Werkzeugauswahl gemäß Lehrplan (6.2.1) getroffen werden sollen.",
       "d": "FALSCH – Die Bewertung des Werkzeugherstellers im Hinblick auf die Schulung und andere Unterstützung, die er anbietet, hätte im Rahmen der Werkzeugauswahl gemäß Lehrplan (6.2.1) durchgeführt werden sollen."
     }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt den Unterschied zwischen Testen und Debugging zutreffend?",
+    "antworten": {
+      "a": "Testen identifiziert die Ursache von Fehlerzuständen. Debugging analysiert die Fehlerzustände und schlägt Präventionsmaßnahmen vor.",
+      "b": "Dynamische Tests zeigen Fehlerwirkungen auf, die durch Fehlerzustände verursacht wurden. Debugging ist eine Entwicklungsaktivität, die Fehlerzustände beseitigt, die die Ursache von Fehlerwirkungen sind.",
+      "c": "Testen entfernt Fehlerwirkungen; Debugging entfernt dagegen Fehlerzustände, die Fehlerwirkungen verursachen.",
+      "d": "Dynamische Tests verhindern die Ursache von Fehlerwirkungen. Debugging entfernt die Fehlerwirkungen."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Durch Testen können nicht die Ursachen von Fehlerwirkungen identifiziert werden, sondern nur durch Debugging (siehe CTFL CORE Lehrplan 2018, Abschnitt 1.1.2).",
+      "b": "KORREKT – Dynamisches Testen zeigt Fehlerwirkungen auf, die durch Fehlerzustände verursacht wurden. Durch Debugging können die Ursachen von Fehlerwirkungen analysiert und beseitigt werden (siehe CTFL CORE Lehrplan 2018; Abschnitt 1.1.2).",
+      "c": "FALSCH – Durch Testen werden keine Fehlerzustände und daraus folgende Fehlerwirkungen entfernt, sondern nur durch Debugging (siehe CTFL CORE Lehrplan 2018; Abschnitt 1.1.2).",
+      "d": "FALSCH – Durch dynamische Tests können die Ursachen von Fehlerwirkungen (d. h. Fehlerzustände) nicht verhindert werden, sondern nur das Vorhandensein von Fehlerzuständen, die Fehlerwirkungen hervorrufen, nachgewiesen werden. (siehe CTFL CORE Lehrplan 2018; Abschnitt 1.1.2 und Abschnitt 1.3; 1. Grundsatz)."
+    }
+  },
+  {
+    "frage": "Nachfolgend finden Sie eine Liste von Problemen, die während des Testens oder im Betrieb beobachtet werden können. Welches Problem ist eine Fehlerwirkung?",
+    "antworten": {
+      "a": "Das Produkt stürzte ab, als der Benutzer eine Option in einer Dialogbox auswählte.",
+      "b": "Eine kompilierte Quellcodedatei wurde in der falschen Version zum Build hinzugefügt.",
+      "c": "Der Berechnungsalgorithmus verwendet die falschen Eingangsvariablen.",
+      "d": "Der Entwickler hat die Anforderungen an den Algorithmus falsch interpretiert."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Eine Fehlerwirkung ist das Sichtbarwerden eines Fehlerzustands während der Ausführung. Ein Absturz ist vom Anwender deutlich spürbar (siehe CTFL Lehrplan CORE 2018; Abschnitt 1.2.3)",
+      "b": "FALSCH – Diese Art von Fehlern (Fehlhandlungen) wird nicht unbedingt zu einer sichtbaren oder spürbaren Fehlerwirkung führen; zum Beispiel, wenn die Änderungen in der neuen Version der Quelldatei nur in den Kommentaren vorgenommen wurden. (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.2.3)",
+      "c": "FALSCH – Es handelt sich um einen Fehlerzustand, nicht um eine Fehlerwirkung. Verwendung von falschen Eingabevariablen wird nicht unbedingt zu einer sichtbaren oder spürbaren Fehlerwirkung führen; zum Beispiel, wenn niemand diesen speziellen Algorithmus verwendet; oder wenn die falsche Eingabevariable einen ähnlichen Wert wie die richtige Eingabevariable hat; oder wenn das FALSCHE Resultat des Algorithmus nicht verwendet wird. (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.2.3)",
+      "d": "FALSCH – Es handelt sich um eine Fehlhandlung, nicht um eine Fehlerwirkung. Diese Art von Fehlern wird nicht notwendigerweise zu einer Fehlerwirkung führen; zum Beispiel, wenn niemand diesen speziellen Algorithmus verwendet. (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.2.3)"
+    }
+  },
+  {
+    "frage": "Ein Tester hat über einen Zeitraum von 5 Jahren Software-Applikationen auf mobilen Geräten einem Test unterzogen. Er hat sich einen großen Erfahrungsschatz im Testen von mobilen Applikationen angeeignet und erzielt in kürzer Zeit bessere Ergebnisse als andere. Über einen längeren Zeitraum hat der Tester die existierenden automatisierten Testfälle nicht modifiziert und auch keine neuen Testfälle mehr erstellt. Dies führt dazu, dass durch Ausführung der Tests immer weniger Fehler gefunden werden. Welchen Grundsatz des Softwaretestens hat der Tester nicht beachtet?",
+    "antworten": {
+      "a": "Testen ist abhängig vom Umfeld",
+      "b": "Vollständiges Testen ist nicht möglich",
+      "c": "Wiederholungen haben keine Wirksamkeit",
+      "d": "Häufung von Fehlerzuständen"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Test ist abhängig vom Umfeld, egal, ob manuell oder automatisiert (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.3; 6. Grundsatz), führt aber nicht dazu, dass - wie oben beschrieben - immer weniger Fehler aufgedeckt werden.",
+      "b": "FALSCH – Erschöpfendes vollständiges Testen ist unmöglich, egal wie viel Aufwand wir in den Test investieren (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.3; 2. Grundsatz), führt aber nicht dazu, dass - wie oben beschrieben - immer weniger Fehler aufgedeckt werden.",
+      "c": "KORREKT – Ein Grundsatz (gem. CTFL CORE Lehrplan 2018) besagt: “Vorsicht vor dem Pestizid-Paradoxon“ bzw. Wiederholungen haben keine Wirksamkeit (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.3; 5. Grundsatz), dass eine Ausführung immer der gleichen Testfälle keine neuen Erkenntnisse mehr bringt. Um neue Fehlerzustände zu finden, müssen bestehende Tests möglicherweise verändert werden und neue Tests erstellt werden.",
+      "d": "FALSCH – Oftmals ist eine “Häufung von Fehlerzuständen“ (CTFL CORE Lehrplan 2018; Abschnitt 1.3; 4. Grundsatz) in einer kleinen Anzahl von Modulen zu beobachten; das führt aber nicht dazu, dass - wie oben beschrieben - immer weniger Fehler aufgedeckt werden."
+    }
+  },
+  {
+    "frage": "Inwiefern leistet das Testen einen Beitrag zur Verbesserung von Qualität?",
+    "antworten": {
+      "a": "Testen stellt sicher, dass Anforderungen detailliert genug sind.",
+      "b": "Testen verringert das Risiko von unzureichender Softwarequalität.",
+      "c": "Testen stellt sicher, dass in der Organisation Standards befolgt werden.",
+      "d": "Testen misst die Softwarequalität im Hinblick auf die Anzahl ausgeführter Testfälle."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Durch statisches Testen (Reviews) kann dazu beigetragen werden, aber es kann nicht sichergestellt werden, dass die Anforderungen detailliert genug sind. (vgl. CTFL Lehrplan 2018; Abschnitt 1.2.2).",
+      "b": "KORREKT – Testen deckt Fehlerwirkungen und Fehlerzustände auf und verringert damit das Risiko von unzureichender Softwarequalität (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.1.1).",
+      "c": "FALSCH – Dies ist Qualitätssicherung, aber nicht Testen (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.2.2).",
+      "d": "FALSCH – Die Qualität kann nicht anhand der Anzahl ausgeführter Testfälle gemessen werden, ohne dass man das Ergebnis kennt (vgl. CTFL CORE Lehrplan 2018; Abschnitt 1.2.2)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aktivitäten ist Teil der Hauptaktivität „Testanalyse“ im Testprozess?",
+    "antworten": {
+      "a": "Identifikation der erforderlichen Infrastruktur und Werkzeuge",
+      "b": "Erstellen von Testsuiten basierend auf den Testskripten",
+      "c": "Analyse der „Lessons learned“ zur Prozessverbesserung",
+      "d": "Bewerten der Testbasis hinsichtlich Testbarkeit"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – diese Aktivität wird im “Testentwurf” durchgeführt (siehe CTFL CORE Lehrplan 2018; Abschnitt 1.4.2; Testentwurf).",
+      "b": "FALSCH – diese Aktivität wird in der “Testrealisierung” durchgeführt (siehe CTFL CORE Lehrplan 2018; Abschnitt 1.4.2; Testrealisierung).",
+      "c": "FALSCH – diese Aktivität wird im “Testabschluss“ durchgeführt (siehe CTFL CORE Lehrplan 2018; Abschnitt 1.4.2; Testabschluss).",
+      "d": "KORREKT – diese Aktivität wird in der „Testanalyse“ durchgeführt (CTFL CORE Lehrplan 2018; Abschnitt 1.4.2: „Während der Testanalyse wird die Testbasis analysiert, um testbare Features zu identifizieren …“)."
+    }
+  },
+  {
+    "frage": "Wie kann der White-Box-Test während des Abnahmetests angewendet werden?",
+    "antworten": {
+      "a": "Um zu prüfen, ob große Datenmengen zwischen integrierten Systemen übertragen werden können.",
+      "b": "Um zu prüfen, ob alle Code-Anweisungen und Code-Entscheidungspfade ausgeführt wurden.",
+      "c": "Um zu prüfen, ob alle Abläufe der Arbeitsprozesse abgedeckt sind.",
+      "d": "Um alle Webseiten-Navigationen abzudecken."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Relevant für Integrationstests. (vgl. CTFL CORE Lehrplan 2018, Abschnitt 2.2.2)",
+      "b": "FALSCH – Relevant für Komponententests (vgl. CTFL CORE Lehrplan 2018, Abschnitt 2.2.1 und 2.3.5, Beispiele für White-Box-Tests)",
+      "c": "KORREKT – CTFL CORE Lehrplan 2018, Abschnitt 2.3.5: Für Abnahmetests sind die Tests so konzipiert, dass sie z. B. alle Dateistrukturen und Wertebereiche der Finanzdaten für Bank-zu-Bank-Überweisungen unterstützen.",
+      "d": "FALSCH – Relevant für Systemtests (vgl. CTFL CORE Lehrplan 2018; Abschnitt 2.2.3, Beispiele für White-Box-Tests)"
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen zum Vergleich zwischen Komponententest und Systemtest ist WAHR?",
+    "antworten": {
+      "a": "Komponententests überprüfen die Funktion von Komponenten, Programmobjekten und Klassen, die separat prüfbar sind, während Systemtests die Schnittstellen zwischen den Komponenten und Wechselwirkungen mit anderen Teilen des Systems überprüfen.",
+      "b": "Testfälle für den Komponententest werden in der Regel von Komponentenspezifikationen, Designspezifikationen oder Datenmodellen abgeleitet, während Testfälle für den Systemtest in der Regel von Anforderungsspezifikationen oder Anwendungsfällen abgeleitet werden.",
+      "c": "Komponententests konzentrieren sich nur auf die funktionalen Eigenschaften, während Systemtests sich auf die funktionalen und nicht-funktionalen Eigenschaften konzentrieren.",
+      "d": "Komponententests sind in der Verantwortung der Tester, während die Systemtests in der Regel in der Verantwortung der Benutzer des Systems liegen."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Systemtests testen nicht die Schnittstellen und Wechselwirkungen zwischen den Komponenten und anderen Teilen des Systems; das ist Ziel von Integrationstests (siehe CTFL CORE Lehrplan 2018, Abschnitt 2.2.2).",
+      "b": "KORREKT – (siehe CTFL CORE Lehrplan 2018, Abschnitt 2.2.1 (Komponententest): Beispiele für Arbeitsprodukte, die als Testbasis für Komponententests verwendet werden können, umfassen: detailliertes Design, Code, Datenmodell, Komponentenspezifikationen. CTFL CORE Lehrplan 2018; Abschnitt. 2.2.3: Beispiele für Arbeitsprodukte für Systemtests umfassen: System- und Softwareanforderungsspezifikationen (funktional und nicht funktionale), Anwendungsfälle.",
+      "c": "FALSCH – Komponententests konzentrieren sich nicht nur auf funktionale, sondern auch auf nicht-funktionale Aspekte (vgl. CTFL CORE Lehrplan 2018, Abschnitt 2.2.1, Komponententest).",
+      "d": "FALSCH – Komponententests werden auch von Entwicklern durchgeführt, wohin gegen sich (unabhängige) Tester mit Systemtests befassen (vgl. CTFL CORE Lehrplan 2018, Unterkapitel 2.2.1 und 2.2.3, jeweils Abschnitt „Spezifische Ansätze und Verantwortlichkeiten“)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist zutreffend?",
+    "antworten": {
+      "a": "Der Zweck des Regressionstests ist es, zu überprüfen, ob die Korrektur erfolgreich implementiert wurde, während der Zweck der Fehlernachtests darin besteht, zu bestätigen, dass die Korrektur keine Seiteneffekte hat.",
+      "b": "Der Zweck des Regressionstests ist es, unbeabsichtigte Seiteneffekte zu erkennen, während der Zweck des Fehlernachtests darin besteht zu prüfen, ob das System in einer neuen Umgebung noch funktioniert.",
+      "c": "Der Zweck des Regressionstests ist es, unbeabsichtigte Seiteneffekte zu erkennen, während der Zweck des Fehlernachtests darin besteht zu prüfen, ob der ursprüngliche Fehlerzustand behoben wurde.",
+      "d": "Der Zweck des Regressionstests ist es zu prüfen, ob die neue Funktionalität funktioniert, während der Zweck des Fehlernachtests darin besteht zu prüfen, ob der ursprüngliche Fehlerzustand behoben wurde."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Regressionstests überprüfen nicht die erfolgreiche Implementierung einer Korrektur und Fehlernachtest prüfen nicht auf Seiteneffekte. (siehe CTFL CORE Lehrplan, Abschnitt 2.3.4).",
+      "b": "FALSCH – Die Aussage über Fehlernachtests sollte sich auf Regressionstests beziehen (siehe CTFL CORE Lehrplan 2018, Abschnitt 2.3.4).",
+      "c": "KORREKT – CTFL CORE Lehrplan 2018, Abschnitt 2.3.4.",
+      "d": "FALSCH – Test neuer Funktionalität ist nicht Bestandteil eines Regressionstests (siehe CTFL CORE Lehrplan 2018, Abschnitt 2.4 im Vergleich zu Abschnitt. 2.3.4 für Regressionstests)."
+    }
+  },
+  {
+    "frage": "Welches ist die BESTE Definition eines inkrementellen Entwicklungsmodells?",
+    "antworten": {
+      "a": "Die Definition der Anforderungen, das Design der Software und das Testen erfolgen in einer Serie durch Hinzufügen von Teilen.",
+      "b": "Eine Phase des Entwicklungsprozesses sollte beginnen, wenn die vorhergehende Phase abgeschlossen ist.",
+      "c": "Das Testen wird als separate Phase betrachtet. Sie startet, wenn die Entwicklung abgeschlossen ist.",
+      "d": "Das Testen wird der Entwicklung als Inkrement hinzugefügt."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – vgl. CTFL CORE Lehrplan 2018, Abschnitt 2.1.1 (9. Absatz): Bei der inkrementellen Entwicklung geht es um die Festlegung von Anforderungen, Entwurf, Entwicklung und Test eines Systems in Teilen.",
+      "b": "FALSCH – Dieses ist ein sequenzielles Modell (vgl. CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).",
+      "c": "FALSCH – Dies beschreibt das Wasserfall-Modell (vgl. CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).",
+      "d": "FALSCH – Das Testen für sich ist kein Inkrement/zusätzliche Stufe in der Entwicklung, sondern während der Entwicklung gibt es Inkremente (vgl. CTFL CORE Lehrplan 2018, Abschnitt 2.1.1)."
+    }
+  },
+  {
+    "frage": "Welcher der folgenden Entscheidungen sollte KEIN Auslöser für Wartungstests sein?",
+    "antworten": {
+      "a": "Die Entscheidung, die Wartbarkeit der Software zu testen",
+      "b": "Die Entscheidung, das System nach der Migration auf einer neuen Betriebsplattform zu testen",
+      "c": "Die Entscheidung zu testen, ob archivierte Daten abgerufen werden können",
+      "d": "Die Entscheidung zum Testen nach 'Hot Fixes'"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Dies ist ein Wartbarkeitstest und nicht ein Wartungstest. „... die meisten Wartbarkeitsfehler (können) nur durch statische Tests gefunden werden.“ (CTFL CORE Lehrplan 2018, Kap. 3.1.3, letzter Absatz)",
+      "b": "FALSCH – Dies ist ein Auslöser für Wartungstests, siehe CTFL CORE Lehrplan 2018, Kapitel 2.4.1: Betriebstests der neuen Umgebung, sowie der geänderten Software.",
+      "c": "FALSCH – Dies ist ein Auslöser für Wartungstests, siehe CTFL CORE Lehrplan 2018, Kapitel 2.4.1, 3. Absatz: Testen von Wiederherstellungsprozeduren und Rückholprozeduren nach der Archivierung mit langen Aufbewahrungszeiten.",
+      "d": "FALSCH – Dies ist ein Auslöser für Wartungstests, siehe CTFL CORE Lehrplan 2018, Kapitel 2.4, 2. Absatz, und Kap. 2.4.1: Reaktive Modifikation eines ausgelieferten Softwareproduktes zur Behebung von dringenden Fehlerzuständen, die zu tatsächlichen Fehlerwirkungen geführt haben."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen sind Rollen in einem formalen Review?",
+    "antworten": {
+      "a": "Entwickler, (Review-)Moderator, Reviewleiter, Gutachter, Tester",
+      "b": "Autor, (Review-)Moderator, Manager, Gutachter, Entwickler",
+      "c": "Autor, Manager, Reviewleiter, Gutachter, Designer",
+      "d": "Autor, (Review-)Moderator, Reviewleiter, Gutachter, Protokollant"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Tester und Entwickler sind KEINE Rollen im formalen Review gemäß CTFL CORE Lehrplan 2018, Kapitel 3.2.2.",
+      "b": "FALSCH – Entwickler ist KEINE Rolle im formalen Review gemäß CTFL CORE Lehrplan 2018, Kapitel 3.2.2.",
+      "c": "FALSCH – Designer ist KEINE Rolle im formalen Review gemäß CTFL CORE Lehrplan 2018, Kapitel 3.2.2.",
+      "d": "KORREKT – siehe CTFL CORE Lehrplan 2018, Kapitel 3.2.2."
+    }
+  },
+  {
+    "frage": "Welche Aktivitäten werden im Rahmen der Planung eines formalen Reviews durchgeführt?",
+    "antworten": {
+      "a": "Sammeln von Metriken für die Bewertung der Effektivität des Reviews.",
+      "b": "Beantwortung von Fragen, die die Teilnehmer haben könnten.",
+      "c": "Definition und Prüfung der Erfüllung von Eingangskriterien für das Review.",
+      "d": "Bewertung der Reviewbefunde gegenüber den Endekriterien."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Das Sammeln von Metriken ist der Hauptaktivität „Fehlerbehebung und Bericht“ zugeordnet. (vgl. CTFL CORE Lehrplan 2018, Abschnitt. 3.2.1);",
+      "b": "FALSCH – Die Beantwortung von Fragen ist der Hauptaktivität „Reviewbeginn“ (Initiierung eines Reviews, KICKOFF) zugeordnet (vgl. CTFL CORE Lehrplan 2018, Abschnitt. 3.2.1);",
+      "c": "KORREKT – Sowohl die Definition als auch die Prüfung von Eingangskriterien erfolgt in der „Planung“ eines formalen Reviews (vgl. CTFL CORE Lehrplan 2018, Abschnitt. 3.2.1);",
+      "d": "FALSCH – Die Bewertung der Reviewbefunde gegenüber den Endekriterien ist der Hauptaktivität „Befundkommunikation und -analyse“ zugeordnet (vgl. CTFL CORE Lehrplan 2018, Abschnitt. 3.2.1);"
+    }
+  },
+  {
+    "frage": "Welche der unten aufgeführten Reviewarten ist AM BESTEN geeignet, wenn das Review gemäß einem formalen bzw. definierten Prozess mit Regeln und unter Verwendung von Checklisten durchgeführt werden soll?",
+    "antworten": {
+      "a": "Informelles Review",
+      "b": "Technisches Review",
+      "c": "Inspektion",
+      "d": "Walkthrough"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – ein informelles Review verwendet keinen formalen Prozess (siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.3, 3. Absatz)",
+      "b": "FALSCH – die Verwendung von Checklisten ist optional (siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.3, 5. Absatz)",
+      "c": "KORREKT – Inspektion ist ein definierter Prozess mit Regeln und Checklisten (siehe CTFL CORE Lehrplan 2018; Abschnitt 3.2.3, 6. Absatz)",
+      "d": "FALSCH – erfordert nicht immer einen formalen Prozess und die Verwendung von Checklisten ist optional (siehe CTFL CORE Lehrplan 2018, Abschnitt 3.2.3, 4. Absatz)"
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen zum statischen Test ist am EHESTEN zutreffend?",
+    "antworten": {
+      "a": "Statischer Test ist eine kostengünstige Möglichkeit, Fehlerzustände zu erkennen und zu beheben.",
+      "b": "Statischer Test macht den dynamischen Test theoretisch überflüssig.",
+      "c": "Statischer Test ermöglicht, Laufzeitprobleme frühzeitig im Lebenszyklus zu erkennen.",
+      "d": "Bei der Prüfung sicherheitskritischer Systeme hat der statische Test einen geringen Stellenwert, da der dynamische Test den Fehlerzustand besser findet."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – CTFL CORE Lehrplan 2018; Abschnitt 3.1.2, 3. Satz: Früh entdeckte Fehlerzustände sind oft viel kostengünstiger zu beheben als Fehlerzustände, die später im Lebenszyklus erkannt werden.",
+      "b": "FALSCH – Dynamische Tests haben ihre Berechtigung, da sie andere Fehlerarten finden als statische Tests (vgl. CTFL CORE Lehrplan 2018; Abschnitt 3.1.3, 1. Absatz).",
+      "c": "FALSCH – Dies geschieht beim dynamischen Testen (siehe Glossar V.3.2).",
+      "d": "FALSCH – Statischer Test ist wichtig für sicherheitskritische Computersysteme (vgl. CTFL CORE Lehrplan 2018; Abschnitt 3.1, 2. Absatz)."
+    }
+  },
+  {
+    "frage": "Sie werden zum Review eingeladen. Das zu prüfende Arbeitsergebnis ist eine Beschreibung des firmeninternen Dokumentenerstellungsprozesses. Ziel der Beschreibung ist die für alle zweifelsfrei nachvollziehbare Darstellung der Arbeitsteilung zwischen den verschiedenen am Prozess beteiligten Rollen. Sie werden zum checklistenbasierten Review eingeladen. Die Checkliste wird Ihnen ebenfalls zugeschickt. Sie umfasst die folgenden Punkte: i. Wird für jede Tätigkeit der Ausführende klar benannt? ii. Ist für jede Tätigkeit das Eingangskriterium klar definiert? iii. Ist für jede Tätigkeit das Endekriterium klar definiert? iv. Sind für jede Tätigkeit die zuarbeitenden Rollen und ihr Arbeitsumfang klar definiert? Im Folgenden zeigen wir einen Ausschnitt des zu prüfenden Arbeitsergebnisses, zu dessen Review Sie die obige Checkliste anwenden sollen: „Nach Prüfung der Kundendokumentation auf Vollständigkeit und Korrektheit erstellt der Softwarearchitekt die Systemspezifikation. Nachdem der Softwarearchitekt die Systemspezifikation fertiggestellt hat, lädt er Tester zum Review ein. Eine bereitgestellte Checkliste beschreibt den Umfang des Reviews. Jeder eingeladene Gutachter erstellt – sofern notwendig – Reviewkommentare und schließt das Review mit einem offiziellen Review-done-Kommentar ab.“ Welcher der folgenden Aussagen zu Ihrem Review ist korrekt?",
+    "antworten": {
+      "a": "Punkt ii) der Checkliste wurde verletzt, da nicht klar ist, welche Bedingung erfüllt sein muss, damit zum Review eingeladen werden kann.",
+      "b": "Ihnen fällt auf, dass neben dem Tester auch ein Experte für Validierung eingeladen werden muss. Da dieser Punkt aber nicht Bestandteil Ihrer Checkliste ist, erstellen Sie keinen entsprechenden Kommentar.",
+      "c": "Punkt iii) der Checkliste wurde verletzt, da nicht klar ist, wodurch das Review als abgeschlossen gekennzeichnet ist.",
+      "d": "Punkt i) der Checkliste wurde verletzt, da nicht klar ist, wer die Checkliste für die Einladung zum Review bereitstellt."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – es ist beschrieben, dass der Architekt die Systemspezifikation fertiggestellt haben muss.",
+      "b": "FALSCH – siehe CTFL CORE Lehrplan, Abschnitt 3.2.4, „Checklistenbasiert“: im letzten Satz des Absatzes steht, dass auch auf Punkte außerhalb der Checkliste geachtet werden muss.",
+      "c": "FALSCH – es ist beschrieben: jeder Gutachter hat seinen Review-done-Kommentar erstellt.",
+      "d": "KORREKT – es ist beschrieben: „Eine bereitgestellte Checkliste“ … aber wer stellt sie bereit?"
+    }
+  },
+  {
+    "frage": "Was ist checklistenbasiertes Testen?",
+    "antworten": {
+      "a": "Ein Testverfahren, bei dem Testfälle auf Basis des Wissens der Tester über frühere Fehler oder aus allgemeinem Wissen über Fehlerwirkungen abgeleitet werden.",
+      "b": "Ein Testverfahren, das auf einer Analyse der Spezifikation einer Komponente oder eines Systems basiert.",
+      "c": "Ein erfahrungsbasiertes Testverfahren, bei dem der erfahrene Tester z. B. eine Liste von Kontrollpunkten nutzt, welche beachtet, überprüft oder in Erinnerung gerufen werden müssen.",
+      "d": "Ein Testansatz, bei dem die Tester dynamisch Tests entwerfen und durchführen, basierend auf ihrem Wissen, der Erkundung des Testelements und dem Ergebnis früherer Tests."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Das ist die Definition für intuitive Testfallermittlung, siehe Glossar V.3.3.",
+      "b": "FALSCH – Das ist die Definition für Black-Box-Testverfahren, siehe Glossar V.3.3.",
+      "c": "KORREKT – siehe Glossar 3.3.",
+      "d": "FALSCH – Das ist (bis auf die Erwähnung des Testers) die Definition für exploratives Testen, siehe Glossar V.3.3."
+    }
+  },
+  {
+    "frage": "Welches der folgenden Verfahren kann der Kategorie Black-Box-Testverfahren zugeordnet werden?",
+    "antworten": {
+      "a": "Verfahren, das auf der Analyse der Architektur basiert.",
+      "b": "Verfahren, das prüft, ob das Testobjekt entsprechend dem Feinentwurf umgesetzt ist.",
+      "c": "Verfahren, das auf dem Wissen über frühere Fehler oder dem allgemeinen Wissen über Fehler basiert.",
+      "d": "Verfahren, das z. B. auf formalen Anforderungsdokumenten basiert."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Dies bezieht sich auf White-Box-Testverfahren. (vgl. CTFL CORE Lehrplan 2018, 4.1.2, 3. Absatz)",
+      "b": "FALSCH – Dies bezieht sich auf White-Box-Testverfahren. (vgl. CTFL CORE Lehrplan 2018; Abschnitte 4.1.2, 3. Absatz)",
+      "c": "FALSCH – Dies bezieht sich auf erfahrungsbasierte Testverfahren. (vgl. CTFL CORE Lehrplan 2018; Abschnitt 4.4)",
+      "d": "KORREKT – CTFL CORE Lehrplan 2018; Abschnitt 4.1.2, 2. Absatz: Black-Box-Testverfahren basieren auf einer Analyse der zugehörigen Testbasis (z. B. formale Anforderungsdokumente, Spezifikationen, Anwendungsfälle, User-Stories)."
+    }
+  },
+  {
+    "frage": "Die folgende Aussage bezieht sich auf Entscheidungsüberdeckung: \"Wenn der Code nur aus einer einzigen IF-Anweisung (also keinen Schleifen oder CASE-Anweisungen) besteht und auch sonst durch den Test nicht geschachtelt aufgerufen wird, dann wird bei einem einzelnen Testfall, der ausgeführt wird, eine Entscheidungsüberdeckung von 50% erreicht.\" Welcher der folgenden Aussagen ist zutreffend?",
+    "antworten": {
+      "a": "Die Aussage ist wahr. Ein einzelner Testfall erzielt eine 100% Anweisungsüberdeckung und daher 50% Entscheidungsüberdeckung.",
+      "b": "Die Aussage ist wahr. Bei einem einzelnen Testfall ist der Entscheidungsausgang der IF-Anweisung entweder wahr oder falsch.",
+      "c": "Die Aussage ist falsch. Ein einzelner Testfall kann in diesem Fall nur eine Entscheidungsüberdeckung von 25% garantieren.",
+      "d": "Die Aussage ist falsch. Die Aussage ist zu weit gefasst. Sie kann abhängig von der getesteten Software richtig sein oder nicht."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Während die gemachte Aussage wahr ist, ist die Erklärung falsch; weil die Beziehung zwischen Anweisungsüberdeckung und Entscheidungsüberdeckung falsch dargestellt ist. (vgl. CTFL CORE Lehrplan 2018; Abschnitt 4.3.3)",
+      "b": "KORREKT – Da jeder Testfall dazu führt, dass das Ergebnis der IF-Anweisung entweder WAHR oder FALSCH ist, haben wir definitiv 50% Entscheidungsüberdeckung erreicht. (vgl. CTFL CORE Lehrplan 2018; Abschnitt 4.3.2, 2. Absatz)",
+      "c": "FALSCH – Ein einzelner Testfall kann mehr als 25% Entscheidungsüberdeckung erreichen; bei der obigen Aussage sind es 50% Entscheidungsüberdeckung (vgl. Begründung zu Antwort b)",
+      "d": "FALSCH – Die obige Aussage ist konkret und immer wahr; weil durch jeden einzelnen Testfall immer eine Entscheidungsüberdeckung von 50% erreicht wird. (vgl. Begründung zu Antwort b)"
+    }
   }
 ]
