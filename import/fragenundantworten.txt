@@ -199,7 +199,7 @@ Begründung:
 a) FALSCH – Während die Auswirkungsanalyse während der Wartungstests nützlich ist, ist 
 sie für Fehlernachtests nicht notwendig, da sich Fehlernachtests auf die beabsichtigten 
 Auswirkungen einer Fehlerbehebung oder einer anderen Änderung beziehen
-b) FALSCH – Fehlernach- und Regressionstests sind zwei separate Aktivitäten, und 
+b) FALSCH – Fehlernachtests und Regressionstests sind zwei separate Aktivitäten, und
 Fehlernachtests sind nicht Teil des Systementwurfs
 c) KORREKT – Die Auswirkungsanalyse kann verwendet werden, um Regressionstests für 
 Wartungstests auszuwählen
