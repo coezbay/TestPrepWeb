@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "frage": {
+        "type": "string"
+      },
+      "antworten": {
+        "type": "object",
+        "properties": {
+          "a": { "type": "string" },
+          "b": { "type": "string" },
+          "c": { "type": "string" },
+          "d": { "type": "string" }
+        },
+        "required": ["a", "b", "c", "d"]
+      },
+      "korrekteAntwort": {
+        "type": "string"
+      },
+      "feedback": {
+        "type": "object",
+        "properties": {
+          "a": { "type": "string" },
+          "b": { "type": "string" },
+          "c": { "type": "string" },
+          "d": { "type": "string" }
+        },
+        "required": ["a", "b", "c", "d"]
+      }
+    },
+    "required": ["frage", "antworten", "korrekteAntwort", "feedback"]
+  }
+}

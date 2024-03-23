@@ -1,0 +1,40 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+/.idea/misc.xml
+/.idea/modules.xml
+# Ignore all .iml files
+*.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Node modules - Comment this out if you're not using Node.js
+# node_modules/
+
+# Build directories
+/dist/
+/build/
+/out/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Package lock files - Uncomment if you prefer not to include them in version control
+# package-lock.json
+# yarn.lock
+
+# Temporary files
+*.tmp
+*.swp
+*.swo

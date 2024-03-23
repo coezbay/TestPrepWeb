@@ -7,9 +7,13 @@
 </head>
 <body>
 <div class="quiz-container">
+    <div id="quiz-progress">Frage 1 von X</div>
     <div id="quiz"></div>
     <div id="feedback-container" class="feedback-container"></div>
-    <button id="next" onclick="naechsteFrage()">Nächste Frage</button>
+    <div class="button-container">
+        <button id="previous" onclick="vorherigeFrage()">Zurück</button>
+        <button id="next" onclick="naechsteFrage()">Nächste Frage</button>
+    </div>
 </div>
 <script src="script.js"></script>
 </body>
