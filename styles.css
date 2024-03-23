@@ -75,15 +75,13 @@ li button {
 }
 
 .feedback-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto; /* Zentriert den Container */
-    width: 80%; /* Anpassen basierend auf der gewünschten Breite */
+    width: calc(100% - 80px); /* Passt die Breite an, um das Padding des .quiz-container zu berücksichtigen */
+    margin: 20px auto; /* Zentriert den Container, falls gewünscht */
+    padding: 20px; /* Optional, für inneren Abstand */
     background-color: #e9ecef;
     border-radius: 5px;
-    padding: 20px;
+    display: none; /* Initial versteckt */
+    text-align: center;
 }
 
 .button-container {

@@ -1,11 +1,13 @@
 let quizFragen = [];
-let richtigBeantwortet = 0; // Zähler für richtig beantwortete Fragen beim ersten Versuch
+let richtigBeantwortet = 0;
+let antwortVersuche = [];
 
 function ladeFragen() {
     fetch('fragen.json')
         .then(response => response.json())
         .then(fragen => {
             quizFragen = fragen;
+            antwortVersuche = fragen.map(() => false);
             frageAnzeigen();
         })
         .catch(error => {
@@ -16,13 +18,11 @@ function ladeFragen() {
 let aktuelleFrageIndex = 0;
 
 function aktualisiereFortschritt() {
-    const fortschrittText = `Frage ${aktuelleFrageIndex + 1} von ${quizFragen.length}`;
-    document.getElementById('quiz-progress').innerText = fortschrittText;
+    document.getElementById('quiz-progress').innerText = `Frage ${aktuelleFrageIndex + 1} von ${quizFragen.length}`;
 }
 
 function aktualisiereRichtigeAntwortenAnzeige() {
-    const anzeigeElement = document.getElementById('richtige-antworten-anzeige');
-    anzeigeElement.textContent = `Richtig beim ersten Versuch: ${richtigBeantwortet} von ${quizFragen.length}`;
+    document.getElementById('richtige-antworten-anzeige').textContent = `Richtig beim ersten Versuch: ${richtigBeantwortet} von ${quizFragen.length}`;
 }
 
 function frageAnzeigen() {
@@ -46,24 +46,33 @@ function frageAnzeigen() {
 }
 
 function antwortAuswaehlen(antwort) {
-    const frage = quizFragen[aktuelleFrageIndex];
-    const korrekt = antwort === frage.korrekteAntwort;
+    if (!antwortVersuche[aktuelleFrageIndex]) {
+        antwortVersuche[aktuelleFrageIndex] = true;
 
-    if (korrekt) {
-        richtigBeantwortet++;
-        aktualisiereRichtigeAntwortenAnzeige();
+        const frage = quizFragen[aktuelleFrageIndex];
+        const korrekt = antwort === frage.korrekteAntwort;
+
+        if (korrekt) {
+            richtigBeantwortet++;
+            aktualisiereRichtigeAntwortenAnzeige();
+        }
+
+        const feedbackContainer = document.getElementById('feedback-container');
+        feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
+        feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
+        feedbackContainer.style.color = 'black';
+        feedbackContainer.style.display = 'block';
     }
-
-    const feedbackContainer = document.getElementById('feedback-container');
-    feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
-    feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
-    feedbackContainer.style.color = 'black';
-    feedbackContainer.style.display = 'block';
 }
 
 function naechsteFrage() {
     aktuelleFrageIndex++;
-    frageAnzeigen();
+    if (aktuelleFrageIndex < quizFragen.length) {
+        frageAnzeigen();
+    } else {
+        aktualisiereFortschritt(); // Abschließende Aktualisierung des Fortschritts
+        anzeigenLeistung(); // Zeige die abschließende Leistung an
+    }
 }
 
 function vorherigeFrage() {
@@ -71,6 +80,10 @@ function vorherigeFrage() {
         aktuelleFrageIndex--;
         frageAnzeigen();
     }
+}
+
+function anzeigenLeistung() {
+    alert(`Du hast ${richtigBeantwortet} von ${quizFragen.length} Fragen beim ersten Versuch richtig beantwortet.`);
 }
 
 document.addEventListener('DOMContentLoaded', ladeFragen);

@@ -13,13 +13,14 @@ Dieses Projekt ist ein Online-Quiz, das mit HTML, CSS und JavaScript erstellt wu
 - **Dynamische Frageanzeige**: Fragen und Antworten werden dynamisch aus einer JSON-Datei geladen.
 - **Feedback-Farbanzeige**: Die Anzeige des Feedbacks erfolgt mit einem grauen Hintergrund.
 - **Verbesserung der Feedback-Anzeige**: Implementierung einer Farbkodierung für das Feedback (grün für korrekte Antworten, rot für falsche Antworten) und Anpassung der Schriftfarbe entsprechend.
+- **Mittige Ausrichtung des Feedback-Hintergrunds**: Korrektur der Ausrichtung, sodass der Feedback-Hintergrund mittig und konsistent mit dem Layout der Fragen und Antworten ist.
+- **Anzeige der Leistung beim ersten Versuch**: Hinzufügen einer Funktionalität zur Anzeige der Anzahl der beim ersten Versuch richtig beantworteten Fragen.
 
 
 ### Noch zu erledigen
 
 - **Anpassung der Button-Positionen**: Sicherstellen, dass die "Zurück" und "Nächste Frage" Buttons unabhängig von der Textlänge der Frage oder den Antwortmöglichkeiten statisch bleiben.
-- **Mittige Ausrichtung des Feedback-Hintergrunds**: Korrektur der Ausrichtung, sodass der Feedback-Hintergrund mittig und konsistent mit dem Layout der Fragen und Antworten ist.
-- **Anzeige der Leistung beim ersten Versuch**: Hinzufügen einer Funktionalität zur Anzeige der Anzahl der beim ersten Versuch richtig beantworteten Fragen.
+- **Tests schreiben**: Gründlich testen und sicherstellen, dass TestPrepWeb über verschiedene Browser hinweg konsistent funktioniert
 
 ## Geplante Features
 
