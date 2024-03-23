@@ -1,4 +1,5 @@
 let quizFragen = [];
+let richtigBeantwortet = 0; // Zähler für richtig beantwortete Fragen beim ersten Versuch
 
 function ladeFragen() {
     fetch('fragen.json')
@@ -19,13 +20,18 @@ function aktualisiereFortschritt() {
     document.getElementById('quiz-progress').innerText = fortschrittText;
 }
 
+function aktualisiereRichtigeAntwortenAnzeige() {
+    const anzeigeElement = document.getElementById('richtige-antworten-anzeige');
+    anzeigeElement.textContent = `Richtig beim ersten Versuch: ${richtigBeantwortet} von ${quizFragen.length}`;
+}
+
 function frageAnzeigen() {
     if (aktuelleFrageIndex < quizFragen.length) {
         const quizContainer = document.getElementById('quiz');
         const frage = quizFragen[aktuelleFrageIndex];
 
         document.getElementById('feedback-container').style.display = 'none';
-        document.getElementById('previous').style.display = aktuelleFrageIndex > 0 ? 'block' : 'none';
+        document.getElementById('previous').style.visibility = aktuelleFrageIndex > 0 ? 'visible' : 'hidden';
         aktualisiereFortschritt();
 
         quizContainer.innerHTML = `<div class="frage-text">${frage.frage}</div><ul>` +
@@ -33,21 +39,25 @@ function frageAnzeigen() {
                 `<li><button onclick="antwortAuswaehlen('${buchstabe}')">${buchstabe}) ${frage.antworten[buchstabe]}</button></li>`
             ).join('') + '</ul>';
     } else {
-        console.log("Quiz ist beendet oder keine Fragen verfügbar.");
         document.getElementById('quiz').innerHTML = "<p>Das Quiz ist beendet. Vielen Dank für Ihre Teilnahme!</p>";
-        document.getElementById('next').style.display = 'none';
-        document.getElementById('previous').style.display = 'none';
+        document.getElementById('next').style.visibility = 'hidden';
         document.getElementById('feedback-container').style.display = 'none';
     }
 }
 
 function antwortAuswaehlen(antwort) {
     const frage = quizFragen[aktuelleFrageIndex];
-    const feedbackText = frage.feedback[antwort];
-    const begruendungText = frage.begruendung ? frage.begruendung[antwort] : '';
-    const feedbackContainer = document.getElementById('feedback-container');
+    const korrekt = antwort === frage.korrekteAntwort;
 
-    feedbackContainer.innerHTML = `<p>${feedbackText}</p><p>${begruendungText}</p>`;
+    if (korrekt) {
+        richtigBeantwortet++;
+        aktualisiereRichtigeAntwortenAnzeige();
+    }
+
+    const feedbackContainer = document.getElementById('feedback-container');
+    feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
+    feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
+    feedbackContainer.style.color = 'black';
     feedbackContainer.style.display = 'block';
 }
 

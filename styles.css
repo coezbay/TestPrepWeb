@@ -12,13 +12,14 @@ body, html {
 .quiz-container {
     width: 100%;
     max-width: 600px;
-    min-height: 500px;
+    min-height: 700px; /* Angepasst für zusätzlichen Platz */
     background-color: #ffffff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    justify-content: space-between; /* Stellt sicher, dass die Buttons am unteren Rand bleiben */
 }
 
 #quiz-progress {
@@ -36,17 +37,18 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
-    flex-grow: 1;
     margin: 5px;
-    text-align: left;
+    text-align: left; /* Antwortbuttons Texte links ausrichten */
 }
 
 #previous, #next {
-    text-align: center;
+    text-align: center; /* "Zurück" und "Nächste Frage" Buttons Texte zentrieren */
+    flex-grow: 1; /* Ermöglicht den Buttons, den verfügbaren Platz auszufüllen */
 }
 
 #previous {
     background-color: #6c757d;
+    display: block; /* Stellt sicher, dass der "Zurück" Button sichtbar ist */
 }
 
 button:hover {
@@ -66,22 +68,33 @@ ul {
 }
 
 li button {
-    text-align: left;
+    text-align: left; /* Bestätigt, dass Antwortbutton-Texte links ausgerichtet sind */
     display: block;
     margin: 10px auto;
-    width: calc(100% - 20px);
+    width: 100%; /* Entfernt calc(100% - 20px) für Konsistenz */
 }
 
 .feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; /* Zentriert den Container */
+    width: 80%; /* Anpassen basierend auf der gewünschten Breite */
     background-color: #e9ecef;
     border-radius: 5px;
-    display: none;
     padding: 20px;
-    width: 100%;
 }
 
 .button-container {
+    position: relative; /* oder 'absolute', falls 'quiz-container' relativ positioniert ist */
+    bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: auto;
+}
+
+.leistungsanzeige {
+    text-align: center;
+    margin-top: 20px;
 }

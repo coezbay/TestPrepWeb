@@ -8,11 +8,14 @@
 <body>
 <div class="quiz-container">
     <div id="quiz-progress">Frage 1 von X</div>
-    <div id="quiz"></div>
-    <div id="feedback-container" class="feedback-container"></div>
+    <div id="quiz" role="main"></div> <!-- Hinzufügen der Rolle 'main' für den Hauptinhalt -->
+    <div id="feedback-container" class="feedback-container" aria-live="polite"></div> <!-- 'aria-live' für dynamischen Feedback-Inhalt -->
     <div class="button-container">
-        <button id="previous" onclick="vorherigeFrage()">Zurück</button>
-        <button id="next" onclick="naechsteFrage()">Nächste Frage</button>
+        <button id="previous" onclick="vorherigeFrage()" aria-label="Vorherige Frage">Zurück</button>
+        <button id="next" onclick="naechsteFrage()" aria-label="Nächste Frage">Nächste Frage</button>
+    </div>
+    <div id="richtige-antworten-anzeige" class="richtige-antworten-anzeige">
+        Richtig beim ersten Versuch: 0
     </div>
 </div>
 <script src="script.js"></script>
