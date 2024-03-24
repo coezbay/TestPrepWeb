@@ -576,9 +576,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT – Der Prozentsatz der vorbereiteten Testfälle ist eine übliche Metrik während der Testvorbereitung, während der Prozentsatz der bestandenen, fehlgeschlagenen, nicht ausgeführten Testfälle usw. während der Testausführung üblich ist.",
-      "b": "",
-      "c": "",
-      "d": ""
+      "b": "FALSCH",
+      "c": "FALSCH",
+      "d": "FALSCH"
     }
   },
   {
@@ -591,9 +591,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "",
-      "b": "",
-      "c": "",
+      "a": "FALSCH",
+      "b": "FALSCH",
+      "c": "FALSCH",
       "d": "Die Höhe des Risikos wird durch die Wahrscheinlichkeit des Eintretens eines unerwünschten Ereignisses und die Auswirkungen (den Schaden) dieses Ereignisses bestimmt. Daher ist die Option d) KORREKT."
     }
   },
@@ -607,10 +607,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "",
-      "b": "",
+      "a": "FALSCH",
+      "b": "FALSCH",
       "c": "Das Konfigurationsmanagement bewahrt die Integrität der Software. Wenn ein Test, der in Schritt 3 bestanden wurde, in Schritt 5 fehlschlägt, dann ist etwas zwischen diesen beiden Schritten anders. Ein möglicher Unterschied ist das Testobjekt, die hier aufgeführte Option. Ein weiterer möglicher Unterschied ist der zwischen der Entwicklungsumgebung und der Testumgebung, aber das ist keine hier aufgeführte Option.",
-      "d": ""
+      "d": "FALSCH"
     }
   },
   {
@@ -623,10 +623,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "",
+      "a": "FALSCH",
       "b": "Die primären Informationsquellen stammen von den erfahrenen Testern, die die Experten sind. Die Branchendurchschnittswerte des Beraters ergänzen die ursprüngliche Schätzung aus veröffentlichten Metriken.",
-      "c": "",
-      "d": ""
+      "c": "FALSCH",
+      "d": "FALSCH"
     }
   },
   {
@@ -639,9 +639,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "",
-      "b": "",
-      "c": "",
+      "a": "FALSCH",
+      "b": "FALSCH",
+      "c": "FALSCH",
       "d": "Die Annahmen der Stakeholder in Frage zu stellen, ist ein Vorteil der Unabhängigkeit des Testers, und hier gehen sowohl der Entwickler als auch der Product Owner von unterschiedlichen Annahmen bezüglich der Abnahmekriterien aus."
     }
   },
@@ -655,10 +655,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "",
+      "a": "FALSCH",
       "b": "Die Implementierung einer risikobasierten Teststrategie in diesem Projekt ist die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt behandelt werden.",
-      "c": "",
-      "d": ""
+      "c": "FALSCH",
+      "d": "FALSCH"
     }
   },
   {
@@ -671,10 +671,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "",
+      "a": "FALSCH",
       "b": "Die Liste zeigt Produkt- und Projektrisiken. Falsche Summen auf dem Display (A), Benutzer, die die Soft-Tastatur als schwer zu bedienen empfinden (C) und ein langsames Systemverhalten (D) sind allesamt Produktrisiken. Die Änderung der Abnahmekriterien während des Tests (B) und das Versäumnis, Testergebnisse zu kommunizieren (E), sind Projektrisiken.",
-      "c": "",
-      "d": ""
+      "c": "FALSCH",
+      "d": "FALSCH"
     }
   },
   {
@@ -687,9 +687,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "",
-      "b": "",
-      "c": "",
+      "a": "FALSCH",
+      "b": "FALSCH",
+      "c": "FALSCH",
       "d": "Die Bewertung der Vorteile sowie die Konfiguration der Erfassung von Metriken sind typische Ziele eines Testautomatisierungsprojekts bzw. Pilotprojekts, die noch verwirklicht werden müssen."
     }
   },
@@ -704,9 +704,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "Testmanagementwerkzeuge unterstützen die mit dem Testmanager verbundenen Aktivitäten einschließlich Metriken.",
-      "b": "",
-      "c": "",
-      "d": ""
+      "b": "FALSCH",
+      "c": "FALSCH",
+      "d": "FALSCH"
     }
   },
   {
