@@ -43,12 +43,19 @@ button {
 
 #previous, #next {
     text-align: center;
-    flex-grow: 1;
+    background-color: #6c757d; /* Apply common styling */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    bottom: 20px; /* Adjust distance from bottom as needed */
+    z-index: 999; /* Ensure buttons stay above other content */
 }
 
 #previous {
-    background-color: #6c757d;
-    display: block;
+    margin-right: 10px; /* Adjust space between buttons */
+}
+
+#next {
+    margin-left: 10px; /* Adjust space between buttons */
 }
 
 button:hover {
