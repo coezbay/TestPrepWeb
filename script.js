@@ -70,8 +70,8 @@ function naechsteFrage() {
     if (aktuelleFrageIndex < quizFragen.length) {
         frageAnzeigen();
     } else {
-        aktualisiereFortschritt(); // Abschließende Aktualisierung des Fortschritts
-        anzeigenLeistung(); // Zeige die abschließende Leistung an
+        aktualisiereFortschritt();
+        anzeigenLeistung();
     }
 }
 

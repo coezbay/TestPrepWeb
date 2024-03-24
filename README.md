@@ -1,42 +1,55 @@
-# TestPrepWeb Projekt
+# TestPrepWeb Project
 
-## Über das Projekt
+## About the Project
 
-Dieses Projekt ist ein Online-Quiz, das mit HTML, CSS und JavaScript erstellt wurde. Es zielt darauf ab, Benutzern eine ansprechende und interaktive Möglichkeit zu bieten, ihr Wissen in verschiedenen Themenbereichen zu testen und zu erweitern.
-Nutzer können die jsonschema.json in ihre IDE integrieren, um individuelle Fragen und Antworten in der fragen.json zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fragen und Antworten zu vermeiden.
+This project is an online quiz created with HTML, CSS, and JavaScript. It aims to offer users an engaging and interactive way to test and expand their knowledge in various subject areas.
+Users can integrate the `jsonschema.json` into their IDE to implement and validate individual questions and answers in the `fragen.json`. This helps to avoid errors in self-created questions and answers.
 
-## Aktueller Stand
+## Current Status
 
-### Erledigte Punkte
+### Completed Items
 
-- **Grundstruktur des Quiz**: Die Basisstruktur des Quiz mit Fragen, Antwortmöglichkeiten und Navigationsbuttons ("Zurück" und "Nächste Frage") ist implementiert.
-- **Stylesheet-Optimierungen**: Verbesserungen in der `styles.css` für eine konsistente und ansprechende Benutzeroberfläche.
-- **Dynamische Frageanzeige**: Fragen und Antworten werden dynamisch aus einer JSON-Datei geladen.
-- **Feedback-Farbanzeige**: Die Anzeige des Feedbacks erfolgt mit einem grauen Hintergrund.
-- **Verbesserung der Feedback-Anzeige**: Implementierung einer Farbkodierung für das Feedback (grün für korrekte Antworten, rot für falsche Antworten) und Anpassung der Schriftfarbe entsprechend.
-- **Mittige Ausrichtung des Feedback-Hintergrunds**: Korrektur der Ausrichtung, sodass der Feedback-Hintergrund mittig und konsistent mit dem Layout der Fragen und Antworten ist.
-- **Anzeige der Leistung beim ersten Versuch**: Hinzufügen einer Funktionalität zur Anzeige der Anzahl der beim ersten Versuch richtig beantworteten Fragen.
+- **Basic structure of the quiz**: The foundational structure of the quiz with questions, answer options, and navigation buttons ("Back" and "Next Question") has been implemented.
+- **Stylesheet optimizations**: Improvements in the `styles.css` for a consistent and appealing user interface.
+- **Dynamic question display**: Questions and answers are dynamically loaded from a JSON file.
+- **Feedback color display**: Feedback is displayed with a gray background.
+- **Improvement of feedback display**: Implementation of a color coding for the feedback (green for correct answers, red for incorrect answers) and adjustment of the font color accordingly.
+- **Center alignment of the feedback background**: Adjustment of the alignment so that the feedback background is centered and consistent with the layout of the questions and answers.
+- **Display of performance on the first attempt**: Addition of a feature to display the number of questions answered correctly on the first attempt.
+
+### Still to Do
+
+- **Adjustment of button positions**: Ensure that the "Back" and "Next Question" buttons remain static regardless of the text length of the question or answer options.
+- **Write tests**: Thoroughly test and ensure that TestPrepWeb functions consistently across different browsers and devices.
+- **Justification for questions**: Consider whether the questions should be displayed in justified text to improve readability.
+
+## Planned Features
+
+- **Responsive design**: Optimization of the quiz application for different screen sizes and devices.
+- **Overview of incorrect answers**: Create an overview that displays the incorrectly answered questions along with the correct answers so that users can internalize them again.
+- **Languages**: Provide the application in multiple languages
 
 
-### Noch zu erledigen
+## Continuous Development
 
-- **Anpassung der Button-Positionen**: Sicherstellen, dass die "Zurück" und "Nächste Frage" Buttons unabhängig von der Textlänge der Frage oder den Antwortmöglichkeiten statisch bleiben.
-- **Tests schreiben**: Gründlich testen und sicherstellen, dass TestPrepWeb über verschiedene Browser und Endgeräte hinweg konsistent funktioniert
-- **Blocksatz für Fragestellungen**: Überlegen, ob die Fragen in Blocksatz angezeigt werden sollten, um eine verbesserte Lesbarkeit zu bieten.
+- **Expansion of the question catalog**: Addition of more questions and subject areas to the quiz.
 
-## Geplante Features
+## Contribution
 
-- **Responsive Design**: Optimierung der Quiz-Anwendung für verschiedene Bildschirmgrößen und Geräte.
-- **Übersicht über falsche Antworten**: Eine Übersicht erstellen, die die falsch beantworteten Fragen zusammen mit den richtigen Antworten anzeigt, damit man sie sich erneut einprägen kann.
+- **Feedback and collaboration**: Feedback and contributions are welcome! Feel free to open issues or create pull requests for suggested improvements.
 
-## Kontinuierliche Entwicklung
+## Acknowledgment of External Sources
 
-- **Erweiterung des Fragenkatalogs**: Hinzufügen weiterer Fragen und Themenbereiche zum Quiz.
+Some of the questions and answers used in this repository are based on materials from the ISTQB® (International Software Testing Qualifications Board).
+These materials are used with acknowledgment of ISTQB® as the source and copyright owner in accordance with their guidelines.
+I thank the ISTQB® for providing these resources and fully recognize their authorship.
 
-## Beitrag
+## License
 
-- **Feedback und Zusammenarbeit**: Feedback und Beiträge sind willkommen! Fühlen Sie sich frei, Issues zu öffnen oder Pull Requests für vorgeschlagene Verbesserungen zu erstellen.
+This project is published under the [MIT License](LICENSE/LICENSE.txt).
 
-## Lizenz
+## Languages
 
-Dieses Projekt ist unter der [MIT-Lizenz](LICENSE/LICENSE.txt) veröffentlicht.
+- [English](README.md)
+- [Deutsch](README_DE.md)
+- [Français](README_FR.md)
