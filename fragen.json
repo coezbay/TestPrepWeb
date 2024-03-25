@@ -110,28 +110,6 @@
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen passt am besten zur aufgeführten Testaktivität und wie kann 'die Verfolgbarkeit' diese Aktivität jeweils unterstützen?",
-    "antworten": {
-      "a": "1D, 2B, 3C, 4A",
-      "b": "1B, 2D, 3A, 4C",
-      "c": "1D, 2C, 3A, 4B",
-      "d": "1D, 2B, 3A, 4C"
-    },
-    "korrekteAntwort": "d",
-    "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "KORREKT"
-    },
-    "begruendung": {
-      "a": "Die Begründung passt nicht zu den angegebenen Testaktivitäten und der Verfolgbarkeit.",
-      "b": "Die Begründung passt nicht zu den angegebenen Testaktivitäten und der Verfolgbarkeit.",
-      "c": "Die Begründung passt nicht zu den angegebenen Testaktivitäten und der Verfolgbarkeit.",
-      "d": "Die Begründung zeigt, wie die Verfolgbarkeit die verschiedenen Testaktivitäten unterstützen kann und passt somit zu den aufgeführten Testaktivitäten und der Verfolgbarkeit."
-    }
-  },
-  {
     "frage": "Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?",
     "antworten": {
       "a": "Ermöglicht die frühzeitige Erkennung von erforderlichen Tests",
