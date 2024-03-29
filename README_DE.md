@@ -16,13 +16,16 @@ Nutzer können die `jsonschema.json` in ihre IDE integrieren, um individuelle Fr
 - **Verbesserung der Feedback-Anzeige**: Implementierung einer Farbkodierung für das Feedback (grün für korrekte Antworten, rot für falsche Antworten) und Anpassung der Schriftfarbe entsprechend.
 - **Mittige Ausrichtung des Feedback-Hintergrunds**: Korrektur der Ausrichtung, sodass der Feedback-Hintergrund mittig und konsistent mit dem Layout der Fragen und Antworten ist.
 - **Anzeige der Leistung beim ersten Versuch**: Hinzufügen einer Funktionalität zur Anzeige der Anzahl der beim ersten Versuch richtig beantworteten Fragen.
+- **Blocksatz für Fragestellungen**: Fragen werden nun in Blocksatz angezeigt, um eine verbesserte Lesbarkeit zu bieten.
+
 
 ### Noch zu erledigen
 
 - **Anpassung der Button-Positionen**: Sicherstellen, dass die "Zurück" und "Nächste Frage" Buttons unabhängig von der Textlänge der Frage oder den Antwortmöglichkeiten statisch bleiben.
-- **Tests schreiben**: Gründlich testen und sicherstellen, dass TestPrepWeb über verschiedene Browser und Endgeräte hinweg konsistent funktioniert.
-- **Blocksatz für Fragestellungen**: Überlegen, ob die Fragen in Blocksatz angezeigt werden sollten, um eine verbesserte Lesbarkeit zu bieten.
 - **Dark Mode einbauen**: Dark Mode für die Schonung der Augen.
+- **Tests schreiben**: Gründlich testen und sicherstellen, dass TestPrepWeb über verschiedene Browser und Endgeräte hinweg konsistent funktioniert.
+- **Trennung der Probeprüfungen nach Realisierungszeitraum**: Probeprüfungen nach Realisierungszeitraum trennen und ein Auswahlmenü beim Start der Anwendung implementieren.
+- **Übersicht Fortschritt**: Eine Übersicht der abgearbeiteten Aufgaben implementieren, wobei die richtig und falsch bearbeiteten Aufgaben farblich (rot/grün) markiert werden sollen. Es soll dann auch möglich sein, einzelne Punkte dieser Übersicht anzuklicken, um die Aufgabenstellung zu jedem Zeitpunkt direkt zu betrachten.
 
 ## Geplante Features
 

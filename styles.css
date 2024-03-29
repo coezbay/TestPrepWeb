@@ -58,7 +58,7 @@ button:hover {
 .frage-text, .feedback-container {
     font-size: 18px;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 ul {
@@ -116,7 +116,7 @@ li button {
 .ac-liste {
     list-style-type: none;
     counter-reset: ac-counter;
-    padding-left: 0;
+    padding: 0;
 }
 
 .ac-liste li {
