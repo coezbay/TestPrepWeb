@@ -15,9 +15,8 @@
       "d": "FALSCH – Das ist die Glossardefinition von Qualitätskosten."
     }
   },
-
   {
-    "frage": "Welcher der folgenden Punkte ist ein typisches Testziel?<br>Wählen Sie genau EINE Option aus.",
+    "frage": "Welcher der folgenden Punkte ist ein typisches Testziel?<br><br>Wählen Sie genau EINE Option aus.",
     "antworten": {
       "a": "Verhindern von Fehlerzuständen",
       "b": "Fehlerzustände reparieren",
@@ -32,7 +31,6 @@
       "d": "FALSCH – Dies ist Teil der Fehlersuche"
     }
   },
-
   {
     "frage": "Ein Telefonklingeln lenkt einen Programmierer kurzzeitig ab, was dazu führt, dass der Programmierer die Logik, die die obere Grenze einer Eingangsvariablen prüft, nicht korrekt programmiert. Später, während des Systemtests, stellt ein Tester fest, dass dieses Eingabefeld ungültige Eingabewerte annimmt. Die unsachgemäß kodierte Logik für die Prüfung der oberen Grenze bezeichnet man als:<br><br>Wählen Sie genau EINE Option aus.",
     "antworten": {
@@ -49,9 +47,8 @@
       "d": "KORREKT – Das Problem im Code ist ein Fehlerzustand."
     }
   },
-
   {
-    "frage": "Ein Product Owner sagt, dass Ihre Rolle als Tester in einem agilen Team darin besteht, alle Fehlerzustände vor dem Ende jeder Iteration aufzudecken.<br>Welches der folgenden Aussagen ist ein Testprinzip, das als Antwort auf diese (falsche) Aussage verwendet werden könnte?<br>Wählen Sie EINE Option aus.",
+    "frage": "Ein Product Owner sagt, dass Ihre Rolle als Tester in einem agilen Team darin besteht, alle Fehlerzustände vor dem Ende jeder Iteration aufzudecken.<br><br>Welches der folgenden Aussagen ist ein Testprinzip, das als Antwort auf diese (falsche) Aussage verwendet werden könnte?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Häufung von Fehlerzuständen",
       "b": "Testen zeigt die Anwesenheit von Fehlerzuständen",
@@ -66,9 +63,8 @@
       "d": "FALSCH – Die Grundursachenanalyse ist kein Testprinzip"
     }
   },
-
   {
-    "frage": "Programmierer schreiben oft Komponententests und führen diese gegen den von ihnen geschriebenen Code aus.<br> Welche der folgenden Denkweisen eines Testers sollten Programmierer während dieser Selbsttest-Aktivität einnehmen, um diese Komponententests effektiv durchzuführen?<br>Wählen Sie EINE Option aus.",
+    "frage": "Programmierer schreiben oft Komponententests und führen diese gegen den von ihnen geschriebenen Code aus.<br><br>Welche der folgenden Denkweisen eines Testers sollten Programmierer während dieser Selbsttest-Aktivität einnehmen, um diese Komponententests effektiv durchzuführen?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Gute Kommunikationsfähigkeiten",
       "b": "Codeüberdeckung",
@@ -83,7 +79,6 @@
       "d": "KORREKT – Diese Denkweise des Testers, die Detailgenauigkeit, hilft den Programmierern, Fehler während der Komponententests zu finden"
     }
   },
-
   {
     "frage": "Beachten Sie die folgenden Testaktivitäten:<br><ol><li>Auswählen von Regressionstests</li><li>Bewertung der Vollständigkeit der Testdurchführung</li><li>Identifizieren, welche User Stories offene Fehlerberichte haben</li><li>Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos vereinbar ist</li></ol><br>Betrachten Sie die folgenden Möglichkeiten, wie die Verfolgbarkeit beim Testen helfen kann:<br><ol style=\"list-style-type: upper-alpha;\"><li>Verbessern der Verständlichkeit von Teststatusberichten, um den Status der Elemente der Testbasis einzubeziehen</li><li>Testaktivitäten nachvollziehbarer/prüfbarer machen</li><li>Bereitstellung von Informationen zur Beurteilung der Prozessqualität</li><li>Analysieren der Auswirkungen von Änderungen</li></ol><br>Welche der folgenden Aussagen passt am besten zur aufgeführten Testaktivität und wie kann \"die Verfolgbarkeit\" diese Aktivität jeweils unterstützen?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -100,10 +95,8 @@
       "d": "KORREKT - Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen (1D)</li><li>Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht (2B)</li><li>Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen (3A) einzubeziehen</li><li>Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko (4C)<br>Daher ist die Option d) KORREKT."
     }
   },
-
   {
     "frage": "Ein Tester nahm an einer Diskussion über die vorgeschlagene Datenbankstruktur teil. Der Tester identifizierte ein potenzielles Performanzproblem im Zusammenhang mit bestimmten häufigen Anfragen des Benutzers. Dieses mögliche Problem wurde dem Entwicklungsteam erläutert.<br><br>Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?<br><br>Wählen Sie EINE Option aus.",
-    "frage": "Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?",
     "antworten": {
       "a": "Ermöglicht die frühzeitige Erkennung von erforderlichen Tests",
       "b": "Sicherstellen, dass Prozesse ordnungsgemäß durchgeführt werden",
@@ -118,7 +111,6 @@
       "d": "FALSCH - Die Verringerung des Risikos nicht testbarer Funktionalität ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation, da der Tester hier ein potenzielles Performanzproblem identifiziert hat, das nichts mit nicht testbarer Funktionalität zu tun hat."
     }
   },
-
   {
     "frage": "Welcher der folgenden Punkte ist ein Beispiel für eine Aufgabe, die im Rahmen des Testprozesses durchgeführt werden kann?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -135,9 +127,8 @@
       "d": "FALSCH - Das Schreiben einer User Story ist keine direkte Testaktivität und fällt normalerweise in den Verantwortungsbereich des Product Owners."
     }
   },
-
   {
-    "frage": "Sie führen einen Performanztest mit dem Ziel durch, mögliche Netzwerkengpässe in Schnittstellen zwischen Komponenten eines Systems zu finden. Welche der folgenden Aussagen beschreibt diesen Test?<br>Wählen Sie EINE Option aus.",
+    "frage": "Sie führen einen Performanztest mit dem Ziel durch, mögliche Netzwerkengpässe in Schnittstellen zwischen Komponenten eines Systems zu finden. Welche der folgenden Aussagen beschreibt diesen Test?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Ein funktionaler Test während der Integrationsteststufe",
       "b": "Ein nicht-funktionaler Test während der Integrationsteststufe",
@@ -152,7 +143,6 @@
       "d": "FALSCH - Obwohl dieser Test ein nicht-funktionaler Test ist, entspricht er nicht der Beschreibung eines Komponententests."
     }
   },
-
   {
     "frage": "Welche der folgenden Aussagen ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -169,9 +159,8 @@
       "d": "FALSCH - Fehlernachtests sind nicht Teil der Auswirkungsanalyse, obwohl Fehlernachtests typischerweise während der Wartungstests durchgeführt werden."
     }
   },
-
   {
-    "frage": "Betrachten Sie die folgenden Arten von Fehlern, auf die sich eine Teststufe konzentrieren könnte: 1. Fehlerzustände in separat testbaren Modulen oder Objekten 2. Nicht auf die Identifizierung von Fehlerzuständen ausgerichtet 3. Fehlerzustände an Schnittstellen und Wechselwirkungen 4. Fehlerzustände im gesamten Testobjekt Welche der folgenden Listen stimmt mit den Teststufen aus dem Foundation Lehrplan und den oben angegebenen Fehlerschwerpunkten überein?",
+    "frage": "Betrachten Sie die folgenden Arten von Fehlern, auf die sich eine Teststufe konzentrieren könnte:<ol><li>Fehlerzustände in separat testbaren Modulen oder Objekten</li><li>Nicht auf die Identifizierung von Fehlerzuständen ausgerichtet</li><li>Fehlerzustände an Schnittstellen und Wechselwirkungen</li><li>Fehlerzustände im gesamten Testobjekt</li></ol>Welche der folgenden Listen stimmt mit den Teststufen aus dem Foundation Lehrplan und den oben angegebenen Fehlerschwerpunkten überein?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "1 = Performanztest; 2 = Komponententest; 3 = Systemtest; 4 = Abnahmetest",
       "b": "1 = Komponententest; 2 = Abnahmetest; 3 = Systemtest; 4 = Integrationstest",
@@ -182,18 +171,13 @@
     "feedback": {
       "a": "FALSCH",
       "b": "FALSCH",
-      "c": "KORREKT",
+      "c": "KORREKT - Begründung:<br><br>Performanztests sind eine Testart, keine Teststufe. Komponententests konzentrieren sich auf Fehlerzustände in separat testbaren Modulen oder Objekten, Integrationstests auf Fehlerzustände in Schnittstellen und Interaktionen, Systemtests auf Fehlerzustände im gesamten Testobjekt, und Abnahmetests sind typischerweise nicht auf die Identifizierung von Fehlerzuständen ausgerichtet.<br><br>Daher ist c) die KORREKTE Antwort.",
       "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Performanztests sind keine Teststufe, und die Zuordnung der anderen Tests zu den Fehlerarten ist inkorrekt.",
-      "b": "Die Zuordnung der Teststufen zu den Fehlerarten ist inkorrekt.",
-      "c": "Die Zuordnung von Komponententests zu separat testbaren Modulen, Abnahmetests zur Nicht-Identifizierung von Fehlerzuständen, Integrationstests zu Schnittstellen und Wechselwirkungen und Systemtests zum gesamten Testobjekt ist korrekt.",
-      "d": "Die Zuordnung der Teststufen zu den Fehlerarten ist inkorrekt."
     }
   },
+
   {
-    "frage": "Ein Betriebssystem-Softwareprodukt für den Massenmarkt ist so konzipiert, dass es auf jeder PC-Hardware mit einem Prozessor der x86-Familie läuft. Sie führen eine Reihe von Tests durch, um nach Fehlerzuständen im Zusammenhang mit der Unterstützung der verschiedenen PCs zu suchen, die einen solchen Prozessor verwenden, und um Vertrauen zu schaffen, dass wichtige PC-Marken funktionieren. Welche Art von Test führen Sie durch?",
+    "frage": "Ein Betriebssystem-Softwareprodukt für den Massenmarkt ist so konzipiert, dass es auf jeder PC-Hardware mit einem Prozessor der x86-Familie läuft. Sie führen eine Reihe von Tests durch, um nach Fehlerzuständen im Zusammenhang mit der Unterstützung der verschiedenen PCs zu suchen, die einen solchen Prozessor verwenden, und um Vertrauen zu schaffen, dass wichtige PC-Marken funktionieren. Welche Art von Test führen Sie durch?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Performanztest",
       "b": "Prozessortest",
@@ -202,20 +186,15 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "KORREKT"
-    },
-    "begruendung": {
-      "a": "Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein Performanztest.",
-      "b": "Prozessortest ist keine definierte Testart und beschreibt nicht die Art von Test, der durchgeführt wird.",
-      "c": "Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein funktionaler Test.",
-      "d": "Das Testen unterstützter Geräte, um sicherzustellen, dass das Betriebssystem auf verschiedenen PCs mit x86-Prozessoren läuft, ist ein nicht-funktionaler Test, nämlich ein Übertragbarkeitstest."
+      "a": "FALSCH - Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein Performanztest.",
+      "b": "FALSCH - Prozessortest ist keine definierte Testart und beschreibt nicht die Art von Test, der durchgeführt wird.",
+      "c": "FALSCH - Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein funktionaler Test.",
+      "d": "KORREKT - Das Testen unterstützter Geräte, um sicherzustellen, dass das Betriebssystem auf verschiedenen PCs mit x86-Prozessoren läuft, ist ein nicht-funktionaler Test, nämlich ein Übertragbarkeitstest."
     }
   },
+
   {
-    "frage": "Während einer agilen Entwicklungsarbeit entdeckt ein Product Owner eine bisher unbekannte regulatorische Anforderung, die für die meisten User Stories innerhalb eines bestimmten Epics gilt. Die User Stories werden aktualisiert, um die notwendigen Änderungen im Softwareverhalten vorzusehen. Die Programmierer im Team modifizieren den Code entsprechend. Welche Arten von Tests werden Sie als Tester im Team durchführen?",
+    "frage": "Während einer agilen Entwicklungsarbeit entdeckt ein Product Owner eine bisher unbekannte regulatorische Anforderung, die für die meisten User Stories innerhalb eines bestimmten Epics gilt. Die User Stories werden aktualisiert, um die notwendigen Änderungen im Softwareverhalten vorzusehen. Die Programmierer im Team modifizieren den Code entsprechend. Welche Arten von Tests werden Sie als Tester im Team durchführen?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Fehlernachtests",
       "b": "Regressionstests",
@@ -227,17 +206,12 @@
       "a": "FALSCH",
       "b": "FALSCH",
       "c": "FALSCH",
-      "d": "KORREKT"
-    },
-    "begruendung": {
-      "a": "Die beschriebene Situation erfordert nicht nur das Aufspüren von Fehlern, sondern auch das Testen der neuen Änderungen. Daher sind Änderungsbezogene Tests angemessener als Fehlernachtests.",
-      "b": "Regressionstests sind Teil der Änderungsbezogenen Tests, da sie sicherstellen sollen, dass die vorhandene Funktionalität nach den Änderungen weiterhin korrekt funktioniert. Sie sind jedoch nicht die einzigen Tests, die durchgeführt werden müssen.",
-      "c": "Funktionale Tests sind möglicherweise Teil der Änderungsbezogenen Tests, um sicherzustellen, dass die neuen Anforderungen korrekt umgesetzt wurden. Jedoch beziehen sich Änderungsbezogene Tests auf alle Arten von Tests, die nach einer Änderung durchgeführt werden müssen, nicht nur auf Funktionale Tests.",
-      "d": "Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind."
+      "d": "KORREKT - Begründung:<br><br>Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind.<br><br>Daher ist d) die KORREKTE Antwort."
     }
   },
+
   {
-    "frage": "Wie lautet die Bezeichnung der Rolle eines Teilnehmers, der eine Inspektionssitzung bei einer formellen Überprüfung leitet?",
+    "frage": "Wie lautet die Bezeichnung der Rolle eines Teilnehmers, der eine Inspektionssitzung bei einer formellen Überprüfung leitet?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Moderator",
       "b": "Programmierer",
@@ -246,20 +220,14 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Der Moderator leitet die Überprüfungssitzungen und ist verantwortlich für den Ablauf und die Einhaltung des Prozesses.",
-      "b": "Die Rolle des Programmierers ist nicht die eines Leiters einer Inspektionssitzung bei einer formalen Überprüfung.",
-      "c": "Der Autor ist normalerweise die Person, die den zu überprüfenden Artikel geschrieben hat und nicht zwangsläufig der Leiter der Inspektionssitzung.",
-      "d": "Der Projektleiter ist nicht speziell dafür zuständig, eine Inspektionssitzung zu leiten."
+      "a": "KORREKT - Der Moderator leitet die Überprüfungssitzungen und ist verantwortlich für den Ablauf und die Einhaltung des Prozesses.",
+      "b": "FALSCH - Die Rolle des Programmierers ist nicht die eines Leiters einer Inspektionssitzung bei einer formalen Überprüfung.",
+      "c": "FALSCH - Der Autor ist normalerweise die Person, die den zu überprüfenden Artikel geschrieben hat und nicht zwangsläufig der Leiter der Inspektionssitzung.",
+      "d": "FALSCH - Der Projektleiter ist nicht speziell dafür zuständig, eine Inspektionssitzung zu leiten."
     }
   },
   {
-    "frage": "Sie lesen eine User Story im Product Backlog, um sich auf ein Meeting mit dem Product Owner und einem Entwickler vorzubereiten und notieren dabei mögliche Fehler. Welche der folgenden Aussagen zu dieser Aktivität ist zutreffend?",
+    "frage": "Sie lesen eine User Story im Product Backlog, um sich auf ein Meeting mit dem Product Owner und einem Entwickler vorzubereiten und notieren dabei mögliche Fehler. Welche der folgenden Aussagen zu dieser Aktivität ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Es handelt sich nicht um einen statischen Test, denn beim statischen Test wird das Testobjekt ausgeführt",
       "b": "Es handelt sich nicht um einen statischen Test, denn statische Tests werden immer mit einem Werkzeug durchgeführt",
@@ -268,18 +236,13 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "KORREKT"
-    },
-    "begruendung": {
-      "a": "Beim statischen Testen wird das Testobjekt nicht ausgeführt, es wird lediglich geprüft, ohne dass der Code ausgeführt wird.",
-      "b": "Statische Tests können auch manuell durchgeführt werden, ohne dass unbedingt ein Werkzeug erforderlich ist.",
-      "c": "Die Kosteneffizienz von Fehlerbehebungen hängt nicht unbedingt davon ab, ob sie in statischen oder dynamischen Tests gefunden werden, sondern von der Phase, in der sie gefunden und behoben werden.",
-      "d": "Beim statischen Testen wird das Testobjekt nicht ausgeführt, sondern es werden Artefakte wie Code, Dokumente oder User Stories überprüft."
+      "a": "FALSCH - Beim statischen Testen wird das Testobjekt nicht ausgeführt, es wird lediglich geprüft, ohne dass der Code ausgeführt wird.",
+      "b": "FALSCH - Statische Tests können auch manuell durchgeführt werden, ohne dass unbedingt ein Werkzeug erforderlich ist.",
+      "c": "FALSCH - Die Kosteneffizienz von Fehlerbehebungen hängt nicht unbedingt davon ab, ob sie in statischen oder dynamischen Tests gefunden werden, sondern von der Phase, in der sie gefunden und behoben werden.",
+      "d": "KORREKT - Beim statischen Testen wird das Testobjekt nicht ausgeführt, sondern es werden Artefakte wie Code, Dokumente oder User Stories überprüft."
     }
   },
+
   {
     "frage": "Während einer Phase intensiver Projektüberstunden wird ein Systemarchitekturdokument an verschiedene Projektteilnehmer gesendet, in dem ein zuvor nicht geplantes technisches Review in einer Woche angekündigt wird. Es werden keine Anpassungen an der Liste der zugewiesenen Aufgaben der Teilnehmer vorgenommen. Welcher der folgenden Erfolgsfaktoren für Reviews fehlt allein aufgrund dieser Information?",
     "antworten": {
