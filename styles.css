@@ -112,3 +112,22 @@ li button {
 .kreis-liste {
     list-style-type: circle;
 }
+
+.ac-liste {
+    list-style-type: none;
+    counter-reset: ac-counter;
+    padding-left: 0;
+}
+
+.ac-liste li {
+    counter-increment: ac-counter;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.ac-liste li::before {
+    content: "AC" counter(ac-counter) ": ";
+    position: absolute;
+    left: 0;
+}

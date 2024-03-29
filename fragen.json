@@ -175,7 +175,6 @@
       "d": "FALSCH"
     }
   },
-
   {
     "frage": "Ein Betriebssystem-Softwareprodukt für den Massenmarkt ist so konzipiert, dass es auf jeder PC-Hardware mit einem Prozessor der x86-Familie läuft. Sie führen eine Reihe von Tests durch, um nach Fehlerzuständen im Zusammenhang mit der Unterstützung der verschiedenen PCs zu suchen, die einen solchen Prozessor verwenden, und um Vertrauen zu schaffen, dass wichtige PC-Marken funktionieren. Welche Art von Test führen Sie durch?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -192,7 +191,6 @@
       "d": "KORREKT - Das Testen unterstützter Geräte, um sicherzustellen, dass das Betriebssystem auf verschiedenen PCs mit x86-Prozessoren läuft, ist ein nicht-funktionaler Test, nämlich ein Übertragbarkeitstest."
     }
   },
-
   {
     "frage": "Während einer agilen Entwicklungsarbeit entdeckt ein Product Owner eine bisher unbekannte regulatorische Anforderung, die für die meisten User Stories innerhalb eines bestimmten Epics gilt. Die User Stories werden aktualisiert, um die notwendigen Änderungen im Softwareverhalten vorzusehen. Die Programmierer im Team modifizieren den Code entsprechend. Welche Arten von Tests werden Sie als Tester im Team durchführen?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -209,7 +207,6 @@
       "d": "KORREKT - Begründung:<br><br>Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind.<br><br>Daher ist d) die KORREKTE Antwort."
     }
   },
-
   {
     "frage": "Wie lautet die Bezeichnung der Rolle eines Teilnehmers, der eine Inspektionssitzung bei einer formellen Überprüfung leitet?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -242,9 +239,8 @@
       "d": "KORREKT - Beim statischen Testen wird das Testobjekt nicht ausgeführt, sondern es werden Artefakte wie Code, Dokumente oder User Stories überprüft."
     }
   },
-
   {
-    "frage": "Während einer Phase intensiver Projektüberstunden wird ein Systemarchitekturdokument an verschiedene Projektteilnehmer gesendet, in dem ein zuvor nicht geplantes technisches Review in einer Woche angekündigt wird. Es werden keine Anpassungen an der Liste der zugewiesenen Aufgaben der Teilnehmer vorgenommen. Welcher der folgenden Erfolgsfaktoren für Reviews fehlt allein aufgrund dieser Information?",
+    "frage": "Während einer Phase intensiver Projektüberstunden wird ein Systemarchitekturdokument an verschiedene Projektteilnehmer gesendet, in dem ein zuvor nicht geplantes technisches Review in einer Woche angekündigt wird. Es werden keine Anpassungen an der Liste der zugewiesenen Aufgaben der Teilnehmer vorgenommen.<br><br>Welcher der folgenden Erfolgsfaktoren für Reviews fehlt allein aufgrund dieser Information?<br<br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Geeignete Review-Art",
       "b": "Ausreichend Zeit zur Vorbereitung",
@@ -253,20 +249,14 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH",
-      "b": "KORREKT",
-      "c": "FALSCH",
-      "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Technische Reviews sind für technische Dokumente wie Systemarchitektur geeignet, daher ist die Auswahl der Review-Art angemessen.",
-      "b": "In diesem Szenario fehlt es an ausreichender Zeit für die Vorbereitung, da das technische Review innerhalb einer Woche angekündigt wird und keine Anpassungen an der Arbeitsliste der Teilnehmer vorgenommen wurden. Dies kann die Qualität des Reviews beeinträchtigen.",
-      "c": "Das Fehlen ausreichender Metriken zur Bewertung des Autors ist nicht der Hauptgrund für den Mangel an Erfolgsfaktoren in diesem Szenario.",
-      "d": "Eine gut geleitete Review-Sitzung ist wichtig, aber es gibt keinen spezifischen Hinweis darauf, dass die Sitzung nicht gut geleitet wird."
+      "a": "FALSCH - Technische Reviews sind für technische Dokumente wie Systemarchitektur geeignet, daher ist die Auswahl der Review-Art angemessen.",
+      "b": "KORREKT - In diesem Szenario fehlt es an ausreichender Zeit für die Vorbereitung, da das technische Review innerhalb einer Woche angekündigt wird und keine Anpassungen an der Arbeitsliste der Teilnehmer vorgenommen wurden. Dies kann die Qualität des Reviews beeinträchtigen.",
+      "c": "FALSCH - Das Fehlen ausreichender Metriken zur Bewertung des Autors ist nicht der Hauptgrund für den Mangel an Erfolgsfaktoren in diesem Szenario.",
+      "d": "FALSCH - Eine gut geleitete Review-Sitzung ist wichtig, aber es gibt keinen spezifischen Hinweis darauf, dass die Sitzung nicht gut geleitet wird."
     }
   },
   {
-    "frage": "Sie arbeiten als Tester in einem agilen Team und haben zu Beginn jeder Iteration an über zwei Dutzend User-Story-Verfeinerungssessions mit dem Product Owner und den Entwicklern im Team teilgenommen. Da die Reviews bei der Erkennung von Fehlerzuständen in User Stories immer effektiver und der Product Owner bei der Korrektur dieser Fehlerzustände immer geschickter geworden sind, stellen Sie und das Team fest, dass die Geschwindigkeit des Teams, wie in Ihren Burndown-Charts dargestellt, zu steigen beginnt. Welcher der folgenden Vorteile des statischen Testens bezieht sich am DIREKTESTEN auf die erhöhte Geschwindigkeit des Teams?",
+    "frage": "Sie arbeiten als Tester in einem agilen Team und haben zu Beginn jeder Iteration an über zwei Dutzend User-Story-Verfeinerungssessions mit dem Product Owner und den Entwicklern im Team teilgenommen. Da die Reviews bei der Erkennung von Fehlerzuständen in User Stories immer effektiver und der Product Owner bei der Korrektur dieser Fehlerzustände immer geschickter geworden sind, stellen Sie und das Team fest, dass die Geschwindigkeit des Teams, wie in Ihren Burndown-Charts dargestellt, zu steigen beginnt.<br><br>Welcher der folgenden Vorteile des statischen Testens bezieht sich am DIREKTESTEN auf die erhöhte Geschwindigkeit des Teams?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Steigende Gesamtkosten der Qualität",
       "b": "Reduzierung der Testkosten",
@@ -275,20 +265,14 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "KORREKT",
-      "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Reviews reduzieren die Gesamtkosten der Qualität, anstatt sie zu steigern.",
-      "b": "Die gesteigerte Geschwindigkeit ist ein Indikator für die gesteigerte Entwicklungsproduktivität, die nicht direkt mit Testkostenreduktion in Verbindung steht.",
-      "c": "Die gesteigerte Entwicklungsproduktivität, die durch effektivere Reviews und Korrekturen von Fehlerzuständen erreicht wird, führt dazu, dass das Team schneller arbeitet und mehr Arbeit in jeder Iteration erledigt, was sich in einer höheren Geschwindigkeit des Teams niederschlägt.",
-      "d": "Dieser Vorteil ist nicht direkt mit der gesteigerten Geschwindigkeit des Teams verbunden."
+      "a": "FALSCH - Reviews reduzieren die Gesamtkosten der Qualität, anstatt sie zu steigern.",
+      "b": "FALSCH - Die gesteigerte Geschwindigkeit ist ein Indikator für die gesteigerte Entwicklungsproduktivität, die nicht direkt mit Testkostenreduktion in Verbindung steht.",
+      "c": "KORREKT - Die gesteigerte Entwicklungsproduktivität, die durch effektivere Reviews und Korrekturen von Fehlerzuständen erreicht wird, führt dazu, dass das Team schneller arbeitet und mehr Arbeit in jeder Iteration erledigt, was sich in einer höheren Geschwindigkeit des Teams niederschlägt.",
+      "d": "FALSCH - Dieser Vorteil ist nicht direkt mit der gesteigerten Geschwindigkeit des Teams verbunden."
     }
   },
   {
-    "frage": "Sie arbeiten an einem Entwicklungsprojekt für ein Videospiel, das mit agilen Methoden entwickelt wird. Es basiert auf der griechischen Mythologie und Geschichte, und die Spieler können Schlüsselrollen in Szenarien wie den Schlachten zwischen Griechen und Trojanern übernehmen. Betrachten Sie die folgende User-Story und die zugehörigen Akzeptanzkriterien: Als Spieler möchte ich in der Lage sein, den Stab des Midas (ein neues magisches Objekt) zu erwerben, damit ich Objekte und andere Spieler in Gold verwandeln kann. AC1: Der Stab muss auf jedes Objekt oder jeden Spieler – egal welcher Größe – wirken, das von dem Spieler, der den Stab hält, irgendwo berührt werden kann. AC2: Das Halten des Stabes verwandelt den Spieler, der ihn hält, nicht in Gold. AC3: Jeder Gegenstand oder Spieler, der vom Stab berührt wird, verwandelt sich innerhalb einer Millisekunde vollständig in Gold. AC4: Der Stab erscheint wie in Prototyp O.W.RoM gezeigt. AC5: Die Transformation beginnt an der Kontaktstelle mit dem Stab und bewegt sich mit einer Geschwindigkeit von einem Meter pro Millisekunde. Sie nehmen an einer checklistenbasierten Reviewsitzung zu dieser User Story teil. Diese User-Story und die zugehörigen Akzeptanzkriterien enthalten welche der folgenden typischen Fehler, die durch statische Tests bei dieser Art von Arbeitsprodukt identifiziert werden können? Wählen Sie EINE Option aus.",
+    "frage": "Sie arbeiten an einem Entwicklungsprojekt für ein Videospiel, das mit agilen Methoden entwickelt wird. Es basiert auf der griechischen Mythologie und Geschichte, und die Spieler können Schlüsselrollen in Szenarien wie den Schlachten zwischen Griechen und Trojanern übernehmen.<br><br>Betrachten Sie die folgende User-Story und die zugehörigen Akzeptanzkriterien:<br><br><ul class='ac-liste'><li>Der Stab muss auf jedes Objekt oder jeden Spieler – egal welcher Größe – wirken, das von dem Spieler, der den Stab hält, irgendwo berührt werden kann</li><li>Das Halten des Stabes verwandelt den Spieler, der ihn hält, nicht in Gold</li><li>Jeder Gegenstand oder Spieler, der vom Stab berührt wird, verwandelt sich innerhalb einer Millisekunde vollständig in Gold</li><li>Der Stab erscheint wie in Prototyp O.W.RoM gezeigt</li><li>Die Transformation beginnt an der Kontaktstelle mit dem Stab und bewegt sich mit einer Geschwindigkeit von einem Meter pro Millisekunde</li></ul>Sie nehmen an einer checklistenbasierten Reviewsitzung zu dieser User Story teil.<br><br>Diese User-Story und die zugehörigen Akzeptanzkriterien enthalten welche \nder folgenden typischen Fehler, die durch statische Tests bei dieser Art von \nArbeitsprodukt identifiziert werden können?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Abweichung von Normen",
       "b": "Widersprüche",
@@ -303,6 +287,7 @@
       "d": "FALSCH – Obwohl (Test-)Überdeckungslücken typische Fehler sind, einschließlich fehlender Tests für Abnahmekriterien, erhalten wir keine Informationen darüber, welche Tests vorhanden sind und welche nicht"
     }
   },
+
   {
     "frage": "Was ist Entscheidungsüberdeckung?",
     "antworten": {
