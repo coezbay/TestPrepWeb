@@ -1,6 +1,40 @@
 [
   {
-    "frage": "Ein Telefonklingeln lenkt einen Programmierer kurzzeitig ab, was dazu führt, dass der Programmierer die Logik, die die obere Grenze einer Eingangsvariablen prüft, nicht korrekt programmiert. Später, während des Systemtests, stellt ein Tester fest, dass dieses Eingabefeld ungültige Eingabewerte annimmt. Die unsachgemäß kodierte Logik für die Prüfung der oberen Grenze bezeichnet man als:",
+    "frage": "Was ist Qualität?<br><br>Wählen Sie genau EINE Option aus.",
+    "antworten": {
+      "a": "Aktivitäten, die darauf fokussieren, Vertrauen in die Erfüllung der Qualitätsanforderungen zu erzeugen",
+      "b": "Der Grad, zu dem eine Komponente oder ein System die expliziten und impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt",
+      "c": "Der Grad, zu dem eine Komponente oder ein System Informationen und Daten schützt, so dass Personen oder andere Komponenten oder Systeme nur einen solchen Grad an Zugriff erhalten, der ihrer Berechtigungsart und -stufe entspricht",
+      "d": "Die gesamten Kosten, die durch Qualitätssicherungsaktivitäten und durch Fehlerwirkungen entstehen. Sie werden oft in Kosten der Fehlervorbeugung, der Kosten der Fehlerermittlung, der internen Fehlerwirkungen und den externen Fehlerwirkungen aufgeteilt"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Das ist die Glossardefinition von Qualitätssicherung.",
+      "b": "KORREKT – Das ist die Glossardefinition von Qualität.",
+      "c": "FALSCH – Das ist die Glossardefinition von IT-Sicherheit.",
+      "d": "FALSCH – Das ist die Glossardefinition von Qualitätskosten."
+    }
+  },
+
+  {
+    "frage": "Welcher der folgenden Punkte ist ein typisches Testziel?<br>Wählen Sie genau EINE Option aus.",
+    "antworten": {
+      "a": "Verhindern von Fehlerzuständen",
+      "b": "Fehlerzustände reparieren",
+      "c": "Vergleich der tatsächlichen Ergebnisse mit den erwarteten Ergebnissen",
+      "d": "Analysieren der Fehlerursache"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Dies ist ein (im Lehrplan) aufgeführtes Ziel.",
+      "b": "FALSCH – Dies ist Debugging.",
+      "c": "FALSCH – Dies ist eine Aktivität innerhalb der Testausführung innerhalb des Testprozesses.",
+      "d": "FALSCH – Dies ist Teil der Fehlersuche"
+    }
+  },
+
+  {
+    "frage": "Ein Telefonklingeln lenkt einen Programmierer kurzzeitig ab, was dazu führt, dass der Programmierer die Logik, die die obere Grenze einer Eingangsvariablen prüft, nicht korrekt programmiert. Später, während des Systemtests, stellt ein Tester fest, dass dieses Eingabefeld ungültige Eingabewerte annimmt. Die unsachgemäß kodierte Logik für die Prüfung der oberen Grenze bezeichnet man als:<br><br>Wählen Sie genau EINE Option aus.",
     "antworten": {
       "a": "Grundursache",
       "b": "Fehlerwirkung",
@@ -13,60 +47,11 @@
       "b": "FALSCH – Das Akzeptieren von ungültigen Eingängen ist die Fehlerwirkung.",
       "c": "FALSCH – Die Fehlhandlung ist der Denkfehler, der dazu geführt hat, dass der Fehler in den Code eingebaut wurde.",
       "d": "KORREKT – Das Problem im Code ist ein Fehlerzustand."
-    },
-    "begruendung": {
-      "a": "Die Grundursache bezieht sich auf den ursprünglichen Grund für einen Fehler, in diesem Fall die Ablenkung des Programmierers.",
-      "b": "Eine Fehlerwirkung ist das sichtbare Symptom oder Resultat des Fehlers, hier das Akzeptieren ungültiger Eingaben.",
-      "c": "Die Fehlhandlung ist der Akt oder das Versäumnis, das direkt zum Fehler führt, hier der Denkfehler beim Programmieren.",
-      "d": "Ein Fehlerzustand ist eine inkorrekte Codestelle, die unter bestimmten Bedingungen zu einem Fehler führt."
     }
   },
+
   {
-    "frage": "Was ist Qualität?",
-    "antworten": {
-      "a": "Aktivitäten, die darauf fokussieren, Vertrauen in die Erfüllung der Qualitätsanforderungen zu erzeugen",
-      "b": "Der Grad, zu dem eine Komponente oder ein System die expliziten und impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt",
-      "c": "Der Grad, zu dem eine Komponente oder ein System Informationen und Daten schützt, so dass Personen oder andere Komponenten oder Systeme nur einen solchen Grad an Zugriff erhalten, der ihrer Berechtigungsart und -stufe entspricht",
-      "d": "Die gesamten Kosten, die durch Qualitätssicherungsaktivitäten und durch Fehlerwirkungen entstehen. Sie werden oft in Kosten der Fehlervorbeugung, der Kosten der Fehlerermittlung, der internen Fehlerwirkungen und den externen Fehlerwirkungen aufgeteilt"
-    },
-    "korrekteAntwort": "b",
-    "feedback": {
-      "a": "FALSCH – Das ist die Glossardefinition von Qualitätssicherung",
-      "b": "KORREKT – Das ist die Glossardefinition von Qualität",
-      "c": "FALSCH – Das ist die Glossardefinition von IT-Sicherheit",
-      "d": "FALSCH – Das ist die Glossardefinition von Qualitätskosten"
-    },
-    "begruendung": {
-      "a": "Qualitätssicherung umfasst Aktivitäten, die darauf fokussieren, Vertrauen in die Erfüllung der Qualitätsanforderungen zu erzeugen.",
-      "b": "Qualität bezeichnet den Grad, zu dem eine Komponente oder ein System die expliziten und impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt.",
-      "c": "IT-Sicherheit beschreibt den Grad, zu dem eine Komponente oder ein System Informationen und Daten schützt, so dass Personen oder andere Komponenten oder Systeme nur einen solchen Grad an Zugriff erhalten, der ihrer Berechtigungsart und -stufe entspricht.",
-      "d": "Qualitätskosten beziehen sich auf die gesamten Kosten, die durch Qualitätssicherungsaktivitäten und durch Fehlerwirkungen entstehen, einschließlich Kosten der Fehlervorbeugung, der Fehlerermittlung, der internen Fehlerwirkungen und den externen Fehlerwirkungen."
-    }
-  },
-  {
-    "frage": "Welcher der folgenden Punkte ist ein typisches Testziel?",
-    "antworten": {
-      "a": "Verhindern von Fehlerzuständen",
-      "b": "Reparieren von Fehlerzuständen",
-      "c": "Vergleich der tatsächlichen Ergebnisse mit den erwarteten Ergebnissen",
-      "d": "Analysieren der Fehlerursache"
-    },
-    "korrekteAntwort": "c",
-    "feedback": {
-      "a": "FALSCH – Dies ist ein (im Lehrplan) aufgeführtes Ziel",
-      "b": "FALSCH – Dies ist Debugging",
-      "c": "KORREKT – Dies ist eine Aktivität innerhalb der Testausführung innerhalb des Testprozesses",
-      "d": "FALSCH – Dies ist Teil der Fehlersuche"
-    },
-    "begruendung": {
-      "a": "Verhindern von Fehlerzuständen kann ein Ziel sein, ist jedoch kein typisches Testziel, wie es in dieser Frage gefragt wird.",
-      "b": "Reparieren von Fehlerzuständen bezieht sich auf Debugging, was nicht dasselbe wie das typische Testziel ist.",
-      "c": "Das Vergleichen der tatsächlichen Ergebnisse mit den erwarteten Ergebnissen ist ein typisches Testziel, da es hilft, die Korrektheit und Qualität des Systems zu überprüfen.",
-      "d": "Analysieren der Fehlerursache ist ein Teil der Fehlersuche, jedoch kein typisches Testziel, wie es in dieser Frage gefragt wird."
-    }
-  },
-  {
-    "frage": "Ein Product Owner sagt, dass Ihre Rolle als Tester in einem agilen Team darin besteht, alle Fehlerzustände vor dem Ende jeder Iteration aufzudecken. Welches der folgenden Aussagen ist ein Testprinzip, das als Antwort auf diese (falsche) Aussage verwendet werden könnte?",
+    "frage": "Ein Product Owner sagt, dass Ihre Rolle als Tester in einem agilen Team darin besteht, alle Fehlerzustände vor dem Ende jeder Iteration aufzudecken.<br>Welches der folgenden Aussagen ist ein Testprinzip, das als Antwort auf diese (falsche) Aussage verwendet werden könnte?<br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Häufung von Fehlerzuständen",
       "b": "Testen zeigt die Anwesenheit von Fehlerzuständen",
@@ -79,16 +64,11 @@
       "b": "KORREKT – Testen kann das Vorhandensein von Fehlern zeigen, aber nicht deren Abwesenheit beweisen, was es unmöglich macht, zu wissen, ob Sie alle Bugs erwischt haben. Außerdem macht es die Unmöglichkeit des vollständigen Testens für Sie unmöglich, alle Fehlerzustände zu erwischen",
       "c": "FALSCH – Dieses Prinzip besagt, dass Sie viele Fehler finden und beseitigen können, aber trotzdem ein erfolgloses Software-Produkt veröffentlichen können, was nicht das ist, was der Product Owner von Ihnen verlangt",
       "d": "FALSCH – Die Grundursachenanalyse ist kein Testprinzip"
-    },
-    "begruendung": {
-      "a": "Die Fehlerhäufung bezieht sich darauf, wo Fehler am häufigsten auftreten, nicht darauf, ob alle Fehler gefunden werden können.",
-      "b": "Dieses Prinzip besagt, dass das Testen die Anwesenheit von Fehlern zeigen kann, aber nicht deren Abwesenheit beweisen kann, was bedeutet, dass es unmöglich ist, alle Fehlerzustände aufzudecken.",
-      "c": "Dieses Prinzip bezieht sich darauf, dass die Annahme, dass keine Fehler vorhanden sind, nicht zwangsläufig bedeutet, dass das System brauchbar ist.",
-      "d": "Die Analyse der Grundursache bezieht sich darauf, die Ursache von Fehlern zu identifizieren, ist aber kein Testprinzip im Zusammenhang mit der Aufdeckung von Fehlerzuständen."
     }
   },
+
   {
-    "frage": "Programmierer schreiben oft Komponententests und führen diese gegen den von ihnen geschriebenen Code aus. Welche der folgenden Denkweisen eines Testers sollten Programmierer während dieser Selbsttest-Aktivität einnehmen, um diese Komponententests effektiv durchzuführen?",
+    "frage": "Programmierer schreiben oft Komponententests und führen diese gegen den von ihnen geschriebenen Code aus.<br> Welche der folgenden Denkweisen eines Testers sollten Programmierer während dieser Selbsttest-Aktivität einnehmen, um diese Komponententests effektiv durchzuführen?<br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Gute Kommunikationsfähigkeiten",
       "b": "Codeüberdeckung",
@@ -101,16 +81,11 @@
       "b": "FALSCH – Codeüberdeckung ist nützlich für Komponententests, aber es ist keine Tester-Denkweise",
       "c": "FALSCH – Die Denkweise des Programmierers beinhaltet die Überlegung, was mit dem Code falsch sein könnte, aber das ist nicht die Denkweise eines Testers",
       "d": "KORREKT – Diese Denkweise des Testers, die Detailgenauigkeit, hilft den Programmierern, Fehler während der Komponententests zu finden"
-    },
-    "begruendung": {
-      "a": "Gute Kommunikationsfähigkeiten sind wichtig, aber sie sind nicht direkt relevant für die Durchführung von Komponententests durch einen Programmierer an seinem eigenen Code.",
-      "b": "Codeüberdeckung ist wichtig, um sicherzustellen, dass der Test eine ausreichende Menge des Codes abdeckt, aber es ist keine Denkweise, die ein Tester während der Durchführung von Komponententests einnimmt.",
-      "c": "Das Bewertung von Fehlern im Code ist zwar wichtig, aber es ist keine spezifische Denkweise eines Testers während der Durchführung von Komponententests durch einen Programmierer.",
-      "d": "Die Detailgenauigkeit ist eine wichtige Denkweise eines Testers, die dabei hilft, Fehler während der Komponententests zu finden und zu identifizieren."
     }
   },
+
   {
-    "frage": "Welche der folgenden Aussagen passt am besten zur aufgeführten Testaktivität und wie kann 'die Verfolgbarkeit' diese Aktivität jeweils unterstützen?",
+    "frage": "Beachten Sie die folgenden Testaktivitäten:<br><ol><li>Auswählen von Regressionstests</li><li>Bewertung der Vollständigkeit der Testdurchführung</li><li>Identifizieren, welche User Stories offene Fehlerberichte haben</li><li>Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos vereinbar ist</li></ol><br>Betrachten Sie die folgenden Möglichkeiten, wie die Verfolgbarkeit beim Testen helfen kann:<br><ol style=\"list-style-type: upper-alpha;\"><li>Verbessern der Verständlichkeit von Teststatusberichten, um den Status der Elemente der Testbasis einzubeziehen</li><li>Testaktivitäten nachvollziehbarer/prüfbarer machen</li><li>Bereitstellung von Informationen zur Beurteilung der Prozessqualität</li><li>Analysieren der Auswirkungen von Änderungen</li></ol><br>Welche der folgenden Aussagen passt am besten zur aufgeführten Testaktivität und wie kann \"die Verfolgbarkeit\" diese Aktivität jeweils unterstützen?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "1D, 2B, 3C, 4A",
       "b": "1B, 2D, 3A, 4C",
@@ -122,17 +97,12 @@
       "a": "FALSCH",
       "b": "FALSCH",
       "c": "FALSCH",
-      "d": "KORREKT"
-    },
-    "begruendung": {
-      "a": "Die Begründung passt nicht zu den angegebenen Testaktivitäten und der Verfolgbarkeit.",
-      "b": "Die Begründung passt nicht zu den angegebenen Testaktivitäten und der Verfolgbarkeit.",
-      "c": "Die Begründung passt nicht zu den angegebenen Testaktivitäten und der Verfolgbarkeit.",
-      "d": "Die Begründung zeigt, wie die Verfolgbarkeit die verschiedenen Testaktivitäten unterstützen kann und passt somit zu den aufgeführten Testaktivitäten und der Verfolgbarkeit."
+      "d": "KORREKT - Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen (1D)</li><li>Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht (2B)</li><li>Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen (3A) einzubeziehen</li><li>Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko (4C)<br>Daher ist die Option d) KORREKT."
     }
   },
+
   {
-    "frage": "Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?",
+    "frage": "Ein Tester nahm an einer Diskussion über die vorgeschlagene Datenbankstruktur teil. Der Tester identifizierte ein potenzielles Performanzproblem im Zusammenhang mit bestimmten häufigen Anfragen des Benutzers. Dieses mögliche Problem wurde dem Entwicklungsteam erläutert.<br><br>Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Ermöglicht die frühzeitige Erkennung von erforderlichen Tests",
       "b": "Sicherstellen, dass Prozesse ordnungsgemäß durchgeführt werden",
@@ -141,20 +111,15 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "KORREKT",
-      "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Das frühzeitige Erkennen von erforderlichen Tests ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation.",
-      "b": "Die Sicherstellung ordnungsgemäßer Prozessdurchführung gehört eher zur Qualitätssicherung als zum Beitrag des Testens in dieser Situation.",
-      "c": "Die Verringerung des Risikos grundlegender Entwurfsfehler ist der beste Beitrag des Testens zu dieser Situation, da die Datenbankstruktur eng mit dem Design verbunden ist und Performanzprobleme ein erhebliches Produktrisiko darstellen können.",
-      "d": "Die Verringerung des Risikos nicht testbarer Funktionalität ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation, da der Tester hier ein potenzielles Performanzproblem identifiziert hat, das nichts mit nicht testbarer Funktionalität zu tun hat."
+      "a": "FALSCH - Das frühzeitige Erkennen von erforderlichen Tests ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation.",
+      "b": "FALSCH - Die Sicherstellung ordnungsgemäßer Prozessdurchführung gehört eher zur Qualitätssicherung als zum Beitrag des Testens in dieser Situation.",
+      "c": "KORREKT - Die Verringerung des Risikos grundlegender Entwurfsfehler ist der beste Beitrag des Testens zu dieser Situation, da die Datenbankstruktur eng mit dem Design verbunden ist und Performanzprobleme ein erhebliches Produktrisiko darstellen können.",
+      "d": "FALSCH - Die Verringerung des Risikos nicht testbarer Funktionalität ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation, da der Tester hier ein potenzielles Performanzproblem identifiziert hat, das nichts mit nicht testbarer Funktionalität zu tun hat."
     }
   },
+
   {
-    "frage": "Welcher der folgenden Punkte ist ein Beispiel für eine Aufgabe, die im Rahmen des Testprozesses durchgeführt werden kann?",
+    "frage": "Welcher der folgenden Punkte ist ein Beispiel für eine Aufgabe, die im Rahmen des Testprozesses durchgeführt werden kann?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Analysieren eines Fehlerzustands",
       "b": "Entwerfen von Testdaten",
@@ -163,20 +128,15 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH",
-      "b": "KORREKT",
-      "c": "FALSCH",
-      "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Das Analysieren eines Fehlerzustands ist eher Teil des Debuggings als des Testens.",
-      "b": "Das Entwerfen von Testdaten ist eine typische Aufgabe im Rahmen des Testprozesses, da es für die Testimplementierung wichtig ist, geeignete Testdaten zu erstellen.",
-      "c": "Die Zuordnung von Testobjektversionen ist in der Regel Teil des Konfigurationsmanagements und nicht speziell eine Aufgabe im Testprozess.",
-      "d": "Das Schreiben einer User Story ist keine direkte Testaktivität und fällt normalerweise in den Verantwortungsbereich des Product Owners."
+      "a": "FALSCH - Das Analysieren eines Fehlerzustands ist eher Teil des Debuggings als des Testens.",
+      "b": "KORREKT - Das Entwerfen von Testdaten ist eine typische Aufgabe im Rahmen des Testprozesses, da es für die Testimplementierung wichtig ist, geeignete Testdaten zu erstellen.",
+      "c": "FALSCH - Die Zuordnung von Testobjektversionen ist in der Regel Teil des Konfigurationsmanagements und nicht speziell eine Aufgabe im Testprozess.",
+      "d": "FALSCH - Das Schreiben einer User Story ist keine direkte Testaktivität und fällt normalerweise in den Verantwortungsbereich des Product Owners."
     }
   },
+
   {
-    "frage": "Sie führen einen Performanztest mit dem Ziel durch, mögliche Netzwerkengpässe in Schnittstellen zwischen Komponenten eines Systems zu finden. Welche der folgenden Aussagen beschreibt diesen Test?",
+    "frage": "Sie führen einen Performanztest mit dem Ziel durch, mögliche Netzwerkengpässe in Schnittstellen zwischen Komponenten eines Systems zu finden. Welche der folgenden Aussagen beschreibt diesen Test?<br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Ein funktionaler Test während der Integrationsteststufe",
       "b": "Ein nicht-funktionaler Test während der Integrationsteststufe",
@@ -185,20 +145,15 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH",
-      "b": "KORREKT",
-      "c": "FALSCH",
-      "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Dieser Test ist nicht funktional, sondern zielt darauf ab, die Leistung zu messen, daher ist es kein funktionaler Test.",
-      "b": "Dieser Test zielt darauf ab, die Leistung des Systems zu messen und Netzwerkengpässe zu identifizieren, was typischerweise als nicht-funktionales Testziel betrachtet wird. Außerdem wird dieser Test während der Integrationsteststufe durchgeführt.",
-      "c": "Dieser Test ist kein funktionaler Test, da er die Leistung des Systems misst, und er wird auch nicht während der Komponententeststufe durchgeführt.",
-      "d": "Obwohl dieser Test ein nicht-funktionaler Test ist, wird er nicht während der Komponententeststufe durchgeführt, sondern während der Integrationsteststufe."
+      "a": "FALSCH - Dieser Test entspricht zwar der Beschreibung eines Integrationstests, ist aber ein nicht-funktionaler Test.",
+      "b": "KORREKT - Dieser Test entspricht der Beschreibung eines Integrationstests und es handelt sich um einen nicht-funktionalen Test.",
+      "c": "FALSCH - Dieser Test entspricht nicht der Beschreibung eines Komponententests und es handelt sich nicht um einen funktionalen Test.",
+      "d": "FALSCH - Obwohl dieser Test ein nicht-funktionaler Test ist, entspricht er nicht der Beschreibung eines Komponententests."
     }
   },
+
   {
-    "frage": "Welche der folgenden Aussagen ist zutreffend?",
+    "frage": "Welche der folgenden Aussagen ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Die Auswirkungsanalyse ist nützlich für Fehlernachtests während der Wartungstests",
       "b": "Fehlernachtests sind nützlich für Regressionstests während des Systementwurfs",
@@ -207,18 +162,13 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "KORREKT",
-      "d": "FALSCH"
-    },
-    "begruendung": {
-      "a": "Während die Auswirkungsanalyse während der Wartungstests nützlich ist, ist sie für Fehlernachtests nicht notwendig.",
-      "b": "Fehlernachtests und Regressionstests sind separate Aktivitäten und Fehlernachtests sind nicht Teil des Systementwurfs.",
-      "c": "Die Auswirkungsanalyse kann verwendet werden, um Regressionstests während der Wartungstests auszuwählen, da sie hilft, die Auswirkungen von Änderungen zu verstehen und somit die Auswahl geeigneter Tests zu unterstützen.",
-      "d": "Fehlernachtests sind nicht Teil der Auswirkungsanalyse, obwohl sie typischerweise während der Wartungstests durchgeführt werden."
+      "a": "FALSCH - Während die Auswirkungsanalyse während der Wartungstests nützlich ist, ist sie für Fehlernachtests nicht notwendig, da sich Fehlernachtests auf die beabsichtigten Auswirkungen einer Fehlerbehebung oder einer anderen Änderung beziehen.",
+      "b": "FALSCH - Fehlernach- und Regressionstests sind zwei separate Aktivitäten, und Fehlernachtests sind nicht Teil des Systementwurfs.",
+      "c": "KORREKT - Die Auswirkungsanalyse kann verwendet werden, um Regressionstests für Wartungstests auszuwählen.",
+      "d": "FALSCH - Fehlernachtests sind nicht Teil der Auswirkungsanalyse, obwohl Fehlernachtests typischerweise während der Wartungstests durchgeführt werden."
     }
   },
+
   {
     "frage": "Betrachten Sie die folgenden Arten von Fehlern, auf die sich eine Teststufe konzentrieren könnte: 1. Fehlerzustände in separat testbaren Modulen oder Objekten 2. Nicht auf die Identifizierung von Fehlerzuständen ausgerichtet 3. Fehlerzustände an Schnittstellen und Wechselwirkungen 4. Fehlerzustände im gesamten Testobjekt Welche der folgenden Listen stimmt mit den Teststufen aus dem Foundation Lehrplan und den oben angegebenen Fehlerschwerpunkten überein?",
     "antworten": {

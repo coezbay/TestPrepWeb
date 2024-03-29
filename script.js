@@ -39,6 +39,7 @@ function frageAnzeigen() {
                 `<li><button onclick="antwortAuswaehlen('${buchstabe}')">${buchstabe}) ${frage.antworten[buchstabe]}</button></li>`
             ).join('') + '</ul>';
     } else {
+        // Zeigt eine Nachricht an, wenn das Quiz beendet ist
         document.getElementById('quiz').innerHTML = "<p>Das Quiz ist beendet. Vielen Dank für Ihre Teilnahme!</p>";
         document.getElementById('next').style.visibility = 'hidden';
         document.getElementById('feedback-container').style.display = 'none';
@@ -60,7 +61,6 @@ function antwortAuswaehlen(antwort) {
         const feedbackContainer = document.getElementById('feedback-container');
         feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
         feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
-        feedbackContainer.style.color = 'black';
         feedbackContainer.style.display = 'block';
     }
 }

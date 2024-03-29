@@ -81,7 +81,7 @@ li button {
     background-color: #e9ecef;
     border-radius: 5px;
     display: none;
-    text-align: center;
+    text-align: left;
 }
 
 .button-container {
@@ -95,4 +95,20 @@ li button {
 .leistungsanzeige {
     text-align: center;
     margin-top: 20px;
+}
+
+.nummerierte-liste {
+    list-style-type: decimal;
+}
+
+.buchstaben-liste-klein {
+    list-style-type: lower-alpha;
+}
+
+.buchstaben-liste-gross {
+    list-style-type: upper-alpha;
+}
+
+.kreis-liste {
+    list-style-type: circle;
 }
