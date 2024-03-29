@@ -103,6 +103,7 @@
 
   {
     "frage": "Ein Tester nahm an einer Diskussion über die vorgeschlagene Datenbankstruktur teil. Der Tester identifizierte ein potenzielles Performanzproblem im Zusammenhang mit bestimmten häufigen Anfragen des Benutzers. Dieses mögliche Problem wurde dem Entwicklungsteam erläutert.<br><br>Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?<br><br>Wählen Sie EINE Option aus.",
+    "frage": "Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?",
     "antworten": {
       "a": "Ermöglicht die frühzeitige Erkennung von erforderlichen Tests",
       "b": "Sicherstellen, dass Prozesse ordnungsgemäß durchgeführt werden",

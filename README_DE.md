@@ -22,6 +22,7 @@ Nutzer können die `jsonschema.json` in ihre IDE integrieren, um individuelle Fr
 - **Anpassung der Button-Positionen**: Sicherstellen, dass die "Zurück" und "Nächste Frage" Buttons unabhängig von der Textlänge der Frage oder den Antwortmöglichkeiten statisch bleiben.
 - **Tests schreiben**: Gründlich testen und sicherstellen, dass TestPrepWeb über verschiedene Browser und Endgeräte hinweg konsistent funktioniert.
 - **Blocksatz für Fragestellungen**: Überlegen, ob die Fragen in Blocksatz angezeigt werden sollten, um eine verbesserte Lesbarkeit zu bieten.
+- **Dark Mode einbauen**: Dark Mode für die Schonung der Augen.
 
 ## Geplante Features
 
