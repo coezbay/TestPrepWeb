@@ -58,7 +58,7 @@ function frageAnzeigen(index) {
     document.getElementById('previous').style.visibility = index > 0 ? 'visible' : 'hidden';
 
     aktualisiereFortschritt();
-    aktualisiereAktivenPunkt(); // Stelle sicher, dass dies nach dem Aktualisieren des Fortschritts aufgerufen wird
+    aktualisiereAktivenPunkt();
 
     let htmlContent = `<div class="frage-text">${frage.frage}</div>`;
 
@@ -74,13 +74,14 @@ function frageAnzeigen(index) {
         htmlContent += `</tr></thead><tbody>`;
 
         frage.tabelle.koerper.forEach(zeilenElement => {
-            htmlContent += `<tr>`;
-            if ('zeile' in zeilenElement) {
+            if (zeilenElement.istKopfZeile) {
+                htmlContent += `<tr class="kopf">`;
                 zeilenElement.zeile.forEach(zelle => {
-                    htmlContent += `<td>${zelle}</td>`;
+                    htmlContent += `<th>${zelle}</th>`;
                 });
             } else {
-                zeilenElement.forEach(zelle => {
+                htmlContent += `<tr>`;
+                (zeilenElement.zeile || zeilenElement).forEach(zelle => {
                     htmlContent += `<td>${zelle}</td>`;
                 });
             }

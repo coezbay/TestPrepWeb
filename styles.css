@@ -107,15 +107,27 @@ li button {
     margin-top: 20px;
 }
 
-table, th, td, .tabellen-kopf-zeile td, .quiz-tabelle tr:nth-child(odd), .quiz-tabelle th, .quiz-tabelle td {
+table, th, td {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-    background-color: #f9f9f9;
-    font-size: 16px;
+}
+
+.quiz-tabelle tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.quiz-tabelle tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.quiz-tabelle th {
+    background-color: #657286;
+    color: white;
+    font-weight: bold;
 }
 
 #fortschritt-map-container {
@@ -145,11 +157,11 @@ table, th, td, .tabellen-kopf-zeile td, .quiz-tabelle tr:nth-child(odd), .quiz-t
 }
 
 .fortschritt-punkt.aktiv {
-    border: 2px solid #000; /* Schwarzer Rand um den aktiven Punkt */
-    background-color: #ff8d00; /* Hintergrundfarbe des aktiven Punkts */
+    border: 2px solid #000;
+    background-color: #ff8d00;
 }
 
 .bild-container {
-    text-align: center; /* Zentriert das Bild */
-    margin: 20px 0; /* Fügt oben und unten einen Abstand hinzu */
+    text-align: center;
+    margin: 20px 0;
 }
