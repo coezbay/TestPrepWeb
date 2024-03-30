@@ -67,12 +67,15 @@ function frageAnzeigen(index) {
     }
 
     if (frage.tabelle) {
-        htmlContent += `<table class="quiz-tabelle"><thead><tr>`;
-        frage.tabelle.kopf.forEach(kopfElement => {
-            htmlContent += `<th>${kopfElement}</th>`;
-        });
-        htmlContent += `</tr></thead><tbody>`;
-
+        htmlContent += `<table class="quiz-tabelle">`;
+        if (frage.tabelle.kopf) {
+            htmlContent += `<thead><tr>`;
+            frage.tabelle.kopf.forEach(kopfElement => {
+                htmlContent += `<th>${kopfElement}</th>`;
+            });
+            htmlContent += `</tr></thead>`;
+        }
+        htmlContent += `<tbody>`;
         frage.tabelle.koerper.forEach(zeilenElement => {
             if (zeilenElement.istKopfZeile) {
                 htmlContent += `<tr class="kopf">`;
@@ -87,7 +90,6 @@ function frageAnzeigen(index) {
             }
             htmlContent += `</tr>`;
         });
-
         htmlContent += `</tbody></table>`;
     }
 

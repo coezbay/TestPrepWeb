@@ -1030,6 +1030,47 @@
       "d": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die korrekte Verknüpfung der Beschreibungen zu den verschiedenen Kategorien von Testverfahren entsprechend des Syllabus (4.1.1) ist:<br><ol style=\"list-style-type: circle;\"><li>Black-Box-Testverfahren:<br>Abweichungen von Anforderungen werden überprüft (4)<br>User-Stories werden als Testbasis herangezogen (5)</li><br><li>White-Box-Testverfahren:<br>Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen (1)<br>Verarbeitung innerhalb des Testobjekts wird überprüft (2)</li><li>erfahrungsbasiertes Testverfahren:<br>Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung (3)</li></ol>Folglich ist Antwort a) korrekt."
     }
   },
+  {
+    "frage": "Eine Fitness-App misst die Anzahl der täglich gelaufenen Schritte und gibt dazu Feedback, um den Anwender zu motivieren, fit zu bleiben.<br><br>Das Feedback zu den verschiedenen Schrittzahlen soll sein:<br>",
+    "tabelle": {
+      "koerper": [
+        [
+          "Bis zu 1000",
+          "- Couch Potato!"
+        ],
+        [
+          "Über 1000, bis zu 2000",
+          "- Faulpelz!"
+        ],
+        [
+          "Über 2000, bis zu 4000 ",
+          "- Die Richtung stimmt!"
+        ],
+        [
+          "Über 4000, bis zu 6000",
+          "- Nicht schlecht!"
+        ],
+        [
+          "Über 6000",
+          "- Super!"
+        ]
+      ]
+    },
+    "fortsetzung": "Welche der folgenden Gruppen von Testeingabewerten würde für die BESTE Überdeckung von Äquivalenzklassen sorgen?<br><br>Wählen Sie genau EINE korrekte Option aus.",
+    "antworten": {
+      "a": "0, 1000, 2000, 3000, 4000",
+      "b": "1000, 2001, 4000, 4001, 6000",
+      "c": "123, 2345, 3456, 4567, 5678",
+      "d": "666, 999, 2222, 5555, 6666"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden gültigen Äquivalenzklassen können gebildet werden:<ol><li>≤ 1000 - Couch Potato!</li><li>1001 - 2000 - Faulpelz!</li><li>2001 - 4000 - Die Richtung stimmt!</li><li>4001 - 6000 - Nicht schlecht!</li><li>> 6000 - Super!</li></ol>Die Gruppen von Testeingabewerten decken daher folgende Klassen ab:<ol style=\"list-style-type: lower-alpha;\"><li>0 (1), 1000 (1), 2000 (2), 3000 (3), 4000 (3) – 3 Klassen (von 5).</li><li>1000 (1), 2001 (3), 4000 (3), 4001 (4), 6000 (4) – 3 Klassen (von 5).</li><li>123 (1), 2345 (3), 3456 (3), 4567 (4), 5678 (4) – 3 Klassen (von 5).</li><li>666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5) – 4 Klassen (von 5)</li></ol>Folglich ist Option d) richtig.",
+      "b": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden gültigen Äquivalenzklassen können gebildet werden:<ol><li>≤ 1000 - Couch Potato!</li><li>1001 - 2000 - Faulpelz!</li><li>2001 - 4000 - Die Richtung stimmt!</li><li>4001 - 6000 - Nicht schlecht!</li><li>> 6000 - Super!</li></ol>Die Gruppen von Testeingabewerten decken daher folgende Klassen ab:<ol style=\"list-style-type: lower-alpha;\"><li>0 (1), 1000 (1), 2000 (2), 3000 (3), 4000 (3) – 3 Klassen (von 5).</li><li>1000 (1), 2001 (3), 4000 (3), 4001 (4), 6000 (4) – 3 Klassen (von 5).</li><li>123 (1), 2345 (3), 3456 (3), 4567 (4), 5678 (4) – 3 Klassen (von 5).</li><li>666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5) – 4 Klassen (von 5)</li></ol>Folglich ist Option d) richtig.",
+      "c": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden gültigen Äquivalenzklassen können gebildet werden:<ol><li>≤ 1000 - Couch Potato!</li><li>1001 - 2000 - Faulpelz!</li><li>2001 - 4000 - Die Richtung stimmt!</li><li>4001 - 6000 - Nicht schlecht!</li><li>> 6000 - Super!</li></ol>Die Gruppen von Testeingabewerten decken daher folgende Klassen ab:<ol style=\"list-style-type: lower-alpha;\"><li>0 (1), 1000 (1), 2000 (2), 3000 (3), 4000 (3) – 3 Klassen (von 5).</li><li>1000 (1), 2001 (3), 4000 (3), 4001 (4), 6000 (4) – 3 Klassen (von 5).</li><li>123 (1), 2345 (3), 3456 (3), 4567 (4), 5678 (4) – 3 Klassen (von 5).</li><li>666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5) – 4 Klassen (von 5)</li></ol>Folglich ist Option d) richtig.",
+      "d": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden gültigen Äquivalenzklassen können gebildet werden:<ol><li>≤ 1000 - Couch Potato!</li><li>1001 - 2000 - Faulpelz!</li><li>2001 - 4000 - Die Richtung stimmt!</li><li>4001 - 6000 - Nicht schlecht!</li><li>> 6000 - Super!</li></ol>Die Gruppen von Testeingabewerten decken daher folgende Klassen ab:<ol style=\"list-style-type: lower-alpha;\"><li>0 (1), 1000 (1), 2000 (2), 3000 (3), 4000 (3) – 3 Klassen (von 5).</li><li>1000 (1), 2001 (3), 4000 (3), 4001 (4), 6000 (4) – 3 Klassen (von 5).</li><li>123 (1), 2345 (3), 3456 (3), 4567 (4), 5678 (4) – 3 Klassen (von 5).</li><li>666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5) – 4 Klassen (von 5)</li></ol>Folglich ist Option d) richtig."
+    }
+  },
 
 
 
