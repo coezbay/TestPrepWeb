@@ -255,7 +255,6 @@
       "d": "FALSCH - Eine gut geleitete Review-Sitzung ist wichtig, aber es gibt keinen spezifischen Hinweis darauf, dass die Sitzung nicht gut geleitet wird."
     }
   },
-
   {
     "frage": "Sie arbeiten als Tester in einem agilen Team und haben zu Beginn jeder Iteration an über zwei Dutzend User-Story-Verfeinerungssessions mit dem Product Owner und den Entwicklern im Team teilgenommen. Da die Reviews bei der Erkennung von Fehlerzuständen in User Stories immer effektiver und der Product Owner bei der Korrektur dieser Fehlerzustände immer geschickter geworden sind, stellen Sie und das Team fest, dass die Geschwindigkeit des Teams, wie in Ihren Burndown-Charts dargestellt, zu steigen beginnt.<br><br>Welcher der folgenden Vorteile des statischen Testens bezieht sich am DIREKTESTEN auf die erhöhte Geschwindigkeit des Teams?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -288,7 +287,6 @@
       "d": "FALSCH – Obwohl (Test-)Überdeckungslücken typische Fehler sind, einschließlich fehlender Tests für Abnahmekriterien, erhalten wir keine Informationen darüber, welche Tests vorhanden sind und welche nicht."
     }
   },
-
   {
     "frage": "Was ist Entscheidungsüberdeckung?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -305,7 +303,6 @@
       "d": "KORREKT – Dies ist die Glossar-Definition des Begriffs Entscheidungsüberdeckung, der auf Entscheidungen angewendet wird."
     }
   },
-
   {
     "frage": "Im Vorfeld einer Iterationsplanungssitzung untersuchen Sie eine User Story und deren Akzeptanzkriterien und leiten daraus Testbedingungen und zugehörige Testfälle ab, um das Prinzip der frühen Qualitätssicherung und des Tests anzuwenden. Welches Testverfahren wenden Sie an?",
     "antworten": {
@@ -322,7 +319,6 @@
       "d": "FALSCH – Intuitive Testfallermittlung ist eine Art von erfahrungsbasiertem Testen, dass kein Blackbox-Test ist."
     }
   },
-
   {
     "frage": "Welche der folgenden Aussagen über exploratives Testen ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -339,7 +335,6 @@
       "d": "FALSCH – Exploratives Testen kann die Verwendung anderer Black-Box-, White-Box und erfahrungsbasierter Techniken beinhalten, die in diesem Lehrplan genannt werden."
     }
   },
-
   {
     "frage": "Sie testen eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Sie führen eine Testsuite aus, die die Bewertung jedes Bildschirms und jedes Feldes auf jedem Bildschirm anhand einer allgemeinen Liste von Best Practices für Benutzeroberflächen umfasst. Sie wurde aus einem populären Buch zu diesem Thema abgeleitet und soll die Attraktivität, Benutzerfreundlichkeit und Zugänglichkeit für solche Apps maximieren.<br><br>Welche der folgenden Optionen kategorisiert das von Ihnen verwendete Testverfahren am BESTEN?<br><br>Wählen Sie EINE Option.",
     "antworten": {
@@ -356,7 +351,6 @@
       "d": "FALSCH – Die Tests konzentrieren sich nicht auf Fehler, die auftreten könnten, sondern auf die Erkenntnis, was für den Benutzer wichtig ist, im Sinne der Leichtigkeit der Nutzung (Benutzerfreundlichkeit)."
     }
   },
-
   {
     "frage": "Betrachten Sie eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Es wurde gerade eine User Story zu den Funktionen hinzugefügt, die die Social-Media-Konten und Bankdaten der Kunden überprüft, um personalisierte Grüße zu Geburtstagen und anderen persönlichen Jahrestagen zu übermitteln.<br><br>Welche der folgenden Testverfahren könnte ein PROGRAMMIERER während eines Komponententests des Codes verwenden, um sicherzustellen, dass Situationen abgedeckt werden, in denen die Grüße auftreten SOLLEN und in denen die Grüße NICHT auftreten SOLLEN?<br><br>Wählen Sie EINE Option.",
     "antworten": {
@@ -373,7 +367,6 @@
       "d": "KORREKT – Entscheidungstests beinhalten Testfälle, die den Kontrollflüssen folgen, die von einem Entscheidungspunkt ausgehen, was in diesem Fall die Entscheidung wäre, ob eine Ansage bezogen auf einen Jahrestag gemacht werden soll oder nicht."
     }
   },
-
   {
     "frage": "Eine Batch-Anwendung ist seit über zwei Jahren unverändert in Produktion. Sie läuft einmal im Monat über Nacht, um Auszüge zu erstellen, die per E-Mail an die Kunden gesendet werden. Für jeden Kunden geht die Anwendung durch jedes Konto und listet jede Transaktion auf diesem Konto im letzten Monat auf. Sie verwendet eine verschachtelte Schleifenstruktur, um Kunden (äußere Schleife), die Konten jedes Kunden (mittlere Schleife) und die Transaktionen jedes Kontos (innere Schleife) zu verarbeiten.<br><br>In einer Nacht bricht die Batch-Anwendung vorzeitig ab und versäumt es, Auszüge per E-Mail an einige Kunden zu senden, wenn sie auf einen Kunden mit einem Konto trifft, für das im letzten Monat keine Transaktionen stattgefunden haben. Dies ist eine sehr ungewöhnliche Situation und ist in den Jahren, seitdem diese Anwendung in Produktion gegangen ist, nicht mehr aufgetreten.<br><br>Während der Behebung des Fehlers bittet Sie ein Programmierer, Testverfahren zu empfehlen, die gegen diese Art von Fehler wirksam sind.<br><br>Welche der folgenden Testverfahren hätte den zugrundeliegenden Fehlerzustand am ehesten aufdecken können?<br><br>Wählen Sie EINE OPTION aus.",
     "antworten": {
@@ -390,7 +383,6 @@
       "d": "FALSCH – Es ist zwar möglich, dass ein Entwickler die irrtümliche Annahme macht, dass es immer mindestens eine Transaktion in einem Monat für jedes Konto gibt, aber nur Entscheidungstests garantieren das Testen dieser Bedingung."
     }
   },
-
   {
     "frage": "Sie testen für eine unbeaufsichtigte amerikanische Zapfsäule, an der nur Kreditkarten akzeptiert werden. Nachdem die Kreditkarte validiert, die Zapfpistole in den Tank eingeführt und die gewünschte Sorte ausgewählt wurde, gibt der Kunde die gewünschte Kraftstoffmenge in Gallonen über das Tastenfeld ein. Das Tastenfeld erlaubt nur die Eingabe von Ziffern. Kraftstoff wird in Zehntel (0,1) Gallonen verkauft, bis zu 50,0 Gallonen.<br><br>Welche der folgenden Eingabewerte ist eine minimale Menge von gewünschten Beträgen, die die Äquivalenzklassen für diese Eingabe abdeckt?<br><br>Wählen Sie EINE Option.",
     "antworten": {
@@ -407,7 +399,6 @@
       "d": "FALSCH – Dieser Satz von Eingabewerten deckt jeweils drei Grenzwerte für die beiden Grenzen 0,0 und 50,0 ab, nicht die Mindestanzahl, die erforderlich ist, um die Äquivalenzklassen abzudecken. Begründung: Es gibt drei Äquivalenzklassen: - Kein Verkauf abgeschlossen (0,0 Gallonen); - Ein gültiger Verkauf findet statt (0,1 bis 50,0 Gallonen); - Eine ungültige Menge wurde ausgewählt (50,1 oder mehr Gallonen)."
     }
   },
-
   {
     "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Einheitenfeldes beträgt 0,1 Einheiten.<br><br>Welche der folgenden Eingabewerte decken die Grenzwerte mit Zweipunkt Grenzwerten für dieses Feld ab?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -424,9 +415,52 @@
       "d": "FALSCH – Diese vier Werte sind alle in der gültigen Äquivalenzklasse enthalten"
     }
   },
-
   {
-    "frage": "Betrachten Sie die folgende Entscheidungstabelle für den Teil eines Online-Flugreservierungssystems, der Vielfliegern das Einlösen von Punkten für Prämienreisen ermöglicht: Zustand 1 2 3 Konto/Passwort okay N J J Ausreichend Punkte - N J Aktion Flugverlauf anzeigen N J J Belohnungsfahrten zulassen N N J Angenommen, es gibt zwei Äquivalenzklassen für die Bedingung, bei der „Konto/Passwort okay“ nicht wahr ist, eine, bei der das Konto ungültig ist, und eine andere, bei der das Konto gültig ist, aber das Passwort ungültig ist. Angenommen, es gibt nur eine Äquivalenzklasse für die Bedingung, in der „Konto/Passwort okay“ wahr ist, in der sowohl das Konto als auch das Passwort gültig sind. Wenn Sie Tests entwerfen möchten, um die Äquivalenzklassen für \"Konto/Passwort okay\" und auch für diesen Teil der Entscheidungstabelle abzudecken, wie viele Tests sind mindestens erforderlich?",
+    "frage": "Betrachten Sie die folgende Entscheidungstabelle für den Teil eines Online-Flugreservierungssystems, der Vielfliegern das Einlösen von Punkten für Prämienreisen ermöglicht:<br><br>",
+    "tabelle": {
+      "kopf": [
+        "Zustand",
+        "1",
+        "2",
+        "3"
+      ],
+      "koerper": [
+        [
+          "Konto/Passwort okay",
+          "N",
+          "J",
+          "J"
+        ],
+        [
+          "Ausreichend Punkte",
+          "-",
+          "N",
+          "J"
+        ],
+        {
+          "zeile": [
+            "Aktion",
+            " ",
+            " ",
+            " "
+          ],
+          "istKopfZeile": true
+        },
+        [
+          "Flugverlauf anzeigen",
+          "N",
+          "J",
+          "J"
+        ],
+        [
+          " Belohnungsfahrten zulassen",
+          "N",
+          "N",
+          "J"
+        ]
+      ]
+    },
+    "fortsetzung": "Angenommen, es gibt zwei Äquivalenzklassen für die Bedingung, bei der \"Konto/Passwort okay\" nicht wahr ist, eine, bei der das Konto ungültig ist, und eine andere, bei der das Konto gültig ist, aber das Passwort ungültig ist. Angenommen, es gibt nur eine Äquivalenzklasse für die Bedingung, in der „Konto/Passwort okay“ wahr ist, in der sowohl das Konto als auch das Passwort gültig sind.<br><br>Wenn Sie Tests entwerfen möchten, um die Äquivalenzklassen für \"Konto/Passwort okay\" und auch für diesen Teil der Entscheidungstabelle abzudecken, wie viele Tests sind mindestens erforderlich?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "2",
       "b": "3",
@@ -435,10 +469,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH – Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden",
-      "b": "FALSCH – Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden",
-      "c": "KORREKT – Für jede Spalte in der Entscheidungstabelle gibt es mindestens einen Test. Für Spalte eins sind jedoch zwei Tests erforderlich, einer, bei dem das Konto ungültig ist, und ein weiterer, bei dem das Konto gültig ist, aber das Kennwort ungültig ist, sodass die Mindestanzahl an Tests vier beträgt.",
-      "d": "FALSCH – Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden"
+      "a": "FALSCH – Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden.",
+      "b": "FALSCH – Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden.",
+      "c": "KORREKT – Für jede Spalte in der Entscheidungstabelle gibt es mindestens einen Test. Für Spalte eins sind jedoch zwei Tests erforderlich, einer, bei dem das Konto ungültig ist, und ein weiterer, bei dem das Konto gültig ist, aber das Kennwort ungültig ist, sodass die Mindestanzahl an Tests vier beträgt.<br><br>Daher ist Option c) KORREKT.",
+      "d": "FALSCH – Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden."
     }
   },
   {

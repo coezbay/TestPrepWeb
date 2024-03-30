@@ -7,15 +7,77 @@
       "frage": {
         "type": "string"
       },
+      "tabelle": {
+        "type": "object",
+        "properties": {
+          "kopf": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "koerper": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "zeile": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "istKopfZeile": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "zeile",
+                    "istKopfZeile"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "required": [
+          "koerper"
+        ]
+      },
+      "fortsetzung": {
+        "type": "string",
+        "minLength": 1
+      },
       "antworten": {
         "type": "object",
         "properties": {
-          "a": { "type": "string" },
-          "b": { "type": "string" },
-          "c": { "type": "string" },
-          "d": { "type": "string" }
+          "a": {
+            "type": "string"
+          },
+          "b": {
+            "type": "string"
+          },
+          "c": {
+            "type": "string"
+          },
+          "d": {
+            "type": "string"
+          }
         },
-        "required": ["a", "b", "c", "d"]
+        "required": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
       },
       "korrekteAntwort": {
         "type": "string"
@@ -23,14 +85,32 @@
       "feedback": {
         "type": "object",
         "properties": {
-          "a": { "type": "string" },
-          "b": { "type": "string" },
-          "c": { "type": "string" },
-          "d": { "type": "string" }
+          "a": {
+            "type": "string"
+          },
+          "b": {
+            "type": "string"
+          },
+          "c": {
+            "type": "string"
+          },
+          "d": {
+            "type": "string"
+          }
         },
-        "required": ["a", "b", "c", "d"]
+        "required": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ]
       }
     },
-    "required": ["frage", "antworten", "korrekteAntwort", "feedback"]
+    "required": [
+      "frage",
+      "antworten",
+      "korrekteAntwort",
+      "feedback"
+    ]
   }
 }

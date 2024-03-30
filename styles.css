@@ -55,6 +55,20 @@ button:hover {
     opacity: 0.85;
 }
 
+button:hover {
+    opacity: 0.85;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0056b3;
+}
+
+button:active {
+    background-color: #0056b3;
+}
+
+
 .frage-text, .feedback-container {
     font-size: 18px;
     margin-bottom: 20px;
@@ -130,4 +144,33 @@ li button {
     content: "AC" counter(ac-counter) ": ";
     position: absolute;
     left: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.tabellen-kopf-zeile td {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.quiz-tabelle tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.quiz-tabelle th, .quiz-tabelle td {
+    font-size: 16px;
 }
