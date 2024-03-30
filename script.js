@@ -24,10 +24,21 @@ function generiereFortschrittsMap() {
         const punkt = document.createElement('span');
         punkt.classList.add('fortschritt-punkt');
         punkt.setAttribute('data-index', index);
-        punkt.innerText = index + 1; // Nummerierung der Punkte
+        punkt.innerText = index + 1;
         punkt.addEventListener('click', () => frageAnzeigen(index));
         mapContainer.appendChild(punkt);
     });
+    aktualisiereAktivenPunkt();
+}
+
+function aktualisiereAktivenPunkt() {
+    document.querySelectorAll('.fortschritt-punkt').forEach(punkt => {
+        punkt.classList.remove('aktiv');
+    });
+    const aktiverPunkt = document.querySelector(`.fortschritt-punkt[data-index="${aktuelleFrageIndex}"]`);
+    if (aktiverPunkt) {
+        aktiverPunkt.classList.add('aktiv');
+    }
 }
 
 function aktualisiereFortschritt() {
@@ -49,6 +60,10 @@ function frageAnzeigen(index) {
 
     let htmlContent = `<div class="frage-text">${frage.frage}</div>`;
 
+    if (frage.bild) {
+        htmlContent += `<div class="bild-container"><img src="${frage.bild}" alt="Bild zur Frage" style="max-width:100%;height:auto;"></div>`;
+    }
+
     if (frage.tabelle) {
         htmlContent += `<table class="quiz-tabelle"><thead><tr>`;
         frage.tabelle.kopf.forEach(kopfElement => {
@@ -57,13 +72,12 @@ function frageAnzeigen(index) {
         htmlContent += `</tr></thead><tbody>`;
 
         frage.tabelle.koerper.forEach(zeilenElement => {
-            if (zeilenElement.istKopfZeile) {
-                htmlContent += `<tr class="tabellen-kopf-zeile">`;
+            htmlContent += `<tr>`;
+            if ('zeile' in zeilenElement) {
                 zeilenElement.zeile.forEach(zelle => {
                     htmlContent += `<td>${zelle}</td>`;
                 });
             } else {
-                htmlContent += `<tr>`;
                 zeilenElement.forEach(zelle => {
                     htmlContent += `<td>${zelle}</td>`;
                 });

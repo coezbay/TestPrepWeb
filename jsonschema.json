@@ -7,6 +7,10 @@
       "frage": {
         "type": "string"
       },
+      "bild": {
+        "type": "string",
+        "format": "uri"
+      },
       "tabelle": {
         "type": "object",
         "properties": {

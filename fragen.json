@@ -476,6 +476,24 @@
     }
   },
   {
+    "frage": "Betrachten Sie das folgende Zustandsübergangsdiagramm für eine Zapfsäule, die nur mit einer Kreditkarte bedient wird:",
+    "bild": "pics/istqb-ctfl-2018-sc-q28.png",
+    "fortsetzung": "Nehmen Sie an, dass Sie eine minimale Anzahl von Tests entwickeln möchten, um jeden Übergang im Zustandsübergangsdiagramm abzudecken. Nehmen Sie weiter an, dass jeder Test im Anfangszustand beginnen muss, also beim Warten auf den Kunden, und jeder Test endet, wenn ein Übergang im Anfangszustand ankommt.<br><br>Wie viele Tests benötigen Sie?<br><br>Wählen Sie EINE Option aus.",
+    "antworten": {
+      "a": "4",
+      "b": "7",
+      "c": "1",
+      "d": "unendlich viele Tests"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Begründung:<br><br>Jeder Übergang muss mindestens einmal durchlaufen werden. Dabei kann der erste Test einen erfolgreichen Kauf, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf das Tanken, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf den Kraftstofftyp und der letzte Test das Einführen einer ungültigen Kreditkarte abdecken. Die Reihenfolge ist zwar unerheblich, aber bei weniger als vier Tests wird einer der Übergänge vom Eingang zum Warten auf den Kunden nicht abgedeckt oder die Regeln darüber, wo ein Test beginnt oder endet, werden verletzt. Mehr als vier Tests beinhalten Tests, die bereits abgedeckte Übergänge erneut durchlaufen.<br><br>Daher ist Option a) KORREKT.",
+      "b": "FALSCH",
+      "c": "FALSCH",
+      "d": "FALSCH"
+    }
+  },
+  {
     "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Feldes 'Einheiten' beträgt 0,1 Einheiten. Welche der folgenden ist eine MINIMALE Menge von Eingabewerten, die die Äquivalenzklassen für dieses Feld abdecken?",
     "antworten": {
       "a": "10,0; 28,0",

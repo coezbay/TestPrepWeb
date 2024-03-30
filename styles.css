@@ -143,3 +143,13 @@ table, th, td, .tabellen-kopf-zeile td, .quiz-tabelle tr:nth-child(odd), .quiz-t
     font-size: 14px;
     color: black;
 }
+
+.fortschritt-punkt.aktiv {
+    border: 2px solid #000; /* Schwarzer Rand um den aktiven Punkt */
+    background-color: #ff8d00; /* Hintergrundfarbe des aktiven Punkts */
+}
+
+.bild-container {
+    text-align: center; /* Zentriert das Bild */
+    margin: 20px 0; /* Fügt oben und unten einen Abstand hinzu */
+}
