@@ -28,7 +28,7 @@
       "a": "KORREKT – Dies ist ein (im Lehrplan) aufgeführtes Ziel.",
       "b": "FALSCH – Dies ist Debugging.",
       "c": "FALSCH – Dies ist eine Aktivität innerhalb der Testausführung innerhalb des Testprozesses.",
-      "d": "FALSCH – Dies ist Teil der Fehlersuche"
+      "d": "FALSCH – Dies ist Teil der Fehlersuche."
     }
   },
   {
@@ -57,10 +57,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH – Die Fehlerhäufung hat damit zu tun, wo Fehlerzustände (Defekte) am wahrscheinlichsten zu finden sind, nicht, ob alle gefunden werden können",
-      "b": "KORREKT – Testen kann das Vorhandensein von Fehlern zeigen, aber nicht deren Abwesenheit beweisen, was es unmöglich macht, zu wissen, ob Sie alle Bugs erwischt haben. Außerdem macht es die Unmöglichkeit des vollständigen Testens für Sie unmöglich, alle Fehlerzustände zu erwischen",
-      "c": "FALSCH – Dieses Prinzip besagt, dass Sie viele Fehler finden und beseitigen können, aber trotzdem ein erfolgloses Software-Produkt veröffentlichen können, was nicht das ist, was der Product Owner von Ihnen verlangt",
-      "d": "FALSCH – Die Grundursachenanalyse ist kein Testprinzip"
+      "a": "FALSCH – Die Fehlerhäufung hat damit zu tun, wo Fehlerzustände (Defekte) am wahrscheinlichsten zu finden sind, nicht, ob alle gefunden werden können.",
+      "b": "KORREKT – Testen kann das Vorhandensein von Fehlern zeigen, aber nicht deren Abwesenheit beweisen, was es unmöglich macht, zu wissen, ob Sie alle Bugs erwischt haben. Außerdem macht es die Unmöglichkeit des vollständigen Testens für Sie unmöglich, alle Fehlerzustände zu erwischen.",
+      "c": "FALSCH – Dieses Prinzip besagt, dass Sie viele Fehler finden und beseitigen können, aber trotzdem ein erfolgloses Software-Produkt veröffentlichen können, was nicht das ist, was der Product Owner von Ihnen verlangt.",
+      "d": "FALSCH – Die Grundursachenanalyse ist kein Testprinzip."
     }
   },
   {
@@ -73,10 +73,10 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH – Der Programmierer scheint Komponententests an seinem eigenen Code durchzuführen",
-      "b": "FALSCH – Codeüberdeckung ist nützlich für Komponententests, aber es ist keine Tester-Denkweise",
-      "c": "FALSCH – Die Denkweise des Programmierers beinhaltet die Überlegung, was mit dem Code falsch sein könnte, aber das ist nicht die Denkweise eines Testers",
-      "d": "KORREKT – Diese Denkweise des Testers, die Detailgenauigkeit, hilft den Programmierern, Fehler während der Komponententests zu finden"
+      "a": "FALSCH – Der Programmierer scheint Komponententests an seinem eigenen Code durchzuführen.",
+      "b": "FALSCH – Codeüberdeckung ist nützlich für Komponententests, aber es ist keine Tester-Denkweise.",
+      "c": "FALSCH – Die Denkweise des Programmierers beinhaltet die Überlegung, was mit dem Code falsch sein könnte, aber das ist nicht die Denkweise eines Testers.",
+      "d": "KORREKT – Diese Denkweise des Testers, die Detailgenauigkeit, hilft den Programmierern, Fehler während der Komponententests zu finden."
     }
   },
   {
@@ -154,7 +154,7 @@
     "korrekteAntwort": "c",
     "feedback": {
       "a": "FALSCH - Während die Auswirkungsanalyse während der Wartungstests nützlich ist, ist sie für Fehlernachtests nicht notwendig, da sich Fehlernachtests auf die beabsichtigten Auswirkungen einer Fehlerbehebung oder einer anderen Änderung beziehen.",
-      "b": "FALSCH - Fehlernach- und Regressionstests sind zwei separate Aktivitäten, und Fehlernachtests sind nicht Teil des Systementwurfs.",
+      "b": "FALSCH - Fehlernachtests und Regressionstests sind zwei separate Aktivitäten, und Fehlernachtests sind nicht Teil des Systementwurfs.",
       "c": "KORREKT - Die Auswirkungsanalyse kann verwendet werden, um Regressionstests für Wartungstests auszuwählen.",
       "d": "FALSCH - Fehlernachtests sind nicht Teil der Auswirkungsanalyse, obwohl Fehlernachtests typischerweise während der Wartungstests durchgeführt werden."
     }
@@ -240,7 +240,7 @@
     }
   },
   {
-    "frage": "Während einer Phase intensiver Projektüberstunden wird ein Systemarchitekturdokument an verschiedene Projektteilnehmer gesendet, in dem ein zuvor nicht geplantes technisches Review in einer Woche angekündigt wird. Es werden keine Anpassungen an der Liste der zugewiesenen Aufgaben der Teilnehmer vorgenommen.<br><br>Welcher der folgenden Erfolgsfaktoren für Reviews fehlt allein aufgrund dieser Information?<br<br>Wählen Sie EINE Option aus.",
+    "frage": "Während einer Phase intensiver Projektüberstunden wird ein Systemarchitekturdokument an verschiedene Projektteilnehmer gesendet, in dem ein zuvor nicht geplantes technisches Review in einer Woche angekündigt wird. Es werden keine Anpassungen an der Liste der zugewiesenen Aufgaben der Teilnehmer vorgenommen.<br><br>Welcher der folgenden Erfolgsfaktoren für Reviews fehlt allein aufgrund dieser Information?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Geeignete Review-Art",
       "b": "Ausreichend Zeit zur Vorbereitung",
@@ -255,6 +255,7 @@
       "d": "FALSCH - Eine gut geleitete Review-Sitzung ist wichtig, aber es gibt keinen spezifischen Hinweis darauf, dass die Sitzung nicht gut geleitet wird."
     }
   },
+
   {
     "frage": "Sie arbeiten als Tester in einem agilen Team und haben zu Beginn jeder Iteration an über zwei Dutzend User-Story-Verfeinerungssessions mit dem Product Owner und den Entwicklern im Team teilgenommen. Da die Reviews bei der Erkennung von Fehlerzuständen in User Stories immer effektiver und der Product Owner bei der Korrektur dieser Fehlerzustände immer geschickter geworden sind, stellen Sie und das Team fest, dass die Geschwindigkeit des Teams, wie in Ihren Burndown-Charts dargestellt, zu steigen beginnt.<br><br>Welcher der folgenden Vorteile des statischen Testens bezieht sich am DIREKTESTEN auf die erhöhte Geschwindigkeit des Teams?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
@@ -281,15 +282,15 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH – Während die Abweichung von Standards typisch ist, wird uns kein Standard vorgegeben, dem die User Stories entsprechen sollen",
-      "b": "KORREKT – Widerspruch (Inkonsistenz) ist ein typischer Anforderungsfehler. AC3 und AC5 widersprechen sich, wenn der Stab ein Objekt berührt, das sich mehr als 1 Meter in jede Richtung vom Berührungspunkt aus erstreckt, da AC1 die Größe der zu berührenden Objekte nicht begrenzt",
-      "c": "FALSCH – Während Sicherheitslücken typische Fehler sind, gibt es hier nichts, was mit Sicherheit zu tun hat",
-      "d": "FALSCH – Obwohl (Test-)Überdeckungslücken typische Fehler sind, einschließlich fehlender Tests für Abnahmekriterien, erhalten wir keine Informationen darüber, welche Tests vorhanden sind und welche nicht"
+      "a": "FALSCH – Während die Abweichung von Standards typisch ist, wird uns kein Standard vorgegeben, dem die User Stories entsprechen sollen.",
+      "b": "KORREKT – Widerspruch (Inkonsistenz) ist ein typischer Anforderungsfehler. AC3 und AC5 widersprechen sich, wenn der Stab ein Objekt berührt, das sich mehr als 1 Meter in jede Richtung vom Berührungspunkt aus erstreckt, da AC1 die Größe der zu berührenden Objekte nicht begrenzt.",
+      "c": "FALSCH – Während Sicherheitslücken typische Fehler sind, gibt es hier nichts, was mit Sicherheit zu tun hat.",
+      "d": "FALSCH – Obwohl (Test-)Überdeckungslücken typische Fehler sind, einschließlich fehlender Tests für Abnahmekriterien, erhalten wir keine Informationen darüber, welche Tests vorhanden sind und welche nicht."
     }
   },
 
   {
-    "frage": "Was ist Entscheidungsüberdeckung?",
+    "frage": "Was ist Entscheidungsüberdeckung?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Die Überdeckung der Bedingungsergebnisse",
       "b": "Entscheidungsüberdeckung ist ein Synonym für Anweisungsüberdeckung",
@@ -298,12 +299,13 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH – Dies ist die Glossardefinition von Bedingungsüberdeckung",
-      "b": "FALSCH – Die Entscheidungsüberdeckung ist eine höhere Ebene der Überdeckung und die beiden Begriffe sind im Glossar nicht als Synonyme definiert",
-      "c": "FALSCH – Das ist die Glossar-Definition von Anweisungsüberdeckung",
-      "d": "KORREKT – Dies ist die Glossar-Definition des Begriffs Entscheidungsüberdeckung, der auf Entscheidungen angewendet wird"
+      "a": "FALSCH – Dies ist die Glossardefinition von Bedingungsüberdeckung.",
+      "b": "FALSCH – Die Entscheidungsüberdeckung ist eine höhere Ebene der Überdeckung und die beiden Begriffe sind im Glossar nicht als Synonyme definiert.",
+      "c": "FALSCH – Das ist die Glossar-Definition von Anweisungsüberdeckung.",
+      "d": "KORREKT – Dies ist die Glossar-Definition des Begriffs Entscheidungsüberdeckung, der auf Entscheidungen angewendet wird."
     }
   },
+
   {
     "frage": "Im Vorfeld einer Iterationsplanungssitzung untersuchen Sie eine User Story und deren Akzeptanzkriterien und leiten daraus Testbedingungen und zugehörige Testfälle ab, um das Prinzip der frühen Qualitätssicherung und des Tests anzuwenden. Welches Testverfahren wenden Sie an?",
     "antworten": {
@@ -314,14 +316,15 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH – Strukturbasierte oder White-Box-Verfahren basieren auf einer Analyse der Architektur, des detaillierten Designs, der internen Struktur oder des Codes des Testobjekts",
-      "b": "KORREKT – Black-Box-Testverfahren basieren auf einer Analyse der entsprechenden Testbasis (z. B. formale Anforderungsdokumente, Spezifikationen, Anwendungsfälle, User Stories oder Geschäftsprozesse), die funktionales und nicht-funktionales Verhalten beschreiben",
-      "c": "FALSCH – Erfahrungsbasierte Techniken nutzen die Erfahrung von Entwicklern, Testern und Benutzern, um zu bestimmen, was getestet werden soll",
-      "d": "FALSCH – Intuitive Testfallermittlung ist eine Art von erfahrungsbasiertem Testen, dass kein Blackbox-Test ist"
+      "a": "FALSCH – Strukturbasierte oder White-Box-Verfahren basieren auf einer Analyse der Architektur, des detaillierten Designs, der internen Struktur oder des Codes des Testobjekts.",
+      "b": "KORREKT – Black-Box-Testverfahren basieren auf einer Analyse der entsprechenden Testbasis (z. B. formale Anforderungsdokumente, Spezifikationen, Anwendungsfälle, User Stories oder Geschäftsprozesse), die funktionales und nicht-funktionales Verhalten beschreiben.",
+      "c": "FALSCH – Erfahrungsbasierte Techniken nutzen die Erfahrung von Entwicklern, Testern und Benutzern, um zu bestimmen, was getestet werden soll.",
+      "d": "FALSCH – Intuitive Testfallermittlung ist eine Art von erfahrungsbasiertem Testen, dass kein Blackbox-Test ist."
     }
   },
+
   {
-    "frage": "Welche der folgenden Aussagen über exploratives Testen ist zutreffend?",
+    "frage": "Welche der folgenden Aussagen über exploratives Testen ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Erfahrene Tester, die ähnliche Anwendungen und Technologien getestet haben, schneiden bei explorativen Tests wahrscheinlich besser ab als weniger erfahrene Tester",
       "b": "Beim explorativen Testen werden keine zusätzlichen Tests identifiziert, die über diejenigen hinausgehen, die sich aus formalen Testverfahren ergeben würden",
@@ -330,14 +333,15 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT – Exploratives Testen ist eine Form des erfahrungsbasierten Testens, das von den Fähigkeiten und der Erfahrung des Testers profitiert",
-      "b": "FALSCH – Exploratives Testen ist nützlich, um formale Testverfahren zu ergänzen",
-      "c": "FALSCH – Beim sitzungsbasierten Testmanagement werden explorative Tests innerhalb eines definierten Zeitrahmens durchgeführt, und der Tester verwendet eine Test-Charta, die Testziele enthält, um das Testen anzuleiten",
-      "d": "FALSCH – Exploratives Testen kann die Verwendung anderer Black-Box-, White-Box und erfahrungsbasierter Techniken beinhalten, die in diesem Lehrplan genannt werden"
+      "a": "KORREKT – Exploratives Testen ist eine Form des erfahrungsbasierten Testens, das von den Fähigkeiten und der Erfahrung des Testers profitiert.",
+      "b": "FALSCH – Exploratives Testen ist nützlich, um formale Testverfahren zu ergänzen.",
+      "c": "FALSCH – Beim sitzungsbasierten Testmanagement werden explorative Tests innerhalb eines definierten Zeitrahmens durchgeführt, und der Tester verwendet eine Test-Charta, die Testziele enthält, um das Testen anzuleiten.",
+      "d": "FALSCH – Exploratives Testen kann die Verwendung anderer Black-Box-, White-Box und erfahrungsbasierter Techniken beinhalten, die in diesem Lehrplan genannt werden."
     }
   },
+
   {
-    "frage": "Sie testen eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Sie führen eine Testsuite aus, die die Bewertung jedes Bildschirms und jedes Feldes auf jedem Bildschirm anhand einer allgemeinen Liste von Best Practices für Benutzeroberflächen umfasst. Sie wurde aus einem populären Buch zu diesem Thema abgeleitet und soll die Attraktivität, Benutzerfreundlichkeit und Zugänglichkeit für solche Apps maximieren. Welche der folgenden Optionen kategorisiert das von Ihnen verwendete Testverfahren am BESTEN?",
+    "frage": "Sie testen eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Sie führen eine Testsuite aus, die die Bewertung jedes Bildschirms und jedes Feldes auf jedem Bildschirm anhand einer allgemeinen Liste von Best Practices für Benutzeroberflächen umfasst. Sie wurde aus einem populären Buch zu diesem Thema abgeleitet und soll die Attraktivität, Benutzerfreundlichkeit und Zugänglichkeit für solche Apps maximieren.<br><br>Welche der folgenden Optionen kategorisiert das von Ihnen verwendete Testverfahren am BESTEN?<br><br>Wählen Sie EINE Option.",
     "antworten": {
       "a": "Spezifikationsbasiert",
       "b": "Explorativ",
@@ -352,8 +356,9 @@
       "d": "FALSCH – Die Tests konzentrieren sich nicht auf Fehler, die auftreten könnten, sondern auf die Erkenntnis, was für den Benutzer wichtig ist, im Sinne der Leichtigkeit der Nutzung (Benutzerfreundlichkeit)."
     }
   },
+
   {
-    "frage": "Betrachten Sie eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Es wurde gerade eine User Story zu den Funktionen hinzugefügt, die die Social-Media-Konten und Bankdaten der Kunden überprüft, um personalisierte Grüße zu Geburtstagen und anderen persönlichen Jahrestagen zu übermitteln. Welche der folgenden Testverfahren könnte ein PROGRAMMIERER während eines Komponententests des Codes verwenden, um sicherzustellen, dass Situationen abgedeckt werden, in denen die Grüße auftreten SOLLEN und in denen die Grüße NICHT auftreten SOLLEN?",
+    "frage": "Betrachten Sie eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Es wurde gerade eine User Story zu den Funktionen hinzugefügt, die die Social-Media-Konten und Bankdaten der Kunden überprüft, um personalisierte Grüße zu Geburtstagen und anderen persönlichen Jahrestagen zu übermitteln.<br><br>Welche der folgenden Testverfahren könnte ein PROGRAMMIERER während eines Komponententests des Codes verwenden, um sicherzustellen, dass Situationen abgedeckt werden, in denen die Grüße auftreten SOLLEN und in denen die Grüße NICHT auftreten SOLLEN?<br><br>Wählen Sie EINE Option.",
     "antworten": {
       "a": "Anweisungstest",
       "b": "Exploratives Testen",
@@ -362,14 +367,15 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH – Anweisungstests führen die Anweisungen im Code aus, was dazu führen kann, dass bestimmte Ansagen bezogen auf Jahrestage nicht getestet werden",
-      "b": "FALSCH – Wenn in der Test-Charta nicht ausdrücklich erwähnt wird, dass sowohl das Vorhandensein als auch das Nichtvorhandensein jeder Art von Begrüßung getestet wird, kann die Abdeckung für einen explorativen Test schwer zu beurteilen sein",
-      "c": "FALSCH – Das Testen von Zustandsübergängen ist nützlich für Situationen, in denen das Testobjekt abhängig von aktuellen Bedingungen oder der Vorgeschichte unterschiedlich auf eine Eingabe reagiert. In diesem Fall muss das Testobjekt jedoch entscheiden, ob das aktuelle Datum mit einem bestimmten Meilenstein übereinstimmt und somit die entsprechende Ansage angezeigt werden soll",
-      "d": "KORREKT – Entscheidungstests beinhalten Testfälle, die den Kontrollflüssen folgen, die von einem Entscheidungspunkt ausgehen, was in diesem Fall die Entscheidung wäre, ob eine Ansage bezogen auf einen Jahrestag gemacht werden soll oder nicht"
+      "a": "FALSCH – Anweisungstests führen die Anweisungen im Code aus, was dazu führen kann, dass bestimmte Ansagen bezogen auf Jahrestage nicht getestet werden.",
+      "b": "FALSCH – Wenn in der Test-Charta nicht ausdrücklich erwähnt wird, dass sowohl das Vorhandensein als auch das Nichtvorhandensein jeder Art von Begrüßung getestet wird, kann die Abdeckung für einen explorativen Test schwer zu beurteilen sein.",
+      "c": "FALSCH – Das Testen von Zustandsübergängen ist nützlich für Situationen, in denen das Testobjekt abhängig von aktuellen Bedingungen oder der Vorgeschichte unterschiedlich auf eine Eingabe reagiert. In diesem Fall muss das Testobjekt jedoch entscheiden, ob das aktuelle Datum mit einem bestimmten Meilenstein übereinstimmt und somit die entsprechende Ansage angezeigt werden soll.",
+      "d": "KORREKT – Entscheidungstests beinhalten Testfälle, die den Kontrollflüssen folgen, die von einem Entscheidungspunkt ausgehen, was in diesem Fall die Entscheidung wäre, ob eine Ansage bezogen auf einen Jahrestag gemacht werden soll oder nicht."
     }
   },
+
   {
-    "frage": "Eine Batch-Anwendung ist seit über zwei Jahren unverändert in Produktion. Sie läuft einmal im Monat über Nacht, um Auszüge zu erstellen, die per E-Mail an die Kunden gesendet werden. Für jeden Kunden geht die Anwendung durch jedes Konto und listet jede Transaktion auf diesem Konto im letzten Monat auf. Sie verwendet eine verschachtelte Schleifenstruktur, um Kunden (äußere Schleife), die Konten jedes Kunden (mittlere Schleife) und die Transaktionen jedes Kontos (innere Schleife) zu verarbeiten. In einer Nacht bricht die Batch-Anwendung vorzeitig ab und versäumt es, Auszüge per E-Mail an einige Kunden zu senden, wenn sie auf einen Kunden mit einem Konto trifft, für das im letzten Monat keine Transaktionen stattgefunden haben. Dies ist eine sehr ungewöhnliche Situation und ist in den Jahren, seitdem diese Anwendung in Produktion gegangen ist, nicht mehr aufgetreten. Während der Behebung des Fehlers bittet Sie ein Programmierer, Testverfahren zu empfehlen, die gegen diese Art von Fehler wirksam sind. Welche der folgenden Testverfahren hätte den zugrundeliegenden Fehlerzustand am ehesten aufdecken können?",
+    "frage": "Eine Batch-Anwendung ist seit über zwei Jahren unverändert in Produktion. Sie läuft einmal im Monat über Nacht, um Auszüge zu erstellen, die per E-Mail an die Kunden gesendet werden. Für jeden Kunden geht die Anwendung durch jedes Konto und listet jede Transaktion auf diesem Konto im letzten Monat auf. Sie verwendet eine verschachtelte Schleifenstruktur, um Kunden (äußere Schleife), die Konten jedes Kunden (mittlere Schleife) und die Transaktionen jedes Kontos (innere Schleife) zu verarbeiten.<br><br>In einer Nacht bricht die Batch-Anwendung vorzeitig ab und versäumt es, Auszüge per E-Mail an einige Kunden zu senden, wenn sie auf einen Kunden mit einem Konto trifft, für das im letzten Monat keine Transaktionen stattgefunden haben. Dies ist eine sehr ungewöhnliche Situation und ist in den Jahren, seitdem diese Anwendung in Produktion gegangen ist, nicht mehr aufgetreten.<br><br>Während der Behebung des Fehlers bittet Sie ein Programmierer, Testverfahren zu empfehlen, die gegen diese Art von Fehler wirksam sind.<br><br>Welche der folgenden Testverfahren hätte den zugrundeliegenden Fehlerzustand am ehesten aufdecken können?<br><br>Wählen Sie EINE OPTION aus.",
     "antworten": {
       "a": "Entscheidungstest",
       "b": "Anweisungstest",
@@ -378,14 +384,15 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT – Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch der Bedingungen, unter denen sie umgangen wird",
-      "b": "FALSCH – Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch, wenn sie umgangen wird",
-      "c": "FALSCH – Checklisten basieren auf Erfahrung, Fehlerdaten, Wissen darüber, was für den Benutzer wichtig ist, und einem Verständnis darüber, warum und wie Software versagt, wobei nichts davon zur Aufnahme einer solchen Testbedingung geführt haben dürfte",
-      "d": "FALSCH – Es ist zwar möglich, dass ein Entwickler die irrtümliche Annahme macht, dass es immer mindestens eine Transaktion in einem Monat für jedes Konto gibt, aber nur Entscheidungstests garantieren das Testen dieser Bedingung"
+      "a": "KORREKT – Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch der Bedingungen, unter denen sie umgangen wird.",
+      "b": "FALSCH – Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch, wenn sie umgangen wird.",
+      "c": "FALSCH – Checklisten basieren auf Erfahrung, Fehlerdaten, Wissen darüber, was für den Benutzer wichtig ist, und einem Verständnis darüber, warum und wie Software versagt, wobei nichts davon zur Aufnahme einer solchen Testbedingung geführt haben dürfte.",
+      "d": "FALSCH – Es ist zwar möglich, dass ein Entwickler die irrtümliche Annahme macht, dass es immer mindestens eine Transaktion in einem Monat für jedes Konto gibt, aber nur Entscheidungstests garantieren das Testen dieser Bedingung."
     }
   },
+
   {
-    "frage": "Sie testen für eine unbeaufsichtigte amerikanische Zapfsäule, an der nur Kreditkarten akzeptiert werden. Nachdem die Kreditkarte validiert, die Zapfpistole in den Tank eingeführt und die gewünschte Sorte ausgewählt wurde, gibt der Kunde die gewünschte Kraftstoffmenge in Gallonen über das Tastenfeld ein. Das Tastenfeld erlaubt nur die Eingabe von Ziffern. Kraftstoff wird in Zehntel (0,1) Gallonen verkauft, bis zu 50,0 Gallonen. Welche der folgenden Eingabewerte ist eine minimale Menge von gewünschten Beträgen, die die Äquivalenzklassen für diese Eingabe abdeckt?",
+    "frage": "Sie testen für eine unbeaufsichtigte amerikanische Zapfsäule, an der nur Kreditkarten akzeptiert werden. Nachdem die Kreditkarte validiert, die Zapfpistole in den Tank eingeführt und die gewünschte Sorte ausgewählt wurde, gibt der Kunde die gewünschte Kraftstoffmenge in Gallonen über das Tastenfeld ein. Das Tastenfeld erlaubt nur die Eingabe von Ziffern. Kraftstoff wird in Zehntel (0,1) Gallonen verkauft, bis zu 50,0 Gallonen.<br><br>Welche der folgenden Eingabewerte ist eine minimale Menge von gewünschten Beträgen, die die Äquivalenzklassen für diese Eingabe abdeckt?<br><br>Wählen Sie EINE Option.",
     "antworten": {
       "a": "0,0; 20,0, 60,0",
       "b": "0,0; 0,1; 50,0",
@@ -394,14 +401,15 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT – Dieser Satz von Eingabewerten hat genau einen Test pro Äquivalenzklasse",
-      "b": "FALSCH – Dieser Satz von Eingangswerten deckt die ungültige Überschreitung der höchstens erlaubten 50,0 Gallonen nicht ab",
-      "c": "FALSCH – Dieser Satz von Eingangswerten hat zwei Tests für die gültige Verkaufs Äquivalenzklasse, was nicht das Minimum von einem Test ist.",
-      "d": "FALSCH – Dieser Satz von Eingabewerten deckt jeweils drei Grenzwerte für die beiden Grenzen 0,0 und 50,0 ab, nicht die Mindestanzahl, die erforderlich ist, um die Äquivalenzklassen abzudecken."
+      "a": "KORREKT – Dieser Satz von Eingabewerten hat genau einen Test pro Äquivalenzklasse. Begründung: Es gibt drei Äquivalenzklassen: - Kein Verkauf abgeschlossen (0,0 Gallonen); - Ein gültiger Verkauf findet statt (0,1 bis 50,0 Gallonen); - Eine ungültige Menge wurde ausgewählt (50,1 oder mehr Gallonen).",
+      "b": "FALSCH – Dieser Satz von Eingangswerten deckt die ungültige Überschreitung der höchstens erlaubten 50,0 Gallonen nicht ab. Begründung: Es gibt drei Äquivalenzklassen: - Kein Verkauf abgeschlossen (0,0 Gallonen); - Ein gültiger Verkauf findet statt (0,1 bis 50,0 Gallonen); - Eine ungültige Menge wurde ausgewählt (50,1 oder mehr Gallonen).",
+      "c": "FALSCH – Dieser Satz von Eingangswerten hat zwei Tests für die gültige Verkaufs Äquivalenzklasse, was nicht das Minimum von einem Test ist. Begründung: Es gibt drei Äquivalenzklassen: - Kein Verkauf abgeschlossen (0,0 Gallonen); - Ein gültiger Verkauf findet statt (0,1 bis 50,0 Gallonen); - Eine ungültige Menge wurde ausgewählt (50,1 oder mehr Gallonen).",
+      "d": "FALSCH – Dieser Satz von Eingabewerten deckt jeweils drei Grenzwerte für die beiden Grenzen 0,0 und 50,0 ab, nicht die Mindestanzahl, die erforderlich ist, um die Äquivalenzklassen abzudecken. Begründung: Es gibt drei Äquivalenzklassen: - Kein Verkauf abgeschlossen (0,0 Gallonen); - Ein gültiger Verkauf findet statt (0,1 bis 50,0 Gallonen); - Eine ungültige Menge wurde ausgewählt (50,1 oder mehr Gallonen)."
     }
   },
+
   {
-    "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Einheitenfeldes beträgt 0,1 Einheiten. Welche der folgenden Eingabewerte decken die Grenzwerte mit Zweipunkt Grenzwerten für dieses Feld ab?",
+    "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Einheitenfeldes beträgt 0,1 Einheiten.<br><br>Welche der folgenden Eingabewerte decken die Grenzwerte mit Zweipunkt Grenzwerten für dieses Feld ab?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "0,3; 10,0; 28,0",
       "b": "0,4; 0,5; 0,6; 24,9;25,0; 25,1",
@@ -416,6 +424,7 @@
       "d": "FALSCH – Diese vier Werte sind alle in der gültigen Äquivalenzklasse enthalten"
     }
   },
+
   {
     "frage": "Betrachten Sie die folgende Entscheidungstabelle für den Teil eines Online-Flugreservierungssystems, der Vielfliegern das Einlösen von Punkten für Prämienreisen ermöglicht: Zustand 1 2 3 Konto/Passwort okay N J J Ausreichend Punkte - N J Aktion Flugverlauf anzeigen N J J Belohnungsfahrten zulassen N N J Angenommen, es gibt zwei Äquivalenzklassen für die Bedingung, bei der „Konto/Passwort okay“ nicht wahr ist, eine, bei der das Konto ungültig ist, und eine andere, bei der das Konto gültig ist, aber das Passwort ungültig ist. Angenommen, es gibt nur eine Äquivalenzklasse für die Bedingung, in der „Konto/Passwort okay“ wahr ist, in der sowohl das Konto als auch das Passwort gültig sind. Wenn Sie Tests entwerfen möchten, um die Äquivalenzklassen für \"Konto/Passwort okay\" und auch für diesen Teil der Entscheidungstabelle abzudecken, wie viele Tests sind mindestens erforderlich?",
     "antworten": {
