@@ -119,6 +119,10 @@ li button {
     list-style-type: upper-alpha;
 }
 
+.runde-liste {
+    list-style-type: circle;
+}
+
 table, th, td {
     width: 100%;
     border-collapse: collapse;

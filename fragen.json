@@ -726,41 +726,8 @@
       "d": "FALSCH - Testwerkzeuge für das modellbasierte Testen konzentrieren sich auf einen bestimmten Bereich, nicht auf das Testen als Ganzes."
     }
   },
-
   {
-    "frage": "Was beschreibt am besten die Rolle eines Testers im Testprozess?",
-    "antworten": {
-      "a": "Die Überprüfung der Testumgebung und die Gewährleistung der Testbarkeit der Anwendung.",
-      "b": "Die Planung, Durchführung und Dokumentation der Tests basierend auf vordefinierten Anforderungen.",
-      "c": "Die Programmierung neuer Funktionen und die Korrektur von gefundenen Fehlern.",
-      "d": "Die ausschließliche Fokussierung auf die Automatisierung bestehender Testfälle."
-    },
-    "korrekteAntwort": "b",
-    "feedback": {
-      "a": "FALSCH - Während die Überprüfung der Testumgebung wichtig ist, beschreibt dies nicht vollständig die Rolle eines Testers.",
-      "b": "KORREKT - Tester sind für die Planung, Durchführung und Dokumentation der Tests verantwortlich.",
-      "c": "FALSCH - Die Programmierung neuer Funktionen gehört in der Regel nicht zu den Aufgaben eines Testers.",
-      "d": "FALSCH - Testautomatisierung ist nur ein Teil des Testprozesses, nicht die gesamte Rolle eines Testers."
-    }
-  },
-  {
-    "frage": "Welche der folgenden Aussagen zum Regressionstest ist WAHR?",
-    "antworten": {
-      "a": "Regressionstests werden durchgeführt, um sicherzustellen, dass neue Fehler in bereits getesteten Softwareteilen eingeführt wurden.",
-      "b": "Regressionstests sind nur notwendig, wenn die Software in einer agilen Umgebung entwickelt wird.",
-      "c": "Regressionstests umfassen das erneute Testen von fixierten Fehlern, um sicherzustellen, dass die Korrekturen funktionieren.",
-      "d": "Regressionstests werden durchgeführt, um sicherzustellen, dass Änderungen nicht zu Fehlern in unveränderten Bereichen der Software führen."
-    },
-    "korrekteAntwort": "d",
-    "feedback": {
-      "a": "FALSCH - Das Ziel des Regressionstests ist es nicht, neue Fehler einzuführen, sondern sicherzustellen, dass durch Änderungen keine neuen Fehler in bereits getesteten Teilen verursacht werden.",
-      "b": "FALSCH - Regressionstests sind unabhängig von der Entwicklungsart oder -methode wichtig und notwendig.",
-      "c": "FALSCH - Während das Testen von fixierten Fehlern wichtig ist, ist es nicht die primäre Definition von Regressionstests.",
-      "d": "KORREKT - Regressionstests zielen darauf ab, die Stabilität und Zuverlässigkeit der Software nach Änderungen zu gewährleisten, indem sichergestellt wird, dass keine neuen Fehler in unveränderte Bereiche eingeführt wurden."
-    }
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist ein typisches Ziel des Testens von Software?",
+    "frage": "Welche der folgenden Aussagen ist ein typisches Ziel des Testens von Software?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Fehlerwirkungen und Fehlerzustände aufdecken",
       "b": "Validierung von Projektplänen",
@@ -776,7 +743,7 @@
     }
   },
   {
-    "frage": "Welches der folgenden Beispiele ist eine Fehlerwirkung in einem Tempomat eines Autos?",
+    "frage": "Welches der folgenden Beispiele ist eine Fehlerwirkung in einem Tempomat eines Autos?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Der Entwickler des Systems hat vergessen, Variablen nach einem Ausschneiden und Einfügen umzubenennen.",
       "b": "Nicht benötigter Code, der beim Rückwärtsfahren einen Alarm auslöst, wurde in das System aufgenommen.",
@@ -792,7 +759,7 @@
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen ist eher ein Fehlerzustand als eine Grundursache für einen Fehlerzustand in einem Fitness-Tracker?",
+    "frage": "Welche der folgenden Aussagen ist eher ein Fehlerzustand als eine Grundursache für einen Fehlerzustand in einem Fitness-Tracker?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Der Anforderungsmanager war mit der Domäne des Fitnesstrainings nicht vertraut und ging zu Unrecht davon aus, dass die Benutzer die Herzschlag Frequenz in Schlägen pro Stunde ablesen wollen.",
       "b": "Der Tester des Smartphone-Interfaces war nicht im zustandsbasierten Testen geschult und hat daher einen signifikanten Fehler übersehen.",
@@ -808,7 +775,7 @@
     }
   },
   {
-    "frage": "Als Ergebnis der Risikoanalyse werden mehr Tests auf die Bereiche des Systems unter Test angewendet, in denen die ersten Tests mehr Fehler als in den anderen Bereichen aufgedeckt haben. Welcher der folgenden Grundsätze des Testens wird angewendet?",
+    "frage": "Als Ergebnis der Risikoanalyse werden mehr Tests auf die Bereiche des Systems unter Test angewendet, in denen die ersten Tests mehr Fehler als in den anderen Bereichen aufgedeckt haben.<br><br>Welcher der folgenden Grundsätze des Testens wird angewendet?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Vorsicht vor dem Pestizid-Paradoxon.",
       "b": "Das Testen ist kontextabhängig.",
@@ -824,7 +791,7 @@
     }
   },
   {
-    "frage": "Gegeben seien die folgenden Listen von Testaktivitäten (A.-D.) und Testaufgaben (1.-4.): A. Testentwurf B. Testrealisierung C. Testdurchführung D. Testabschluss 1. Erfassung von Änderungsanforderungen für offene Fehlerberichte 2. Identifizierung von Testdaten zur Unterstützung der Testfälle 3. Priorisierung von Testabläufen und Vorbereitung von Testdaten 4. Analyse von Abweichungen, um deren Ursache zu ermitteln Welches ist die korrekte Paarung von Testaktivitäten und Testaufgaben?",
+    "frage": "Gegeben seien die folgenden Listen von Testaktivitäten (A.-D.) und Testaufgaben (1.-4.):<ol style=\"list-style-type: upper-alpha;\"><li>Testentwurf</li><li>Testrealisierung</li><li>Testdurchführung</li><li>Testabschluss</li></ol><ol><li>Erfassung von Änderungsanforderungen für offene Fehlerberichte</li><li>Identifizierung von Testdaten zur Unterstützung der Testfälle</li><li>Priorisierung von Testabläufen und Vorbereitung von Testdaten</li><li>Analyse von Abweichungen, um deren Ursache zu ermitteln</li></ol>Welches ist die korrekte Paarung von Testaktivitäten und Testaufgaben?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "A-2, B-3, C-4, D-1",
       "b": "A-2, B-1, C-3, D-4",
@@ -833,14 +800,14 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT - Die korrekte Zuordnung von Testaktivitäten und Testaufgaben laut Lehrplan (1.4.2) ist: A-2, B-3, C-4, D-1.",
+      "a": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br> Die korrekte Zuordnung von Testaktivitäten und Testaufgaben laut Lehrplan (1.4.2) ist:<ol style=\"list-style-type: upper-alpha;\"><li>Testentwurf – (2) Identifizierung von notwendigen Testdaten zur Unterstützung der Testbedingungen und Testfälle.</li><li>Testrealisierung – (3) Priorisierung von Testabläufen und Vorbereitung der Testdaten.</li><li>Testdurchführung – (4) Analyse von Abweichungen, um deren Ursache zu ermitteln.</li><li>Testabschluss – (1) Erfassung von Änderungsanforderungen für offene Fehlerberichte.</li></ol>",
       "b": "FALSCH - Die Zuordnung ist nicht korrekt.",
       "c": "FALSCH - Die Zuordnung ist nicht korrekt.",
       "d": "FALSCH - Die Zuordnung ist nicht korrekt."
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie ein Mehrwert durch Aufrechterhaltung und Wartung der Verfolgbarkeit zwischen Testbasis und Testartefakten erzielt wird?",
+    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie ein Mehrwert durch Aufrechterhaltung und Wartung der Verfolgbarkeit zwischen Testbasis und Testartefakten erzielt wird?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Wartungstests können basierend auf Änderungen der ursprünglichen Anforderungen vollständig automatisiert werden.",
       "b": "Es kann festgestellt werden, ob ein neuer Testfall eine höhere Abdeckung der Anforderungen erreicht.",
@@ -849,14 +816,14 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH - Die Verfolgbarkeit unterstützt die Automatisierung von Wartungstests nicht.",
-      "b": "KORREKT - Die Verfolgbarkeit ermöglicht es festzustellen, ob neue Testfälle eine höhere Abdeckung der Anforderungen erreichen.",
-      "c": "FALSCH - Die Verfolgbarkeit zwischen Testbasis und Testartefakten bietet keine Informationen darüber, welche Tester Fehler mit dem höchsten Schweregrad gefunden haben.",
-      "d": "FALSCH - Seiteneffekte einer Änderung betreffen nicht direkt verfolgbare Bereiche."
+      "a": "FALSCH - Die Verfolgbarkeit ermöglicht die Verknüpfung vorhandener Testfälle mit aktualisierten und gelöschten Anforderungen (obwohl keine neuen Anforderungen unterstützt werden), sie hilft jedoch nicht bei der Automatisierung von Wartungstests.",
+      "b": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Wenn alle Testfälle mit Anforderungen verknüpft sind, kann bei jeder Hinzufügung eines neuen Testfalls (mit Verfolgbarkeit) festgestellt werden, ob zuvor nicht abgedeckte Anforderungen durch den neuen Testfall abgedeckt werden.",
+      "c": "FALSCH - Die Verfolgbarkeit zwischen Testbasis und Testartefakten liefert keine Informationen darüber, welche Tester Fehler mit hohem Schweregrad festgestellt haben, und selbst wenn diese Informationen ermittelt werden könnten, wäre dies von begrenztem Wert.",
+      "d": "FALSCH - – Bereiche die durch eine Änderung DIREKT betroffen sind, können durch die Verfolgbarkeit identifiziert werden. Seiteneffekte betreffen jedoch die Bereiche welche NICHT DIREKT betroffen und damit NICHT VERFOLGBAR sind."
     }
   },
   {
-    "frage": "Welche der folgenden Eigenschaften findet man EHER in der Denkweise eines Testers als in der Denkweise eines Entwicklers?",
+    "frage": "Welche der folgenden Eigenschaften findet man EHER in der Denkweise eines Testers als in der Denkweise eines Entwicklers?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Die Leistung eines Testers wächst und reift mit steigender Erfahrung.",
       "b": "Die Fähigkeit zu erkennen, was an Lösungen falsch sein könnte.",
@@ -866,13 +833,61 @@
     "korrekteAntwort": "b",
     "feedback": {
       "a": "FALSCH - Sowohl Entwickler als auch Tester profitieren von Erfahrung.",
-      "b": "KORREKT - Tester sind eher darauf fokussiert zu erkennen, was an Lösungen falsch sein könnte.",
+      "b": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Entwickler sind häufig stärker am Entwurf und an der Erstellung von Lösungen interessiert als daran, darüber nachzudenken, was an diesen Lösungen falsch sein könnte (Siehe CTFL CORE Lehrplan 2018, Abschnitt 1.5.2).",
       "c": "FALSCH - Sowohl Entwickler als auch Tester sollten gute Kommunikationsfähigkeiten haben.",
       "d": "FALSCH - Sowohl Entwickler als auch Tester müssen auf Details achten."
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen vergleicht die Zwecke der Fehlernachtests und Regressionstests AM BESTEN miteinander?",
+    "frage": "Betrachten Sie die folgenden Aussagen über die Beziehungen zwischen Softwareentwicklungsaktivitäten und Testaktivitäten im Softwareentwicklungslebenszyklus:<br><ol><li>Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.</li><li>Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.</li><li>Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.</li><li>Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.</li></ol><br>Welche der folgenden Optionen zeigt KORREKT, welche dieser Aussagen wahr und welche falsch sind?<br><br>Wählen Sie genau EINE Option aus!",
+    "antworten": {
+      "a": "Wahr – 1, 2; Falsch – 3, 4",
+      "b": "Wahr – 2, 3; Falsch – 1, 4",
+      "c": "Wahr – 1, 2, 4; Falsch – 3",
+      "d": "Wahr – 1, 4; Falsch – 2, 3"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH - WAHR: „Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.“(siehe CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).",
+      "b": "FALSCH - FALSCH: „Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.“ Sie sollten starten, sobald erste Entwürfe dafür vorliegen, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.).",
+      "c": "FALSCH - FALSCH: „Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.“– Testanalyse und Testentwurf sollten während der entsprechenden Entwicklungsaktivitäten beginnen, nicht die Testimplementierung, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)",
+      "d": "KORREKT - WAHR: „Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.“ (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.) Folglich ist d) korrekt."
+    }
+  },
+  {
+    "frage": "Ein durchgeführter Test hat folgende Eigenschaften:<br><ol style=\"list-style-type: circle;\"><li>Er basiert auf Schnittstellenspezifikationen.</li><li>Der Schwerpunkt liegt auf dem Finden von Fehlerwirkungen in der Kommunikation.</li><li>Die Testvorgehensweise wendet sowohl funktionale als auch strukturelle Testarten an.</li></ol>Auf welcher der folgenden Teststufen wird dieser Test AM WAHRSCHEINLICHSTEN durchgeführt?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "antworten": {
+      "a": "Integrationstest",
+      "b": "Abnahmetest",
+      "c": "Systemtest",
+      "d": "Komponententest"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Aufgrund der obigen Beschreibung und des CTFL Lehrplans 2018, Abschnitt 2.2 erkennt man:<br><ol style=\"list-style-type: circle;\"><li>„Er basiert auf Schnittstellenspezifikationen” – Die Testbasis für Integrationstests enthält die Spezifikationen von Schnittstellen (zusammen mit Kommunikationsprotokollen). Hingegen enthält keine der anderen angegebenen Teststufen diese Arbeitsergebnisse als Testbasis.</li><li>„Der Schwerpunkt liegt auf dem Finden von Fehlerwirkungen in der Kommunikation” –Fehlerwirkungen in der Kommunikation der getesteten Komponenten sind eine der typischen Fehlerarten, welche man beim Integrationstest findet, während diese Fehlerart bei keiner anderen der angegebenen Teststufen im Schwerpunkt liegt.</li><li>„Die Testvorgehensweise wendet sowohl funktionale als auch strukturelle Testarten an” –Funktionale und strukturelle Testarten sind beim Integrationstest beide als Vorgehensweise möglich, wie sie auch für jede andere Teststufe geeignet wären. Im Lehrplan werden sie allerdings nur noch beim Systemtest explizit erwähnt.</li></ol>Folglich ist Option a) richtig.",
+      "b": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Aufgrund der obigen Beschreibung und des CTFL Lehrplans 2018, Abschnitt 2.2 erkennt man:<br><ol style=\"list-style-type: circle;\"><li>„Er basiert auf Schnittstellenspezifikationen” – Die Testbasis für Integrationstests enthält die Spezifikationen von Schnittstellen (zusammen mit Kommunikationsprotokollen). Hingegen enthält keine der anderen angegebenen Teststufen diese Arbeitsergebnisse als Testbasis.</li><li>„Der Schwerpunkt liegt auf dem Finden von Fehlerwirkungen in der Kommunikation” –Fehlerwirkungen in der Kommunikation der getesteten Komponenten sind eine der typischen Fehlerarten, welche man beim Integrationstest findet, während diese Fehlerart bei keiner anderen der angegebenen Teststufen im Schwerpunkt liegt.</li><li>„Die Testvorgehensweise wendet sowohl funktionale als auch strukturelle Testarten an” –Funktionale und strukturelle Testarten sind beim Integrationstest beide als Vorgehensweise möglich, wie sie auch für jede andere Teststufe geeignet wären. Im Lehrplan werden sie allerdings nur noch beim Systemtest explizit erwähnt.</li></ol>Folglich ist Option a) richtig.",
+      "c": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Aufgrund der obigen Beschreibung und des CTFL Lehrplans 2018, Abschnitt 2.2 erkennt man:<br><ol style=\"list-style-type: circle;\"><li>„Er basiert auf Schnittstellenspezifikationen” – Die Testbasis für Integrationstests enthält die Spezifikationen von Schnittstellen (zusammen mit Kommunikationsprotokollen). Hingegen enthält keine der anderen angegebenen Teststufen diese Arbeitsergebnisse als Testbasis.</li><li>„Der Schwerpunkt liegt auf dem Finden von Fehlerwirkungen in der Kommunikation” –Fehlerwirkungen in der Kommunikation der getesteten Komponenten sind eine der typischen Fehlerarten, welche man beim Integrationstest findet, während diese Fehlerart bei keiner anderen der angegebenen Teststufen im Schwerpunkt liegt.</li><li>„Die Testvorgehensweise wendet sowohl funktionale als auch strukturelle Testarten an” –Funktionale und strukturelle Testarten sind beim Integrationstest beide als Vorgehensweise möglich, wie sie auch für jede andere Teststufe geeignet wären. Im Lehrplan werden sie allerdings nur noch beim Systemtest explizit erwähnt.</li></ol>Folglich ist Option a) richtig.",
+      "d": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Aufgrund der obigen Beschreibung und des CTFL Lehrplans 2018, Abschnitt 2.2 erkennt man:<br><ol style=\"list-style-type: circle;\"><li>„Er basiert auf Schnittstellenspezifikationen” – Die Testbasis für Integrationstests enthält die Spezifikationen von Schnittstellen (zusammen mit Kommunikationsprotokollen). Hingegen enthält keine der anderen angegebenen Teststufen diese Arbeitsergebnisse als Testbasis.</li><li>„Der Schwerpunkt liegt auf dem Finden von Fehlerwirkungen in der Kommunikation” –Fehlerwirkungen in der Kommunikation der getesteten Komponenten sind eine der typischen Fehlerarten, welche man beim Integrationstest findet, während diese Fehlerart bei keiner anderen der angegebenen Teststufen im Schwerpunkt liegt.</li><li>„Die Testvorgehensweise wendet sowohl funktionale als auch strukturelle Testarten an” –Funktionale und strukturelle Testarten sind beim Integrationstest beide als Vorgehensweise möglich, wie sie auch für jede andere Teststufe geeignet wären. Im Lehrplan werden sie allerdings nur noch beim Systemtest explizit erwähnt.</li></ol>Folglich ist Option a) richtig."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen über Testarten und Teststufen ist ZUTREFFEND?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "antworten": {
+      "a": "Funktionaler und nicht-funktionaler Test können auf den Teststufen System und Abnahmetest durchgeführt werden, während der White-Box-Test auf Komponenten- und Integrationstests beschränkt ist.",
+      "b": "Funktionaler Test kann auf jeder Teststufe durchgeführt werden, während der White-Box-Test auf Komponententest beschränkt ist.",
+      "c": "Es ist möglich, funktionalen, nicht-funktionalen und White-Box-Test in jeder Teststufe durchzuführen.",
+      "d": "Funktionaler und nicht-funktionaler Test können auf jeder Teststufe durchgeführt werden, während der White-Box-Test auf Komponenten- und Integrationstests beschränkt ist."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Es ist möglich, jede der Testarten (funktional, nicht-funktional, White-Box) in jeder Teststufe durchzuführen. Obwohl die Aussage richtig ist, dass funktionaler und nicht-funktionaler Test auf den Teststufen System- und Abnahmetest durchgeführt werden können, ist die Aussage falsch, dass White-Box-Test auf Komponenten- und Integrationstests beschränkt ist. (Siehe CTFL CORE Lehrplan 2018, Abschnitt 2.3.5)",
+      "b": "FALSCH – Es ist möglich, jede der Testarten (funktional, nicht-funktional, White-Box) in jeder Teststufe durchzuführen. Deswegen ist die Aussage falsch, dass White-Box-Test auf Komponententests beschränkt ist. (Siehe CTFL CORE Lehrplan 2018, Abschnitt 2.3.5)",
+      "c": "KORREKT – Es ist möglich, jede der Testarten (funktional, nicht-funktional, White-Box Test) in jeder Teststufe durchzuführen. (Siehe CTFL CORE Lehrplan 2018, Abschnitt 2.3.5)",
+      "d": "FALSCH – Es ist möglich, jede der Testarten (funktional, nicht-funktional, White-Box) in jeder Teststufe durchzuführen. Deswegen ist die Aussage falsch, dass White-Box-Test auf Komponenten- und Integrationstests beschränkt ist. (Siehe CTFL CORE Lehrplan 2018, Abschnitt 2.3.5)"
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen vergleicht die Zwecke der Fehlernachtests und Regressionstests AM BESTEN miteinander?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Der Regressionstest stellt sicher, dass alle früher durchgeführten Tests immer noch korrekt laufen, während der Fehlernachtest sicherstellt, dass Korrekturen an einem Teil des Systems die anderen Teile nicht negativ beeinflussen.",
       "b": "Der Fehlernachtest prüft, dass ein vorher gefundener Fehlerzustand korrigiert wurde, während der Regressionstest sicherstellt, dass die Korrektur keine anderen Teile des Systems negativ beeinflusst hat.",
@@ -888,7 +903,7 @@
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen beschreibt eine Aufgabe der Auswirkungsanalyse im Wartungstest KORREKT?",
+    "frage": "Welche der folgenden Aussagen beschreibt eine Aufgabe der Auswirkungsanalyse im Wartungstest KORREKT?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Die Auswirkungsanalyse unterstützt bei der Entscheidung, ob sich eine Fehlerkorrektur beim zu wartenden System lohnt.",
       "b": "Die Auswirkungsanalyse identifiziert, wie Daten in das gewartete System zu migrieren sind.",
@@ -904,7 +919,7 @@
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen gibt den Nutzen des statischen Tests KORREKT wieder?",
+    "frage": "Welche der folgenden Aussagen gibt den Nutzen des statischen Tests KORREKT wieder?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Nach der Einführung von Reviews stellten wir fest, dass sich sowohl die Qualität der Spezifikationen als auch die für Entwicklung und Test benötigte Zeit erhöht haben.",
       "b": "Durch die Anwendung von statischem Test können wir den Test besser steuern und haben ein günstigeres Fehlermanagement, weil sich Fehlerzustände später im Lebenszyklus leichter finden lassen.",
@@ -920,7 +935,7 @@
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen zur Anwendung von Checklisten bei einem formalen Review ist KORREKT?",
+    "frage": "Welche der folgenden Aussagen zur Anwendung von Checklisten bei einem formalen Review ist KORREKT?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Im Rahmen der Planung des Reviews erstellen die Reviewer die für das Review benötigten Checklisten.",
       "b": "Im Rahmen der Befundkommunikation füllen die Reviewer die für das Review bereitgestellten Checklisten aus.",
@@ -936,7 +951,7 @@
     }
   },
   {
-    "frage": "Welche der folgenden Optionen gibt die Rollen und Verantwortlichkeiten in einem formalen Review KORREKT wieder?",
+    "frage": "Welche der folgenden Optionen gibt die Rollen und Verantwortlichkeiten in einem formalen Review KORREKT wieder?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Management – Entscheidet über die Durchführung von Reviews",
       "b": "Reviewleiter – Stellt den erfolgreichen Ablauf von Reviewsitzungen sicher",
@@ -952,7 +967,39 @@
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN exploratives Testen?",
+    "frage": "Die Reviews in Ihrer Organisation haben die folgenden Eigenschaften:<ol style=\"list-style-type: circle;\"><li>Es gibt die Rolle des Protokollanten</li><li>Der Zweck ist es, potenzielle Fehlerzustände zu entdecken</li><li>Die Reviewsitzung wird vom Autor geleitet</li><li>Die Reviewer finden potenzielle Fehlerzustände durch individuelles Review</li><li>Es wird ein Reviewbericht erstellt</li></ol>Welche der folgenden Reviewarten wird hier AM WAHRSCHEINLICHSTEN verwendet?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "antworten": {
+      "a": "Informelles Review",
+      "b": "Walkthrough",
+      "c": "Technisches Review",
+      "d": "Inspektion"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Gemäß CTFL Lehrplan 2018, Abschnitt 3.2.3, lassen sich die genannten Eigenschaften wie folgt bewerten:<ol style=\"list-style-type: circle;\"><li>Es gibt die Rolle des Protokollanten – kommt bei Walkthrough, technischem Review und Inspektion vor, nicht aber bei informellem Review</li><li>Der Zweck ist es, potenzielle Fehlerzustände zu entdecken – dieser Zweck kommt bei allen Reviewarten vor</li><li>Die Reviewsitzung wird vom Autor geleitet – dies ist bei Inspektion ausgeschlossen, bei technischem Review untypisch, die Regel bei Walkthrough und erlaubt bei informellem Review</li><li>Die Reviewer finden potenzielle Fehlerzustände durch individuelles Review – alle Reviewarten einschließlich informellem Review können individuelles Review einschließen</li><li>Es wird ein Reviewbericht erstellt – bei allen Reviewarten kann ein Reviewbericht entstehen, obwohl das bei informellem Review weniger wahrscheinlich ist</li></ol>Daraus ergibt sich, dass Option b) am wahrscheinlichsten und damit korrekt ist.",
+      "b": "KORREKT – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Gemäß CTFL Lehrplan 2018, Abschnitt 3.2.3, lassen sich die genannten Eigenschaften wie folgt bewerten:<ol style=\"list-style-type: circle;\"><li>Es gibt die Rolle des Protokollanten – kommt bei Walkthrough, technischem Review und Inspektion vor, nicht aber bei informellem Review</li><li>Der Zweck ist es, potenzielle Fehlerzustände zu entdecken – dieser Zweck kommt bei allen Reviewarten vor</li><li>Die Reviewsitzung wird vom Autor geleitet – dies ist bei Inspektion ausgeschlossen, bei technischem Review untypisch, die Regel bei Walkthrough und erlaubt bei informellem Review</li><li>Die Reviewer finden potenzielle Fehlerzustände durch individuelles Review – alle Reviewarten einschließlich informellem Review können individuelles Review einschließen</li><li>Es wird ein Reviewbericht erstellt – bei allen Reviewarten kann ein Reviewbericht entstehen, obwohl das bei informellem Review weniger wahrscheinlich ist</li></ol>Daraus ergibt sich, dass Option b) am wahrscheinlichsten und damit korrekt ist.",
+      "c": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Gemäß CTFL Lehrplan 2018, Abschnitt 3.2.3, lassen sich die genannten Eigenschaften wie folgt bewerten:<ol style=\"list-style-type: circle;\"><li>Es gibt die Rolle des Protokollanten – kommt bei Walkthrough, technischem Review und Inspektion vor, nicht aber bei informellem Review</li><li>Der Zweck ist es, potenzielle Fehlerzustände zu entdecken – dieser Zweck kommt bei allen Reviewarten vor</li><li>Die Reviewsitzung wird vom Autor geleitet – dies ist bei Inspektion ausgeschlossen, bei technischem Review untypisch, die Regel bei Walkthrough und erlaubt bei informellem Review</li><li>Die Reviewer finden potenzielle Fehlerzustände durch individuelles Review – alle Reviewarten einschließlich informellem Review können individuelles Review einschließen</li><li>Es wird ein Reviewbericht erstellt – bei allen Reviewarten kann ein Reviewbericht entstehen, obwohl das bei informellem Review weniger wahrscheinlich ist</li></ol>Daraus ergibt sich, dass Option b) am wahrscheinlichsten und damit korrekt ist.",
+      "d": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Gemäß CTFL Lehrplan 2018, Abschnitt 3.2.3, lassen sich die genannten Eigenschaften wie folgt bewerten:<ol style=\"list-style-type: circle;\"><li>Es gibt die Rolle des Protokollanten – kommt bei Walkthrough, technischem Review und Inspektion vor, nicht aber bei informellem Review</li><li>Der Zweck ist es, potenzielle Fehlerzustände zu entdecken – dieser Zweck kommt bei allen Reviewarten vor</li><li>Die Reviewsitzung wird vom Autor geleitet – dies ist bei Inspektion ausgeschlossen, bei technischem Review untypisch, die Regel bei Walkthrough und erlaubt bei informellem Review</li><li>Die Reviewer finden potenzielle Fehlerzustände durch individuelles Review – alle Reviewarten einschließlich informellem Review können individuelles Review einschließen</li><li>Es wird ein Reviewbericht erstellt – bei allen Reviewarten kann ein Reviewbericht entstehen, obwohl das bei informellem Review weniger wahrscheinlich ist</li></ol>Daraus ergibt sich, dass Option b) am wahrscheinlichsten und damit korrekt ist."
+    }
+  },
+  {
+    "frage": "Sie wurden gebeten, an einem checklistenbasierten Review des folgenden Auszuges aus einer Anforderungsspezifikation eines Bibliothekssystems teilzunehmen:<br><br>Bibliothekare können:<ol><li>Neue Nutzer registrieren.</li><li>Bücher von Nutzern zurücknehmen.</li><li>Mahngebühren für Nutzer erheben.</li><li>Neue Bücher mit deren ISBN, Autor und Titel dem System hinzufügen.</li><li>Bücher aus dem System löschen.</li><li>Systemrückmeldungen innerhalb von 5 Sekunden erhalten.</li></ol>Nutzer können:<br><ol start='7'><li>Maximal drei Bücher gleichzeitig ausleihen.</li><li>Die Historie ihrer ausgeliehen/reservierten Bücher anschauen.</li><li>Mit einer Mahngebühr wegen Nichtrückgabe eines Buches innerhalb von 3 Wochen belegt werden.</li><li>Systemrückmeldungen innerhalb von 3 Sekunden erhalten.</li><li>Ein Buch kostenfrei für maximal 4 Wochen ausleihen.</li><li>Bücher reservieren (falls sie ausgeliehen sind).</li></ol>Alle Benutzer (Bibliothekare und Nutzer):<br><ol start='13'><li>Können Bücher nach ISBN, Autor oder Titel suchen.</li><li>Können den Systemkatalog durchstöbern.</li><li>Das System soll innerhalb von 3 Sekunden auf Benutzeranfragen reagieren.</li><li>Die Benutzungsschnittstelle soll einfach zu bedienen sein.</li></ol>Ihnen wurde der Checklisteneintrag zugewiesen, der ein Review der Spezifikation auf Inkonsistenzen zwischen einzelnen Anforderungen vorsieht (beispielsweise Konflikte zwischen Anforderungen).<br><br>Welche folgenden Kombinationen weisen Inkonsistenzen zwischen Anforderungspaaren RICHTIG auf?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "antworten": {
+      "a": "6-10, 6-15, 7-12",
+      "b": "6-15, 9-11",
+      "c": "6-10, 6-15, 9-11",
+      "d": "6-15, 7-12"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Zu betrachten werden die potenziellen Inkonsistenzen:<ol style=\"list-style-type: circle;\"><li>6-10 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das konsistent dazu, dass Nutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>6-15 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das inkonsistent dazu, dass alle Benutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>7-12 – Wenn sich Nutzer maximal 3 Bücher gleichzeitig ausleihen können, dann ist das konsistent dazu, dass sie sich Bücher reservieren können (falls sie ausgeliehen sind).</li><li>9-11 – Wenn ein Nutzer wegen Nichtrückgabe eines Buches innerhalb von 3 Wochen mit einer Mahngebühr belegt wird, dann ist das inkonsistent dazu, dass Bücher kostenlos für maximal 4 Wochen ausgeliehen werden dürfen. Die zwei Fristen sind unterschiedlich.</li></ol>Folglich ist Antwort b) korrekt.",
+      "b": "KORREKT – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Zu betrachten werden die potenziellen Inkonsistenzen:<ol style=\"list-style-type: circle;\"><li>6-10 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das konsistent dazu, dass Nutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>6-15 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das inkonsistent dazu, dass alle Benutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>7-12 – Wenn sich Nutzer maximal 3 Bücher gleichzeitig ausleihen können, dann ist das konsistent dazu, dass sie sich Bücher reservieren können (falls sie ausgeliehen sind).</li><li>9-11 – Wenn ein Nutzer wegen Nichtrückgabe eines Buches innerhalb von 3 Wochen mit einer Mahngebühr belegt wird, dann ist das inkonsistent dazu, dass Bücher kostenlos für maximal 4 Wochen ausgeliehen werden dürfen. Die zwei Fristen sind unterschiedlich.</li></ol>Folglich ist Antwort b) korrekt.",
+      "c": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Zu betrachten werden die potenziellen Inkonsistenzen:<ol style=\"list-style-type: circle;\"><li>6-10 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das konsistent dazu, dass Nutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>6-15 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das inkonsistent dazu, dass alle Benutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>7-12 – Wenn sich Nutzer maximal 3 Bücher gleichzeitig ausleihen können, dann ist das konsistent dazu, dass sie sich Bücher reservieren können (falls sie ausgeliehen sind).</li><li>9-11 – Wenn ein Nutzer wegen Nichtrückgabe eines Buches innerhalb von 3 Wochen mit einer Mahngebühr belegt wird, dann ist das inkonsistent dazu, dass Bücher kostenlos für maximal 4 Wochen ausgeliehen werden dürfen. Die zwei Fristen sind unterschiedlich.</li></ol>Folglich ist Antwort b) korrekt.",
+      "d": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Zu betrachten werden die potenziellen Inkonsistenzen:<ol style=\"list-style-type: circle;\"><li>6-10 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das konsistent dazu, dass Nutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>6-15 – Wenn Bibliothekare eine Systemrückmeldung innerhalb von 5 Sekunden erhalten sollen, dann ist das inkonsistent dazu, dass alle Benutzer eine Systemrückmeldung innerhalb von 3 Sekunden erhalten sollen.</li><li>7-12 – Wenn sich Nutzer maximal 3 Bücher gleichzeitig ausleihen können, dann ist das konsistent dazu, dass sie sich Bücher reservieren können (falls sie ausgeliehen sind).</li><li>9-11 – Wenn ein Nutzer wegen Nichtrückgabe eines Buches innerhalb von 3 Wochen mit einer Mahngebühr belegt wird, dann ist das inkonsistent dazu, dass Bücher kostenlos für maximal 4 Wochen ausgeliehen werden dürfen. Die zwei Fristen sind unterschiedlich.</li></ol>Folglich ist Antwort b) korrekt."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN exploratives Testen?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "antworten": {
       "a": "Eine Testvorgehensweise/ein Testansatz, bei der eine intensive Untersuchung des Hintergrunds des Testobjekts dazu genutzt wird, mögliche Schwachstellen zu identifizieren, die durch Testfälle untersucht werden.",
       "b": "Eine Testvorgehensweise/ein Testansatz bei dem die Tester, basierend auf ihrem Wissen, der Erkundung des Testelements und dem Ergebnis früherer Tests, dynamisch Tests entwerfen und durchführen.",
@@ -968,7 +1015,7 @@
     }
   },
   {
-    "frage": "Welche der folgenden Zuordnungen von Beschreibungen zu verschiedenen Kategorien von Testverfahren trifft AM BESTEN zu?",
+    "frage": "Welche der folgenden Zuordnungen von Beschreibungen zu verschiedenen Kategorien von Testverfahren trifft AM BESTEN zu?<ol><li>Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen.</li><li>Verarbeitung innerhalb des Testobjekts wird überprüft.</li><li>Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung.</li><li>Abweichungen von Anforderungen werden überprüft.</li><li>User-Stories werden als Testbasis herangezogen.</li></ol>Verwendete Notation für die folgenden 4 Optionen:<br><br>Black – Black-Box-Testverfahren<br>White – White-Box-Testverfahren<br>Erfahrung – erfahrungsbasiertes Testverfahren<br><br>Wählen Sie genau EINE korrekte Option aus! ",
     "antworten": {
       "a": "Black – 4, 5; White – 1, 2; Erfahrung – 3",
       "b": "Black – 3; White – 1, 2; Erfahrung – 4, 5",
@@ -977,12 +1024,15 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT – Black-Box-Testverfahren: Abweichungen von Anforderungen werden überprüft (4) User-Stories werden als Testbasis herangezogen (5). White-Box-Testverfahren: Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen (1) Verarbeitung innerhalb des Testobjekts wird überprüft (2). erfahrungsbasiertes Testverfahren: Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung (3).",
-      "b": "FALSCH – Die Zuordnung entspricht nicht der Definition der Testverfahren im Syllabus.",
-      "c": "FALSCH – Die Zuordnung entspricht nicht der Definition der Testverfahren im Syllabus.",
-      "d": "FALSCH – Die Zuordnung entspricht nicht der Definition der Testverfahren im Syllabus."
+      "a": "KORREKT – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die korrekte Verknüpfung der Beschreibungen zu den verschiedenen Kategorien von Testverfahren entsprechend des Syllabus (4.1.1) ist:<br><ol style=\"list-style-type: circle;\"><li>Black-Box-Testverfahren:<br>Abweichungen von Anforderungen werden überprüft (4)<br>User-Stories werden als Testbasis herangezogen (5)</li><br><li>White-Box-Testverfahren:<br>Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen (1)<br>Verarbeitung innerhalb des Testobjekts wird überprüft (2)</li><li>erfahrungsbasiertes Testverfahren:<br>Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung (3)</li></ol>Folglich ist Antwort a) korrekt.",
+      "b": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die korrekte Verknüpfung der Beschreibungen zu den verschiedenen Kategorien von Testverfahren entsprechend des Syllabus (4.1.1) ist:<br><ol style=\"list-style-type: circle;\"><li>Black-Box-Testverfahren:<br>Abweichungen von Anforderungen werden überprüft (4)<br>User-Stories werden als Testbasis herangezogen (5)</li><br><li>White-Box-Testverfahren:<br>Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen (1)<br>Verarbeitung innerhalb des Testobjekts wird überprüft (2)</li><li>erfahrungsbasiertes Testverfahren:<br>Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung (3)</li></ol>Folglich ist Antwort a) korrekt.",
+      "c": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die korrekte Verknüpfung der Beschreibungen zu den verschiedenen Kategorien von Testverfahren entsprechend des Syllabus (4.1.1) ist:<br><ol style=\"list-style-type: circle;\"><li>Black-Box-Testverfahren:<br>Abweichungen von Anforderungen werden überprüft (4)<br>User-Stories werden als Testbasis herangezogen (5)</li><br><li>White-Box-Testverfahren:<br>Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen (1)<br>Verarbeitung innerhalb des Testobjekts wird überprüft (2)</li><li>erfahrungsbasiertes Testverfahren:<br>Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung (3)</li></ol>Folglich ist Antwort a) korrekt.",
+      "d": "FALSCH – Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die korrekte Verknüpfung der Beschreibungen zu den verschiedenen Kategorien von Testverfahren entsprechend des Syllabus (4.1.1) ist:<br><ol style=\"list-style-type: circle;\"><li>Black-Box-Testverfahren:<br>Abweichungen von Anforderungen werden überprüft (4)<br>User-Stories werden als Testbasis herangezogen (5)</li><br><li>White-Box-Testverfahren:<br>Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen (1)<br>Verarbeitung innerhalb des Testobjekts wird überprüft (2)</li><li>erfahrungsbasiertes Testverfahren:<br>Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung (3)</li></ol>Folglich ist Antwort a) korrekt."
     }
   },
+
+
+
   {
     "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie Testfälle aus Anwendungsfällen entworfen werden?",
     "antworten": {
@@ -1445,6 +1495,38 @@
       "b": "KORREKT – Da jeder Testfall dazu führt, dass das Ergebnis der IF-Anweisung entweder WAHR oder FALSCH ist, haben wir definitiv 50% Entscheidungsüberdeckung erreicht. (vgl. CTFL CORE Lehrplan 2018; Abschnitt 4.3.2, 2. Absatz)",
       "c": "FALSCH – Ein einzelner Testfall kann mehr als 25% Entscheidungsüberdeckung erreichen; bei der obigen Aussage sind es 50% Entscheidungsüberdeckung (vgl. Begründung zu Antwort b)",
       "d": "FALSCH – Die obige Aussage ist konkret und immer wahr; weil durch jeden einzelnen Testfall immer eine Entscheidungsüberdeckung von 50% erreicht wird. (vgl. Begründung zu Antwort b)"
+    }
+  },
+  {
+    "frage": "Was beschreibt am besten die Rolle eines Testers im Testprozess?",
+    "antworten": {
+      "a": "Die Überprüfung der Testumgebung und die Gewährleistung der Testbarkeit der Anwendung.",
+      "b": "Die Planung, Durchführung und Dokumentation der Tests basierend auf vordefinierten Anforderungen.",
+      "c": "Die Programmierung neuer Funktionen und die Korrektur von gefundenen Fehlern.",
+      "d": "Die ausschließliche Fokussierung auf die Automatisierung bestehender Testfälle."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH - Während die Überprüfung der Testumgebung wichtig ist, beschreibt dies nicht vollständig die Rolle eines Testers.",
+      "b": "KORREKT - Tester sind für die Planung, Durchführung und Dokumentation der Tests verantwortlich.",
+      "c": "FALSCH - Die Programmierung neuer Funktionen gehört in der Regel nicht zu den Aufgaben eines Testers.",
+      "d": "FALSCH - Testautomatisierung ist nur ein Teil des Testprozesses, nicht die gesamte Rolle eines Testers."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen zum Regressionstest ist WAHR?",
+    "antworten": {
+      "a": "Regressionstests werden durchgeführt, um sicherzustellen, dass neue Fehler in bereits getesteten Softwareteilen eingeführt wurden.",
+      "b": "Regressionstests sind nur notwendig, wenn die Software in einer agilen Umgebung entwickelt wird.",
+      "c": "Regressionstests umfassen das erneute Testen von fixierten Fehlern, um sicherzustellen, dass die Korrekturen funktionieren.",
+      "d": "Regressionstests werden durchgeführt, um sicherzustellen, dass Änderungen nicht zu Fehlern in unveränderten Bereichen der Software führen."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH - Das Ziel des Regressionstests ist es nicht, neue Fehler einzuführen, sondern sicherzustellen, dass durch Änderungen keine neuen Fehler in bereits getesteten Teilen verursacht werden.",
+      "b": "FALSCH - Regressionstests sind unabhängig von der Entwicklungsart oder -methode wichtig und notwendig.",
+      "c": "FALSCH - Während das Testen von fixierten Fehlern wichtig ist, ist es nicht die primäre Definition von Regressionstests.",
+      "d": "KORREKT - Regressionstests zielen darauf ab, die Stabilität und Zuverlässigkeit der Software nach Änderungen zu gewährleisten, indem sichergestellt wird, dass keine neuen Fehler in unveränderte Bereiche eingeführt wurden."
     }
   }
 ]
