@@ -6,16 +6,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="quiz-container">
-    <div id="quiz-progress">Frage 1 von X</div>
-    <div id="quiz" role="main"></div>
-    <div id="feedback-container" class="feedback-container" aria-live="polite"></div>
-    <div class="button-container">
-        <button id="previous" onclick="vorherigeFrage()" aria-label="Vorherige Frage">Zurück</button>
-        <button id="next" onclick="naechsteFrage()" aria-label="Nächste Frage">Nächste Frage</button>
+<div class="main-wrapper">
+    <div class="quiz-container">
+        <div id="quiz-progress">Frage 1 von X</div>
+        <div id="quiz" role="main"></div>
+        <div id="feedback-container" class="feedback-container" aria-live="polite"></div>
+        <div class="button-container">
+            <button id="previous" onclick="vorherigeFrage()" aria-label="Vorherige Frage">Zurück</button>
+            <button id="next" onclick="naechsteFrage()" aria-label="Nächste Frage">Nächste Frage</button>
+        </div>
+        <div id="richtige-antworten-anzeige" class="richtige-antworten-anzeige">
+            Richtig beim ersten Versuch: 0
+        </div>
     </div>
-    <div id="richtige-antworten-anzeige" class="richtige-antworten-anzeige">
-        Richtig beim ersten Versuch: 0
+    <div id="fortschritt-map-container">
     </div>
 </div>
 <script src="script.js"></script>

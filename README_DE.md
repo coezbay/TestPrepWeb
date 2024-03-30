@@ -27,6 +27,9 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
 - **Blocksatz für Fragestellungen**: Fragen werden nun in Blocksatz angezeigt, um eine verbesserte Lesbarkeit zu bieten.
 - **Tabellen**: Möglichkeit zur Erstellung von Tabellen implementiert (Kopf + Körper) & (Nur Körper) & (Kopf + Körper +
   Kopf + Körper). Visuell: Zebrastreifen für Trennung der Zeilen.
+- **Übersicht Fortschritt-Map**: Eine Übersicht der abgearbeiteten Aufgaben implementieren, wobei die richtig und falsch
+  bearbeiteten Aufgaben farblich (rot/grün) markiert werden sollen. Es soll dann auch möglich sein, einzelne Punkte
+  dieser Übersicht anzuklicken, um die Aufgabenstellung zu jedem Zeitpunkt direkt zu betrachten.
 
 ### Noch zu erledigen
 
@@ -37,15 +40,10 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
   hinweg konsistent funktioniert.
 - **Trennung der Probeprüfungen nach Realisierungszeitraum**: Probeprüfungen nach Realisierungszeitraum trennen und ein
   Auswahlmenü beim Start der Anwendung implementieren.
-- **Übersicht Fortschritt-Map**: Eine Übersicht der abgearbeiteten Aufgaben implementieren, wobei die richtig und falsch
-  bearbeiteten Aufgaben farblich (rot/grün) markiert werden sollen. Es soll dann auch möglich sein, einzelne Punkte
-  dieser Übersicht anzuklicken, um die Aufgabenstellung zu jedem Zeitpunkt direkt zu betrachten.
 
 ## Geplante Features
 
 - **Responsive Design**: Optimierung der Quiz-Anwendung für verschiedene Bildschirmgrößen und Geräte.
-- **Übersicht über falsche Antworten**: Eine Übersicht erstellen, die die falsch beantworteten Fragen zusammen mit den
-  richtigen Antworten anzeigt, damit man sie sich erneut einprägen kann.
 - **Sprachen**: Anwendung multilingual zur Verfügung stellen
 
 ## Kontinuierliche Entwicklung

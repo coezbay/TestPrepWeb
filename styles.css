@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #f0f2f5;
@@ -9,10 +10,18 @@ body, html {
     color: #333;
 }
 
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
 .quiz-container {
-    width: 100%;
-    max-width: 600px;
-    min-height: 700px;
+    max-width: 80vh;
+    min-height: 600px;
     background-color: #ffffff;
     padding: 40px;
     border-radius: 10px;
@@ -20,11 +29,11 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: auto;
 }
 
-#quiz-progress {
+#quiz-progress, #richtige-antworten-anzeige, .frage-text, .feedback-container {
     font-size: 18px;
-    color: #555;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -48,26 +57,13 @@ button {
 
 #previous {
     background-color: #6c757d;
-    display: block;
 }
 
-button:hover {
+button:hover, button:focus, button:active {
     opacity: 0.85;
-}
-
-button:hover {
-    opacity: 0.85;
-}
-
-button:focus {
     outline: none;
     box-shadow: 0 0 0 2px #0056b3;
 }
-
-button:active {
-    background-color: #0056b3;
-}
-
 
 .frage-text, .feedback-container {
     font-size: 18px;
@@ -106,71 +102,44 @@ li button {
     justify-content: space-between;
 }
 
-.leistungsanzeige {
+.leistungsanzeige, .nummerierte-liste, .buchstaben-liste-klein, .buchstaben-liste-gross, .kreis-liste, .ac-liste, .ac-liste li::before {
     text-align: center;
     margin-top: 20px;
 }
 
-.nummerierte-liste {
-    list-style-type: decimal;
-}
-
-.buchstaben-liste-klein {
-    list-style-type: lower-alpha;
-}
-
-.buchstaben-liste-gross {
-    list-style-type: upper-alpha;
-}
-
-.kreis-liste {
-    list-style-type: circle;
-}
-
-.ac-liste {
-    list-style-type: none;
-    counter-reset: ac-counter;
-    padding: 0;
-}
-
-.ac-liste li {
-    counter-increment: ac-counter;
-    position: relative;
-    padding-left: 40px;
-    margin-bottom: 20px;
-}
-
-.ac-liste li::before {
-    content: "AC" counter(ac-counter) ": ";
-    position: absolute;
-    left: 0;
-}
-
-table {
+table, th, td, .tabellen-kopf-zeile td, .quiz-tabelle tr:nth-child(odd), .quiz-tabelle th, .quiz-tabelle td {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-}
-
-th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-.tabellen-kopf-zeile td {
-    background-color: #f2f2f2;
-    font-weight: bold;
-}
-
-.quiz-tabelle tr:nth-child(odd) {
     background-color: #f9f9f9;
+    font-size: 16px;
 }
 
-.quiz-tabelle th, .quiz-tabelle td {
-    font-size: 16px;
+#fortschritt-map-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    max-width: 260px;
+    margin: 20px auto 0;
+}
+
+.fortschritt-punkt {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
 }
