@@ -56,12 +56,14 @@ function frageAnzeigen(index) {
 
     document.getElementById('feedback-container').style.display = 'none';
     document.getElementById('previous').style.visibility = index > 0 ? 'visible' : 'hidden';
+
     aktualisiereFortschritt();
+    aktualisiereAktivenPunkt(); // Stelle sicher, dass dies nach dem Aktualisieren des Fortschritts aufgerufen wird
 
     let htmlContent = `<div class="frage-text">${frage.frage}</div>`;
 
     if (frage.bild) {
-        htmlContent += `<div class="bild-container"><img src="${frage.bild}" alt="Bild zur Frage" style="max-width:100%;height:auto;"></div>`;
+        htmlContent += `<div class="bild-container"><img src="${frage.bild}" alt="Bild zur Frage" style="max-width:100%;height:auto;display:block;margin:0 auto;"></div>`;
     }
 
     if (frage.tabelle) {

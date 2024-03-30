@@ -3,9 +3,9 @@
 ## About the Project
 
 This project is an online quiz created with HTML, CSS, and JavaScript. It aims to provide users with an engaging and
-interactive way to test and expand their knowledge across various subject areas.
-Users can integrate the `jsonschema.json` into their IDE to implement and validate individual questions and answers in
-the `fragen.json`. This helps to avoid errors in self-created questions and answers.
+interactive way to test and expand their knowledge across various subject areas. Users can integrate
+the `jsonschema.json` into their IDE to implement and validate individual questions and answers in the `fragen.json`.
+This helps to avoid errors in self-created questions and answers.
 
 ## Current Status
 
@@ -26,6 +26,11 @@ the `fragen.json`. This helps to avoid errors in self-created questions and answ
   readability.
 - **Tables**: Implemented the possibility to create tables (Head + Body) & (Body Only) & (Head + Body + Head + Body).
   Visually: Zebra stripes for row separation.
+- **Overview of progress map**: Implemented an overview of completed tasks, where correctly and incorrectly processed
+  tasks are marked in color (red/green). It should also be possible to click on individual points of this overview to
+  directly view the task statement at any time.
+- **Images for task statements**: Added the capability to use images for task statements.
+- **Indicator for active task**: Mark the active/displayed task on the map.
 
 ### Items to be Done
 
@@ -35,15 +40,10 @@ the `fragen.json`. This helps to avoid errors in self-created questions and answ
 - **Write tests**: Test thoroughly and ensure that TestPrepWeb works consistently across different browsers and devices.
 - **Separation of mock exams by period of realization**: Separate mock exams by period of realization and implement a
   selection menu at the start of the application.
-- **Overview of progress**: Implement an overview of the tasks completed, where the correctly and incorrectly processed
-  tasks are marked in color (red/green). It should also be possible to click on individual points of this overview to
-  view the task statement at any time.
 
 ## Planned Features
 
 - **Responsive Design**: Optimization of the quiz application for various screen sizes and devices.
-- **Overview of incorrect answers**: Create an overview that displays the incorrectly answered questions along with the
-  correct answers, so they can be memorized again.
 - **Languages**: Make the application multilingual.
 
 ## Continuous Development
@@ -58,10 +58,8 @@ the `fragen.json`. This helps to avoid errors in self-created questions and answ
 ## Acknowledgment of External Sources
 
 Some of the questions and answers used in this repo are based on materials from ISTQB® (International Software Testing
-Qualifications Board).
-These materials are used in acknowledgment of ISTQB® as the source and copyright holder in accordance with their
-guidelines.
-I thank ISTQB® for providing these resources and fully recognize their authorship.
+Qualifications Board). These materials are used in acknowledgment of ISTQB® as the source and copyright holder in
+accordance with their guidelines. I thank ISTQB® for providing these resources and fully recognize their authorship.
 
 ## License
 

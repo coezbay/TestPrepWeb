@@ -31,6 +31,7 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
   bearbeiteten Aufgaben farblich (rot/grün) markiert werden sollen. Es soll dann auch möglich sein, einzelne Punkte
   dieser Übersicht anzuklicken, um die Aufgabenstellung zu jedem Zeitpunkt direkt zu betrachten.
 - **Bilder für Aufgabenstellung**: Es soll möglich sein, Bilder für die Aufgabenstellung zu verwenden.
+- **Indikator für aktive Aufgabe**: Aktive/Angezeigte Aufgabe in der Map markieren.
 
 ### Noch zu erledigen
 
@@ -41,7 +42,6 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
   hinweg konsistent funktioniert.
 - **Trennung der Probeprüfungen nach Realisierungszeitraum**: Probeprüfungen nach Realisierungszeitraum trennen und ein
   Auswahlmenü beim Start der Anwendung implementieren.
-- **Indikator für aktive Aufgabe**: Aktive/Angezeigte Aufgabe in der Map markieren.
 
 ## Geplante Features
 
