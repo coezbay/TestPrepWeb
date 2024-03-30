@@ -102,9 +102,21 @@ li button {
     justify-content: space-between;
 }
 
-.leistungsanzeige, .nummerierte-liste, .buchstaben-liste-klein, .buchstaben-liste-gross, .kreis-liste, .ac-liste, .ac-liste li::before {
+.leistungsanzeige, .nummerierte-liste, .buchstaben-liste-klein, .buchstaben-liste-gross, .kreis-liste {
     text-align: center;
     margin-top: 20px;
+}
+
+.nummerierte-liste {
+    list-style-type: decimal;
+}
+
+.buchstaben-liste-klein {
+    list-style-type: lower-alpha;
+}
+
+.buchstaben-liste-gross {
+    list-style-type: upper-alpha;
 }
 
 table, th, td {
@@ -114,6 +126,13 @@ table, th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+}
+
+.quiz-tabelle {
+    table-layout: fixed; /* Legt fest, dass die Breite der Spalten fixiert ist */
+    width: 100%; /* Die Tabelle nimmt die volle Breite des Containers ein */
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
 .quiz-tabelle tr:nth-child(odd) {
@@ -128,6 +147,13 @@ table, th, td {
     background-color: #657286;
     color: white;
     font-weight: bold;
+}
+
+.quiz-tabelle th, .quiz-tabelle td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word; /* Erlaubt das Umbruch von langen Wörtern */
 }
 
 #fortschritt-map-container {
@@ -164,4 +190,25 @@ table, th, td {
 .bild-container {
     text-align: center;
     margin: 20px 0;
+}
+
+.ac-liste {
+    list-style-type: none;
+    counter-reset: ac-counter;
+    padding-left: 0;
+}
+
+.ac-liste li {
+    counter-increment: ac-counter;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.ac-liste li::before {
+    content: "AC" counter(ac-counter) ": ";
+    position: absolute;
+    left: 0;
+    width: 50px;
+    text-align: left;
 }

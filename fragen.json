@@ -272,7 +272,7 @@
     }
   },
   {
-    "frage": "Sie arbeiten an einem Entwicklungsprojekt für ein Videospiel, das mit agilen Methoden entwickelt wird. Es basiert auf der griechischen Mythologie und Geschichte, und die Spieler können Schlüsselrollen in Szenarien wie den Schlachten zwischen Griechen und Trojanern übernehmen.<br><br>Betrachten Sie die folgende User-Story und die zugehörigen Akzeptanzkriterien:<br><br><ul class='ac-liste'><li>Der Stab muss auf jedes Objekt oder jeden Spieler – egal welcher Größe – wirken, das von dem Spieler, der den Stab hält, irgendwo berührt werden kann</li><li>Das Halten des Stabes verwandelt den Spieler, der ihn hält, nicht in Gold</li><li>Jeder Gegenstand oder Spieler, der vom Stab berührt wird, verwandelt sich innerhalb einer Millisekunde vollständig in Gold</li><li>Der Stab erscheint wie in Prototyp O.W.RoM gezeigt</li><li>Die Transformation beginnt an der Kontaktstelle mit dem Stab und bewegt sich mit einer Geschwindigkeit von einem Meter pro Millisekunde</li></ul>Sie nehmen an einer checklistenbasierten Reviewsitzung zu dieser User Story teil.<br><br>Diese User-Story und die zugehörigen Akzeptanzkriterien enthalten welche \nder folgenden typischen Fehler, die durch statische Tests bei dieser Art von \nArbeitsprodukt identifiziert werden können?<br><br>Wählen Sie EINE Option aus.",
+    "frage": "Sie arbeiten an einem Entwicklungsprojekt für ein Videospiel, das mit agilen Methoden entwickelt wird. Es basiert auf der griechischen Mythologie und Geschichte, und die Spieler können Schlüsselrollen in Szenarien wie den Schlachten zwischen Griechen und Trojanern übernehmen.<br><br>Betrachten Sie die folgende User-Story und die zugehörigen Akzeptanzkriterien:<br><br>Als Spieler möchte ich in der Lage sein, den Stab des Midas (ein neues magisches Objekt) zu erwerben, damit ich Objekte und andere Spieler in Gold verwandeln kann.<br><br><ul class='ac-liste'><li>Der Stab muss auf jedes Objekt oder jeden Spieler – egal welcher Größe – wirken, das von dem Spieler, der den Stab hält, irgendwo berührt werden kann</li><li>Das Halten des Stabes verwandelt den Spieler, der ihn hält, nicht in Gold</li><li>Jeder Gegenstand oder Spieler, der vom Stab berührt wird, verwandelt sich innerhalb einer Millisekunde vollständig in Gold</li><li>Der Stab erscheint wie in Prototyp O.W.RoM gezeigt</li><li>Die Transformation beginnt an der Kontaktstelle mit dem Stab und bewegt sich mit einer Geschwindigkeit von einem Meter pro Millisekunde</li></ul>Sie nehmen an einer checklistenbasierten Reviewsitzung zu dieser User Story teil.<br><br>Diese User-Story und die zugehörigen Akzeptanzkriterien enthalten welche \nder folgenden typischen Fehler, die durch statische Tests bei dieser Art von \nArbeitsprodukt identifiziert werden können?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Abweichung von Normen",
       "b": "Widersprüche",
@@ -300,11 +300,11 @@
       "a": "FALSCH – Dies ist die Glossardefinition von Bedingungsüberdeckung.",
       "b": "FALSCH – Die Entscheidungsüberdeckung ist eine höhere Ebene der Überdeckung und die beiden Begriffe sind im Glossar nicht als Synonyme definiert.",
       "c": "FALSCH – Das ist die Glossar-Definition von Anweisungsüberdeckung.",
-      "d": "KORREKT – Dies ist die Glossar-Definition des Begriffs Entscheidungsüberdeckung, der auf Entscheidungen angewendet wird."
+      "d": "KORREKT – Die Überdeckung von Entscheidungsergebnissen ist die Glossar-Definition des Begriffs Entscheidungsüberdeckung, der auf Entscheidungen angewendet wird."
     }
   },
   {
-    "frage": "Im Vorfeld einer Iterationsplanungssitzung untersuchen Sie eine User Story und deren Akzeptanzkriterien und leiten daraus Testbedingungen und zugehörige Testfälle ab, um das Prinzip der frühen Qualitätssicherung und des Tests anzuwenden. Welches Testverfahren wenden Sie an?",
+    "frage": "Im Vorfeld einer Iterationsplanungssitzung untersuchen Sie eine User Story und deren Akzeptanzkriterien und leiten daraus Testbedingungen und zugehörige Testfälle ab, um das Prinzip der frühen Qualitätssicherung und des Tests anzuwenden.<br><br>Welches Testverfahren wenden Sie an?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "White-Box",
       "b": "Black-Box",
@@ -416,7 +416,7 @@
     }
   },
   {
-    "frage": "Betrachten Sie die folgende Entscheidungstabelle für den Teil eines Online-Flugreservierungssystems, der Vielfliegern das Einlösen von Punkten für Prämienreisen ermöglicht:<br><br>",
+    "frage": "Betrachten Sie die folgende Entscheidungstabelle für den Teil eines Online-Flugreservierungssystems, der Vielfliegern das Einlösen von Punkten für Prämienreisen ermöglicht:<br>",
     "tabelle": {
       "kopf": [
         "Zustand",
@@ -494,7 +494,7 @@
     }
   },
   {
-    "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Feldes 'Einheiten' beträgt 0,1 Einheiten. Welche der folgenden ist eine MINIMALE Menge von Eingabewerten, die die Äquivalenzklassen für dieses Feld abdecken?",
+    "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Feldes 'Einheiten' beträgt 0,1 Einheiten.<br><br>Welche der folgenden ist eine MINIMALE Menge von Eingabewerten, die die Äquivalenzklassen für dieses Feld abdecken?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "10,0; 28,0",
       "b": "0,4; 0,5; 25,0; 25,1",
@@ -503,14 +503,14 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH – Nur zwei der Äquivalenzklassen werden in diesem Satz von Tests abgedeckt.",
+      "a": "FALSCH – Nur zwei der Äquivalenzklassen werden in diesem Satz von Tests abgedeckt.<br><br>Begründung:<br><br>Es gibt drei Äquivalenzklassen, mit den Grenzen wie gezeigt:<br><br>- Ungültig zu niedrig (0,4 und darunter)<br><br>- Gültig (0,5 bis 25,0)<br><br>- Ungültig zu hoch (25,1 und höher)",
       "b": "FALSCH – Jeder dieser vier Grenzwerte ist in diesem Satz von Tests enthalten, aber die Frage fragte nach der Abdeckung der Äquivalenzklasse mit minimalen Tests, also sollte entweder 0,5 oder 25,0 weggelassen werden.",
-      "c": "KORREKT – Jede dieser drei Äquivalenzklassen wird in diesem Testsatz abgedeckt.",
-      "d": "FALSCH – Nur eine dieser Äquivalenzklassen wird von diesem Test abgedeckt."
+      "c": "KORREKT – Jede dieser drei Äquivalenzklassen wird in diesem Testsatz abgedeckt.<br><br>Begründung:<br><br>Es gibt drei Äquivalenzklassen, mit den Grenzen wie gezeigt:<br><br>- Ungültig zu niedrig (0,4 und darunter)<br><br>- Gültig (0,5 bis 25,0)<br><br>- Ungültig zu hoch (25,1 und höher)",
+      "d": "FALSCH – Nur eine dieser Äquivalenzklassen wird von diesem Test abgedeckt.<br><br>Begründung:<br><br>Es gibt drei Äquivalenzklassen, mit den Grenzen wie gezeigt:<br><br>- Ungültig zu niedrig (0,4 und darunter)<br><br>- Gültig (0,5 bis 25,0)<br><br>- Ungültig zu hoch (25,1 und höher)"
     }
   },
   {
-    "frage": "Sie arbeiten als Tester an einem Online-Banking-System. Die Verfügbarkeit wird als eines der Top-Produkt(qualitäts)risiken für das System angesehen. Sie finden einen reproduzierbaren Fehler, der dazu führt, dass Kunden bei Überweisungen zwischen gängigen Kontotypen die Verbindung zur Bank-Website verlieren und diese dann drei bis fünf Minuten lang nicht wiederhergestellt werden kann. Welche der folgenden Aussagen wäre eine gute Zusammenfassung für einen Fehlerbericht für diesen Fehler, die sowohl das Wesentliche des Fehlers als auch seine Auswirkungen auf die Beteiligten erfasst?",
+    "frage": "Sie arbeiten als Tester an einem Online-Banking-System. Die Verfügbarkeit wird als eines der Top-Produkt(qualitäts)risiken für das System angesehen. Sie finden einen reproduzierbaren Fehler, der dazu führt, dass Kunden bei Überweisungen zwischen gängigen Kontotypen die Verbindung zur Bank-Website verlieren und diese dann drei bis fünf Minuten lang nicht wiederhergestellt werden kann.<br><br>Welche der folgenden Aussagen wäre eine gute Zusammenfassung für einen Fehlerbericht für diesen Fehler, die sowohl das Wesentliche des Fehlers als auch seine Auswirkungen auf die Beteiligten erfasst?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Webserver-Protokolle zeigen beim Ausführen von Test 07.005 den Fehler 0x44AB27 an, was keine erwartete Fehlermeldung im /tmp-Dateisystem ist",
       "b": "Die Entwickler haben einen schwerwiegenden Verfügbarkeitsfehler eingeführt, der unsere Kunden ernsthaft verärgern wird",
@@ -526,7 +526,64 @@
     }
   },
   {
-    "frage": "Welcher der folgenden Punkte ist eine gängige Testmetrik, die häufig verwendet wird, um SOWOHL die Testvorbereitung ALS AUCH die Testausführung zu überwachen?",
+    "frage": "Sie testen eine mobile App, mit der Benutzer basierend auf der Art des gewünschten Essens ein Restaurant in der Nähe finden können.<br><br>Betrachten Sie die folgende Liste von Testfällen, Prioritäten (kleinere Zahl bedeutet hohe Priorität) und Abhängigkeiten im folgenden Format:<br>",
+    "tabelle": {
+      "kopf": [
+        "Testfall-Nummer",
+        "Abgedeckte Testbedingung",
+        "Priorität",
+        "Logische Abhängigkeit"
+      ],
+      "koerper": [
+        [
+          "01.001",
+          "Art des Lebensmittels wählen",
+          "3",
+          "keine"
+        ],
+        [
+          "01.002",
+          "Restaurant auswählen",
+          "2",
+          "01.001"
+        ],
+        [
+          "01.003",
+          "Wegbeschreibung erhalten",
+          "1",
+          "01.002"
+        ],
+        [
+          "01.004",
+          "Restaurant anrufen",
+          "1",
+          "01.002"
+        ],
+        [
+          "01.005",
+          "Reservierung vornehmen",
+          "3",
+          "01.002"
+        ]
+      ]
+    },
+    "fortsetzung": "Welcher der folgenden ist ein möglicher Testausführungsplan, der sowohl Prioritäten als auch Abhängigkeiten berücksichtigt?<br><br>Wählen Sie EINE Option aus.",
+    "antworten": {
+      "a": "01.001, 01.002, 01.003, 01.005, 01.004",
+      "b": "01.001, 01.002, 01.004, 01.003, 01.005",
+      "c": "01.003, 01.004, 01.002, 01.001, 01.002",
+      "d": "01.001, 01.002, 01.004, 01.005, 01.003"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.",
+      "b": "FALSCH – Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.<br><br>Daher ist Option b) KORREKT.",
+      "c": "KORREKT – Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.",
+      "d": "FALSCH – Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen."
+    }
+  },
+  {
+    "frage": "Welcher der folgenden Punkte ist eine gängige Testmetrik, die häufig verwendet wird, um SOWOHL die Testvorbereitung ALS AUCH die Testausführung zu überwachen?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Status des Testfalls",
       "b": "Fehlerfindungsraten / Fehlerbehebungsraten",
@@ -536,13 +593,13 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT – Der Prozentsatz der vorbereiteten Testfälle ist eine übliche Metrik während der Testvorbereitung, während der Prozentsatz der bestandenen, fehlgeschlagenen, nicht ausgeführten Testfälle usw. während der Testausführung üblich ist.",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "FALSCH"
+      "b": "FALSCH - Fehlerberichte werden typischerweise während der Testausführung erfasst, basierend auf den gefundenen Fehlern.",
+      "c": "FALSCH - Die Vorbereitung der Testumgebung ist Teil der Implementierung und würde im Allgemeinen vor der Testausführung abgeschlossen sein.",
+      "d": "FALSCH - Fehlerzustände werden typischerweise während der Testausführung gemeldet, basierend auf den gefundenen Fehlerwirkungen, so dass die Kosten für das Finden des nächsten Fehlerzustands nur während der Testausführung verfügbar sind."
     }
   },
   {
-    "frage": "Welche folgenden Faktoren können zur Bestimmung der Risikostufe herangezogen werden?",
+    "frage": "Welche folgenden Faktoren können zur Bestimmung der Risikostufe herangezogen werden?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Testen und Entwicklung",
       "b": "Dynamisch und reaktiv",
@@ -551,14 +608,14 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "Die Höhe des Risikos wird durch die Wahrscheinlichkeit des Eintretens eines unerwünschten Ereignisses und die Auswirkungen (den Schaden) dieses Ereignisses bestimmt. Daher ist die Option d) KORREKT."
+      "a": "FALSCH - Die Höhe des Risikos wird durch die Wahrscheinlichkeit des Eintretens eines unerwünschten Ereignisses und die Auswirkungen (den Schaden) dieses Ereignisses bestimmt.<br><br>Daher ist die Option d) KORREKT.",
+      "b": "FALSCH - Die Höhe des Risikos wird durch die Wahrscheinlichkeit des Eintretens eines unerwünschten Ereignisses und die Auswirkungen (den Schaden) dieses Ereignisses bestimmt.<br><br>Daher ist die Option d) KORREKT.",
+      "c": "FALSCH - Die Höhe des Risikos wird durch die Wahrscheinlichkeit des Eintretens eines unerwünschten Ereignisses und die Auswirkungen (den Schaden) dieses Ereignisses bestimmt.<br><br>Daher ist die Option d) KORREKT.",
+      "d": "KORREKT - Die Höhe des Risikos wird durch die Wahrscheinlichkeit des Eintretens eines unerwünschten Ereignisses und die Auswirkungen (den Schaden) dieses Ereignisses bestimmt.<br><br>Daher ist die Option d) KORREKT."
     }
   },
   {
-    "frage": "Welcher der folgenden Punkte ist der wahrscheinlichste Teil des Prozesses, der als nächstes überprüft werden sollte?",
+    "frage": "Sie arbeiten als Projektleiter an einem bankinternen Softwareprojekt. Um Nacharbeit und übermäßige „Fehlerfindungszyklen / Fehlerbehebungszyklen / Fehlernachtestzyklen“ (Find/Fix/Retest) zu vermeiden, wurde der folgende Prozess zur Behebung eines Fehlers eingeführt, sobald dieser im Testlabor gefunden wurde:<br><ol style=\"list-style-type: lower-alpha;\"><li>Der zugewiesene Entwickler findet und behebt den Fehler und erstellt dann einen experimentellen Build.</li><li>Ein Peer-Entwickler überprüft, testet und bestätigt die Fehlerbehebung auf seinem Desktop</li><li>Ein Tester - in der Regel derjenige, der den Fehler gefunden hat - bestätigt die Fehlerbehebung durch einen Test in der Entwicklungsumgebung</li><li>Einmal am Tag wird ein neues Release mit allen bestätigten Fehlerkorrekturen in der Testumgebung installiert</li><li>Derselbe Tester aus Schritt c testet die Fehlerbehebung in der Testumgebung</li></ol>Trotzdem fällt eine große Anzahl von Fehlerzuständen, die die Tester in der Entwicklungsumgebung (in Schritt c) als behoben bestätigt haben, irgendwie bei den Fehlernachtests in der Testumgebung durch, mit den daraus resultierenden Nacharbeiten und Auswirkungen auf die Zykluszeiten. Sie haben höchstes Vertrauen in Ihre Tester und haben Fehler oder Auslassungen in Schritt c ausgeschlossen.<br><br>Welcher der folgenden Punkte ist der wahrscheinlichste Teil des Prozesses, der als nächstes überprüft werden sollte?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Die Aktivität von Entwicklern, die in Schritt b möglicherweise nicht ausreichend getestet wurde",
       "b": "Die Aktivität von Testern, die möglicherweise unklar darüber sind, was in Schritt e zu testen ist",
@@ -567,14 +624,14 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "Das Konfigurationsmanagement bewahrt die Integrität der Software. Wenn ein Test, der in Schritt 3 bestanden wurde, in Schritt 5 fehlschlägt, dann ist etwas zwischen diesen beiden Schritten anders. Ein möglicher Unterschied ist das Testobjekt, die hier aufgeführte Option. Ein weiterer möglicher Unterschied ist der zwischen der Entwicklungsumgebung und der Testumgebung, aber das ist keine hier aufgeführte Option.",
-      "d": "FALSCH"
+      "a": "FALSCH – Wenn unzureichende Entwicklertests das Problem wären, würde der Fehlernachtests in Schritt 3 nicht bestehen.",
+      "b": "FALSCH – Derselbe Tester, der den Fehlernachtests in Schritt 3 erfolgreich durchgeführt hat, wiederholt ihn in Schritt 5.",
+      "c": "KORREKT – Das Konfigurationsmanagement bewahrt die Integrität der Software. Wenn ein Test, der in Schritt 3 bestanden wurde, in Schritt 5 fehlschlägt, dann ist etwas zwischen diesen beiden Schritten anders. Ein möglicher Unterschied ist das Testobjekt, die hier aufgeführte Option. Ein weiterer möglicher Unterschied ist der zwischen der Entwicklungsumgebung und der Testumgebung, aber das ist keine hier aufgeführte Option.",
+      "d": "FALSCH – Wenn die Entwickler den Fehler nicht beheben würden, würde der Fehlernachtest in Schritt 3 nicht erfolgreich sein."
     }
   },
   {
-    "frage": "Welche Aussage beschreibt Ihren Schätzungsansatz genau?",
+    "frage": "Sie sind mit der Planung des Testaufwands für eine neue mobile Banking Anwendung beschäftigt. Im Rahmen der Schätzung treffen Sie sich zunächst mit den vorgeschlagenen Testern und anderen Mitarbeitern des Projekts. Das Team ist gut eingespielt und hat bereits an ähnlichen Projekten gearbeitet. Um die resultierende Schätzung zu verifizieren, beziehen Sie sich dann auf einige Branchendurchschnittswerte für Testaufwand und -kosten bei ähnlichen Projekten, die von einem renommierten Berater veröffentlicht wurden.<br><br>Welche Aussage beschreibt Ihren Schätzungsansatz genau?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Ein gleichzeitiger expertenbasierter und metrikbasierter Ansatz",
       "b": "In erster Linie ein expertenbasierter Ansatz, ergänzt durch einen metrikbasierten Ansatz",
@@ -583,14 +640,14 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH",
-      "b": "Die primären Informationsquellen stammen von den erfahrenen Testern, die die Experten sind. Die Branchendurchschnittswerte des Beraters ergänzen die ursprüngliche Schätzung aus veröffentlichten Metriken.",
-      "c": "FALSCH",
-      "d": "FALSCH"
+      "a": "FALSCH – Die beiden Methoden werden nacheinander verwendet, nicht gleichzeitig.",
+      "b": "KORREKT – Die primären Informationsquellen stammen von den erfahrenen Testern, die die Experten sind. Die Branchendurchschnittswerte des Beraters ergänzen die ursprüngliche Schätzung aus veröffentlichten Metriken.",
+      "c": "FALSCH – Der expertenbasierte Ansatz ist der primäre Ansatz, der durch einen metrikbasierten Ansatz ergänzt wird.",
+      "d": "FALSCH – Wir wissen nicht, ob dieses Projekt agilen Methoden folgt, und Burndown Charts stammen nicht von externen Beratern."
     }
   },
   {
-    "frage": "Welcher der folgenden Punkte ist ein Vorteil der Testunabhängigkeit, der in dieser Situation deutlich wird?",
+    "frage": "Während eines Projekts mit agilen Methoden stellen Sie einen Widerspruch zwischen der Interpretation eines Abnahmekriteriums durch den Entwickler und der Interpretation des Product Owners fest, die Sie während einer User-Story-Verfeinerungssession zur Sprache bringen.<br><br>Welcher der folgenden Punkte ist ein Vorteil der Testunabhängigkeit, der in dieser Situation deutlich wird?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Erkennen von verschiedenen Arten von Fehlern",
       "b": "Übernahme der Hauptverantwortung für die Qualität",
@@ -599,14 +656,14 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "Die Annahmen der Stakeholder in Frage zu stellen, ist ein Vorteil der Unabhängigkeit des Testers, und hier gehen sowohl der Entwickler als auch der Product Owner von unterschiedlichen Annahmen bezüglich der Abnahmekriterien aus."
+      "a": "FALSCH – Während das Erkennen verschiedener Arten von Fehlern ein Vorteil der Unabhängigkeit des Testens ist, gibt es in dem Szenario hier noch keinen Code, der fehlschlagen kann, und das Problem ist, dass der Entwickler und der Product Owner beide unterschiedliche Dinge über die Abnahmekriterien annehmen.",
+      "b": "FALSCH – Der Verlust des Verantwortungsbewusstseins der Entwickler für die Qualität ist ein Nachteil, kein Vorteil",
+      "c": "FALSCH – Während der Effekt der Entdeckung dieser Unstimmigkeit die frühere Beseitigung des Fehlerzustands ist, können Fehlerzustände vor der Codierung von verschiedenen Personen frühzeitig entdeckt werden, nicht nur von unabhängigen Testern.",
+      "d": "KORREKT – Die Annahmen der Stakeholder in Frage zu stellen, ist ein Vorteil der Unabhängigkeit des Testers, und hier gehen sowohl der Entwickler als auch der Product Owner von unterschiedlichen Annahmen bezüglich der Abnahmekriterien aus."
     }
   },
   {
-    "frage": "Sie definieren den Prozess für die Durchführung der Produktrisikoanalyse als Teil jeder Iteration in einem agilen Projekt. Welche der folgenden Stellen ist die KORREKTE, um diesen Prozess in einem Testkonzept zu dokumentieren?",
+    "frage": "Sie definieren den Prozess für die Durchführung der Produktrisikoanalyse als Teil jeder Iteration in einem agilen Projekt.<br><br>Welche der folgenden Stellen ist die KORREKTE, um diesen Prozess in einem Testkonzept zu dokumentieren?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Umfang des Testens",
       "b": "Testvorgehensweise",
@@ -615,14 +672,14 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH",
-      "b": "Die Implementierung einer risikobasierten Teststrategie in diesem Projekt ist die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt behandelt werden.",
-      "c": "FALSCH",
-      "d": "FALSCH"
+      "a": "FALSCH – Während der Umfang ein Thema ist, das in einem Testkonzept angesprochen wird, ist die Implementierung einer risikobasierten Teststrategie in diesem Projekt die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt angesprochen werden.",
+      "b": "KORREKT – Die Testvorgehensweise ist ein Thema, das in einem Testkonzept angesprochen wird, und die Implementierung einer risikobasierten Teststrategie in diesem Projekt ist die allgemeine Testvorgehensweise.",
+      "c": "FALSCH – Während Metriken für die Testüberwachung und -steuerung ein Thema sind, das in einem Testkonzept behandelt wird, ist die Implementierung einer risikobasierten Teststrategie in diesem Projekt die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt behandelt werden.",
+      "d": "FALSCH – Konfigurationsmanagement ist kein Thema, das in einem Testkonzept angesprochen wird."
     }
   },
   {
-    "frage": "Betrachten Sie die folgende Liste von unerwünschten Ergebnissen, die bei der Entwicklung einer mobilen App auftreten können: A. Falsche Summe wird auf dem Display angezeigt B. Änderung der Abnahmekriterien während des Abnahmetests C. Benutzer empfinden die Soft-Tastatur als zu schwer zu bedienen für die Verwendung mit Ihrer App D. System reagiert zu langsam auf Benutzereingaben bei der Suchstring-Eingabe E. Tester dürfen in täglichen Standup-Meetings nicht über Testergebnisse berichten Welche der folgenden Aussagen klassifiziert diese Ergebnisse KORREKT als Projekt- und Produktrisiken?",
+    "frage": "Betrachten Sie die folgende Liste von unerwünschten Ergebnissen, die bei der Entwicklung einer mobilen App auftreten können:<br><ol style=\"list-style-type: upper-alpha;\"><li>Falsche Summe wird auf dem Display angezeigt</li><li>Änderung der Abnahmekriterien während des Abnahmetests</li><li>Benutzer empfinden die Soft-Tastatur als zu schwer zu bedienen für die Verwendung mit Ihrer App</li><li>System reagiert zu langsam auf Benutzereingaben bei der Suchstring-Eingabe</li><li>Tester dürfen in täglichen Standup-Meetings nicht über Testergebnisse berichten</li></ol>Welche der folgenden Aussagen klassifiziert diese Ergebnisse KORREKT als Projekt- und Produktrisiken?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Produktrisiken: B, E; Projekt-Risiken: A, C, D",
       "b": "Produktrisiken: A, C, D; Projektrisiken: B, E",
@@ -631,14 +688,14 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH",
-      "b": "Die Liste zeigt Produkt- und Projektrisiken. Falsche Summen auf dem Display (A), Benutzer, die die Soft-Tastatur als schwer zu bedienen empfinden (C) und ein langsames Systemverhalten (D) sind allesamt Produktrisiken. Die Änderung der Abnahmekriterien während des Tests (B) und das Versäumnis, Testergebnisse zu kommunizieren (E), sind Projektrisiken.",
-      "c": "FALSCH",
-      "d": "FALSCH"
+      "a": "FALSCH - Diese Liste ist völlig verkehrt<br><br>Begründung:<br><br>Produktrisiken bestehen, wenn ein Arbeitsprodukt möglicherweise nicht den legitimen Anforderungen entspricht, während Projektrisiken Situationen sind, die sich negativ auf die Fähigkeit des Projekts auswirken könnten, seine Ziele zu erreichen. Also:<br><ol style=\"list-style-type: upper-alpha;\"><li>Falsche Summen auf Berichten = Produktrisiko</li><li>Änderung der Abnahmekriterien während der Abnahmeprüfung = Projektrisiko</li><li>Benutzer empfinden die Soft-Tastatur als zu schwer für die Verwendung mit Ihrer App = Produktrisiko</li><li>System reagiert zu langsam auf Benutzereingaben bei der Suchstring-Eingabe = Produktrisiko</li><li>Tester dürfen Testergebnisse nicht in täglichen Standup-Meetings melden = Projektrisiko<br><br>Deshalb ist b) korrekt.",
+      "b": "KORREKT - Begründung:<br><br>Produktrisiken bestehen, wenn ein Arbeitsprodukt möglicherweise nicht den legitimen Anforderungen entspricht, während Projektrisiken Situationen sind, die sich negativ auf die Fähigkeit des Projekts auswirken könnten, seine Ziele zu erreichen. Also:<br><ol style=\"list-style-type: upper-alpha;\"><li>Falsche Summen auf Berichten = Produktrisiko</li><li>Änderung der Abnahmekriterien während der Abnahmeprüfung = Projektrisiko</li><li>Benutzer empfinden die Soft-Tastatur als zu schwer für die Verwendung mit Ihrer App = Produktrisiko</li><li>System reagiert zu langsam auf Benutzereingaben bei der Suchstring-Eingabe = Produktrisiko</li><li>Tester dürfen Testergebnisse nicht in täglichen Standup-Meetings melden = Projektrisiko</li></ol>",
+      "c": "FALSCH - Während es bei e um Produktqualität und Produktrisiken geht, ist das Versäumnis, Testergebnisse zu kommunizieren, laut Lehrplan ein Projektrisiko.<br><br>Begründung:<br><br>Produktrisiken bestehen, wenn ein Arbeitsprodukt möglicherweise nicht den legitimen Anforderungen entspricht, während Projektrisiken Situationen sind, die sich negativ auf die Fähigkeit des Projekts auswirken könnten, seine Ziele zu erreichen. Also:<br><ol style=\"list-style-type: upper-alpha;\"><li>Falsche Summen auf Berichten = Produktrisiko</li><li>Änderung der Abnahmekriterien während der Abnahmeprüfung = Projektrisiko</li><li>Benutzer empfinden die Soft-Tastatur als zu schwer für die Verwendung mit Ihrer App = Produktrisiko</li><li>System reagiert zu langsam auf Benutzereingaben bei der Suchstring-Eingabe = Produktrisiko</li><li>Tester dürfen Testergebnisse nicht in täglichen Standup-Meetings melden = Projektrisiko<br><br>Deshalb ist b) korrekt.",
+      "d": "FALSCH - Produktrisiken können funktional und nicht-funktional sein, daher ist diese Option auch ein Produktrisiko.<br><br>Begründung:<br><br>Produktrisiken bestehen, wenn ein Arbeitsprodukt möglicherweise nicht den legitimen Anforderungen entspricht, während Projektrisiken Situationen sind, die sich negativ auf die Fähigkeit des Projekts auswirken könnten, seine Ziele zu erreichen. Also:<br><ol style=\"list-style-type: upper-alpha;\"><li>Falsche Summen auf Berichten = Produktrisiko</li><li>Änderung der Abnahmekriterien während der Abnahmeprüfung = Projektrisiko</li><li>Benutzer empfinden die Soft-Tastatur als zu schwer für die Verwendung mit Ihrer App = Produktrisiko</li><li>System reagiert zu langsam auf Benutzereingaben bei der Suchstring-Eingabe = Produktrisiko</li><li>Tester dürfen Testergebnisse nicht in täglichen Standup-Meetings melden = Projektrisiko<br><br>Deshalb ist b) korrekt."
     }
   },
   {
-    "frage": "Sie haben gerade ein Pilotprojekt für ein Regressionstest-Werkzeug abgeschlossen. Sie verstehen das Werkzeug viel besser und haben Ihren Testprozess darauf abgestimmt. Sie haben einen standardisierten Ansatz für die Verwendung des Werkzeugs und der zugehörigen Arbeitsprodukte entwickelt. Welcher der folgenden Aussagen ist ein typisches Ziel eines Testautomatisierungsprojekts bzw. Pilotprojekts, das noch verwirklicht werden muss?",
+    "frage": "Sie haben gerade ein Pilotprojekt für ein Regressionstest-Werkzeug abgeschlossen. Sie verstehen das Werkzeug viel besser und haben Ihren Testprozess darauf abgestimmt. Sie haben einen standardisierten Ansatz für die Verwendung des Werkzeugs und der zugehörigen Arbeitsprodukte entwickelt.<br><br>Welcher der folgenden Aussagen ist ein typisches Ziel eines Testautomatisierungsprojekts bzw. Pilotprojekts, das noch verwirklicht werden muss?<br><br>Wählen Sie EINE Option aus.",
     "antworten": {
       "a": "Erfahren Sie mehr Details über das Werkzeug",
       "b": "Prüfen Sie, wie das Werkzeug in bestehende Prozesse und Praktiken passen würde",
@@ -647,10 +704,10 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "Die Bewertung der Vorteile sowie die Konfiguration der Erfassung von Metriken sind typische Ziele eines Testautomatisierungsprojekts bzw. Pilotprojekts, die noch verwirklicht werden müssen."
+      "a": "FALSCH - Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie das Werkzeug durch den Piloten viel besser verstehen.",
+      "b": "FALSCH - Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie Ihre Testprozesse maßgeschneidert haben.",
+      "c": "FALSCH - Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie einen Ansatz zur Verwendung des Werkzeugs und der damit verbundenen Arbeitsprodukte standardisiert haben.",
+      "d": "KORREKT - Die Bewertung der Vorteile sowie die Konfiguration der Erfassung von Metriken sind die beiden Ziele, die in dieser Liste fehlen."
     }
   },
   {
@@ -663,12 +720,13 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "Testmanagementwerkzeuge unterstützen die mit dem Testmanager verbundenen Aktivitäten einschließlich Metriken.",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "FALSCH"
+      "a": "KORREKT - Testmanagementwerkzeuge unterstützen die mit dem Testmanager verbundenen Aktivitäten einschließlich Metriken.",
+      "b": "FALSCH - Metriken der statischen Code-Analyse würden sich nur auf den Code beziehen, nicht auf das Testen als Ganzes",
+      "c": "FALSCH - Diese Werkzeuge berichten nur über die Testbasis-Überdeckung und die Codeüberdeckung, nicht über das Testen als Ganzes.",
+      "d": "FALSCH - Testwerkzeuge für das modellbasierte Testen konzentrieren sich auf einen bestimmten Bereich, nicht auf das Testen als Ganzes."
     }
   },
+
   {
     "frage": "Was beschreibt am besten die Rolle eines Testers im Testprozess?",
     "antworten": {
