@@ -31,12 +31,12 @@ This helps to avoid errors in self-created questions and answers.
   directly view the task statement at any time.
 - **Images for task statements**: Added the capability to use images for task statements.
 - **Indicator for active task**: Mark the active/displayed task on the map.
+- **Implement Dark Mode**: Introduce Dark Mode to protect the eyes.
 
 ### Items to be Done
 
 - **Adjustment of button positions**: Ensure that the "Back" and "Next Question" buttons remain static regardless of the
   text length of the question or the answer options.
-- **Implement Dark Mode**: Introduce Dark Mode to protect the eyes.
 - **Write tests**: Test thoroughly and ensure that TestPrepWeb works consistently across different browsers and devices.
 - **Separation of mock exams by period of realization**: Separate mock exams by period of realization and implement a
   selection menu at the start of the application.
@@ -63,7 +63,7 @@ accordance with their guidelines. I thank ISTQB® for providing these resources 
 
 ## License
 
-This project is published under the [MIT License](LICENSE/LICENSE.txt).
+This project is published under the [MIT License](LICENSE.txt).
 
 ## Languages
 

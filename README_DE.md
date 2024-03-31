@@ -32,12 +32,12 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
   dieser Übersicht anzuklicken, um die Aufgabenstellung zu jedem Zeitpunkt direkt zu betrachten.
 - **Bilder für Aufgabenstellung**: Es soll möglich sein, Bilder für die Aufgabenstellung zu verwenden.
 - **Indikator für aktive Aufgabe**: Aktive/Angezeigte Aufgabe in der Map markieren.
+- **Dark Mode einbauen**: Dark Mode für die Schonung der Augen.
 
 ### Noch zu erledigen
 
 - **Anpassung der Button-Positionen**: Sicherstellen, dass die "Zurück" und "Nächste Frage" Buttons unabhängig von der
   Textlänge der Frage oder den Antwortmöglichkeiten statisch bleiben.
-- **Dark Mode einbauen**: Dark Mode für die Schonung der Augen.
 - **Tests schreiben**: Gründlich testen und sicherstellen, dass TestPrepWeb über verschiedene Browser und Endgeräte
   hinweg konsistent funktioniert.
 - **Trennung der Probeprüfungen nach Realisierungszeitraum**: Probeprüfungen nach Realisierungszeitraum trennen und ein
@@ -67,7 +67,7 @@ Ich danke dem ISTQB® für die Bereitstellung dieser Ressourcen und erkenne ihre
 
 ## Lizenz
 
-Dieses Projekt ist unter der [MIT-Lizenz](LICENSE/LICENSE.txt) veröffentlicht.
+Dieses Projekt ist unter der [MIT-Lizenz](LICENSE.txt) veröffentlicht.
 
 ## Sprachen
 

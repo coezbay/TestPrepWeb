@@ -81,6 +81,8 @@ function frageAnzeigen(index) {
     ).join('') + `</ul>`;
 
     quizContainer.innerHTML = htmlContent;
+
+    scrollToTop();
 }
 
 function generiereTabellenHTML(tabelle) {
@@ -150,6 +152,10 @@ function naechsteFrage() {
     } else {
         anzeigenLeistung();
     }
+}
+
+function scrollToTop() {
+    window.scrollTo(0, 0);
 }
 
 function vorherigeFrage() {

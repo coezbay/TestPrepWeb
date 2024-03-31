@@ -217,3 +217,55 @@ table, th, td {
     width: 50px;
     text-align: left;
 }
+
+@media (prefers-color-scheme: dark) {
+    body, html {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    .quiz-container {
+        background-color: #242424;
+        color: #e0e0e0;
+    }
+
+    button {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+    button:hover, button:focus, button:active {
+        background-color: #444444;
+    }
+
+    .feedback-container {
+        background-color: #006400;
+        color: #000000;
+    }
+
+    .quiz-tabelle, .quiz-tabelle th, .quiz-tabelle td {
+        background-color: #242424;
+        border: 1px solid #444444;
+        color: #e0e0e0;
+    }
+
+    .quiz-tabelle th {
+        background-color: #3a3a3a;
+    }
+
+    #fortschritt-map-container {
+        background-color: #333333;
+    }
+
+    .fortschritt-punkt {
+        background-color: #444444;
+    }
+
+    .fortschritt-punkt.aktiv {
+        background-color: #ff8d00;
+    }
+
+    .bild-container {
+        filter: brightness(0.8) contrast(1.2); /* Passt Helligkeit und Kontrast an */
+    }
+}

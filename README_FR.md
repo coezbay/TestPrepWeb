@@ -1,9 +1,8 @@
-# Projet TestPrepWeb
+# TestPrepWeb Projet
 
 ## À propos du projet
 
-Ce projet est un quiz en ligne créé avec HTML, CSS et JavaScript. Il vise à offrir aux utilisateurs une manière engageante et interactive de tester et d'étendre leurs connaissances dans divers domaines.
-Les utilisateurs peuvent intégrer le `jsonschema.json` dans leur IDE pour implémenter et valider des questions et réponses individuelles dans le `fragen.json`. Cela aide à éviter les erreurs dans les questions et réponses créées par eux-mêmes.
+Ce projet est un quiz en ligne créé avec HTML, CSS et JavaScript. Il vise à offrir aux utilisateurs une manière engageante et interactive de tester et d'étendre leurs connaissances dans divers domaines. Les utilisateurs peuvent intégrer le `jsonschema.json` dans leur IDE pour implémenter et valider des questions et réponses individuelles dans le `fragen.json`. Cela aide à éviter les erreurs dans les questions et réponses créées par eux-mêmes.
 
 ## État actuel
 
@@ -16,18 +15,23 @@ Les utilisateurs peuvent intégrer le `jsonschema.json` dans leur IDE pour impl�
 - **Amélioration de l'affichage du feedback** : Implémentation d'un codage couleur pour le feedback (vert pour les réponses correctes, rouge pour les réponses incorrectes) et ajustement de la couleur de la police en conséquence.
 - **Alignement central de l'arrière-plan du feedback** : Correction de l'alignement pour que l'arrière-plan du feedback soit centré et cohérent avec la mise en page des questions et réponses.
 - **Affichage des performances au premier essai** : Ajout d'une fonctionnalité pour afficher le nombre de questions répondues correctement au premier essai.
+- **Justification des questions** : Les questions sont désormais affichées en justification pour améliorer la lisibilité.
+- **Tableaux** : Implémentation de la possibilité de créer des tableaux (En-tête + Corps) & (Corps uniquement) & (En-tête + Corps + En-tête + Corps). Visuellement : utilisation de zébrures pour séparer les lignes.
+- **Vue d'ensemble du progrès** : Implémentation d'une vue d'ensemble des tâches réalisées, avec une marque colorée (rouge/vert) pour les tâches traitées incorrectement ou correctement. Il devrait également être possible de sélectionner des points individuels de cette vue d'ensemble pour examiner la tâche à tout moment.
+- **Images pour les questions** : Il devrait être possible d'utiliser des images pour les questions.
+- **Indicateur de la question active** : Marquer la question active/affichée dans l'aperçu.
+- **Mode sombre** : Intégration d'un mode sombre pour le confort des yeux.
 
 ### À faire
 
 - **Ajustement des positions des boutons** : Assurer que les boutons "Retour" et "Question suivante" restent statiques indépendamment de la longueur du texte de la question ou des options de réponse.
 - **Écrire des tests** : Tester minutieusement et s'assurer que TestPrepWeb fonctionne de manière cohérente sur différents navigateurs et appareils.
-- **Justification des questions** : Réfléchir si les questions devraient être affichées en justification pour améliorer la lisibilité.
+- **Séparation des quiz par période de réalisation** : Séparer les quiz par période de réalisation et implémenter un menu de sélection au démarrage de l'application.
 
 ## Fonctionnalités prévues
 
 - **Conception réactive** : Optimisation de l'application quiz pour différentes tailles d'écran et appareils.
-- **Vue d'ensemble des réponses incorrectes** : Créer un aperçu affichant les questions auxquelles on a répondu incorrectement avec les bonnes réponses, pour pouvoir les réviser.
-- **Langues**: Rendre l'application disponible en plusieurs langues
+- **Langues** : Rendre l'application disponible en plusieurs langues
 
 ## Développement continu
 
@@ -39,13 +43,13 @@ Les utilisateurs peuvent intégrer le `jsonschema.json` dans leur IDE pour impl�
 
 ## Reconnaissance des sources externes
 
-Une partie des questions et réponses utilisées dans ce dépôt est basée sur les matériaux de l'ISTQB® (International Software Testing Qualifications Board).
-Ces matériaux sont utilisés en reconnaissant l'ISTQB® comme source et détenteur du droit d'auteur conformément à leurs directives.
-Je remercie l'ISTQB® pour la mise à disposition de ces ressources et reconnais pleinement leur paternité.
+Une partie des questions et réponses utilisées dans ce dépôt est basée sur les matériaux de l'ISTQB® (International Software Testing Qualifications Board). Ces matériaux sont utilisés en reconnaissant l'ISTQB® comme source et détenteur du droit d'auteur conformément à leurs directives. Je remercie l'
+
+ISTQB® pour la mise à disposition de ces ressources et reconnais pleinement leur paternité.
 
 ## Licence
 
-Ce projet est publié sous la [licence MIT](LICENSE/LICENSE.txt).
+Ce projet est publié sous la [licence MIT](LICENSE.txt).
 
 ## Langues
 
