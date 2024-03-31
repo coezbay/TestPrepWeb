@@ -447,46 +447,16 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": [
-            "Zustand",
-            "1",
-            "2",
-            "3"
-          ],
+          "kopf": ["Zustand","1","2","3"],
           "koerper": [
-            [
-              "Konto/Passwort okay",
-              "N",
-              "J",
-              "J"
-            ],
-            [
-              "Ausreichend Punkte",
-              "-",
-              "N",
-              "J"
-            ],
+            ["Konto/Passwort okay","N","J","J"],
+            ["Ausreichend Punkte","-","N","J"],
             {
-              "zeile": [
-                "Aktion",
-                " ",
-                " ",
-                " "
-              ],
+              "zeile": ["Aktion"," "," "," "],
               "istKopfZeile": true
             },
-            [
-              "Flugverlauf anzeigen",
-              "N",
-              "J",
-              "J"
-            ],
-            [
-              "Belohnungsfahrten zulassen",
-              "N",
-              "N",
-              "J"
-            ]
+            ["Flugverlauf anzeigen","N","J","J"],
+            ["Belohnungsfahrten zulassen","N","N","J"]
           ]
         }
       },
@@ -575,43 +545,13 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": [
-            "Testfall-Nummer",
-            "Abgedeckte Testbedingung",
-            "Priorität",
-            "Logische Abhängigkeit"
-          ],
+          "kopf": ["Testfall-Nummer","Abgedeckte Testbedingung","Priorität","Logische Abhängigkeit"],
           "koerper": [
-            [
-              "01.001",
-              "Art des Lebensmittels wählen",
-              "3",
-              "keine"
-            ],
-            [
-              "01.002",
-              "Restaurant auswählen",
-              "2",
-              "01.001"
-            ],
-            [
-              "01.003",
-              "Wegbeschreibung erhalten",
-              "1",
-              "01.002"
-            ],
-            [
-              "01.004",
-              "Restaurant anrufen",
-              "1",
-              "01.002"
-            ],
-            [
-              "01.005",
-              "Reservierung vornehmen",
-              "3",
-              "01.002"
-            ]
+            ["01.001","Art des Lebensmittels wählen","3","keine"],
+            ["01.002","Restaurant auswählen","2","01.001"],
+            ["01.003","Wegbeschreibung erhalten","1","01.002"],
+            ["01.004","Restaurant anrufen","1","01.002"],
+            ["01.005","Reservierung vornehmen","3","01.002"]
           ]
         }
       },
@@ -1134,26 +1074,11 @@
         "typ": "tabelle",
         "inhalt": {
           "koerper": [
-            [
-              "Bis zu 1000",
-              "- Couch Potato!"
-            ],
-            [
-              "Über 1000, bis zu 2000",
-              "- Faulpelz!"
-            ],
-            [
-              "Über 2000, bis zu 4000 ",
-              "- Die Richtung stimmt!"
-            ],
-            [
-              "Über 4000, bis zu 6000",
-              "- Nicht schlecht!"
-            ],
-            [
-              "Über 6000",
-              "- Super!"
-            ]
+            ["Bis zu 1000","- Couch Potato!"],
+            ["Über 1000, bis zu 2000","- Faulpelz!"],
+            ["Über 2000, bis zu 4000 ","- Die Richtung stimmt!"],
+            ["Über 4000, bis zu 6000","- Nicht schlecht!"],
+            ["Über 6000","- Super!"]
           ]
         }
       },
@@ -1182,31 +1107,11 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": [
-            "",
-            "Dauer (Stunden)",
-            "Intensität",
-            "Einstrahlung"
-          ],
+          "kopf": ["","Dauer (Stunden)","Intensität","Einstrahlung"],
           "koerper": [
-            [
-              "T1",
-              "1,5",
-              "sehr niedrig",
-              "10"
-            ],
-            [
-              "T2",
-              "7,0",
-              "mittel",
-              "60"
-            ],
-            [
-              "T3",
-              "0,5",
-              "sehr niedrig",
-              "10"
-            ]
+            ["T1","1,5","sehr niedrig","10"],
+            ["T2","7,0","mittel","60"],
+            ["T3","0,5","sehr niedrig","10"]
           ]
         }
       },
@@ -1236,26 +1141,11 @@
         "typ": "tabelle",
         "inhalt": {
           "koerper": [
-            [
-              "Bis zu 10°C",
-              "Eiskalt!"
-            ],
-            [
-              "11°C bis 15°C",
-              "Ganz schön schattig!"
-            ],
-            [
-              "16°C bis 19°C",
-              "Cool!"
-            ],
-            [
-              "20°C bis 22°C",
-              "Zu warm!"
-            ],
-            [
-              "Über 22°C",
-              "Sauna!"
-            ]
+            ["Bis zu 10°C","Eiskalt!"],
+            ["11°C bis 15°C","Ganz schön schattig!"],
+            ["16°C bis 19°C","Cool!"],
+            ["20°C bis 22°C","Zu warm!"],
+            ["Über 22°C","Sauna!"]
           ]
         }
       },
@@ -1286,10 +1176,10 @@
         "inhalt": {
           "kopf": ["","Regeln","R1","R2","R3","R5"],
           "koerper": [
-            ["Bedingungen","Geschwindigkeit > 50","J","J","N","N"],
-            ["Bedingungen","Schul-Zone","J","N","J","N"],
-            ["Aktionen","250€ Geldstrafe","-","X","-","-"],
-            ["Aktionen","Führerscheinentzug","X","-","-","-"]
+            ["Bedingung","Geschwindigkeit > 50","J","J","N","N"],
+            ["Bedingung","Schul-Zone","J","N","J","N"],
+            ["Aktion","250€ Geldstrafe","-","X","-","-"],
+            ["Aktion","Führerscheinentzug","X","-","-","-"]
           ]
         }
       },
@@ -1336,14 +1226,40 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH – Regel R2 ist nicht überdeckt.",
-      "b": "FALSCH – Regel R2 ist nicht überdeckt.",
-      "c": "KORREKT – R1, R2, R3 und R4 sind jeweils durch TF1, TF6, TF4 bzw. TF2 überdeckt.",
-      "d": "FALSCH – Regel R3 ist nicht überdeckt."
+      "a": "FALSCH – Regel R2 ist nicht überdeckt.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die zusätzlichen Testfälle überdecken jeweils die folgenden Regeln:<br><table><tr><td>Testfall</td><td>TF3</td><td>TF4</td><td>TF5</td><td>TF6</td></tr><tr><td>Überdeckte Regel</td><td>R1</td><td>R3</td><td>R1</td><td>R2</td></tr></table>Um 100% Überdeckung zu erreichen, sind Testfälle erforderlich, die die Regeln R2 und R3 überdecken. Daher ist Option c) korrekt.",
+      "b": "FALSCH – Regel R2 ist nicht überdeckt.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die zusätzlichen Testfälle überdecken jeweils die folgenden Regeln:<br><table><tr><td>Testfall</td><td>TF3</td><td>TF4</td><td>TF5</td><td>TF6</td></tr><tr><td>Überdeckte Regel</td><td>R1</td><td>R3</td><td>R1</td><td>R2</td></tr></table>Um 100% Überdeckung zu erreichen, sind Testfälle erforderlich, die die Regeln R2 und R3 überdecken. Daher ist Option c) korrekt.",
+      "c": "KORREKT – R1, R2, R3 und R4 sind jeweils durch TF1, TF6, TF4 bzw. TF2 überdeckt.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die zusätzlichen Testfälle überdecken jeweils die folgenden Regeln:<br><table><tr><td>Testfall</td><td>TF3</td><td>TF4</td><td>TF5</td><td>TF6</td></tr><tr><td>Überdeckte Regel</td><td>R1</td><td>R3</td><td>R1</td><td>R2</td></tr></table>Um 100% Überdeckung zu erreichen, sind Testfälle erforderlich, die die Regeln R2 und R3 überdecken. Daher ist Option c) korrekt.",
+      "d": "FALSCH – Regel R3 ist nicht überdeckt.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die zusätzlichen Testfälle überdecken jeweils die folgenden Regeln:<br><table><tr><td>Testfall</td><td>TF3</td><td>TF4</td><td>TF5</td><td>TF6</td></tr><tr><td>Überdeckte Regel</td><td>R1</td><td>R3</td><td>R1</td><td>R2</td></tr></table>Um 100% Überdeckung zu erreichen, sind Testfälle erforderlich, die die Regeln R2 und R3 überdecken. Daher ist Option c) korrekt."
     }
   },
   {
-    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie Testfälle aus Anwendungsfällen entworfen werden?",
+    "frage": "Gegeben sei folgendes Zustandsübergangsdiagramm für die Software eines Batterie-Ladegerätes:",
+    "inhalte": [
+      {
+        "typ": "bild",
+        "inhalt": "pics/istqb-ctfl-2018-sb-q25.png"
+      },
+      {
+        "typ": "text",
+        "inhalt": "Welche der folgenden Zustandsübergangs-Sequenzen ergibt die höchste Überdeckung der Zustandsübergänge?<br><br>Wählen Sie genau EINE korrekte Option aus!"
+      }
+    ],
+    "antworten": {
+      "a": "Aus → Warten → Aus → Warten → Erhaltungsladen → Laden → Hoch → Laden → Niedrig",
+      "b": "Warten → Erhaltungsladen → Warten → Aus → Warten → Erhaltungsladen → Laden → Niedrig → Laden",
+      "c": "Hoch → Laden → Niedrig → Laden → Erhaltungsladen → Warten → Erhaltungsladen → Warten → Erhaltungsladen",
+      "d": "Warten → Erhaltungsladen → Laden → Hoch → Laden → Erhaltungsladen → Warten → Aus → Warten"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Aus → (1) Warten → (2) Aus → (1) Warten → (3) Erhaltungsladen → (5) Laden → (9) Hoch → (10) Laden → (7) Niedrig. Das sind 7/10=70%.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Im folgenden Zustandsdiagramm sind die Zustandsübergänge nummeriert:<br><div style='text-align: center;'><img src='pics/istqb-ctfl-2018-sb-q25b.png' alt='Zustandsdiagramm' style='max-width:100%;height:auto;'></div><br><br>Antwortoption d) erreicht mit 80% die höchste Überdeckung der Zustandsübergänge.",
+      "b": "FALSCH – Warten → (3) Erhaltungsladen → (4) Warten → (2) Aus → (1) Warten → (3) Erhaltungsladen → (5) Laden → (7) Niedrig → (8) Laden. Das sind 7/10=70%.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Im folgenden Zustandsdiagramm sind die Zustandsübergänge nummeriert:<br><div style='text-align: center;'><img src='pics/istqb-ctfl-2018-sb-q25b.png' alt='Zustandsdiagramm' style='max-width:100%;height:auto;'></div><br><br>Antwortoption d) erreicht mit 80% die höchste Überdeckung der Zustandsübergänge.",
+      "c": "FALSCH – Hoch → (10) Laden → (7) Niedrig → (8) Laden → (6) Erhaltungsladen → (4) Warten → (3) Erhaltungsladen → (4) Warten → (3) Erhaltungsladen. Das sind 6/10=60%.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Im folgenden Zustandsdiagramm sind die Zustandsübergänge nummeriert:<br><div style='text-align: center;'><img src='pics/istqb-ctfl-2018-sb-q25b.png' alt='Zustandsdiagramm' style='max-width:100%;height:auto;'></div><br><br>Antwortoption d) erreicht mit 80% die höchste Überdeckung der Zustandsübergänge.",
+      "d": "KORREKT – Warten → (3) Erhaltungsladen → (5) Laden → (9) Hoch → (10) Laden → (6) Erhaltungsladen → (4) Warten → (2) Aus → (1) Warten. Das sind 8/10=80%.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Im folgenden Zustandsdiagramm sind die Zustandsübergänge nummeriert:<br><div style='text-align: center;'><img src='pics/istqb-ctfl-2018-sb-q25b.png' alt='Zustandsdiagramm' style='max-width:100%;height:auto;'></div><br><br>Antwortoption d) erreicht mit 80% die höchste Überdeckung der Zustandsübergänge."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie Testfälle aus Anwendungsfällen entworfen werden?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "inhalte": [],
     "antworten": {
       "a": "Testfälle werden entworfen, um das im Anwendungsfall definierte grundlegende, Sonder- und Fehlerbehandlungs-Verhalten des Systems in Interaktion mit den Akteuren auszuführen.",
@@ -1353,14 +1269,14 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT – Im Lehrplan unter 4.2.5 Anwendungsfallbasierter Test steht: Jeder Anwendungsfall definiert ein bestimmtes Verhalten, das ein Objekt in Zusammenarbeit mit einem oder mehreren Akteuren ausführen kann. Weiter unten ist zu lesen: Ein Anwendungsfall besteht aus mehreren möglichen Varianten seines grundlegenden Verhaltens, was u. a. Sonder- und Fehlerbehandlungen einschließt (Antwort- und Wiederherstellungsmechanismen des Systems nach Programmier-, Anwendungs- und Kommunikationsfehler, die z. B. zu Fehlermeldungen führen). Tests werden entworfen, um das definierte Verhalten nachzuweisen (grundlegendes, außergewöhnliches oder alternatives Verhalten und die Fehlerbehandlungsroutinen).",
-      "b": "FALSCH – Anwendungsfälle spezifizieren normalerweise Anforderungen und schließen daher nicht die Komponenten ein, die sie implementieren.",
-      "c": "FALSCH – Anwendungsfallbasierte Tests führen zwar Interaktionen des Systems mit einem oder mehreren Akteuren aus. Aber sie konzentrieren sich auf die Funktionalität und betrachten nicht die leichte Bedienbarkeit der Benutzungsschnittstelle.",
-      "d": "FALSCH – Tests decken zwar die Ablaufpfade des Anwendungsfalls ab, es geht jedoch nicht um eine Entscheidungsüberdeckung in diesen Pfaden, und bestimmt nicht in den Kontrollfluss im Geschäftsprozess."
+      "a": "KORREKT – Im Lehrplan unter 4.2.5 Anwendungsfallbasierter Test steht: Jeder Anwendungsfall definiert ein bestimmtes Verhalten, das ein Objekt in Zusammenarbeit mit einem oder mehreren Akteuren ausführen kann. Weiter unten ist zu lesen: Ein Anwendungsfall besteht aus mehreren möglichen Varianten seines grundlegenden Verhaltens, was u. a. Sonder- und Fehlerbehandlungen einschließt (Antwort- und Wiederherstellungsmechanismen des Systems nach Programmier-, Anwendungs- und Kommunikationsfehler, die z. B. zu Fehlermeldungen führen). Tests werden entworfen, um das definierte Verhalten nachzuweisen (grundlegendes, außergewöhnliches oder alternatives Verhalten und die Fehlerbehandlungsroutinen).<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)",
+      "b": "FALSCH – Anwendungsfälle spezifizieren normalerweise Anforderungen und schließen daher nicht die Komponenten ein, die sie implementieren.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)",
+      "c": "FALSCH – Anwendungsfallbasierte Tests führen zwar Interaktionen des Systems mit einem oder mehreren Akteuren aus. Aber sie konzentrieren sich auf die Funktionalität und betrachten nicht die leichte Bedienbarkeit der Benutzungsschnittstelle.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)",
+      "d": "FALSCH – Tests decken zwar die Ablaufpfade des Anwendungsfalls ab, es geht jedoch nicht um eine Entscheidungsüberdeckung in diesen Pfaden, und bestimmt nicht in den Kontrollfluss im Geschäftsprozess.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)"
     }
   },
   {
-    "frage": "Welche der folgenden Beschreibungen der Anweisungsüberdeckung ist korrekt?",
+    "frage": "Welche der folgenden Beschreibungen der Anweisungsüberdeckung ist korrekt?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "inhalte": [],
     "antworten": {
       "a": "Die Anweisungsüberdeckung ist ein Maß für die Anzahl der Quellcodezeilen (ohne Kommentare), die im Test ausgeführt wurden.",
@@ -1370,14 +1286,16 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH – Die Anweisungsüberdeckung bezieht sich auf durch Tests ausführbare Anweisungen. In einer Zeile können mehrere solcher Anweisungen stehen, und eine Anweisung kann sich über mehrere Zeilen erstrecken.",
-      "b": "KORREKT – Der prozentuale Anteil der ausführbaren Anweisungen ist der Anteil im Test ausgeführter Anweisungen bezogen auf alle Anweisungen, also (Anzahl durch die Testsuite ausgeführter Anweisungen / Anzahl alle Anweisungen) x 100%.",
-      "c": "FALSCH – Die Anweisungsüberdeckung bezieht sich nicht auf Quellcodezeilen, sondern auf durch Tests ausführbare Anweisungen, s. Begründung zu a).",
-      "d": "FALSCH – Die Anweisungsüberdeckung bezieht sich nicht auf die absolute Anzahl der von der Testsuite ausgeführten Anweisungen, sondern auf deren Anteil bezogen auf alle ausführbaren Anweisungen."
+      "a": "FALSCH – Die Anweisungsüberdeckung bezieht sich auf durch Tests ausführbare Anweisungen. In einer Zeile können mehrere solcher Anweisungen stehen, und eine Anweisung kann sich über mehrere Zeilen erstrecken.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Glossareintrag Anweisungsüberdeckung: Der Anteil der Anweisungen, die durch eine Testsuite ausgeführt wurden, bezogen auf alle Anweisungen.<br><br>FL Lehrplan 4.3.1: Anweisungstests untersuchen die (potenziell) ausführbaren Anweisungen im Code. Die Überdeckung wird an der Anzahl der im Test ausgeführten Anweisungen dividiert durch die Gesamtzahl aller ausführbaren Anweisungen insgesamt im Testobjekt gemessen – üblicherweise als Prozentsatz dargestellt.",
+      "b": "KORREKT – Der prozentuale Anteil der ausführbaren Anweisungen ist der Anteil im Test ausgeführter Anweisungen bezogen auf alle Anweisungen, also (Anzahl durch die Testsuite ausgeführter Anweisungen / Anzahl alle Anweisungen) x 100%.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Glossareintrag Anweisungsüberdeckung: Der Anteil der Anweisungen, die durch eine Testsuite ausgeführt wurden, bezogen auf alle Anweisungen.<br><br>FL Lehrplan 4.3.1: Anweisungstests untersuchen die (potenziell) ausführbaren Anweisungen im Code. Die Überdeckung wird an der Anzahl der im Test ausgeführten Anweisungen dividiert durch die Gesamtzahl aller ausführbaren Anweisungen insgesamt im Testobjekt gemessen – üblicherweise als Prozentsatz dargestellt.",
+      "c": "FALSCH – Die Anweisungsüberdeckung bezieht sich nicht auf Quellcodezeilen, sondern auf durch Tests ausführbare Anweisungen. In einer Zeile können mehrere solcher Anweisungen stehen, und eine Anweisung kann sich über mehrere Zeilen erstrecken.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Glossareintrag Anweisungsüberdeckung: Der Anteil der Anweisungen, die durch eine Testsuite ausgeführt wurden, bezogen auf alle Anweisungen.<br><br>FL Lehrplan 4.3.1: Anweisungstests untersuchen die (potenziell) ausführbaren Anweisungen im Code. Die Überdeckung wird an der Anzahl der im Test ausgeführten Anweisungen dividiert durch die Gesamtzahl aller ausführbaren Anweisungen insgesamt im Testobjekt gemessen – üblicherweise als Prozentsatz dargestellt.",
+      "d": "FALSCH – Die Anweisungsüberdeckung bezieht sich nicht auf die absolute Anzahl der von der Testsuite ausgeführten Anweisungen, sondern auf deren Anteil bezogen auf alle ausführbaren Anweisungen.<br><br>Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Glossareintrag Anweisungsüberdeckung: Der Anteil der Anweisungen, die durch eine Testsuite ausgeführt wurden, bezogen auf alle Anweisungen.<br><br>FL Lehrplan 4.3.1: Anweisungstests untersuchen die (potenziell) ausführbaren Anweisungen im Code. Die Überdeckung wird an der Anzahl der im Test ausgeführten Anweisungen dividiert durch die Gesamtzahl aller ausführbaren Anweisungen insgesamt im Testobjekt gemessen – üblicherweise als Prozentsatz dargestellt."
     }
   },
+
+
   {
-    "frage": "Welche der folgenden Beschreibungen der Entscheidungsüberdeckung ist zutreffend?",
+    "frage": "Welche der folgenden Beschreibungen der Entscheidungsüberdeckung ist zutreffend?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "inhalte": [],
     "antworten": {
       "a": "Die Entscheidungsüberdeckung ist ein Maß für den prozentualen Anteil möglicher Pfade durch den Quellcode, die im Test ausgeführt wurden.",
