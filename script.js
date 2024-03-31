@@ -62,46 +62,55 @@ function frageAnzeigen(index) {
 
     let htmlContent = `<div class="frage-text">${frage.frage}</div>`;
 
-    if (frage.bild) {
-        htmlContent += `<div class="bild-container"><img src="${frage.bild}" alt="Bild zur Frage" style="max-width:100%;height:auto;display:block;margin:0 auto;"></div>`;
-    }
-
-    if (frage.tabelle) {
-        htmlContent += `<table class="quiz-tabelle">`;
-        if (frage.tabelle.kopf) {
-            htmlContent += `<thead><tr>`;
-            frage.tabelle.kopf.forEach(kopfElement => {
-                htmlContent += `<th>${kopfElement}</th>`;
-            });
-            htmlContent += `</tr></thead>`;
+    frage.inhalte.forEach(element => {
+        switch (element.typ) {
+            case 'text':
+                htmlContent += `<div class="text">${element.inhalt}</div>`;
+                break;
+            case 'bild':
+                htmlContent += `<div class="bild-container"><img src="${element.inhalt}" alt="Bild zur Frage" style="max-width:100%;height:auto;display:block;margin:0 auto;"></div>`;
+                break;
+            case 'tabelle':
+                htmlContent += generiereTabellenHTML(element.inhalt);
+                break;
         }
-        htmlContent += `<tbody>`;
-        frage.tabelle.koerper.forEach(zeilenElement => {
-            if (zeilenElement.istKopfZeile) {
-                htmlContent += `<tr class="kopf">`;
-                zeilenElement.zeile.forEach(zelle => {
-                    htmlContent += `<th>${zelle}</th>`;
-                });
-            } else {
-                htmlContent += `<tr>`;
-                (zeilenElement.zeile || zeilenElement).forEach(zelle => {
-                    htmlContent += `<td>${zelle}</td>`;
-                });
-            }
-            htmlContent += `</tr>`;
-        });
-        htmlContent += `</tbody></table>`;
-    }
-
-    if (frage.fortsetzung) {
-        htmlContent += `<div class="frage-text">${frage.fortsetzung}</div>`;
-    }
+    });
 
     htmlContent += `<ul>` + Object.keys(frage.antworten).map(buchstabe =>
         `<li><button onclick="antwortAuswaehlen('${buchstabe}')">${buchstabe}) ${frage.antworten[buchstabe]}</button></li>`
     ).join('') + `</ul>`;
 
     quizContainer.innerHTML = htmlContent;
+}
+
+function generiereTabellenHTML(tabelle) {
+    let htmlContent = `<table class="quiz-tabelle">`;
+
+    if (tabelle.kopf && tabelle.kopf.length > 0) {
+        htmlContent += `<thead><tr>`;
+        tabelle.kopf.forEach(kopfElement => {
+            htmlContent += `<th>${kopfElement}</th>`;
+        });
+        htmlContent += `</tr></thead>`;
+    }
+
+    htmlContent += `<tbody>`;
+    tabelle.koerper.forEach(zeilenElement => {
+        htmlContent += `<tr>`;
+        if (Array.isArray(zeilenElement)) {
+            zeilenElement.forEach(zelle => {
+                htmlContent += `<td>${zelle}</td>`;
+            });
+        } else if (zeilenElement.zeile) {
+            zeilenElement.zeile.forEach(zelle => {
+                const zellTag = zeilenElement.istKopfZeile ? 'th' : 'td';
+                htmlContent += `<${zellTag}>${zelle}</${zellTag}>`;
+            });
+        }
+        htmlContent += `</tr>`;
+    });
+    htmlContent += `</tbody></table>`;
+    return htmlContent;
 }
 
 function antwortAuswaehlen(antwort) {

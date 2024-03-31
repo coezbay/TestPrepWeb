@@ -1,6 +1,7 @@
 [
   {
     "frage": "Was ist Qualität?<br><br>Wählen Sie genau EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Aktivitäten, die darauf fokussieren, Vertrauen in die Erfüllung der Qualitätsanforderungen zu erzeugen",
       "b": "Der Grad, zu dem eine Komponente oder ein System die expliziten und impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt",
@@ -17,6 +18,7 @@
   },
   {
     "frage": "Welcher der folgenden Punkte ist ein typisches Testziel?<br><br>Wählen Sie genau EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Verhindern von Fehlerzuständen",
       "b": "Fehlerzustände reparieren",
@@ -33,6 +35,7 @@
   },
   {
     "frage": "Ein Telefonklingeln lenkt einen Programmierer kurzzeitig ab, was dazu führt, dass der Programmierer die Logik, die die obere Grenze einer Eingangsvariablen prüft, nicht korrekt programmiert. Später, während des Systemtests, stellt ein Tester fest, dass dieses Eingabefeld ungültige Eingabewerte annimmt. Die unsachgemäß kodierte Logik für die Prüfung der oberen Grenze bezeichnet man als:<br><br>Wählen Sie genau EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Grundursache",
       "b": "Fehlerwirkung",
@@ -49,6 +52,7 @@
   },
   {
     "frage": "Ein Product Owner sagt, dass Ihre Rolle als Tester in einem agilen Team darin besteht, alle Fehlerzustände vor dem Ende jeder Iteration aufzudecken.<br><br>Welches der folgenden Aussagen ist ein Testprinzip, das als Antwort auf diese (falsche) Aussage verwendet werden könnte?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Häufung von Fehlerzuständen",
       "b": "Testen zeigt die Anwesenheit von Fehlerzuständen",
@@ -65,6 +69,7 @@
   },
   {
     "frage": "Programmierer schreiben oft Komponententests und führen diese gegen den von ihnen geschriebenen Code aus.<br><br>Welche der folgenden Denkweisen eines Testers sollten Programmierer während dieser Selbsttest-Aktivität einnehmen, um diese Komponententests effektiv durchzuführen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Gute Kommunikationsfähigkeiten",
       "b": "Codeüberdeckung",
@@ -81,6 +86,7 @@
   },
   {
     "frage": "Beachten Sie die folgenden Testaktivitäten:<br><ol><li>Auswählen von Regressionstests</li><li>Bewertung der Vollständigkeit der Testdurchführung</li><li>Identifizieren, welche User Stories offene Fehlerberichte haben</li><li>Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos vereinbar ist</li></ol><br>Betrachten Sie die folgenden Möglichkeiten, wie die Verfolgbarkeit beim Testen helfen kann:<br><ol style=\"list-style-type: upper-alpha;\"><li>Verbessern der Verständlichkeit von Teststatusberichten, um den Status der Elemente der Testbasis einzubeziehen</li><li>Testaktivitäten nachvollziehbarer/prüfbarer machen</li><li>Bereitstellung von Informationen zur Beurteilung der Prozessqualität</li><li>Analysieren der Auswirkungen von Änderungen</li></ol><br>Welche der folgenden Aussagen passt am besten zur aufgeführten Testaktivität und wie kann \"die Verfolgbarkeit\" diese Aktivität jeweils unterstützen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "1D, 2B, 3C, 4A",
       "b": "1B, 2D, 3A, 4C",
@@ -97,6 +103,7 @@
   },
   {
     "frage": "Ein Tester nahm an einer Diskussion über die vorgeschlagene Datenbankstruktur teil. Der Tester identifizierte ein potenzielles Performanzproblem im Zusammenhang mit bestimmten häufigen Anfragen des Benutzers. Dieses mögliche Problem wurde dem Entwicklungsteam erläutert.<br><br>Welcher der folgenden Punkte ist ein Beitrag des Testens zum Erfolg, der am BESTEN zu dieser Situation passt?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Ermöglicht die frühzeitige Erkennung von erforderlichen Tests",
       "b": "Sicherstellen, dass Prozesse ordnungsgemäß durchgeführt werden",
@@ -113,6 +120,7 @@
   },
   {
     "frage": "Welcher der folgenden Punkte ist ein Beispiel für eine Aufgabe, die im Rahmen des Testprozesses durchgeführt werden kann?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Analysieren eines Fehlerzustands",
       "b": "Entwerfen von Testdaten",
@@ -129,6 +137,7 @@
   },
   {
     "frage": "Sie führen einen Performanztest mit dem Ziel durch, mögliche Netzwerkengpässe in Schnittstellen zwischen Komponenten eines Systems zu finden. Welche der folgenden Aussagen beschreibt diesen Test?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Ein funktionaler Test während der Integrationsteststufe",
       "b": "Ein nicht-funktionaler Test während der Integrationsteststufe",
@@ -145,6 +154,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Die Auswirkungsanalyse ist nützlich für Fehlernachtests während der Wartungstests",
       "b": "Fehlernachtests sind nützlich für Regressionstests während des Systementwurfs",
@@ -161,6 +171,7 @@
   },
   {
     "frage": "Betrachten Sie die folgenden Arten von Fehlern, auf die sich eine Teststufe konzentrieren könnte:<ol><li>Fehlerzustände in separat testbaren Modulen oder Objekten</li><li>Nicht auf die Identifizierung von Fehlerzuständen ausgerichtet</li><li>Fehlerzustände an Schnittstellen und Wechselwirkungen</li><li>Fehlerzustände im gesamten Testobjekt</li></ol>Welche der folgenden Listen stimmt mit den Teststufen aus dem Foundation Lehrplan und den oben angegebenen Fehlerschwerpunkten überein?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "1 = Performanztest; 2 = Komponententest; 3 = Systemtest; 4 = Abnahmetest",
       "b": "1 = Komponententest; 2 = Abnahmetest; 3 = Systemtest; 4 = Integrationstest",
@@ -177,6 +188,7 @@
   },
   {
     "frage": "Ein Betriebssystem-Softwareprodukt für den Massenmarkt ist so konzipiert, dass es auf jeder PC-Hardware mit einem Prozessor der x86-Familie läuft. Sie führen eine Reihe von Tests durch, um nach Fehlerzuständen im Zusammenhang mit der Unterstützung der verschiedenen PCs zu suchen, die einen solchen Prozessor verwenden, und um Vertrauen zu schaffen, dass wichtige PC-Marken funktionieren. Welche Art von Test führen Sie durch?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Performanztest",
       "b": "Prozessortest",
@@ -193,6 +205,7 @@
   },
   {
     "frage": "Während einer agilen Entwicklungsarbeit entdeckt ein Product Owner eine bisher unbekannte regulatorische Anforderung, die für die meisten User Stories innerhalb eines bestimmten Epics gilt. Die User Stories werden aktualisiert, um die notwendigen Änderungen im Softwareverhalten vorzusehen. Die Programmierer im Team modifizieren den Code entsprechend. Welche Arten von Tests werden Sie als Tester im Team durchführen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Fehlernachtests",
       "b": "Regressionstests",
@@ -209,6 +222,7 @@
   },
   {
     "frage": "Wie lautet die Bezeichnung der Rolle eines Teilnehmers, der eine Inspektionssitzung bei einer formellen Überprüfung leitet?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Moderator",
       "b": "Programmierer",
@@ -225,6 +239,7 @@
   },
   {
     "frage": "Sie lesen eine User Story im Product Backlog, um sich auf ein Meeting mit dem Product Owner und einem Entwickler vorzubereiten und notieren dabei mögliche Fehler. Welche der folgenden Aussagen zu dieser Aktivität ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Es handelt sich nicht um einen statischen Test, denn beim statischen Test wird das Testobjekt ausgeführt",
       "b": "Es handelt sich nicht um einen statischen Test, denn statische Tests werden immer mit einem Werkzeug durchgeführt",
@@ -241,6 +256,7 @@
   },
   {
     "frage": "Während einer Phase intensiver Projektüberstunden wird ein Systemarchitekturdokument an verschiedene Projektteilnehmer gesendet, in dem ein zuvor nicht geplantes technisches Review in einer Woche angekündigt wird. Es werden keine Anpassungen an der Liste der zugewiesenen Aufgaben der Teilnehmer vorgenommen.<br><br>Welcher der folgenden Erfolgsfaktoren für Reviews fehlt allein aufgrund dieser Information?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Geeignete Review-Art",
       "b": "Ausreichend Zeit zur Vorbereitung",
@@ -257,6 +273,7 @@
   },
   {
     "frage": "Sie arbeiten als Tester in einem agilen Team und haben zu Beginn jeder Iteration an über zwei Dutzend User-Story-Verfeinerungssessions mit dem Product Owner und den Entwicklern im Team teilgenommen. Da die Reviews bei der Erkennung von Fehlerzuständen in User Stories immer effektiver und der Product Owner bei der Korrektur dieser Fehlerzustände immer geschickter geworden sind, stellen Sie und das Team fest, dass die Geschwindigkeit des Teams, wie in Ihren Burndown-Charts dargestellt, zu steigen beginnt.<br><br>Welcher der folgenden Vorteile des statischen Testens bezieht sich am DIREKTESTEN auf die erhöhte Geschwindigkeit des Teams?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Steigende Gesamtkosten der Qualität",
       "b": "Reduzierung der Testkosten",
@@ -273,6 +290,7 @@
   },
   {
     "frage": "Sie arbeiten an einem Entwicklungsprojekt für ein Videospiel, das mit agilen Methoden entwickelt wird. Es basiert auf der griechischen Mythologie und Geschichte, und die Spieler können Schlüsselrollen in Szenarien wie den Schlachten zwischen Griechen und Trojanern übernehmen.<br><br>Betrachten Sie die folgende User-Story und die zugehörigen Akzeptanzkriterien:<br><br>Als Spieler möchte ich in der Lage sein, den Stab des Midas (ein neues magisches Objekt) zu erwerben, damit ich Objekte und andere Spieler in Gold verwandeln kann.<br><br><ul class='ac-liste'><li>Der Stab muss auf jedes Objekt oder jeden Spieler – egal welcher Größe – wirken, das von dem Spieler, der den Stab hält, irgendwo berührt werden kann</li><li>Das Halten des Stabes verwandelt den Spieler, der ihn hält, nicht in Gold</li><li>Jeder Gegenstand oder Spieler, der vom Stab berührt wird, verwandelt sich innerhalb einer Millisekunde vollständig in Gold</li><li>Der Stab erscheint wie in Prototyp O.W.RoM gezeigt</li><li>Die Transformation beginnt an der Kontaktstelle mit dem Stab und bewegt sich mit einer Geschwindigkeit von einem Meter pro Millisekunde</li></ul>Sie nehmen an einer checklistenbasierten Reviewsitzung zu dieser User Story teil.<br><br>Diese User-Story und die zugehörigen Akzeptanzkriterien enthalten welche \nder folgenden typischen Fehler, die durch statische Tests bei dieser Art von \nArbeitsprodukt identifiziert werden können?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Abweichung von Normen",
       "b": "Widersprüche",
@@ -289,6 +307,7 @@
   },
   {
     "frage": "Was ist Entscheidungsüberdeckung?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Die Überdeckung der Bedingungsergebnisse",
       "b": "Entscheidungsüberdeckung ist ein Synonym für Anweisungsüberdeckung",
@@ -305,6 +324,7 @@
   },
   {
     "frage": "Im Vorfeld einer Iterationsplanungssitzung untersuchen Sie eine User Story und deren Akzeptanzkriterien und leiten daraus Testbedingungen und zugehörige Testfälle ab, um das Prinzip der frühen Qualitätssicherung und des Tests anzuwenden.<br><br>Welches Testverfahren wenden Sie an?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "White-Box",
       "b": "Black-Box",
@@ -321,6 +341,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen über exploratives Testen ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Erfahrene Tester, die ähnliche Anwendungen und Technologien getestet haben, schneiden bei explorativen Tests wahrscheinlich besser ab als weniger erfahrene Tester",
       "b": "Beim explorativen Testen werden keine zusätzlichen Tests identifiziert, die über diejenigen hinausgehen, die sich aus formalen Testverfahren ergeben würden",
@@ -337,6 +358,7 @@
   },
   {
     "frage": "Sie testen eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Sie führen eine Testsuite aus, die die Bewertung jedes Bildschirms und jedes Feldes auf jedem Bildschirm anhand einer allgemeinen Liste von Best Practices für Benutzeroberflächen umfasst. Sie wurde aus einem populären Buch zu diesem Thema abgeleitet und soll die Attraktivität, Benutzerfreundlichkeit und Zugänglichkeit für solche Apps maximieren.<br><br>Welche der folgenden Optionen kategorisiert das von Ihnen verwendete Testverfahren am BESTEN?<br><br>Wählen Sie EINE Option.",
+    "inhalte": [],
     "antworten": {
       "a": "Spezifikationsbasiert",
       "b": "Explorativ",
@@ -353,6 +375,7 @@
   },
   {
     "frage": "Betrachten Sie eine mobile App, mit der Kunden auf ihre Bankkonten zugreifen und diese verwalten können. Es wurde gerade eine User Story zu den Funktionen hinzugefügt, die die Social-Media-Konten und Bankdaten der Kunden überprüft, um personalisierte Grüße zu Geburtstagen und anderen persönlichen Jahrestagen zu übermitteln.<br><br>Welche der folgenden Testverfahren könnte ein PROGRAMMIERER während eines Komponententests des Codes verwenden, um sicherzustellen, dass Situationen abgedeckt werden, in denen die Grüße auftreten SOLLEN und in denen die Grüße NICHT auftreten SOLLEN?<br><br>Wählen Sie EINE Option.",
+    "inhalte": [],
     "antworten": {
       "a": "Anweisungstest",
       "b": "Exploratives Testen",
@@ -369,6 +392,7 @@
   },
   {
     "frage": "Eine Batch-Anwendung ist seit über zwei Jahren unverändert in Produktion. Sie läuft einmal im Monat über Nacht, um Auszüge zu erstellen, die per E-Mail an die Kunden gesendet werden. Für jeden Kunden geht die Anwendung durch jedes Konto und listet jede Transaktion auf diesem Konto im letzten Monat auf. Sie verwendet eine verschachtelte Schleifenstruktur, um Kunden (äußere Schleife), die Konten jedes Kunden (mittlere Schleife) und die Transaktionen jedes Kontos (innere Schleife) zu verarbeiten.<br><br>In einer Nacht bricht die Batch-Anwendung vorzeitig ab und versäumt es, Auszüge per E-Mail an einige Kunden zu senden, wenn sie auf einen Kunden mit einem Konto trifft, für das im letzten Monat keine Transaktionen stattgefunden haben. Dies ist eine sehr ungewöhnliche Situation und ist in den Jahren, seitdem diese Anwendung in Produktion gegangen ist, nicht mehr aufgetreten.<br><br>Während der Behebung des Fehlers bittet Sie ein Programmierer, Testverfahren zu empfehlen, die gegen diese Art von Fehler wirksam sind.<br><br>Welche der folgenden Testverfahren hätte den zugrundeliegenden Fehlerzustand am ehesten aufdecken können?<br><br>Wählen Sie EINE OPTION aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Entscheidungstest",
       "b": "Anweisungstest",
@@ -384,7 +408,8 @@
     }
   },
   {
-    "frage": "Sie testen für eine unbeaufsichtigte amerikanische Zapfsäule, an der nur Kreditkarten akzeptiert werden. Nachdem die Kreditkarte validiert, die Zapfpistole in den Tank eingeführt und die gewünschte Sorte ausgewählt wurde, gibt der Kunde die gewünschte Kraftstoffmenge in Gallonen über das Tastenfeld ein. Das Tastenfeld erlaubt nur die Eingabe von Ziffern. Kraftstoff wird in Zehntel (0,1) Gallonen verkauft, bis zu 50,0 Gallonen.<br><br>Welche der folgenden Eingabewerte ist eine minimale Menge von gewünschten Beträgen, die die Äquivalenzklassen für diese Eingabe abdeckt?<br><br>Wählen Sie EINE Option.",
+    "frage": "Sie testen für eine unbeaufsichtigte amerikanische Zapfsäule, an der nur Kreditkarten akzeptiert werden. Nachdem die Kreditkarte validiert, die Zapfpistole in den Tank eingeführt und die gewünschte Sorte ausgewählt wurde, gibt der Kunde die gewünschte Kraftstoffmenge in Gallonen über das Tastenfeld ein. Das Tastenfeld erlaubt nur die Eingabe von Ziffern. Kraftstoff wird in Zehntel (0,1) Gallonen verkauft, bis zu 50,0 Gallonen.<br><br>Welche der folgenden Eingabewerte ist eine minimale Menge von gewünschten Beträgen, die die Äquivalenzklassen für diese Eingabe abdeckt?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "0,0; 20,0, 60,0",
       "b": "0,0; 0,1; 50,0",
@@ -401,6 +426,7 @@
   },
   {
     "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Einheitenfeldes beträgt 0,1 Einheiten.<br><br>Welche der folgenden Eingabewerte decken die Grenzwerte mit Zweipunkt Grenzwerten für dieses Feld ab?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "0,3; 10,0; 28,0",
       "b": "0,4; 0,5; 0,6; 24,9;25,0; 25,1",
@@ -417,50 +443,58 @@
   },
   {
     "frage": "Betrachten Sie die folgende Entscheidungstabelle für den Teil eines Online-Flugreservierungssystems, der Vielfliegern das Einlösen von Punkten für Prämienreisen ermöglicht:<br>",
-    "tabelle": {
-      "kopf": [
-        "Zustand",
-        "1",
-        "2",
-        "3"
-      ],
-      "koerper": [
-        [
-          "Konto/Passwort okay",
-          "N",
-          "J",
-          "J"
-        ],
-        [
-          "Ausreichend Punkte",
-          "-",
-          "N",
-          "J"
-        ],
-        {
-          "zeile": [
-            "Aktion",
-            " ",
-            " ",
-            " "
+    "inhalte": [
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "kopf": [
+            "Zustand",
+            "1",
+            "2",
+            "3"
           ],
-          "istKopfZeile": true
-        },
-        [
-          "Flugverlauf anzeigen",
-          "N",
-          "J",
-          "J"
-        ],
-        [
-          " Belohnungsfahrten zulassen",
-          "N",
-          "N",
-          "J"
-        ]
-      ]
-    },
-    "fortsetzung": "Angenommen, es gibt zwei Äquivalenzklassen für die Bedingung, bei der \"Konto/Passwort okay\" nicht wahr ist, eine, bei der das Konto ungültig ist, und eine andere, bei der das Konto gültig ist, aber das Passwort ungültig ist. Angenommen, es gibt nur eine Äquivalenzklasse für die Bedingung, in der „Konto/Passwort okay“ wahr ist, in der sowohl das Konto als auch das Passwort gültig sind.<br><br>Wenn Sie Tests entwerfen möchten, um die Äquivalenzklassen für \"Konto/Passwort okay\" und auch für diesen Teil der Entscheidungstabelle abzudecken, wie viele Tests sind mindestens erforderlich?<br><br>Wählen Sie EINE Option aus.",
+          "koerper": [
+            [
+              "Konto/Passwort okay",
+              "N",
+              "J",
+              "J"
+            ],
+            [
+              "Ausreichend Punkte",
+              "-",
+              "N",
+              "J"
+            ],
+            {
+              "zeile": [
+                "Aktion",
+                " ",
+                " ",
+                " "
+              ],
+              "istKopfZeile": true
+            },
+            [
+              "Flugverlauf anzeigen",
+              "N",
+              "J",
+              "J"
+            ],
+            [
+              "Belohnungsfahrten zulassen",
+              "N",
+              "N",
+              "J"
+            ]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Angenommen, es gibt zwei Äquivalenzklassen für die Bedingung, bei der \"Konto/Passwort okay\" nicht wahr ist, eine, bei der das Konto ungültig ist, und eine andere, bei der das Konto gültig ist, aber das Passwort ungültig ist. Angenommen, es gibt nur eine Äquivalenzklasse für die Bedingung, in der „Konto/Passwort okay“ wahr ist, in der sowohl das Konto als auch das Passwort gültig sind.<br><br>Wenn Sie Tests entwerfen möchten, um die Äquivalenzklassen für \"Konto/Passwort okay\" und auch für diesen Teil der Entscheidungstabelle abzudecken, wie viele Tests sind mindestens erforderlich?<br><br>Wählen Sie EINE Option aus."
+      }
+    ],
     "antworten": {
       "a": "2",
       "b": "3",
@@ -477,8 +511,16 @@
   },
   {
     "frage": "Betrachten Sie das folgende Zustandsübergangsdiagramm für eine Zapfsäule, die nur mit einer Kreditkarte bedient wird:",
-    "bild": "pics/istqb-ctfl-2018-sc-q28.png",
-    "fortsetzung": "Nehmen Sie an, dass Sie eine minimale Anzahl von Tests entwickeln möchten, um jeden Übergang im Zustandsübergangsdiagramm abzudecken. Nehmen Sie weiter an, dass jeder Test im Anfangszustand beginnen muss, also beim Warten auf den Kunden, und jeder Test endet, wenn ein Übergang im Anfangszustand ankommt.<br><br>Wie viele Tests benötigen Sie?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [
+      {
+        "typ": "bild",
+        "inhalt": "pics/istqb-ctfl-2018-sc-q28.png"
+      },
+      {
+        "typ": "text",
+        "inhalt": "Nehmen Sie an, dass Sie eine minimale Anzahl von Tests entwickeln möchten, um jeden Übergang im Zustandsübergangsdiagramm abzudecken. Nehmen Sie weiter an, dass jeder Test im Anfangszustand beginnen muss, also beim Warten auf den Kunden, und jeder Test endet, wenn ein Übergang im Anfangszustand ankommt.<br><br>Wie viele Tests benötigen Sie?<br><br>Wählen Sie EINE Option aus."
+      }
+    ],
     "antworten": {
       "a": "4",
       "b": "7",
@@ -495,6 +537,7 @@
   },
   {
     "frage": "Sie testen ein E-Commerce-System, das Lebensmittel wie Gewürze, Mehl und andere Artikel in großen Mengen verkauft. Die Einheiten, in denen die Artikel verkauft werden, sind entweder Gramm (für Gewürze und andere teure Artikel) oder Kilogramm (für Mehl und andere preiswerte Artikel). Unabhängig von den Einheiten ist die kleinste gültige Bestellmenge 0,5 Einheiten (z. B. ein halbes Gramm Kardamomkapseln) und die größte gültige Bestellmenge 25,0 Einheiten (z. B. 25 Kilogramm Zucker). Die Genauigkeit des Feldes 'Einheiten' beträgt 0,1 Einheiten.<br><br>Welche der folgenden ist eine MINIMALE Menge von Eingabewerten, die die Äquivalenzklassen für dieses Feld abdecken?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "10,0; 28,0",
       "b": "0,4; 0,5; 25,0; 25,1",
@@ -511,6 +554,7 @@
   },
   {
     "frage": "Sie arbeiten als Tester an einem Online-Banking-System. Die Verfügbarkeit wird als eines der Top-Produkt(qualitäts)risiken für das System angesehen. Sie finden einen reproduzierbaren Fehler, der dazu führt, dass Kunden bei Überweisungen zwischen gängigen Kontotypen die Verbindung zur Bank-Website verlieren und diese dann drei bis fünf Minuten lang nicht wiederhergestellt werden kann.<br><br>Welche der folgenden Aussagen wäre eine gute Zusammenfassung für einen Fehlerbericht für diesen Fehler, die sowohl das Wesentliche des Fehlers als auch seine Auswirkungen auf die Beteiligten erfasst?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Webserver-Protokolle zeigen beim Ausführen von Test 07.005 den Fehler 0x44AB27 an, was keine erwartete Fehlermeldung im /tmp-Dateisystem ist",
       "b": "Die Entwickler haben einen schwerwiegenden Verfügbarkeitsfehler eingeführt, der unsere Kunden ernsthaft verärgern wird",
@@ -527,47 +571,55 @@
   },
   {
     "frage": "Sie testen eine mobile App, mit der Benutzer basierend auf der Art des gewünschten Essens ein Restaurant in der Nähe finden können.<br><br>Betrachten Sie die folgende Liste von Testfällen, Prioritäten (kleinere Zahl bedeutet hohe Priorität) und Abhängigkeiten im folgenden Format:<br>",
-    "tabelle": {
-      "kopf": [
-        "Testfall-Nummer",
-        "Abgedeckte Testbedingung",
-        "Priorität",
-        "Logische Abhängigkeit"
-      ],
-      "koerper": [
-        [
-          "01.001",
-          "Art des Lebensmittels wählen",
-          "3",
-          "keine"
-        ],
-        [
-          "01.002",
-          "Restaurant auswählen",
-          "2",
-          "01.001"
-        ],
-        [
-          "01.003",
-          "Wegbeschreibung erhalten",
-          "1",
-          "01.002"
-        ],
-        [
-          "01.004",
-          "Restaurant anrufen",
-          "1",
-          "01.002"
-        ],
-        [
-          "01.005",
-          "Reservierung vornehmen",
-          "3",
-          "01.002"
-        ]
-      ]
-    },
-    "fortsetzung": "Welcher der folgenden ist ein möglicher Testausführungsplan, der sowohl Prioritäten als auch Abhängigkeiten berücksichtigt?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "kopf": [
+            "Testfall-Nummer",
+            "Abgedeckte Testbedingung",
+            "Priorität",
+            "Logische Abhängigkeit"
+          ],
+          "koerper": [
+            [
+              "01.001",
+              "Art des Lebensmittels wählen",
+              "3",
+              "keine"
+            ],
+            [
+              "01.002",
+              "Restaurant auswählen",
+              "2",
+              "01.001"
+            ],
+            [
+              "01.003",
+              "Wegbeschreibung erhalten",
+              "1",
+              "01.002"
+            ],
+            [
+              "01.004",
+              "Restaurant anrufen",
+              "1",
+              "01.002"
+            ],
+            [
+              "01.005",
+              "Reservierung vornehmen",
+              "3",
+              "01.002"
+            ]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Welcher der folgenden ist ein möglicher Testausführungsplan, der sowohl Prioritäten als auch Abhängigkeiten berücksichtigt?<br><br>Wählen Sie EINE Option aus."
+      }
+    ],
     "antworten": {
       "a": "01.001, 01.002, 01.003, 01.005, 01.004",
       "b": "01.001, 01.002, 01.004, 01.003, 01.005",
@@ -584,6 +636,7 @@
   },
   {
     "frage": "Welcher der folgenden Punkte ist eine gängige Testmetrik, die häufig verwendet wird, um SOWOHL die Testvorbereitung ALS AUCH die Testausführung zu überwachen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Status des Testfalls",
       "b": "Fehlerfindungsraten / Fehlerbehebungsraten",
@@ -600,6 +653,7 @@
   },
   {
     "frage": "Welche folgenden Faktoren können zur Bestimmung der Risikostufe herangezogen werden?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Testen und Entwicklung",
       "b": "Dynamisch und reaktiv",
@@ -616,6 +670,7 @@
   },
   {
     "frage": "Sie arbeiten als Projektleiter an einem bankinternen Softwareprojekt. Um Nacharbeit und übermäßige „Fehlerfindungszyklen / Fehlerbehebungszyklen / Fehlernachtestzyklen“ (Find/Fix/Retest) zu vermeiden, wurde der folgende Prozess zur Behebung eines Fehlers eingeführt, sobald dieser im Testlabor gefunden wurde:<br><ol style=\"list-style-type: lower-alpha;\"><li>Der zugewiesene Entwickler findet und behebt den Fehler und erstellt dann einen experimentellen Build.</li><li>Ein Peer-Entwickler überprüft, testet und bestätigt die Fehlerbehebung auf seinem Desktop</li><li>Ein Tester - in der Regel derjenige, der den Fehler gefunden hat - bestätigt die Fehlerbehebung durch einen Test in der Entwicklungsumgebung</li><li>Einmal am Tag wird ein neues Release mit allen bestätigten Fehlerkorrekturen in der Testumgebung installiert</li><li>Derselbe Tester aus Schritt c testet die Fehlerbehebung in der Testumgebung</li></ol>Trotzdem fällt eine große Anzahl von Fehlerzuständen, die die Tester in der Entwicklungsumgebung (in Schritt c) als behoben bestätigt haben, irgendwie bei den Fehlernachtests in der Testumgebung durch, mit den daraus resultierenden Nacharbeiten und Auswirkungen auf die Zykluszeiten. Sie haben höchstes Vertrauen in Ihre Tester und haben Fehler oder Auslassungen in Schritt c ausgeschlossen.<br><br>Welcher der folgenden Punkte ist der wahrscheinlichste Teil des Prozesses, der als nächstes überprüft werden sollte?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Die Aktivität von Entwicklern, die in Schritt b möglicherweise nicht ausreichend getestet wurde",
       "b": "Die Aktivität von Testern, die möglicherweise unklar darüber sind, was in Schritt e zu testen ist",
@@ -632,6 +687,7 @@
   },
   {
     "frage": "Sie sind mit der Planung des Testaufwands für eine neue mobile Banking Anwendung beschäftigt. Im Rahmen der Schätzung treffen Sie sich zunächst mit den vorgeschlagenen Testern und anderen Mitarbeitern des Projekts. Das Team ist gut eingespielt und hat bereits an ähnlichen Projekten gearbeitet. Um die resultierende Schätzung zu verifizieren, beziehen Sie sich dann auf einige Branchendurchschnittswerte für Testaufwand und -kosten bei ähnlichen Projekten, die von einem renommierten Berater veröffentlicht wurden.<br><br>Welche Aussage beschreibt Ihren Schätzungsansatz genau?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Ein gleichzeitiger expertenbasierter und metrikbasierter Ansatz",
       "b": "In erster Linie ein expertenbasierter Ansatz, ergänzt durch einen metrikbasierten Ansatz",
@@ -648,6 +704,7 @@
   },
   {
     "frage": "Während eines Projekts mit agilen Methoden stellen Sie einen Widerspruch zwischen der Interpretation eines Abnahmekriteriums durch den Entwickler und der Interpretation des Product Owners fest, die Sie während einer User-Story-Verfeinerungssession zur Sprache bringen.<br><br>Welcher der folgenden Punkte ist ein Vorteil der Testunabhängigkeit, der in dieser Situation deutlich wird?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Erkennen von verschiedenen Arten von Fehlern",
       "b": "Übernahme der Hauptverantwortung für die Qualität",
@@ -664,6 +721,7 @@
   },
   {
     "frage": "Sie definieren den Prozess für die Durchführung der Produktrisikoanalyse als Teil jeder Iteration in einem agilen Projekt.<br><br>Welche der folgenden Stellen ist die KORREKTE, um diesen Prozess in einem Testkonzept zu dokumentieren?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Umfang des Testens",
       "b": "Testvorgehensweise",
@@ -680,6 +738,7 @@
   },
   {
     "frage": "Betrachten Sie die folgende Liste von unerwünschten Ergebnissen, die bei der Entwicklung einer mobilen App auftreten können:<br><ol style=\"list-style-type: upper-alpha;\"><li>Falsche Summe wird auf dem Display angezeigt</li><li>Änderung der Abnahmekriterien während des Abnahmetests</li><li>Benutzer empfinden die Soft-Tastatur als zu schwer zu bedienen für die Verwendung mit Ihrer App</li><li>System reagiert zu langsam auf Benutzereingaben bei der Suchstring-Eingabe</li><li>Tester dürfen in täglichen Standup-Meetings nicht über Testergebnisse berichten</li></ol>Welche der folgenden Aussagen klassifiziert diese Ergebnisse KORREKT als Projekt- und Produktrisiken?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Produktrisiken: B, E; Projekt-Risiken: A, C, D",
       "b": "Produktrisiken: A, C, D; Projektrisiken: B, E",
@@ -696,6 +755,7 @@
   },
   {
     "frage": "Sie haben gerade ein Pilotprojekt für ein Regressionstest-Werkzeug abgeschlossen. Sie verstehen das Werkzeug viel besser und haben Ihren Testprozess darauf abgestimmt. Sie haben einen standardisierten Ansatz für die Verwendung des Werkzeugs und der zugehörigen Arbeitsprodukte entwickelt.<br><br>Welcher der folgenden Aussagen ist ein typisches Ziel eines Testautomatisierungsprojekts bzw. Pilotprojekts, das noch verwirklicht werden muss?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
     "antworten": {
       "a": "Erfahren Sie mehr Details über das Werkzeug",
       "b": "Prüfen Sie, wie das Werkzeug in bestehende Prozesse und Praktiken passen würde",
@@ -712,6 +772,7 @@
   },
   {
     "frage": "Welches der folgenden Werkzeuge ist am nützlichsten für das Reporting von Testmetriken?",
+    "inhalte": [],
     "antworten": {
       "a": "Testmanagementwerkzeug",
       "b": "Werkzeug zur statischen Analyse",
@@ -727,7 +788,25 @@
     }
   },
   {
+    "frage": "Welche der folgenden Aussagen ist die korrekte Definition des Begriffes „Testfall“?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
+    "antworten": {
+      "a": "Teilmenge des Wertebereichs innerhalb einer Komponente oder eines Systems, für die aufgrund der Spezifikation erwartet wird, dass alle Werte gleichartig behandelt werden.",
+      "b": "Menge von Vorbedingungen, Eingaben, Aktionen, erwarteten Ergebnissen und Nachbedingungen, welche auf Basis von Testbedingungen entwickelt wurden.",
+      "c": "Arbeitsergebnis, welches während des Testprozesses erstellt wird und dazu gebraucht wird, um die Tests zu planen, zu entwerfen, auszuführen,auszuwerten und darüber zu berichten.",
+      "d": "Informationsquelle zur Ermittlung des erwarteten Ergebnisses, um es mit dem tatsächlichen Ergebnis eines Systems unter Test zu vergleichen."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH - Begründung: Basierend auf der Definition Äquivalenzklasse aus dem Glossar 3.3. (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)",
+      "b": "KORREKT – Begründung: Basierend auf einer Definition Testfall aus dem Glossar 3.3. (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)",
+      "c": "FALSCH - Begründung: Basierend auf der Glossardefinition Testmittel (Glossar 3.3). (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)",
+      "d": "FALSCH - Begründung: Basierend auf der Definition des Begriffs Testorakel (Glossar 3.3) (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)."
+    }
+  },
+  {
     "frage": "Welche der folgenden Aussagen ist ein typisches Ziel des Testens von Software?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Fehlerwirkungen und Fehlerzustände aufdecken",
       "b": "Validierung von Projektplänen",
@@ -744,6 +823,7 @@
   },
   {
     "frage": "Welches der folgenden Beispiele ist eine Fehlerwirkung in einem Tempomat eines Autos?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Der Entwickler des Systems hat vergessen, Variablen nach einem Ausschneiden und Einfügen umzubenennen.",
       "b": "Nicht benötigter Code, der beim Rückwärtsfahren einen Alarm auslöst, wurde in das System aufgenommen.",
@@ -760,6 +840,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen ist eher ein Fehlerzustand als eine Grundursache für einen Fehlerzustand in einem Fitness-Tracker?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Der Anforderungsmanager war mit der Domäne des Fitnesstrainings nicht vertraut und ging zu Unrecht davon aus, dass die Benutzer die Herzschlag Frequenz in Schlägen pro Stunde ablesen wollen.",
       "b": "Der Tester des Smartphone-Interfaces war nicht im zustandsbasierten Testen geschult und hat daher einen signifikanten Fehler übersehen.",
@@ -770,12 +851,13 @@
     "feedback": {
       "a": "FALSCH – Die mangelnde Vertrautheit des Anforderungsmanagers mit der Fitnessdomäne ist eine Grundursache für einen Fehlerzustand.",
       "b": "FALSCH – Die fehlende Schulung des Testers im zustandsbasierten Testen war eine Grundursache für den Fehler.",
-      "c": "KORREKT – Die fehlerhaft implementierte Konfigurationsvariable stellt einen Fehlerzustand in der Software des Fitness-Trackers dar, der zu Standortproblemen führen kann.",
+      "c": "KORREKT – Die fehlerhaft implementierte Konfigurationsvariable stellt einen Fehlerzustand in der Software des Fitness-Trackers dar, der zu Standortproblemen führen kann. Die Grundursache ist „Eine vom Entwickler für die GPS-Funktion fehlerhaft implementierte Konfigurationsvariable. (V.3.0)",
       "d": "FALSCH – Die mangelnde Erfahrung bei der Gestaltung von Benutzeroberflächen für tragbare Geräte ist eine Grundursache für einen Fehlerzustand."
     }
   },
   {
     "frage": "Als Ergebnis der Risikoanalyse werden mehr Tests auf die Bereiche des Systems unter Test angewendet, in denen die ersten Tests mehr Fehler als in den anderen Bereichen aufgedeckt haben.<br><br>Welcher der folgenden Grundsätze des Testens wird angewendet?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Vorsicht vor dem Pestizid-Paradoxon.",
       "b": "Das Testen ist kontextabhängig.",
@@ -784,14 +866,15 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH – Das Pestizid-Paradoxon bezieht sich darauf, dass die Wiederholung derselben Tests dazu führen kann, dass einige Fehler unentdeckt bleiben.",
-      "b": "FALSCH – Dies bezieht sich darauf, dass der Testansatz je nach Kontext variieren sollte.",
-      "c": "FALSCH – Dieses Prinzip besagt, dass das Fehlen von Fehlern nicht zwangsläufig bedeutet, dass das System fehlerfrei ist.",
-      "d": "KORREKT – Dieses Prinzip besagt, dass sich Fehler oft in bestimmten Bereichen häufen, und darauf sollte der Testfokus verstärkt werden."
+      "a": "FALSCH – „Vorsicht vor dem Pestizid-Paradoxon“ befasst sich mit dem erneuten Ausführen der gleichen Tests und der Verringerung ihrer Wirksamkeit bei der Fehlersuche.",
+      "b": "FALSCH – – Dieses Prinzip des Testens befasst sich mit der Durchführung von Tests, die je nach Kontext unterschiedlich sind (z. B. Spiele vs. sicherheitskritisch).",
+      "c": "FALSCH – Dieses Prinzip des Testens betrifft den Unterschied zwischen einem getesteten und einem festen System und einem validierten System. Keine \"Fehler\" bedeutet nicht, dass das System einsatzbereit ist.",
+      "d": "KORREKT – Wenn eine Häufung von Fehlerzuständen identifiziert werden (Bereiche des Systems, die mehr Fehler enthalten als der Durchschnitt), sollte der Testaufwand auf diese Bereiche ausgerichtet sein."
     }
   },
   {
     "frage": "Gegeben seien die folgenden Listen von Testaktivitäten (A.-D.) und Testaufgaben (1.-4.):<ol style=\"list-style-type: upper-alpha;\"><li>Testentwurf</li><li>Testrealisierung</li><li>Testdurchführung</li><li>Testabschluss</li></ol><ol><li>Erfassung von Änderungsanforderungen für offene Fehlerberichte</li><li>Identifizierung von Testdaten zur Unterstützung der Testfälle</li><li>Priorisierung von Testabläufen und Vorbereitung von Testdaten</li><li>Analyse von Abweichungen, um deren Ursache zu ermitteln</li></ol>Welches ist die korrekte Paarung von Testaktivitäten und Testaufgaben?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "A-2, B-3, C-4, D-1",
       "b": "A-2, B-1, C-3, D-4",
@@ -808,6 +891,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie ein Mehrwert durch Aufrechterhaltung und Wartung der Verfolgbarkeit zwischen Testbasis und Testartefakten erzielt wird?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Wartungstests können basierend auf Änderungen der ursprünglichen Anforderungen vollständig automatisiert werden.",
       "b": "Es kann festgestellt werden, ob ein neuer Testfall eine höhere Abdeckung der Anforderungen erreicht.",
@@ -824,6 +908,7 @@
   },
   {
     "frage": "Welche der folgenden Eigenschaften findet man EHER in der Denkweise eines Testers als in der Denkweise eines Entwicklers?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Die Leistung eines Testers wächst und reift mit steigender Erfahrung.",
       "b": "Die Fähigkeit zu erkennen, was an Lösungen falsch sein könnte.",
@@ -840,6 +925,7 @@
   },
   {
     "frage": "Betrachten Sie die folgenden Aussagen über die Beziehungen zwischen Softwareentwicklungsaktivitäten und Testaktivitäten im Softwareentwicklungslebenszyklus:<br><ol><li>Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.</li><li>Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.</li><li>Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.</li><li>Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.</li></ol><br>Welche der folgenden Optionen zeigt KORREKT, welche dieser Aussagen wahr und welche falsch sind?<br><br>Wählen Sie genau EINE Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Wahr – 1, 2; Falsch – 3, 4",
       "b": "Wahr – 2, 3; Falsch – 1, 4",
@@ -848,14 +934,15 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH - WAHR: „Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.“(siehe CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).",
-      "b": "FALSCH - FALSCH: „Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.“ Sie sollten starten, sobald erste Entwürfe dafür vorliegen, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.).",
-      "c": "FALSCH - FALSCH: „Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.“– Testanalyse und Testentwurf sollten während der entsprechenden Entwicklungsaktivitäten beginnen, nicht die Testimplementierung, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)",
-      "d": "KORREKT - WAHR: „Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.“ (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.) Folglich ist d) korrekt."
+      "a": "FALSCH<br><br>Begründung:<ol><li>WAHR: „Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.“(siehe CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).</li><li>FALSCH: „Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.“ Sie sollten starten, sobald erste Entwürfe dafür vorliegen, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.).</li><li>FALSCH: „Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.“– Testanalyse und Testentwurf sollten während der entsprechenden Entwicklungsaktivitäten beginnen, nicht die Testimplementierung, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li><li>WAHR: „Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.“ (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li></ol>Folglich ist d) korrekt.",
+      "b": "FALSCH<br><br>Begründung:<ol><li>WAHR: „Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.“(siehe CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).</li><li>FALSCH: „Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.“ Sie sollten starten, sobald erste Entwürfe dafür vorliegen, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.).</li><li>FALSCH: „Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.“– Testanalyse und Testentwurf sollten während der entsprechenden Entwicklungsaktivitäten beginnen, nicht die Testimplementierung, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li><li>WAHR: „Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.“ (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li></ol>Folglich ist d) korrekt.",
+      "c": "FALSCH<br><br>Begründung:<ol><li>WAHR: „Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.“(siehe CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).</li><li>FALSCH: „Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.“ Sie sollten starten, sobald erste Entwürfe dafür vorliegen, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.).</li><li>FALSCH: „Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.“– Testanalyse und Testentwurf sollten während der entsprechenden Entwicklungsaktivitäten beginnen, nicht die Testimplementierung, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li><li>WAHR: „Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.“ (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li></ol>Folglich ist d) korrekt.",
+      "d": "KORREKT<br><br>Begründung:<ol><li>WAHR: „Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.“(siehe CTFL CORE Lehrplan 2018, Abschnitt 2.1.1).</li><li>FALSCH: „Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.“ Sie sollten starten, sobald erste Entwürfe dafür vorliegen, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.).</li><li>FALSCH: „Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.“– Testanalyse und Testentwurf sollten während der entsprechenden Entwicklungsaktivitäten beginnen, nicht die Testimplementierung, (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li><li>WAHR: „Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.“ (siehe CTFL Lehrplan 2018, Abschnitt 2.1.1.)</li></ol>Folglich ist d) korrekt."
     }
   },
   {
     "frage": "Ein durchgeführter Test hat folgende Eigenschaften:<br><ol style=\"list-style-type: circle;\"><li>Er basiert auf Schnittstellenspezifikationen.</li><li>Der Schwerpunkt liegt auf dem Finden von Fehlerwirkungen in der Kommunikation.</li><li>Die Testvorgehensweise wendet sowohl funktionale als auch strukturelle Testarten an.</li></ol>Auf welcher der folgenden Teststufen wird dieser Test AM WAHRSCHEINLICHSTEN durchgeführt?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Integrationstest",
       "b": "Abnahmetest",
@@ -872,6 +959,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen über Testarten und Teststufen ist ZUTREFFEND?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Funktionaler und nicht-funktionaler Test können auf den Teststufen System und Abnahmetest durchgeführt werden, während der White-Box-Test auf Komponenten- und Integrationstests beschränkt ist.",
       "b": "Funktionaler Test kann auf jeder Teststufe durchgeführt werden, während der White-Box-Test auf Komponententest beschränkt ist.",
@@ -888,6 +976,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen vergleicht die Zwecke der Fehlernachtests und Regressionstests AM BESTEN miteinander?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Der Regressionstest stellt sicher, dass alle früher durchgeführten Tests immer noch korrekt laufen, während der Fehlernachtest sicherstellt, dass Korrekturen an einem Teil des Systems die anderen Teile nicht negativ beeinflussen.",
       "b": "Der Fehlernachtest prüft, dass ein vorher gefundener Fehlerzustand korrigiert wurde, während der Regressionstest sicherstellt, dass die Korrektur keine anderen Teile des Systems negativ beeinflusst hat.",
@@ -904,6 +993,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen beschreibt eine Aufgabe der Auswirkungsanalyse im Wartungstest KORREKT?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Die Auswirkungsanalyse unterstützt bei der Entscheidung, ob sich eine Fehlerkorrektur beim zu wartenden System lohnt.",
       "b": "Die Auswirkungsanalyse identifiziert, wie Daten in das gewartete System zu migrieren sind.",
@@ -920,6 +1010,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen gibt den Nutzen des statischen Tests KORREKT wieder?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Nach der Einführung von Reviews stellten wir fest, dass sich sowohl die Qualität der Spezifikationen als auch die für Entwicklung und Test benötigte Zeit erhöht haben.",
       "b": "Durch die Anwendung von statischem Test können wir den Test besser steuern und haben ein günstigeres Fehlermanagement, weil sich Fehlerzustände später im Lebenszyklus leichter finden lassen.",
@@ -936,6 +1027,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen zur Anwendung von Checklisten bei einem formalen Review ist KORREKT?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Im Rahmen der Planung des Reviews erstellen die Reviewer die für das Review benötigten Checklisten.",
       "b": "Im Rahmen der Befundkommunikation füllen die Reviewer die für das Review bereitgestellten Checklisten aus.",
@@ -952,6 +1044,7 @@
   },
   {
     "frage": "Welche der folgenden Optionen gibt die Rollen und Verantwortlichkeiten in einem formalen Review KORREKT wieder?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Management – Entscheidet über die Durchführung von Reviews",
       "b": "Reviewleiter – Stellt den erfolgreichen Ablauf von Reviewsitzungen sicher",
@@ -968,6 +1061,7 @@
   },
   {
     "frage": "Die Reviews in Ihrer Organisation haben die folgenden Eigenschaften:<ol style=\"list-style-type: circle;\"><li>Es gibt die Rolle des Protokollanten</li><li>Der Zweck ist es, potenzielle Fehlerzustände zu entdecken</li><li>Die Reviewsitzung wird vom Autor geleitet</li><li>Die Reviewer finden potenzielle Fehlerzustände durch individuelles Review</li><li>Es wird ein Reviewbericht erstellt</li></ol>Welche der folgenden Reviewarten wird hier AM WAHRSCHEINLICHSTEN verwendet?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Informelles Review",
       "b": "Walkthrough",
@@ -984,6 +1078,7 @@
   },
   {
     "frage": "Sie wurden gebeten, an einem checklistenbasierten Review des folgenden Auszuges aus einer Anforderungsspezifikation eines Bibliothekssystems teilzunehmen:<br><br>Bibliothekare können:<ol><li>Neue Nutzer registrieren.</li><li>Bücher von Nutzern zurücknehmen.</li><li>Mahngebühren für Nutzer erheben.</li><li>Neue Bücher mit deren ISBN, Autor und Titel dem System hinzufügen.</li><li>Bücher aus dem System löschen.</li><li>Systemrückmeldungen innerhalb von 5 Sekunden erhalten.</li></ol>Nutzer können:<br><ol start='7'><li>Maximal drei Bücher gleichzeitig ausleihen.</li><li>Die Historie ihrer ausgeliehen/reservierten Bücher anschauen.</li><li>Mit einer Mahngebühr wegen Nichtrückgabe eines Buches innerhalb von 3 Wochen belegt werden.</li><li>Systemrückmeldungen innerhalb von 3 Sekunden erhalten.</li><li>Ein Buch kostenfrei für maximal 4 Wochen ausleihen.</li><li>Bücher reservieren (falls sie ausgeliehen sind).</li></ol>Alle Benutzer (Bibliothekare und Nutzer):<br><ol start='13'><li>Können Bücher nach ISBN, Autor oder Titel suchen.</li><li>Können den Systemkatalog durchstöbern.</li><li>Das System soll innerhalb von 3 Sekunden auf Benutzeranfragen reagieren.</li><li>Die Benutzungsschnittstelle soll einfach zu bedienen sein.</li></ol>Ihnen wurde der Checklisteneintrag zugewiesen, der ein Review der Spezifikation auf Inkonsistenzen zwischen einzelnen Anforderungen vorsieht (beispielsweise Konflikte zwischen Anforderungen).<br><br>Welche folgenden Kombinationen weisen Inkonsistenzen zwischen Anforderungspaaren RICHTIG auf?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "6-10, 6-15, 7-12",
       "b": "6-15, 9-11",
@@ -1000,6 +1095,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN exploratives Testen?<br><br>Wählen Sie genau EINE korrekte Option aus!",
+    "inhalte": [],
     "antworten": {
       "a": "Eine Testvorgehensweise/ein Testansatz, bei der eine intensive Untersuchung des Hintergrunds des Testobjekts dazu genutzt wird, mögliche Schwachstellen zu identifizieren, die durch Testfälle untersucht werden.",
       "b": "Eine Testvorgehensweise/ein Testansatz bei dem die Tester, basierend auf ihrem Wissen, der Erkundung des Testelements und dem Ergebnis früherer Tests, dynamisch Tests entwerfen und durchführen.",
@@ -1016,6 +1112,7 @@
   },
   {
     "frage": "Welche der folgenden Zuordnungen von Beschreibungen zu verschiedenen Kategorien von Testverfahren trifft AM BESTEN zu?<ol><li>Überdeckung wird auf Basis einer ausgewählten Struktur des Testobjektes gemessen.</li><li>Verarbeitung innerhalb des Testobjekts wird überprüft.</li><li>Tests basieren auf der Wahrscheinlichkeit von Fehlerzuständen und deren Verteilung.</li><li>Abweichungen von Anforderungen werden überprüft.</li><li>User-Stories werden als Testbasis herangezogen.</li></ol>Verwendete Notation für die folgenden 4 Optionen:<br><br>Black – Black-Box-Testverfahren<br>White – White-Box-Testverfahren<br>Erfahrung – erfahrungsbasiertes Testverfahren<br><br>Wählen Sie genau EINE korrekte Option aus! ",
+    "inhalte": [],
     "antworten": {
       "a": "Black – 4, 5; White – 1, 2; Erfahrung – 3",
       "b": "Black – 3; White – 1, 2; Erfahrung – 4, 5",
@@ -1032,31 +1129,39 @@
   },
   {
     "frage": "Eine Fitness-App misst die Anzahl der täglich gelaufenen Schritte und gibt dazu Feedback, um den Anwender zu motivieren, fit zu bleiben.<br><br>Das Feedback zu den verschiedenen Schrittzahlen soll sein:<br>",
-    "tabelle": {
-      "koerper": [
-        [
-          "Bis zu 1000",
-          "- Couch Potato!"
-        ],
-        [
-          "Über 1000, bis zu 2000",
-          "- Faulpelz!"
-        ],
-        [
-          "Über 2000, bis zu 4000 ",
-          "- Die Richtung stimmt!"
-        ],
-        [
-          "Über 4000, bis zu 6000",
-          "- Nicht schlecht!"
-        ],
-        [
-          "Über 6000",
-          "- Super!"
-        ]
-      ]
-    },
-    "fortsetzung": "Welche der folgenden Gruppen von Testeingabewerten würde für die BESTE Überdeckung von Äquivalenzklassen sorgen?<br><br>Wählen Sie genau EINE korrekte Option aus.",
+    "inhalte": [
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "koerper": [
+            [
+              "Bis zu 1000",
+              "- Couch Potato!"
+            ],
+            [
+              "Über 1000, bis zu 2000",
+              "- Faulpelz!"
+            ],
+            [
+              "Über 2000, bis zu 4000 ",
+              "- Die Richtung stimmt!"
+            ],
+            [
+              "Über 4000, bis zu 6000",
+              "- Nicht schlecht!"
+            ],
+            [
+              "Über 6000",
+              "- Super!"
+            ]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Welche der folgenden Gruppen von Testeingabewerten würde für die BESTE Überdeckung von Äquivalenzklassen sorgen?<br><br>Wählen Sie genau EINE korrekte Option aus."
+      }
+    ],
     "antworten": {
       "a": "0, 1000, 2000, 3000, 4000",
       "b": "1000, 2001, 4000, 4001, 6000",
@@ -1071,11 +1176,175 @@
       "d": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden gültigen Äquivalenzklassen können gebildet werden:<ol><li>≤ 1000 - Couch Potato!</li><li>1001 - 2000 - Faulpelz!</li><li>2001 - 4000 - Die Richtung stimmt!</li><li>4001 - 6000 - Nicht schlecht!</li><li>> 6000 - Super!</li></ol>Die Gruppen von Testeingabewerten decken daher folgende Klassen ab:<ol style=\"list-style-type: lower-alpha;\"><li>0 (1), 1000 (1), 2000 (2), 3000 (3), 4000 (3) – 3 Klassen (von 5).</li><li>1000 (1), 2001 (3), 4000 (3), 4001 (4), 6000 (4) – 3 Klassen (von 5).</li><li>123 (1), 2345 (3), 3456 (3), 4567 (4), 5678 (4) – 3 Klassen (von 5).</li><li>666 (1), 999 (1), 2222 (3), 5555 (4), 6666 (5) – 4 Klassen (von 5)</li></ol>Folglich ist Option d) richtig."
     }
   },
-
-
-
+  {
+    "frage": "Ein Gerät zur Messung des täglichen Strahlungseinfalls für Pflanzen ermittelt einen Einstrahlungswert für Sonnenschein. Dieser ergibt sich aus der Kombination der Anzahl der Stunden, in denen eine Pflanze der Sonne ausgesetzt ist (unter 3 Stunden, 3 bis 6 Stunden, über 6 Stunden) und der durchschnittlichen Intensität des Sonnenscheins (sehr niedrig, niedrig, mittel, hoch). Die folgenden Testfälle existieren bereits:",
+    "inhalte": [
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "kopf": [
+            "",
+            "Dauer (Stunden)",
+            "Intensität",
+            "Einstrahlung"
+          ],
+          "koerper": [
+            [
+              "T1",
+              "1,5",
+              "sehr niedrig",
+              "10"
+            ],
+            [
+              "T2",
+              "7,0",
+              "mittel",
+              "60"
+            ],
+            [
+              "T3",
+              "0,5",
+              "sehr niedrig",
+              "10"
+            ]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Wie viele Testfälle müssen mindestens noch erzeugt werden, um eine vollständige Überdeckung ALLER GÜLTIGEN Eingabe-Äquivalenz klassen zu gewährleisten?<br><br>Wählen Sie genau EINE korrekte Option aus."
+      }
+    ],
+    "antworten": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "4"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden Äquivalenzklassen können identifiziert werden:<ol style=\"list-style-type: circle;\"><li>Dauer</li><ol><li>Unter 3 Stunden</li><li>3 – 6 Stunden</li><li>Über 6 Stunden</li></ol><li>Intensität</li><ol start='4'><li>sehr niedrig</li><li>niedrig</li><li>mittel</li><li>hoch</li></ol></ol>Die existierenden Testfälle decken die folgenden gültigen Eingabe- Äquivalenzklassen ab:<br><br>T1 1,5(1) sehr niedrig (4)<br><br>T2 7,0 (3) mittel (6)<br><br>T3 0,5 (1) sehr niedrig (4)<br><br>Folglich sind die fehlenden gültigen Eingabe- Äquivalenzklassen (2), (5) und (7).<br><br>Sie können mit zwei zusätzlichen Testfällen abgedeckt werden, da (2) sowohl mit (5) als auch mit (7) kombiniert werden kann.<br><br>Folglich ist Antwort b) richtig.",
+      "b": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden Äquivalenzklassen können identifiziert werden:<ol style=\"list-style-type: circle;\"><li>Dauer</li><ol><li>Unter 3 Stunden</li><li>3 – 6 Stunden</li><li>Über 6 Stunden</li></ol><li>Intensität</li><ol start='4'><li>sehr niedrig</li><li>niedrig</li><li>mittel</li><li>hoch</li></ol></ol>Die existierenden Testfälle decken die folgenden gültigen Eingabe- Äquivalenzklassen ab:<br><br>T1 1,5(1) sehr niedrig (4)<br><br>T2 7,0 (3) mittel (6)<br><br>T3 0,5 (1) sehr niedrig (4)<br><br>Folglich sind die fehlenden gültigen Eingabe- Äquivalenzklassen (2), (5) und (7).<br><br>Sie können mit zwei zusätzlichen Testfällen abgedeckt werden, da (2) sowohl mit (5) als auch mit (7) kombiniert werden kann.<br><br>Folglich ist Antwort b) richtig.",
+      "c": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden Äquivalenzklassen können identifiziert werden:<ol style=\"list-style-type: circle;\"><li>Dauer</li><ol><li>Unter 3 Stunden</li><li>3 – 6 Stunden</li><li>Über 6 Stunden</li></ol><li>Intensität</li><ol start='4'><li>sehr niedrig</li><li>niedrig</li><li>mittel</li><li>hoch</li></ol></ol>Die existierenden Testfälle decken die folgenden gültigen Eingabe- Äquivalenzklassen ab:<br><br>T1 1,5(1) sehr niedrig (4)<br><br>T2 7,0 (3) mittel (6)<br><br>T3 0,5 (1) sehr niedrig (4)<br><br>Folglich sind die fehlenden gültigen Eingabe- Äquivalenzklassen (2), (5) und (7).<br><br>Sie können mit zwei zusätzlichen Testfällen abgedeckt werden, da (2) sowohl mit (5) als auch mit (7) kombiniert werden kann.<br><br>Folglich ist Antwort b) richtig.",
+      "d": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die folgenden Äquivalenzklassen können identifiziert werden:<ol style=\"list-style-type: circle;\"><li>Dauer</li><ol><li>Unter 3 Stunden</li><li>3 – 6 Stunden</li><li>Über 6 Stunden</li></ol><li>Intensität</li><ol start='4'><li>sehr niedrig</li><li>niedrig</li><li>mittel</li><li>hoch</li></ol></ol>Die existierenden Testfälle decken die folgenden gültigen Eingabe- Äquivalenzklassen ab:<br><br>T1 1,5(1) sehr niedrig (4)<br><br>T2 7,0 (3) mittel (6)<br><br>T3 0,5 (1) sehr niedrig (4)<br><br>Folglich sind die fehlenden gültigen Eingabe- Äquivalenzklassen (2), (5) und (7).<br><br>Sie können mit zwei zusätzlichen Testfällen abgedeckt werden, da (2) sowohl mit (5) als auch mit (7) kombiniert werden kann.<br><br>Folglich ist Antwort b) richtig."
+    }
+  },
+  {
+    "frage": "Eine Smart-Home-App misst die durchschnittliche Temperatur im Haus während der vergangenen Woche und gibt den Bewohnern basierend auf diesem Wert Informationen zur Umweltfreundlichkeit ihres Verhaltens. Das Feedback für die verschiedenen Durchschnittstemperaturbereiche (gerundet auf die nächsten ganzen °C) soll lauten:",
+    "inhalte": [
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "koerper": [
+            [
+              "Bis zu 10°C",
+              "Eiskalt!"
+            ],
+            [
+              "11°C bis 15°C",
+              "Ganz schön schattig!"
+            ],
+            [
+              "16°C bis 19°C",
+              "Cool!"
+            ],
+            [
+              "20°C bis 22°C",
+              "Zu warm!"
+            ],
+            [
+              "Über 22°C",
+              "Sauna!"
+            ]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Welches der folgenden Testsets liefert die höchste Überdeckung von Grenzwerten, wenn die Grenzwertanalyse ausschließlich unter Verwendung der Minimal- und Maximalwerte verwendet wird?<br><br>Wählen Sie genau EINE korrekte Option aus."
+      }
+    ],
+    "antworten": {
+      "a": "0°C, 11°C, 20°C, 22°C, 23°C",
+      "b": "9°C, 15°C, 19°C, 23°C, 100°C",
+      "c": "10°C, 16°C, 19°C, 22°C, 23°C",
+      "d": "14°C, 15°C, 18°C, 19°C, 21°C 22°C"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Bei den angegebenen Eingabe-Äquivalenzklassen ergibt das Zwei-Punkt Grenzwertverfahren folgende 8 Überdeckungselemente:<br><br>10°C, 11°C, 15°C, 16°C, 19°C, 20°C, 22°C, 23°C.<br><br>Die Überdeckung durch die Optionen ist folglich jeweils:<br><ol style=\"list-style-type: lower-alpha;\"><li>4 von 8 (11, 20 ,22 und 23).</li><li>3 von 8 (15, 19 und 23).</li><li>5 von 8 (10, 16, 19, 22 und 23).</li><li>3 von 8 (15, 19 und 22)</li></ol>Folglich ist Option c) richtig.",
+      "b": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Bei den angegebenen Eingabe-Äquivalenzklassen ergibt das Zwei-Punkt Grenzwertverfahren folgende 8 Überdeckungselemente:<br><br>10°C, 11°C, 15°C, 16°C, 19°C, 20°C, 22°C, 23°C.<br><br>Die Überdeckung durch die Optionen ist folglich jeweils:<br><ol style=\"list-style-type: lower-alpha;\"><li>4 von 8 (11, 20 ,22 und 23).</li><li>3 von 8 (15, 19 und 23).</li><li>5 von 8 (10, 16, 19, 22 und 23).</li><li>3 von 8 (15, 19 und 22)</li></ol>Folglich ist Option c) richtig.",
+      "c": "KORREKT - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Bei den angegebenen Eingabe-Äquivalenzklassen ergibt das Zwei-Punkt Grenzwertverfahren folgende 8 Überdeckungselemente:<br><br>10°C, 11°C, 15°C, 16°C, 19°C, 20°C, 22°C, 23°C.<br><br>Die Überdeckung durch die Optionen ist folglich jeweils:<br><ol style=\"list-style-type: lower-alpha;\"><li>4 von 8 (11, 20 ,22 und 23).</li><li>3 von 8 (15, 19 und 23).</li><li>5 von 8 (10, 16, 19, 22 und 23).</li><li>3 von 8 (15, 19 und 22)</li></ol>Folglich ist Option c) richtig.",
+      "d": "FALSCH - Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Bei den angegebenen Eingabe-Äquivalenzklassen ergibt das Zwei-Punkt Grenzwertverfahren folgende 8 Überdeckungselemente:<br><br>10°C, 11°C, 15°C, 16°C, 19°C, 20°C, 22°C, 23°C.<br><br>Die Überdeckung durch die Optionen ist folglich jeweils:<br><ol style=\"list-style-type: lower-alpha;\"><li>4 von 8 (11, 20 ,22 und 23).</li><li>3 von 8 (15, 19 und 23).</li><li>5 von 8 (10, 16, 19, 22 und 23).</li><li>3 von 8 (15, 19 und 22)</li></ol>Folglich ist Option c) richtig."
+    }
+  },
+  {
+    "frage": "Ein System zur Berechnung der Strafe für Geschwindigkeitsübertretungen im Straßenverkehr wird mit folgender Entscheidungstabelle spezifiziert:",
+    "inhalte": [
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "kopf": ["","Regeln","R1","R2","R3","R5"],
+          "koerper": [
+            ["Bedingungen","Geschwindigkeit > 50","J","J","N","N"],
+            ["Bedingungen","Schul-Zone","J","N","J","N"],
+            ["Aktionen","250€ Geldstrafe","-","X","-","-"],
+            ["Aktionen","Führerscheinentzug","X","-","-","-"]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Für die beiden in der obigen Tabelle dargestellten Regeln R1 und R4 wurden bereits folgende zwei Testfälle generiert:<br><br>"
+      },
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "kopf": ["ID","Eingabe","Erwartetes Ergebnis"],
+          "koerper": [
+            ["TF1","Geschwindigkeit = 65;<br><br>Schulzone = Ja","Führerscheinentzug"],
+            ["TF2","Geschwindigkeit = 45;<br><br>Schulzone = Nein","Keine Strafe"]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Die nächste Tabelle zeigt vier zusätzliche Testfälle TF3, TF4, TF5 und TF6:<br><br>"
+      },
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "kopf": ["ID","Eingabe","Erwartetes Ergebnis"],
+          "koerper": [
+            ["TF3","Geschwindigkeit = 55;<br>Schulzone = Ja","Führerscheinentzug"],
+            ["TF4","Geschwindigkeit = 44;<br>Schulzone = Ja","Keine Strafe"],
+            ["TF5","Geschwindigkeit = 66;<br>Schulzone = Ja","Führerscheinentzug"],
+            ["TF6","Geschwindigkeit = 77;<br>Schulzone = Nein","250€ Geldstrafe"]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Welche zwei der zusätzlichen Testfälle würden eine 100% Überdeckung der gesamten Entscheidungstabelle erreichen (in Kombination mit den Testfällen TF1 und TF2)?<br><br>Wählen Sie genau EINE korrekte Option aus."
+      }
+    ],
+    "antworten": {
+      "a": "TF3, TF4",
+      "b": "TF4, TF5",
+      "c": "TF4, TF6",
+      "d": "TF5, TF6"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Regel R2 ist nicht überdeckt.",
+      "b": "FALSCH – Regel R2 ist nicht überdeckt.",
+      "c": "KORREKT – R1, R2, R3 und R4 sind jeweils durch TF1, TF6, TF4 bzw. TF2 überdeckt.",
+      "d": "FALSCH – Regel R3 ist nicht überdeckt."
+    }
+  },
   {
     "frage": "Welche der folgenden Aussagen beschreibt AM BESTEN, wie Testfälle aus Anwendungsfällen entworfen werden?",
+    "inhalte": [],
     "antworten": {
       "a": "Testfälle werden entworfen, um das im Anwendungsfall definierte grundlegende, Sonder- und Fehlerbehandlungs-Verhalten des Systems in Interaktion mit den Akteuren auszuführen.",
       "b": "Testfälle werden entworfen, indem die vom Anwendungsfall betroffenen Komponenten identifiziert und Integrationstests erstellt werden, welche die Interaktionen dieser Komponenten ausführen.",
@@ -1092,6 +1361,7 @@
   },
   {
     "frage": "Welche der folgenden Beschreibungen der Anweisungsüberdeckung ist korrekt?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Anweisungsüberdeckung ist ein Maß für die Anzahl der Quellcodezeilen (ohne Kommentare), die im Test ausgeführt wurden.",
       "b": "Die Anweisungsüberdeckung ist ein Maß für den prozentualen Anteil der ausführbaren Anweisungen im Quellcode, die im Test ausgeführt wurden.",
@@ -1108,6 +1378,7 @@
   },
   {
     "frage": "Welche der folgenden Beschreibungen der Entscheidungsüberdeckung ist zutreffend?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Entscheidungsüberdeckung ist ein Maß für den prozentualen Anteil möglicher Pfade durch den Quellcode, die im Test ausgeführt wurden.",
       "b": "Die Entscheidungsüberdeckung ist ein Maß für den prozentualen Anteil der Geschäftsabläufe durch die Komponente, die im Test ausgeführt wurden.",
@@ -1124,6 +1395,7 @@
   },
   {
     "frage": "Welche der folgenden Optionen beschreibt AM BESTEN das Konzept der intuitiven Testfallermittlung?",
+    "inhalte": [],
     "antworten": {
       "a": "Die intuitive Testfallermittlung erfordert, dass Sie sich vorstellen, der Benutzer des Testobjekts zu sein und dass Sie Fehler erraten, die der Benutzer bei der Interaktion damit machen könnte.",
       "b": "Die intuitive Testfallermittlung bezieht Ihre persönlichen Entwicklungserfahrungen und die Fehler mit ein, die Sie als Entwickler gemacht haben.",
@@ -1140,6 +1412,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen beschreibt am BESTEN einen Vorteil von unabhängigem Testen?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Verwendung eines unabhängigen Testteams erlaubt dem Projektmanagement die Verantwortung für die Qualität des finalen Arbeitsergebnisses auf das Testteam zu übertragen. Somit ist jedem bewusst, dass die Qualität in der Gesamtverantwortung des Testteams liegt.",
       "b": "Wenn ein Testteam außerhalb der Organisation zur Verfügung gestellt werden kann, hat dies deutliche Vorteile, da dieses externe Team nicht so leicht von den Bedenken des Projektmanagements und der Notwendigkeit der Einhaltung strenger Lieferfristen beeinflusst wird.",
@@ -1156,6 +1429,7 @@
   },
   {
     "frage": "Welche der folgenden Aufgaben wird AM WAHRSCHEINLICHSTEN vom Testmanager ausgeführt?",
+    "inhalte": [],
     "antworten": {
       "a": "Erstellen von Testabschlussberichten auf der Grundlage der während des Tests gesammelten Informationen.",
       "b": "Tests prüfen, die von anderen entwickelt wurden.",
@@ -1172,6 +1446,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen über Testschätzverfahren ist korrekt?",
+    "inhalte": [],
     "antworten": {
       "a": "Beim metrikbasierten Verfahren basiert die Schätzung auf Testmaßnahmen aus dem Projekt, so dass diese Schätzung erst nach Beginn des Tests verfügbar ist.",
       "b": "Beim expertenbasierten Verfahren empfiehlt eine vom Kunden identifizierte Gruppe von Experten das erforderliche Testbudget.",
@@ -1188,6 +1463,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen definiert AM BESTEN die Risikostufe (Höhe des Risikos)?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Risikostufe wird berechnet, indem die Wahrscheinlichkeiten aller Problemsituationen und der daraus resultierende finanzielle Schaden addiert werden.",
       "b": "Die Risikostufe wird geschätzt, indem die Wahrscheinlichkeit einer Bedrohung des Systems multipliziert wird mit der Wahrscheinlichkeit, dass die Bedrohung auftritt und finanzielle Schäden verursacht.",
@@ -1204,6 +1480,7 @@
   },
   {
     "frage": "Welcher der folgenden Aussagen ist AM EHESTEN ein Beispiel für ein Produktrisiko?",
+    "inhalte": [],
     "antworten": {
       "a": "Die erwarteten IT-Sicherheitsmerkmale werden von der Systemarchitektur möglicherweise nicht unterstützt.",
       "b": "Die Entwickler haben möglicherweise nicht die Zeit, alle vom Testteam gefundenen Fehler zu beheben.",
@@ -1220,6 +1497,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen zum Zusammenhang von Produktrisiko und Testmanagement ist am wenigsten sinnvoll?",
+    "inhalte": [],
     "antworten": {
       "a": "Die potenziellen Auswirkungen von IT-Sicherheitsmängeln wurden als besonders hoch eingestuft, so dass IT-Sicherheitstests vor einigen anderen Testaktivitäten priorisiert wurden.",
       "b": "Die Tests haben ergeben, dass die Qualität des Netzwerkmoduls besser ist als erwartet, so dass nun zusätzliche Tests in diesem Bereich durchgeführt werden.",
@@ -1236,6 +1514,7 @@
   },
   {
     "frage": "Welcher der folgenden Punkte wird AM WAHRSCHEINLICHSTEN als Grund für die Verwendung eines Pilotprojekts zur Einführung eines Werkzeugs in einem Unternehmen verwendet?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Notwendigkeit zu bewerten, wie das Werkzeug zu bestehenden Prozessen und Vorgehensweisen passt und zu bestimmen, was geändert werden muss.",
       "b": "Die Notwendigkeit, die Fähigkeiten zur Testautomatisierung sowie die Trainings-, Mentoring- und Coaching-Bedürfnisse der Tester zu bewerten, die das Werkzeug nutzen werden.",
@@ -1252,6 +1531,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen beschreibt den Unterschied zwischen Testen und Debugging zutreffend?",
+    "inhalte": [],
     "antworten": {
       "a": "Testen identifiziert die Ursache von Fehlerzuständen. Debugging analysiert die Fehlerzustände und schlägt Präventionsmaßnahmen vor.",
       "b": "Dynamische Tests zeigen Fehlerwirkungen auf, die durch Fehlerzustände verursacht wurden. Debugging ist eine Entwicklungsaktivität, die Fehlerzustände beseitigt, die die Ursache von Fehlerwirkungen sind.",
@@ -1268,6 +1548,7 @@
   },
   {
     "frage": "Nachfolgend finden Sie eine Liste von Problemen, die während des Testens oder im Betrieb beobachtet werden können. Welches Problem ist eine Fehlerwirkung?",
+    "inhalte": [],
     "antworten": {
       "a": "Das Produkt stürzte ab, als der Benutzer eine Option in einer Dialogbox auswählte.",
       "b": "Eine kompilierte Quellcodedatei wurde in der falschen Version zum Build hinzugefügt.",
@@ -1284,6 +1565,7 @@
   },
   {
     "frage": "Ein Tester hat über einen Zeitraum von 5 Jahren Software-Applikationen auf mobilen Geräten einem Test unterzogen. Er hat sich einen großen Erfahrungsschatz im Testen von mobilen Applikationen angeeignet und erzielt in kürzer Zeit bessere Ergebnisse als andere. Über einen längeren Zeitraum hat der Tester die existierenden automatisierten Testfälle nicht modifiziert und auch keine neuen Testfälle mehr erstellt. Dies führt dazu, dass durch Ausführung der Tests immer weniger Fehler gefunden werden. Welchen Grundsatz des Softwaretestens hat der Tester nicht beachtet?",
+    "inhalte": [],
     "antworten": {
       "a": "Testen ist abhängig vom Umfeld",
       "b": "Vollständiges Testen ist nicht möglich",
@@ -1300,6 +1582,7 @@
   },
   {
     "frage": "Inwiefern leistet das Testen einen Beitrag zur Verbesserung von Qualität?",
+    "inhalte": [],
     "antworten": {
       "a": "Testen stellt sicher, dass Anforderungen detailliert genug sind.",
       "b": "Testen verringert das Risiko von unzureichender Softwarequalität.",
@@ -1316,6 +1599,7 @@
   },
   {
     "frage": "Welche der folgenden Aktivitäten ist Teil der Hauptaktivität „Testanalyse“ im Testprozess?",
+    "inhalte": [],
     "antworten": {
       "a": "Identifikation der erforderlichen Infrastruktur und Werkzeuge",
       "b": "Erstellen von Testsuiten basierend auf den Testskripten",
@@ -1332,6 +1616,7 @@
   },
   {
     "frage": "Wie kann der White-Box-Test während des Abnahmetests angewendet werden?",
+    "inhalte": [],
     "antworten": {
       "a": "Um zu prüfen, ob große Datenmengen zwischen integrierten Systemen übertragen werden können.",
       "b": "Um zu prüfen, ob alle Code-Anweisungen und Code-Entscheidungspfade ausgeführt wurden.",
@@ -1348,6 +1633,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen zum Vergleich zwischen Komponententest und Systemtest ist WAHR?",
+    "inhalte": [],
     "antworten": {
       "a": "Komponententests überprüfen die Funktion von Komponenten, Programmobjekten und Klassen, die separat prüfbar sind, während Systemtests die Schnittstellen zwischen den Komponenten und Wechselwirkungen mit anderen Teilen des Systems überprüfen.",
       "b": "Testfälle für den Komponententest werden in der Regel von Komponentenspezifikationen, Designspezifikationen oder Datenmodellen abgeleitet, während Testfälle für den Systemtest in der Regel von Anforderungsspezifikationen oder Anwendungsfällen abgeleitet werden.",
@@ -1364,6 +1650,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen ist zutreffend?",
+    "inhalte": [],
     "antworten": {
       "a": "Der Zweck des Regressionstests ist es, zu überprüfen, ob die Korrektur erfolgreich implementiert wurde, während der Zweck der Fehlernachtests darin besteht, zu bestätigen, dass die Korrektur keine Seiteneffekte hat.",
       "b": "Der Zweck des Regressionstests ist es, unbeabsichtigte Seiteneffekte zu erkennen, während der Zweck des Fehlernachtests darin besteht zu prüfen, ob das System in einer neuen Umgebung noch funktioniert.",
@@ -1380,6 +1667,7 @@
   },
   {
     "frage": "Welches ist die BESTE Definition eines inkrementellen Entwicklungsmodells?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Definition der Anforderungen, das Design der Software und das Testen erfolgen in einer Serie durch Hinzufügen von Teilen.",
       "b": "Eine Phase des Entwicklungsprozesses sollte beginnen, wenn die vorhergehende Phase abgeschlossen ist.",
@@ -1396,6 +1684,7 @@
   },
   {
     "frage": "Welcher der folgenden Entscheidungen sollte KEIN Auslöser für Wartungstests sein?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Entscheidung, die Wartbarkeit der Software zu testen",
       "b": "Die Entscheidung, das System nach der Migration auf einer neuen Betriebsplattform zu testen",
@@ -1412,6 +1701,7 @@
   },
   {
     "frage": "Welche der folgenden Optionen sind Rollen in einem formalen Review?",
+    "inhalte": [],
     "antworten": {
       "a": "Entwickler, (Review-)Moderator, Reviewleiter, Gutachter, Tester",
       "b": "Autor, (Review-)Moderator, Manager, Gutachter, Entwickler",
@@ -1428,6 +1718,7 @@
   },
   {
     "frage": "Welche Aktivitäten werden im Rahmen der Planung eines formalen Reviews durchgeführt?",
+    "inhalte": [],
     "antworten": {
       "a": "Sammeln von Metriken für die Bewertung der Effektivität des Reviews.",
       "b": "Beantwortung von Fragen, die die Teilnehmer haben könnten.",
@@ -1444,6 +1735,7 @@
   },
   {
     "frage": "Welche der unten aufgeführten Reviewarten ist AM BESTEN geeignet, wenn das Review gemäß einem formalen bzw. definierten Prozess mit Regeln und unter Verwendung von Checklisten durchgeführt werden soll?",
+    "inhalte": [],
     "antworten": {
       "a": "Informelles Review",
       "b": "Technisches Review",
@@ -1460,6 +1752,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen zum statischen Test ist am EHESTEN zutreffend?",
+    "inhalte": [],
     "antworten": {
       "a": "Statischer Test ist eine kostengünstige Möglichkeit, Fehlerzustände zu erkennen und zu beheben.",
       "b": "Statischer Test macht den dynamischen Test theoretisch überflüssig.",
@@ -1476,6 +1769,7 @@
   },
   {
     "frage": "Sie werden zum Review eingeladen. Das zu prüfende Arbeitsergebnis ist eine Beschreibung des firmeninternen Dokumentenerstellungsprozesses. Ziel der Beschreibung ist die für alle zweifelsfrei nachvollziehbare Darstellung der Arbeitsteilung zwischen den verschiedenen am Prozess beteiligten Rollen. Sie werden zum checklistenbasierten Review eingeladen. Die Checkliste wird Ihnen ebenfalls zugeschickt. Sie umfasst die folgenden Punkte: i. Wird für jede Tätigkeit der Ausführende klar benannt? ii. Ist für jede Tätigkeit das Eingangskriterium klar definiert? iii. Ist für jede Tätigkeit das Endekriterium klar definiert? iv. Sind für jede Tätigkeit die zuarbeitenden Rollen und ihr Arbeitsumfang klar definiert? Im Folgenden zeigen wir einen Ausschnitt des zu prüfenden Arbeitsergebnisses, zu dessen Review Sie die obige Checkliste anwenden sollen: „Nach Prüfung der Kundendokumentation auf Vollständigkeit und Korrektheit erstellt der Softwarearchitekt die Systemspezifikation. Nachdem der Softwarearchitekt die Systemspezifikation fertiggestellt hat, lädt er Tester zum Review ein. Eine bereitgestellte Checkliste beschreibt den Umfang des Reviews. Jeder eingeladene Gutachter erstellt – sofern notwendig – Reviewkommentare und schließt das Review mit einem offiziellen Review-done-Kommentar ab.“ Welcher der folgenden Aussagen zu Ihrem Review ist korrekt?",
+    "inhalte": [],
     "antworten": {
       "a": "Punkt ii) der Checkliste wurde verletzt, da nicht klar ist, welche Bedingung erfüllt sein muss, damit zum Review eingeladen werden kann.",
       "b": "Ihnen fällt auf, dass neben dem Tester auch ein Experte für Validierung eingeladen werden muss. Da dieser Punkt aber nicht Bestandteil Ihrer Checkliste ist, erstellen Sie keinen entsprechenden Kommentar.",
@@ -1492,6 +1786,7 @@
   },
   {
     "frage": "Was ist checklistenbasiertes Testen?",
+    "inhalte": [],
     "antworten": {
       "a": "Ein Testverfahren, bei dem Testfälle auf Basis des Wissens der Tester über frühere Fehler oder aus allgemeinem Wissen über Fehlerwirkungen abgeleitet werden.",
       "b": "Ein Testverfahren, das auf einer Analyse der Spezifikation einer Komponente oder eines Systems basiert.",
@@ -1508,6 +1803,7 @@
   },
   {
     "frage": "Welches der folgenden Verfahren kann der Kategorie Black-Box-Testverfahren zugeordnet werden?",
+    "inhalte": [],
     "antworten": {
       "a": "Verfahren, das auf der Analyse der Architektur basiert.",
       "b": "Verfahren, das prüft, ob das Testobjekt entsprechend dem Feinentwurf umgesetzt ist.",
@@ -1524,6 +1820,7 @@
   },
   {
     "frage": "Die folgende Aussage bezieht sich auf Entscheidungsüberdeckung: \"Wenn der Code nur aus einer einzigen IF-Anweisung (also keinen Schleifen oder CASE-Anweisungen) besteht und auch sonst durch den Test nicht geschachtelt aufgerufen wird, dann wird bei einem einzelnen Testfall, der ausgeführt wird, eine Entscheidungsüberdeckung von 50% erreicht.\" Welcher der folgenden Aussagen ist zutreffend?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Aussage ist wahr. Ein einzelner Testfall erzielt eine 100% Anweisungsüberdeckung und daher 50% Entscheidungsüberdeckung.",
       "b": "Die Aussage ist wahr. Bei einem einzelnen Testfall ist der Entscheidungsausgang der IF-Anweisung entweder wahr oder falsch.",
@@ -1540,6 +1837,7 @@
   },
   {
     "frage": "Was beschreibt am besten die Rolle eines Testers im Testprozess?",
+    "inhalte": [],
     "antworten": {
       "a": "Die Überprüfung der Testumgebung und die Gewährleistung der Testbarkeit der Anwendung.",
       "b": "Die Planung, Durchführung und Dokumentation der Tests basierend auf vordefinierten Anforderungen.",
@@ -1556,6 +1854,7 @@
   },
   {
     "frage": "Welche der folgenden Aussagen zum Regressionstest ist WAHR?",
+    "inhalte": [],
     "antworten": {
       "a": "Regressionstests werden durchgeführt, um sicherzustellen, dass neue Fehler in bereits getesteten Softwareteilen eingeführt wurden.",
       "b": "Regressionstests sind nur notwendig, wenn die Software in einer agilen Umgebung entwickelt wird.",

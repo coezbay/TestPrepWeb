@@ -1,5 +1,5 @@
 body, html {
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -8,6 +8,7 @@ body, html {
     justify-content: center;
     align-items: center;
     color: #333;
+    overflow: auto;
 }
 
 .main-wrapper {
@@ -133,8 +134,8 @@ table, th, td {
 }
 
 .quiz-tabelle {
-    table-layout: fixed; /* Legt fest, dass die Breite der Spalten fixiert ist */
-    width: 100%; /* Die Tabelle nimmt die volle Breite des Containers ein */
+    table-layout: fixed;
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
@@ -157,7 +158,7 @@ table, th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
-    word-wrap: break-word; /* Erlaubt das Umbruch von langen Wörtern */
+    word-wrap: break-word;
 }
 
 #fortschritt-map-container {

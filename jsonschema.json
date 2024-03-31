@@ -7,58 +7,82 @@
       "frage": {
         "type": "string"
       },
-      "bild": {
-        "type": "string",
-        "format": "uri"
-      },
-      "tabelle": {
-        "type": "object",
-        "properties": {
-          "kopf": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "koerper": {
-            "type": "array",
-            "items": {
-              "anyOf": [
-                {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
+      "inhalte": {
+        "type": "array",
+        "items": {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "typ": {
+                  "type": "string",
+                  "enum": [
+                    "text",
+                    "bild",
+                    "tabelle"
+                  ]
                 },
-                {
-                  "type": "object",
-                  "properties": {
-                    "zeile": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
+                "inhalt": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "minLength": 1
                     },
-                    "istKopfZeile": {
-                      "type": "boolean"
+                    {
+                      "type": "object",
+                      "properties": {
+                        "kopf": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "koerper": {
+                          "type": "array",
+                          "items": {
+                            "anyOf": [
+                              {
+                                "type": "array",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "zeile": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "istKopfZeile": {
+                                    "type": "boolean"
+                                  }
+                                },
+                                "required": [
+                                  "zeile",
+                                  "istKopfZeile"
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "koerper"
+                      ]
                     }
-                  },
-                  "required": [
-                    "zeile",
-                    "istKopfZeile"
                   ]
                 }
+              },
+              "required": [
+                "typ",
+                "inhalt"
               ]
             }
-          }
-        },
-        "required": [
-          "koerper"
-        ]
-      },
-      "fortsetzung": {
-        "type": "string",
-        "minLength": 1
+          ]
+        }
       },
       "antworten": {
         "type": "object",
@@ -112,6 +136,7 @@
     },
     "required": [
       "frage",
+      "inhalte",
       "antworten",
       "korrekteAntwort",
       "feedback"
