@@ -1,5 +1,8 @@
 # TestPrepWeb Projet
 
+![ScreenShot](pics/TestPrepWebDarkMode.jpg)
+![ScreenShot](pics/TestPrepWebLightMode.jpg)
+
 ## À propos du projet
 
 Ce projet est un quiz en ligne créé avec HTML, CSS et JavaScript. Il vise à offrir aux utilisateurs une manière engageante et interactive de tester et d'étendre leurs connaissances dans divers domaines. Les utilisateurs peuvent intégrer le `jsonschema.json` dans leur IDE pour implémenter et valider des questions et réponses individuelles dans le `fragen.json`. Cela aide à éviter les erreurs dans les questions et réponses créées par eux-mêmes.

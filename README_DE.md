@@ -1,5 +1,8 @@
 # TestPrepWeb Projekt
 
+![ScreenShot](pics/TestPrepWebDarkMode.jpg)
+![ScreenShot](pics/TestPrepWebLightMode.jpg)
+
 ## Über das Projekt
 
 Dieses Projekt ist ein Online-Quiz, das mit HTML, CSS und JavaScript erstellt wurde. Es zielt darauf ab, Benutzern eine
