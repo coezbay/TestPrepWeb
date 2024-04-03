@@ -83,6 +83,52 @@ Aktualisierungen für 2010 von Thomas Müller, Armin Beer, Martin Klonk und Rahu
 
 Ich danke allen Beteiligten, die all diese Informationen frei zugänglich für die Welt zur Verfügung stellen.
 
+## Lokale Ausführung von TestPrepWeb
+
+TestPrepWeb ist eine einfache Webanwendung, die aus HTML-, CSS- und JavaScript-Dateien besteht. Um TestPrepWeb lokal auf deinem Computer auszuführen, sind keine speziellen Webserver oder Umgebungen erforderlich. Folge diesen Schritten, um das Quiz lokal zu starten:
+
+1. **Klone das Git-Repository** oder lade die Projektdateien herunter:
+- Git-Repository klonen (falls Git installiert ist):
+  ```
+  git clone https://github.com/coezbay/TestPrepWeb.git
+  ```
+- Oder lade die Projektdateien als ZIP-Archiv von der GitHub-Seite herunter und entpacke sie.
+
+2. **Öffne das Projekt in einem Editor:**
+- Öffne den Projektordner in einem Code-Editor deiner Wahl (z.B. IntelliJ, Visual Studio, Visual Studio Code, Sublime Text, Atom usw.).
+
+3. **Öffne die `index.html`-Datei in einem Webbrowser:**
+- Navigiere im Projektordner zur `index.html`-Datei.
+- Öffne die `index.html`-Datei mit einem Webbrowser deiner Wahl (z.B. Google Chrome, Firefox, Safari).
+
+4. **Bearbeite die Quizfragen und Antworten:**
+- Bearbeite die `fragen.json`-Datei, um eigene Fragen und Antworten hinzuzufügen oder bestehende zu ändern.
+- Verwende die `jsonschema.json`, um die Struktur deiner Fragen und Antworten zu validieren.
+
+Durch diese Schritte kannst du das Quiz sofort auf deinem lokalen Computer ausführen und testen. Änderungen an den Dateien (HTML, CSS, JavaScript, JSON) werden nach dem Neuladen der Seite im Browser sichtbar.
+
+## Entwicklungs-Server
+
+Für eine fortgeschrittene Entwicklung oder wenn du Features wie Live-Reload nutzen möchtest, kannst du einen einfachen Entwicklungs-Server verwenden. Hier sind einige Optionen:
+
+- **Visual Studio Code Live Server:**
+  - Installiere die Live Server Extension in Visual Studio Code.
+  - Rechtsklicke auf die `index.html`-Datei und wähle "Open with Live Server".
+
+- **Verwende einen einfachen HTTP-Server:**
+  - Installiere Node.js und npm auf deinem Computer.
+  - Installiere http-server global mit npm:
+    ```
+    npm install -g http-server
+    ```
+  - Navigiere im Terminal oder Command Prompt zum Projektordner und starte den Server mit:
+    ```
+    http-server
+    ```
+  - Öffne die angezeigte URL im Browser.
+
+Diese Tools ermöglichen es dir, Änderungen am Code in Echtzeit im Browser zu sehen, ohne manuell neu laden zu müssen.
+
 ## Lizenz
 
 Dieses Projekt ist unter der [MIT-Lizenz](LICENSE.txt) veröffentlicht.

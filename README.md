@@ -77,6 +77,52 @@ Working Group, with the 2010 updates led by Thomas Müller, Armin Beer, Martin K
 
 I would like to thank all those involved for making this information freely available to the world.
 
+## Running TestPrepWeb Locally
+
+TestPrepWeb is a straightforward web application consisting of HTML, CSS, and JavaScript files. Running TestPrepWeb locally on your computer doesn't require any special web servers or environments. Follow these steps to start the quiz locally:
+
+1. **Clone the Git repository** or download the project files:
+  - Clone the Git repository (if Git is installed):
+    ```
+    git clone https://github.com/coezbay/TestPrepWeb.git
+    ```
+  - Or download the project files as a ZIP archive from the GitHub page and unzip them.
+
+2. **Open the project in an editor:**
+  - Open the project folder in a code editor of your choice (e.g., IntelliJ, Visual Studio, Visual Studio Code, Sublime Text, Atom, etc.).
+
+3. **Open the `index.html` file in a web browser:**
+  - Navigate to the `index.html` file in the project folder.
+  - Open the `index.html` file with a web browser of your choice (e.g., Google Chrome, Firefox, Safari).
+
+4. **Edit the quiz questions and answers:**
+  - Edit the `fragen.json` file to add your own questions and answers or modify existing ones.
+  - Use the `jsonschema.json` to validate the structure of your questions and answers.
+
+By following these steps, you can instantly run and test the quiz on your local computer. Changes to the files (HTML, CSS, JavaScript, JSON) will be reflected upon reloading the page in the browser.
+
+## Development Server
+
+For more advanced development or if you want to utilize features like live-reload, you can use a simple development server. Here are some options:
+
+- **Visual Studio Code Live Server:**
+  - Install the Live Server Extension in Visual Studio Code.
+  - Right-click on the `index.html` file and select "Open with Live Server".
+
+- **Use a Simple HTTP Server:**
+  - Install Node.js and npm on your computer.
+  - Install http-server globally with npm:
+    ```
+    npm install -g http-server
+    ```
+  - Navigate to the project folder in the terminal or command prompt and start the server with:
+    ```
+    http-server
+    ```
+  - Open the displayed URL in the browser.
+
+These tools allow you to see changes to the code in real-time in the browser without having to manually reload.
+
 ## License
 
 This project is published under the [MIT License](LICENSE.txt).

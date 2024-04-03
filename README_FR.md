@@ -83,6 +83,52 @@ mises à jour de 2010 dirigées par Thomas Müller, Armin Beer, Martin Klonk, et
 
 Je remercie tous les participants qui mettent toutes ces informations librement à disposition du monde entier.
 
+## Exécution locale de TestPrepWeb
+
+TestPrepWeb est une application web simple composée de fichiers HTML, CSS et JavaScript. Pour exécuter TestPrepWeb localement sur votre ordinateur, aucun serveur web spécial ou environnement spécifique n'est nécessaire. Suivez ces étapes pour démarrer le quiz localement :
+
+1. **Clonez le dépôt Git** ou téléchargez les fichiers du projet :
+  - Clonez le dépôt Git (si Git est installé) :
+    ```
+    git clone https://github.com/coezbay/TestPrepWeb.git
+    ```
+  - Ou téléchargez les fichiers du projet sous forme d'archive ZIP depuis la page GitHub et décompressez-les.
+
+2. **Ouvrez le projet dans un éditeur :**
+  - Ouvrez le dossier du projet dans un éditeur de code de votre choix (par exemple, IntelliJ, Visual Studio, Visual Studio Code, Sublime Text, Atom, etc.).
+
+3. **Ouvrez le fichier `index.html` dans un navigateur web :**
+  - Naviguez jusqu'au fichier `index.html` dans le dossier du projet.
+  - Ouvrez le fichier `index.html` avec un navigateur web de votre choix (par exemple, Google Chrome, Firefox, Safari).
+
+4. **Modifiez les questions et les réponses du quiz :**
+  - Modifiez le fichier `fragen.json` pour ajouter vos propres questions et réponses ou pour modifier celles existantes.
+  - Utilisez le fichier `jsonschema.json` pour valider la structure de vos questions et réponses.
+
+En suivant ces étapes, vous pouvez immédiatement exécuter et tester le quiz sur votre ordinateur local. Les modifications apportées aux fichiers (HTML, CSS, JavaScript, JSON) seront visibles après le rechargement de la page dans le navigateur.
+
+## Serveur de développement
+
+Pour un développement plus avancé ou si vous souhaitez utiliser des fonctionnalités comme le rechargement en direct, vous pouvez utiliser un serveur de développement simple. Voici quelques options :
+
+- **Serveur Live de Visual Studio Code :**
+  - Installez l'extension Live Server dans Visual Studio Code.
+  - Faites un clic droit sur le fichier `index.html` et sélectionnez "Ouvrir avec Live Server".
+
+- **Utilisez un serveur HTTP simple :**
+  - Installez Node.js et npm sur votre ordinateur.
+  - Installez http-server globalement avec npm :
+    ```
+    npm install -g http-server
+    ```
+  - Naviguez jusqu'au dossier du projet dans le terminal ou l'invite de commande et démarrez le serveur avec :
+    ```
+    http-server
+    ```
+  - Ouvrez l'URL affichée dans le navigateur.
+
+Ces outils vous permettent de voir les modifications du code en temps réel dans le navigateur sans avoir à recharger manuellement.
+
 ## Licence
 
 Ce projet est publié sous la [licence MIT](LICENSE.txt).
