@@ -63,7 +63,22 @@ Ein Teil der in dieser Repo verwendeten Fragen und Antworten basiert auf Materia
 Testing Qualifications Board).
 Diese Materialien werden unter Anerkennung des ISTQB® als Quelle und Copyright-Inhaber gemäß ihrer Richtlinien
 verwendet.
+
 Ich danke dem ISTQB® für die Bereitstellung dieser Ressourcen und erkenne ihre Urheberschaft vollständig an.
+
+Des Weiteren erkenne ich den Beitrag der Autoren und der an der Lokalisierung und Überprüfung der Aktualisierungen
+Beteiligten an. Für die Aktualisierung 2018 v3.1 bestand das Team aus Klaus Olsen (Leitung), Meile Posthuma und
+Stephanie Ulrich als Autoren. An der Lokalisierung und Überprüfung der Übersetzung der Aktualisierungen wirkten Arne
+Becher, Ralf Bongard, Milena Donato, Dr. Matthias Hamburg, Andreas Hetz, Tobias Horn, Karl Kemminger, Martin Klonk,
+Nishan Portoyan, Horst Pohlmann und Stephanie Ulrich (Leitung) mit. Für die Aktualisierungen 2018 wurde das Team durch
+Tauhida Parveen (stellvertretende Leitung), Rex Black (Projektmanager), Debra Friedenberg, Matthias Hamburg, Judy McKay,
+Hans Schaefer, Radoslaw Smilgin, Mike Smith, Steve Toms, Marie Walsh und Eshraka Zakaria ergänzt, mit zusätzlicher
+Unterstützung bei Lokalisierung und Überprüfung von Alisha Bülow et al., Dr. Klaudia Dussa-Zieger, Elke Mai, Atilim
+Siegmund, Prof. Dr. Andreas Spillner (i.R.), Sabine Uhde und erneut Stephanie Ulrich (Leitung). Die Aktualisierungen für
+2011 wurden von Thomas Müller, Debra Friedenberg und der ISTQB®-Arbeitsgruppe Foundation Level geleitet, die
+Aktualisierungen für 2010 von Thomas Müller, Armin Beer, Martin Klonk und Rahul Verma.
+
+Ich danke allen Beteiligten, die all diese Informationen frei zugänglich für die Welt zur Verfügung stellen.
 
 ## Lizenz
 

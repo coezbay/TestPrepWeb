@@ -2,31 +2,47 @@
 
 ## À propos du projet
 
-Ce projet est un quiz en ligne créé avec HTML, CSS et JavaScript. Il vise à offrir aux utilisateurs une manière engageante et interactive de tester et d'étendre leurs connaissances dans divers domaines. Les utilisateurs peuvent intégrer le `jsonschema.json` dans leur IDE pour implémenter et valider des questions et réponses individuelles dans le `fragen.json`. Cela aide à éviter les erreurs dans les questions et réponses créées par eux-mêmes.
+Ce projet est un quiz en ligne créé avec HTML, CSS et JavaScript. Il vise à offrir aux utilisateurs une manière
+engageante et interactive de tester et d'étendre leurs connaissances dans divers domaines. Les utilisateurs peuvent
+intégrer le `jsonschema.json` dans leur IDE pour implémenter et valider des questions et réponses individuelles dans
+le `fragen.json`. Cela aide à éviter les erreurs dans les questions et réponses créées par eux-mêmes.
 
 ## État actuel
 
 ### Points accomplis
 
-- **Structure de base du quiz** : La structure de base du quiz avec des questions, des options de réponse et des boutons de navigation ("Retour" et "Question suivante") est implémentée.
-- **Optimisations de la feuille de style** : Améliorations dans le `styles.css` pour une interface utilisateur cohérente et attrayante.
-- **Affichage dynamique des questions** : Les questions et réponses sont chargées dynamiquement à partir d'un fichier JSON.
+- **Structure de base du quiz** : La structure de base du quiz avec des questions, des options de réponse et des boutons
+  de navigation ("Retour" et "Question suivante") est implémentée.
+- **Optimisations de la feuille de style** : Améliorations dans le `styles.css` pour une interface utilisateur cohérente
+  et attrayante.
+- **Affichage dynamique des questions** : Les questions et réponses sont chargées dynamiquement à partir d'un fichier
+  JSON.
 - **Affichage de la couleur de feedback** : L'affichage du feedback est réalisé avec un arrière-plan gris.
-- **Amélioration de l'affichage du feedback** : Implémentation d'un codage couleur pour le feedback (vert pour les réponses correctes, rouge pour les réponses incorrectes) et ajustement de la couleur de la police en conséquence.
-- **Alignement central de l'arrière-plan du feedback** : Correction de l'alignement pour que l'arrière-plan du feedback soit centré et cohérent avec la mise en page des questions et réponses.
-- **Affichage des performances au premier essai** : Ajout d'une fonctionnalité pour afficher le nombre de questions répondues correctement au premier essai.
-- **Justification des questions** : Les questions sont désormais affichées en justification pour améliorer la lisibilité.
-- **Tableaux** : Implémentation de la possibilité de créer des tableaux (En-tête + Corps) & (Corps uniquement) & (En-tête + Corps + En-tête + Corps). Visuellement : utilisation de zébrures pour séparer les lignes.
-- **Vue d'ensemble du progrès** : Implémentation d'une vue d'ensemble des tâches réalisées, avec une marque colorée (rouge/vert) pour les tâches traitées incorrectement ou correctement. Il devrait également être possible de sélectionner des points individuels de cette vue d'ensemble pour examiner la tâche à tout moment.
+- **Amélioration de l'affichage du feedback** : Implémentation d'un codage couleur pour le feedback (vert pour les
+  réponses correctes, rouge pour les réponses incorrectes) et ajustement de la couleur de la police en conséquence.
+- **Alignement central de l'arrière-plan du feedback** : Correction de l'alignement pour que l'arrière-plan du feedback
+  soit centré et cohérent avec la mise en page des questions et réponses.
+- **Affichage des performances au premier essai** : Ajout d'une fonctionnalité pour afficher le nombre de questions
+  répondues correctement au premier essai.
+- **Justification des questions** : Les questions sont désormais affichées en justification pour améliorer la
+  lisibilité.
+- **Tableaux** : Implémentation de la possibilité de créer des tableaux (En-tête + Corps) & (Corps uniquement) & (
+  En-tête + Corps + En-tête + Corps). Visuellement : utilisation de zébrures pour séparer les lignes.
+- **Vue d'ensemble du progrès** : Implémentation d'une vue d'ensemble des tâches réalisées, avec une marque colorée (
+  rouge/vert) pour les tâches traitées incorrectement ou correctement. Il devrait également être possible de
+  sélectionner des points individuels de cette vue d'ensemble pour examiner la tâche à tout moment.
 - **Images pour les questions** : Il devrait être possible d'utiliser des images pour les questions.
 - **Indicateur de la question active** : Marquer la question active/affichée dans l'aperçu.
 - **Mode sombre** : Intégration d'un mode sombre pour le confort des yeux.
 
 ### À faire
 
-- **Ajustement des positions des boutons** : Assurer que les boutons "Retour" et "Question suivante" restent statiques indépendamment de la longueur du texte de la question ou des options de réponse.
-- **Écrire des tests** : Tester minutieusement et s'assurer que TestPrepWeb fonctionne de manière cohérente sur différents navigateurs et appareils.
-- **Séparation des quiz par période de réalisation** : Séparer les quiz par période de réalisation et implémenter un menu de sélection au démarrage de l'application.
+- **Ajustement des positions des boutons** : Assurer que les boutons "Retour" et "Question suivante" restent statiques
+  indépendamment de la longueur du texte de la question ou des options de réponse.
+- **Écrire des tests** : Tester minutieusement et s'assurer que TestPrepWeb fonctionne de manière cohérente sur
+  différents navigateurs et appareils.
+- **Séparation des quiz par période de réalisation** : Séparer les quiz par période de réalisation et implémenter un
+  menu de sélection au démarrage de l'application.
 
 ## Fonctionnalités prévues
 
@@ -39,13 +55,30 @@ Ce projet est un quiz en ligne créé avec HTML, CSS et JavaScript. Il vise à o
 
 ## Contribution
 
-- **Feedback et collaboration** : Les retours et contributions sont les bienvenus ! N'hésitez pas à ouvrir des issues ou à créer des pull requests pour des améliorations suggérées.
+- **Feedback et collaboration** : Les retours et contributions sont les bienvenus ! N'hésitez pas à ouvrir des issues ou
+  à créer des pull requests pour des améliorations suggérées.
 
 ## Reconnaissance des sources externes
 
-Une partie des questions et réponses utilisées dans ce dépôt est basée sur les matériaux de l'ISTQB® (International Software Testing Qualifications Board). Ces matériaux sont utilisés en reconnaissant l'ISTQB® comme source et détenteur du droit d'auteur conformément à leurs directives. Je remercie l'
+Une partie des questions et réponses utilisées dans ce dépôt est basée sur les matériaux de l'ISTQB® (International
+Software Testing Qualifications Board). Ces matériaux sont utilisés en reconnaissant l'ISTQB® comme source et détenteur
+du droit d'auteur conformément à leurs directives. Je remercie l'
 
 ISTQB® pour la mise à disposition de ces ressources et reconnais pleinement leur paternité.
+
+De plus, je reconnais la contribution des auteurs et de ceux impliqués dans la localisation et la révision des mises à
+jour. Pour la mise à jour 2018 v3.1, l'équipe était dirigée par Klaus Olsen, avec Meile Posthuma et Stephanie Ulrich en
+tant qu'auteurs. La localisation et la révision des mises à jour de traduction ont impliqué Arne Becher, Ralf Bongard,
+Milena Donato, Dr. Matthias Hamburg, Andreas Hetz, Tobias Horn, Karl Kemminger, Martin Klonk, Nishan Portoyan, Horst
+Pohlmann, et Stephanie Ulrich (chef de projet). Pour les mises à jour de 2018, l'équipe était complétée par Tauhida
+Parveen (chef de projet adjointe), Rex Black (gestionnaire de projet), Debra Friedenberg, Matthias Hamburg, Judy McKay,
+Hans Schaefer, Radoslaw Smilgin, Mike Smith, Steve Toms, Marie Walsh, et Eshraka Zakaria, avec un soutien supplémentaire
+pour la localisation et la révision de Alisha Bülow et al., Dr. Klaudia Dussa-Zieger, Elke Mai, Atilim Siegmund, Prof.
+Dr. Andreas Spillner (retraité), Sabine Uhde, et de nouveau, Stephanie Ulrich (chef de projet). Les mises à jour pour
+2011 étaient dirigées par Thomas Müller, Debra Friedenberg, et le groupe de travail ISTQB® Foundation Level, avec les
+mises à jour de 2010 dirigées par Thomas Müller, Armin Beer, Martin Klonk, et Rahul Verma.
+
+Je remercie tous les participants qui mettent toutes ces informations librement à disposition du monde entier.
 
 ## Licence
 

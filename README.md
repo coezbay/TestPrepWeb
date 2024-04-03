@@ -61,6 +61,19 @@ Some of the questions and answers used in this repo are based on materials from 
 Qualifications Board). These materials are used in acknowledgment of ISTQB® as the source and copyright holder in
 accordance with their guidelines. I thank ISTQB® for providing these resources and fully recognize their authorship.
 
+In addition, I acknowledge the contributions of the authors and those involved in the localization and review of the
+updates. For the 2018 v3.1 update, the team was led by Klaus Olsen, with Meile Posthuma and Stephanie Ulrich as authors.
+The localization and review of the translation updates involved Arne Becher, Ralf Bongard, Milena Donato, Dr. Matthias
+Hamburg, Andreas Hetz, Tobias Horn, Karl Kemminger, Martin Klonk, Nishan Portoyan, Horst Pohlmann, and Stephanie
+Ulrich (Lead). For the 2018 updates, the team was complemented by Tauhida Parveen (Deputy Lead), Rex Black (Project
+Manager), Debra Friedenberg, Matthias Hamburg, Judy McKay, Hans Schaefer, Radoslaw Smilgin, Mike Smith, Steve Toms,
+Marie Walsh, and Eshraka Zakaria, with additional localization and review support from Alisha Bülow et al., Dr. Klaudia
+Dussa-Zieger, Elke Mai, Atilim Siegmund, Prof. Dr. Andreas Spillner (retired), Sabine Uhde, and again, Stephanie
+Ulrich (Lead). The updates for 2011 were led by Thomas Müller, Debra Friedenberg, and the ISTQB® Foundation Level
+Working Group, with the 2010 updates led by Thomas Müller, Armin Beer, Martin Klonk, and Rahul Verma.
+
+I would like to thank all those involved for making this information freely available to the world.
+
 ## License
 
 This project is published under the [MIT License](LICENSE.txt).
