@@ -447,16 +447,46 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": ["Zustand","1","2","3"],
+          "kopf": [
+            "Zustand",
+            "1",
+            "2",
+            "3"
+          ],
           "koerper": [
-            ["Konto/Passwort okay","N","J","J"],
-            ["Ausreichend Punkte","-","N","J"],
+            [
+              "Konto/Passwort okay",
+              "N",
+              "J",
+              "J"
+            ],
+            [
+              "Ausreichend Punkte",
+              "-",
+              "N",
+              "J"
+            ],
             {
-              "zeile": ["Aktion"," "," "," "],
+              "zeile": [
+                "Aktion",
+                " ",
+                " ",
+                " "
+              ],
               "istKopfZeile": true
             },
-            ["Flugverlauf anzeigen","N","J","J"],
-            ["Belohnungsfahrten zulassen","N","N","J"]
+            [
+              "Flugverlauf anzeigen",
+              "N",
+              "J",
+              "J"
+            ],
+            [
+              "Belohnungsfahrten zulassen",
+              "N",
+              "N",
+              "J"
+            ]
           ]
         }
       },
@@ -545,13 +575,43 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": ["Testfall-Nummer","Abgedeckte Testbedingung","Priorität","Logische Abhängigkeit"],
+          "kopf": [
+            "Testfall-Nummer",
+            "Abgedeckte Testbedingung",
+            "Priorität",
+            "Logische Abhängigkeit"
+          ],
           "koerper": [
-            ["01.001","Art des Lebensmittels wählen","3","keine"],
-            ["01.002","Restaurant auswählen","2","01.001"],
-            ["01.003","Wegbeschreibung erhalten","1","01.002"],
-            ["01.004","Restaurant anrufen","1","01.002"],
-            ["01.005","Reservierung vornehmen","3","01.002"]
+            [
+              "01.001",
+              "Art des Lebensmittels wählen",
+              "3",
+              "keine"
+            ],
+            [
+              "01.002",
+              "Restaurant auswählen",
+              "2",
+              "01.001"
+            ],
+            [
+              "01.003",
+              "Wegbeschreibung erhalten",
+              "1",
+              "01.002"
+            ],
+            [
+              "01.004",
+              "Restaurant anrufen",
+              "1",
+              "01.002"
+            ],
+            [
+              "01.005",
+              "Reservierung vornehmen",
+              "3",
+              "01.002"
+            ]
           ]
         }
       },
@@ -1074,11 +1134,26 @@
         "typ": "tabelle",
         "inhalt": {
           "koerper": [
-            ["Bis zu 1000","- Couch Potato!"],
-            ["Über 1000, bis zu 2000","- Faulpelz!"],
-            ["Über 2000, bis zu 4000 ","- Die Richtung stimmt!"],
-            ["Über 4000, bis zu 6000","- Nicht schlecht!"],
-            ["Über 6000","- Super!"]
+            [
+              "Bis zu 1000",
+              "- Couch Potato!"
+            ],
+            [
+              "Über 1000, bis zu 2000",
+              "- Faulpelz!"
+            ],
+            [
+              "Über 2000, bis zu 4000 ",
+              "- Die Richtung stimmt!"
+            ],
+            [
+              "Über 4000, bis zu 6000",
+              "- Nicht schlecht!"
+            ],
+            [
+              "Über 6000",
+              "- Super!"
+            ]
           ]
         }
       },
@@ -1107,11 +1182,31 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": ["","Dauer (Stunden)","Intensität","Einstrahlung"],
+          "kopf": [
+            "",
+            "Dauer (Stunden)",
+            "Intensität",
+            "Einstrahlung"
+          ],
           "koerper": [
-            ["T1","1,5","sehr niedrig","10"],
-            ["T2","7,0","mittel","60"],
-            ["T3","0,5","sehr niedrig","10"]
+            [
+              "T1",
+              "1,5",
+              "sehr niedrig",
+              "10"
+            ],
+            [
+              "T2",
+              "7,0",
+              "mittel",
+              "60"
+            ],
+            [
+              "T3",
+              "0,5",
+              "sehr niedrig",
+              "10"
+            ]
           ]
         }
       },
@@ -1141,11 +1236,26 @@
         "typ": "tabelle",
         "inhalt": {
           "koerper": [
-            ["Bis zu 10°C","Eiskalt!"],
-            ["11°C bis 15°C","Ganz schön schattig!"],
-            ["16°C bis 19°C","Cool!"],
-            ["20°C bis 22°C","Zu warm!"],
-            ["Über 22°C","Sauna!"]
+            [
+              "Bis zu 10°C",
+              "Eiskalt!"
+            ],
+            [
+              "11°C bis 15°C",
+              "Ganz schön schattig!"
+            ],
+            [
+              "16°C bis 19°C",
+              "Cool!"
+            ],
+            [
+              "20°C bis 22°C",
+              "Zu warm!"
+            ],
+            [
+              "Über 22°C",
+              "Sauna!"
+            ]
           ]
         }
       },
@@ -1174,12 +1284,47 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": ["","Regeln","R1","R2","R3","R5"],
+          "kopf": [
+            "",
+            "Regeln",
+            "R1",
+            "R2",
+            "R3",
+            "R5"
+          ],
           "koerper": [
-            ["Bedingung","Geschwindigkeit > 50","J","J","N","N"],
-            ["Bedingung","Schul-Zone","J","N","J","N"],
-            ["Aktion","250€ Geldstrafe","-","X","-","-"],
-            ["Aktion","Führerscheinentzug","X","-","-","-"]
+            [
+              "Bedingung",
+              "Geschwindigkeit > 50",
+              "J",
+              "J",
+              "N",
+              "N"
+            ],
+            [
+              "Bedingung",
+              "Schul-Zone",
+              "J",
+              "N",
+              "J",
+              "N"
+            ],
+            [
+              "Aktion",
+              "250€ Geldstrafe",
+              "-",
+              "X",
+              "-",
+              "-"
+            ],
+            [
+              "Aktion",
+              "Führerscheinentzug",
+              "X",
+              "-",
+              "-",
+              "-"
+            ]
           ]
         }
       },
@@ -1190,10 +1335,22 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": ["ID","Eingabe","Erwartetes Ergebnis"],
+          "kopf": [
+            "ID",
+            "Eingabe",
+            "Erwartetes Ergebnis"
+          ],
           "koerper": [
-            ["TF1","Geschwindigkeit = 65;<br><br>Schulzone = Ja","Führerscheinentzug"],
-            ["TF2","Geschwindigkeit = 45;<br><br>Schulzone = Nein","Keine Strafe"]
+            [
+              "TF1",
+              "Geschwindigkeit = 65;<br><br>Schulzone = Ja",
+              "Führerscheinentzug"
+            ],
+            [
+              "TF2",
+              "Geschwindigkeit = 45;<br><br>Schulzone = Nein",
+              "Keine Strafe"
+            ]
           ]
         }
       },
@@ -1204,12 +1361,32 @@
       {
         "typ": "tabelle",
         "inhalt": {
-          "kopf": ["ID","Eingabe","Erwartetes Ergebnis"],
+          "kopf": [
+            "ID",
+            "Eingabe",
+            "Erwartetes Ergebnis"
+          ],
           "koerper": [
-            ["TF3","Geschwindigkeit = 55;<br>Schulzone = Ja","Führerscheinentzug"],
-            ["TF4","Geschwindigkeit = 44;<br>Schulzone = Ja","Keine Strafe"],
-            ["TF5","Geschwindigkeit = 66;<br>Schulzone = Ja","Führerscheinentzug"],
-            ["TF6","Geschwindigkeit = 77;<br>Schulzone = Nein","250€ Geldstrafe"]
+            [
+              "TF3",
+              "Geschwindigkeit = 55;<br>Schulzone = Ja",
+              "Führerscheinentzug"
+            ],
+            [
+              "TF4",
+              "Geschwindigkeit = 44;<br>Schulzone = Ja",
+              "Keine Strafe"
+            ],
+            [
+              "TF5",
+              "Geschwindigkeit = 66;<br>Schulzone = Ja",
+              "Führerscheinentzug"
+            ],
+            [
+              "TF6",
+              "Geschwindigkeit = 77;<br>Schulzone = Nein",
+              "250€ Geldstrafe"
+            ]
           ]
         }
       },
@@ -1360,7 +1537,6 @@
       "d": "FALSCH – Eine der typischen Aufgaben eines Testers gemäß CTFL Lehrplan 2018, Abschnitt 5.1.2.<br><br>5.1.2 Aufgaben eines Testmanagers und eines Testers<br>In diesem Lehrplan werden zwei Testrollen behandelt, und zwar Testmanager und Tester. Die Aktivitäten und Aufgaben dieser beiden Rollen hängen vom Projekt- und Produktkontext, von den Fähigkeiten der Menschen in diesen Rollen und dem Unternehmen ab.<br>Der Testmanager ist verantwortlich für den allgemeinen Testfortschritt und die erfolgreiche Leitung der Test-aktivitäten. Die Testmanagementrolle kann von einem professionellen Testmanager oder von einem Projektmanager, einem Entwicklungsmanager oder einem Qualitätssicherungsmanager eingenommen werden. In größeren Projekten oder Unternehmen können mehrere Testteams an einen Testmanager, Testcoach oder Testkoordinator berichten und jedes Team wird durch einen Testleiter oder den leitenden Tester geführt.<br>Typische Aufgaben eines Testmanagers sind u.a.:<br><ol style=\"list-style-type: circle;\"><li>Eine Testrichtlinie und Teststrategie für das Unternehmen entwickeln oder prüfen</li><li>Die Testaktivitäten unter Berücksichtigung des Kontexts und des Verständnisses der Testziele und Risiken planen. Das kann die Auswahl von Testvorgehensweisen, die Schätzung der Testdauer, des Aufwands und der Kosten, die Beschaffung von Ressourcen, die Festlegung von Teststufen und Testzyklen und die Planung des Fehlermanagements beinhalten</li><li>Testkonzepte schreiben und aktualisieren</li><li>Testkonzepte mit den Projektmanagern, Product Ownern und weiteren Beteiligten abstimmen</li><li>Einbringen der Testperspektive in andere Projektaktivitäten, beispielsweise in die Integrationsplanung</li><li>Die Analyse, den Entwurf, die Realisierung und die Durchführung von Tests anstoßen, den Testfortschritt und die Testergebnisse überwachen und den Stand der Endekriterien (oder der Definition-of-Done) prüfen sowie die Testabschlussaktivitäten ermöglichen</li><li>Testfortschrittsberichte und Testabschlussberichte auf der Grundlage der gesammelten Informationen erstellen und verteilen</li><li>Die Planung auf der Grundlage von Testergebnissen und Fortschritt anpassen (manchmal dokumentiert in Testfortschrittsberichten und/oder Testabschlussberichten für andere Tests, die im Projekt bereits abgeschlossen sind) und notwendige Maßnahmen zur Teststeuerung in die Wege leiten</li><li>Das Aufsetzen des Fehlermanagementsystems und eines angemessenen Konfigurationsmanagements für Testmittel unterstützen</li><li>Geeignete Metriken für die Messung des Testfortschritts und die Bewertung der Qualität des Testens und des Produkts einführen</li><li>Unterstützung bei der Auswahl und dem Einsatz von Werkzeugen für den Testprozess, einschließlich der Empfehlung des Budgets für die Werkzeugauswahl (und möglicherweise Kauf und/oder Support), der Zuordnung von Zeit und Aufwand für Pilotprojekte und der Bereitstellung von kontinuierlicher Unterstützung bei der Nutzung der Werkzeuge</li><li>Über die Realisierung von Testumgebungen entscheiden</li><li>Die Tester, das Testteam und das Berufsbild Tester innerhalb des Unternehmens entwickeln und fördern</li><li>Die Fähigkeiten und Aufstiegsmöglichkeiten von Testern weiterentwickeln (beispielsweise durch Schulungspläne, Leistungsbeurteilungen, Coaching usw.)</li></ol>Die Art und Weise, in der die Rolle des Testmanagers umgesetzt wird, variiert in Abhängigkeit vom Softwareentwicklungslebenszyklus. In der agilen Entwicklung beispielsweise werden einige der oben genannten Aufgaben, insbesondere solche, die die täglichen Tests innerhalb des Teams betreffen, vom agilen Team übernommen – häufig von einem im Team integrierten Tester. Einige der Aufgaben, die mehrere Teams oder das ganze Unternehmen betreffen oder die mit Personalmanagement zu tun haben, können von Testmanagern außerhalb des Entwicklungsteams wahrgenommen werden, die manchmal Test Coaches genannt werden. Siehe Black 2009 für weitere Informationen zum Management des Testprozesses.<br>Typische Aufgaben eines Testers sind u.a.:<br><ol style=\"list-style-type: circle;\"><li>Testkonzepte prüfen und zu diesen beitragen</li><li>Anforderungen, User-Stories und Abnahmekriterien, Spezifikationen und Modelle (d.h. die Testbasis) auf Testbarkeit analysieren, prüfen und beurteilen</li><li>Die Testbedingungen identifizieren und dokumentieren und die Verfolgbarkeit zwischen Testfällen, Testbedingungen und der Testbasis erfassen</li><li>Die Testumgebung(en) entwerfen, einrichten und verifizieren, oft in Abstimmung mit der Systemadministration und dem Netzwerkmanagement</li><li>Testfälle und Testabläufe entwerfen und realisieren</li><li>Testdaten vorbereiten und beschaffen</li><li>Den detaillierten Testausführungsplan erstellen</li><li>Die Tests durchführen, die Ergebnisse bewerten und Abweichungen von den erwarteten Ergebnissen dokumentieren</li><li>Geeignete Werkzeuge zur Unterstützung des Testprozesses verwenden</li><li>Bei Bedarf Tests automatisieren (dies kann durch einen Entwickler oder Testautomatisierungsexperten unterstützt werden)</li><li>Die nicht-funktionalen Eigenschaften wie Performanz, Zuverlässigkeit, Gebrauchstauglichkeit, IT-Sicherheit, Kompatibilität und Übertragbarkeit bewerten</li><li>Tests prüfen, die von anderen entwickelt wurden</li></ol>Personen, die an der Testanalyse, dem Testentwurf, spezifischen Testarten oder der Testautomatisierung arbeiten, können Spezialisten in diesen Rollen sein. Abhängig von den Risiken des Produkts oder des Projekts und dem ausgewählten Softwareentwicklungslebenszyklus-Modell können unterschiedliche Personen die Rolle des Testers in unterschiedlichen Teststufen wahrnehmen. Zum Beispiel übernimmt in der Komponententeststufe und der Komponentenintegrationsteststufe häufig ein Entwickler die Rolle des Testers. In der Abnahmeteststufe wird die Rolle des Testers oft von Businessanalysten, Fachexperten und Benutzern eingenommen. In der Systemtest- und Systemintegrationsteststufe wird die Rolle des Testers meist von einem unabhängigen Testteam übernommen. In der betrieblichen Abnahmeteststufe wird die Rolle des Testers häufig vom Betrieb und/oder von Mitarbeitern der Systemadministration wahrgenommen."
     }
   },
-
   {
     "frage": "Gegeben seien die folgenden Beispiele für Eingangs- und Endekriterien:<br><br><ol><li>Das ursprüngliche Testbudget von 30.000 US-Dollar wurde ausgegeben.</li><li>96% der geplanten Tests wurden ausgeführt.</li><li>Die Testumgebung für den Performanz-Test wurde entworfen, eingerichtet und verifiziert.</li><li>Derzeit gibt es keine kritischen Fehlerzustände und zwei Fehlerzustände mit hoher Priorität.</li><li>Die Designspezifikationen wurden einem Review unterzogen und nachgebessert.</li><li>Die Komponente für die Berechnung des Steuersatzes hat die Unit Tests bestanden.</li></ol>Welche der folgenden Kombinationen kategorisiert sie AM BESTEN als Eingangs- und Endekriterien?</br><br>Wählen Sie genau EINE korrekte Option aus!",
     "inhalte": [],
@@ -1378,11 +1554,8 @@
       "d": "Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Die korrekte Zuordnung von Beispielen für Eingangs- und Endekriterien sind:<br><br> Eingangskriterien:<ol style=\"list-style-type: circle;\"><li>(3) Die Testumgebung für den Performanz-Test wurde entworfen, eingerichtet und verifiziert - ein Beispiel dafür, dass eine Testumgebung bereit sein muss, bevor mit dem Testen begonnen werden kann.</li><li>(5) Die Designspezifikationen für den Autopiloten wurden einem Review unterzogen und nachgebessert – ein Beispiel dafür, dass die Testbasis zur Verfügung stehen muss, bevor mit dem Testen begonnen werden kann.</li><li>(6) Die Komponente für die Berechnung des Steuersatzes hat die Unit-Tests bestanden ein Beispiel für die Notwendigkeit, dass ein Testobjekt die Endekriterien einer vorangegangenen Teststufe erfüllen muss, bevor mit dem Testen begonnen werden kann.</li></ol>Endekriterien:<br><ol style=\"list-style-type: circle;\"><li> (1) Das ursprüngliche Testbudget von 30.000 US-Dollar plus eine Sicherheitsreserve von 7.000 US-Dollar wurde ausgegeben – ein Beispiel dafür, dass ein vollständig ausgeschöpftes Testbudget ein Signal ist, das Testen zu beenden.</li><li>(2) 96% der geplanten Tests für das Zeichenpaket wurden ausgeführt und die verbleibenden Tests sind jetzt nicht mehr Bestandteil des Testumfangs - ein Beispiel dafür, dass die Durchführung aller geplanten Tests ein Signal ist, das Testen zu beenden (normalerweise zusammen mit den Endekriterien für ungelöste Fehlerzustände verwendet).</li><li>(4) Derzeit gibt es keine kritischen Fehlerzustände und zwei Fehlerzustände mit hoher Priorität. – ein Beispiel für die Anzahl ungelöster Fehlerzustände, die eine geplante Grenze erreichen, welche die Beendigung des Testens signalisiert (normalerweise zusammen mit den Endekriterien für geplante Tests verwendet).</li></ol>Somit ist Option d) korrekt."
     }
   },
-
-
-
   {
-    "frage": "Welche der folgenden Aussagen über Testschätzverfahren ist korrekt?",
+    "frage": "Welche der folgenden Aussagen über Testschätzverfahren ist korrekt?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "inhalte": [],
     "antworten": {
       "a": "Beim metrikbasierten Verfahren basiert die Schätzung auf Testmaßnahmen aus dem Projekt, so dass diese Schätzung erst nach Beginn des Tests verfügbar ist.",
@@ -1398,8 +1571,11 @@
       "d": "FALSCH – Es ist zwar nützlich, die Testkosten aus früheren Projekten zu kennen, jedoch ist ein anspruchsvollerer Ansatz erforderlich, als nur den Durchschnitt vergangener Projekte zu ermitteln. (Das neue Projekt kann möglicherweise nicht mit den vergangenen Projekten vergleichbar sein, z. B. kann es viel größer oder viel kleiner sein als die vergangenen Projekte)."
     }
   },
+
+
+
   {
-    "frage": "Welche der folgenden Aussagen definiert AM BESTEN die Risikostufe (Höhe des Risikos)?",
+    "frage": "Welche der folgenden Aussagen definiert AM BESTEN die Risikostufe<br>(Höhe des Risikos)?<br><br>Wählen Sie genau EINE korrekte Option aus!",
     "inhalte": [],
     "antworten": {
       "a": "Die Risikostufe wird berechnet, indem die Wahrscheinlichkeiten aller Problemsituationen und der daraus resultierende finanzielle Schaden addiert werden.",
@@ -1411,7 +1587,7 @@
     "feedback": {
       "a": "FALSCH – Die Risikostufe wird bestimmt, indem eine Kombination aus der Wahrscheinlichkeit von Problemsituationen und dem daraus resultierenden Schaden betrachtet wird; die Risikostufe kann jedoch nicht durch Addition dieser Faktoren berechnet werden (die Wahrscheinlichkeit würde im Bereich von 0 bis 1 liegen und der Schaden könnte in Euro beziffert sein).",
       "b": "FALSCH – Das Risiko wird bestimmt, indem eine Kombination aus Wahrscheinlichkeit und Auswirkung berücksichtigt wird. Diese Definition berücksichtigt nur Wahrscheinlichkeit und Zufall ohne Berücksichtigung der Auswirkungen (oder des Schadens).",
-      "c": "KORREKT – Wie beschrieben im CTFL Lehrplan 2018, Abschnitt 5.5.1",
+      "c": "KORREKT – Wie beschrieben im CTFL Lehrplan 2018, Abschnitt 5.5.1<br><br>5.5.1 Definition des Risikos<br>Ein Risiko ist ein möglicherweise vorkommendes Ereignis in der Zukunft, das negative Auswirkungen hat. Die Höhe des Risikos wird durch die Eintrittswahrscheinlichkeit des Ereignisses und dessen Wirkung (der Schadenhöhe) bestimmt.",
       "d": "FALSCH – Das Risiko wird bestimmt, indem eine Kombination aus Wahrscheinlichkeit und Auswirkung berücksichtigt wird. Diese Definition berücksichtigt nur Gefahren und Verluste (eine Gefahr ist ein schlechtes Ereignis wie ein Risiko, während ein Verlust eine Form der Auswirkung ist), ohne die Wahrscheinlichkeit zu berücksichtigen."
     }
   },
