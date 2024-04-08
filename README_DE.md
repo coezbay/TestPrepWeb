@@ -45,11 +45,24 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
   hinweg konsistent funktioniert.
 - **Trennung der Probeprüfungen nach Realisierungszeitraum**: Probeprüfungen nach Realisierungszeitraum trennen und ein
   Auswahlmenü beim Start der Anwendung implementieren.
+- **Anleitung jsonschema.json**: Anleitung zur Nutzung der jsonschema.json schreiben. Für IDE's und IDE-unabhängig
+- **Einsicht anderer Antwortmöglichkeiten**: Nachdem beispielsweise bei den ISTQB® Prüfungen, Inhalte aus dem Glossar
+  und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
+  Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
 
 ## Geplante Features
 
 - **Responsive Design**: Optimierung der Quiz-Anwendung für verschiedene Bildschirmgrößen und Geräte.
 - **Sprachen**: Anwendung multilingual zur Verfügung stellen
+- **Individualisierbare Themes**: Selbsterklärend
+- **Import-Möglichkeiten**: Frage und Antworten (Im Best-Case - Schema unabhängig)
+- **Benutzerdefinierte Quiz-Module**: Benutzern ermöglichen ihre eigenen Quiz-Module basierend auf spezifischen Themen oder Schwierigkeitsgraden zusammenzustellen.
+- **Speichern und Fortfahren**: Funktion, mit der Benutzer ihren Fortschritt speichern und zu einem späteren Zeitpunkt wieder aufnehmen können.
+- **Detaillierte Statistiken**: Detaillierte Statistiken über die Leistung des Benutzers, einschließlich Bereichen, in denen sie gut abschneiden, und Bereichen, die Verbesserung erfordern.
+- **Anpassbare Berichte**: Benutzern, die Erstellung von anpassbaren Berichten über ihre Leistung und Fortschritte zu erstellen und zu exportieren.
+
+## Zugänglichkeit und Inklusion
+- **Barrierefreiheitsoptionen**: Sicher stellen, dass die Anwendung für Benutzer mit verschiedenen Behinderungen zugänglich ist, z.B. durch Sprachausgabe oder leicht verständliche Bedienelemente.
 
 ## Kontinuierliche Entwicklung
 
@@ -85,9 +98,12 @@ Ich danke allen Beteiligten, die all diese Informationen frei zugänglich für d
 
 ## Lokale Ausführung von TestPrepWeb
 
-TestPrepWeb ist eine einfache Webanwendung, die aus HTML-, CSS- und JavaScript-Dateien besteht. Um TestPrepWeb lokal auf deinem Computer auszuführen, sind keine speziellen Webserver oder Umgebungen erforderlich. Folge diesen Schritten, um das Quiz lokal zu starten:
+TestPrepWeb ist eine einfache Webanwendung, die aus HTML-, CSS- und JavaScript-Dateien besteht. Um TestPrepWeb lokal auf
+deinem Computer auszuführen, sind keine speziellen Webserver oder Umgebungen erforderlich. Folge diesen Schritten, um
+das Quiz lokal zu starten:
 
 1. **Klone das Git-Repository** oder lade die Projektdateien herunter:
+
 - Git-Repository klonen (falls Git installiert ist):
   ```
   git clone https://github.com/coezbay/TestPrepWeb.git
@@ -95,37 +111,43 @@ TestPrepWeb ist eine einfache Webanwendung, die aus HTML-, CSS- und JavaScript-D
 - Oder lade die Projektdateien als ZIP-Archiv von der GitHub-Seite herunter und entpacke sie.
 
 2. **Öffne das Projekt in einem Editor:**
-- Öffne den Projektordner in einem Code-Editor deiner Wahl (z.B. IntelliJ, Visual Studio, Visual Studio Code, Sublime Text, Atom usw.).
+
+- Öffne den Projektordner in einem Code-Editor deiner Wahl (z.B. IntelliJ, Visual Studio, Visual Studio Code, Sublime
+  Text, Atom usw.).
 
 3. **Öffne die `index.html`-Datei in einem Webbrowser:**
+
 - Navigiere im Projektordner zur `index.html`-Datei.
 - Öffne die `index.html`-Datei mit einem Webbrowser deiner Wahl (z.B. Google Chrome, Firefox, Safari).
 
 4. **Bearbeite die Quizfragen und Antworten:**
+
 - Bearbeite die `fragen.json`-Datei, um eigene Fragen und Antworten hinzuzufügen oder bestehende zu ändern.
 - Verwende die `jsonschema.json`, um die Struktur deiner Fragen und Antworten zu validieren.
 
-Durch diese Schritte kannst du das Quiz sofort auf deinem lokalen Computer ausführen und testen. Änderungen an den Dateien (HTML, CSS, JavaScript, JSON) werden nach dem Neuladen der Seite im Browser sichtbar.
+Durch diese Schritte kannst du das Quiz sofort auf deinem lokalen Computer ausführen und testen. Änderungen an den
+Dateien (HTML, CSS, JavaScript, JSON) werden nach dem Neuladen der Seite im Browser sichtbar.
 
 ## Entwicklungs-Server
 
-Für eine fortgeschrittene Entwicklung oder wenn du Features wie Live-Reload nutzen möchtest, kannst du einen einfachen Entwicklungs-Server verwenden. Hier sind einige Optionen:
+Für eine fortgeschrittene Entwicklung oder wenn du Features wie Live-Reload nutzen möchtest, kannst du einen einfachen
+Entwicklungs-Server verwenden. Hier sind einige Optionen:
 
 - **Visual Studio Code Live Server:**
-  - Installiere die Live Server Extension in Visual Studio Code.
-  - Rechtsklicke auf die `index.html`-Datei und wähle "Open with Live Server".
+    - Installiere die Live Server Extension in Visual Studio Code.
+    - Rechtsklicke auf die `index.html`-Datei und wähle "Open with Live Server".
 
 - **Verwende einen einfachen HTTP-Server:**
-  - Installiere Node.js und npm auf deinem Computer.
-  - Installiere http-server global mit npm:
-    ```
-    npm install -g http-server
-    ```
-  - Navigiere im Terminal oder Command Prompt zum Projektordner und starte den Server mit:
-    ```
-    http-server
-    ```
-  - Öffne die angezeigte URL im Browser.
+    - Installiere Node.js und npm auf deinem Computer.
+    - Installiere http-server global mit npm:
+      ```
+      npm install -g http-server
+      ```
+    - Navigiere im Terminal oder Command Prompt zum Projektordner und starte den Server mit:
+      ```
+      http-server
+      ```
+    - Öffne die angezeigte URL im Browser.
 
 Diese Tools ermöglichen es dir, Änderungen am Code in Echtzeit im Browser zu sehen, ohne manuell neu laden zu müssen.
 
