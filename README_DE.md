@@ -128,10 +128,10 @@ das Quiz lokal zu starten:
 Durch diese Schritte kannst du das Quiz sofort auf deinem lokalen Computer ausführen und testen. Änderungen an den
 Dateien (HTML, CSS, JavaScript, JSON) werden nach dem Neuladen der Seite im Browser sichtbar.
 
-## Entwicklungs-Server
+## Entwicklungsserver
 
 Für eine fortgeschrittene Entwicklung oder wenn du Features wie Live-Reload nutzen möchtest, kannst du einen einfachen
-Entwicklungs-Server verwenden. Hier sind einige Optionen:
+Entwicklungsserver verwenden. Hier sind einige Optionen:
 
 - **Visual Studio Code Live Server:**
     - Installiere die Live Server Extension in Visual Studio Code.
