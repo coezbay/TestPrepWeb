@@ -23,8 +23,8 @@ function generiereFortschrittsMap() {
     quizFragen.forEach((_, index) => {
         const punkt = document.createElement('span');
         punkt.classList.add('fortschritt-punkt');
-        punkt.setAttribute('data-index', index);
-        punkt.innerText = index + 1;
+        punkt.setAttribute('data-index', index.toString());
+        punkt.innerText = (index + 1).toString();
         punkt.addEventListener('click', () => frageAnzeigen(index));
         mapContainer.appendChild(punkt);
     });
@@ -116,22 +116,23 @@ function generiereTabellenHTML(tabelle) {
 }
 
 function antwortAuswaehlen(antwort) {
+    const frage = quizFragen[aktuelleFrageIndex];
+    const korrekt = antwort === frage.korrekteAntwort;
+
     if (!antwortVersuche[aktuelleFrageIndex]) {
         antwortVersuche[aktuelleFrageIndex] = true;
-        const frage = quizFragen[aktuelleFrageIndex];
-        const korrekt = antwort === frage.korrekteAntwort;
-
         if (korrekt) {
             richtigBeantwortet++;
         }
-
-        aktualisiereRichtigeAntwortenAnzeige();
-        markiereFortschrittsPunkt(aktuelleFrageIndex, korrekt);
-        const feedbackContainer = document.getElementById('feedback-container');
-        feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
-        feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
-        feedbackContainer.style.display = 'block';
     }
+
+    aktualisiereRichtigeAntwortenAnzeige();
+    markiereFortschrittsPunkt(aktuelleFrageIndex, korrekt);
+
+    const feedbackContainer = document.getElementById('feedback-container');
+    feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
+    feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
+    feedbackContainer.style.display = 'block';
 }
 
 function markiereFortschrittsPunkt(index, korrekt) {
