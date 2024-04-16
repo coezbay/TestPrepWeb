@@ -36,6 +36,9 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
 - **Bilder für Aufgabenstellung**: Es soll möglich sein, Bilder für die Aufgabenstellung zu verwenden.
 - **Indikator für aktive Aufgabe**: Aktive/Angezeigte Aufgabe in der Map markieren.
 - **Dark Mode einbauen**: Dark Mode für die Schonung der Augen.
+- **Einsicht anderer Antwortmöglichkeiten**: Nachdem beispielsweise bei den ISTQB® Prüfungen, Inhalte aus dem Glossar
+    und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
+    Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
 
 ### Noch zu erledigen
 
@@ -46,9 +49,6 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
 - **Trennung der Probeprüfungen nach Realisierungszeitraum**: Probeprüfungen nach Realisierungszeitraum trennen und ein
   Auswahlmenü beim Start der Anwendung implementieren.
 - **Anleitung jsonschema.json**: Anleitung zur Nutzung der jsonschema.json schreiben. Für IDE's und IDE-unabhängig
-- **Einsicht anderer Antwortmöglichkeiten**: Nachdem beispielsweise bei den ISTQB® Prüfungen, Inhalte aus dem Glossar
-  und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
-  Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
 
 ## Geplante Features
 
