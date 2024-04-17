@@ -12,6 +12,8 @@ le `fragen.json`. Cela aide à éviter les erreurs dans les questions et répons
 
 ## État actuel
 
+Testez simplement l'état actuel via ce [lien](https://coezbay.github.io/TestPrepWeb/).
+
 ### Points accomplis
 
 - **Structure de base du quiz** : La structure de base du quiz avec des questions, des options de réponse et des boutons

@@ -12,6 +12,8 @@ This helps to avoid errors in self-created questions and answers.
 
 ## Current Status
 
+Simply test the current status through this [Link](https://coezbay.github.io/TestPrepWeb/).
+
 ### Completed Items
 
 - **Basic structure of the quiz**: The basic structure of the quiz with questions, answer options, and navigation
@@ -35,6 +37,7 @@ This helps to avoid errors in self-created questions and answers.
 - **Images for task statements**: Added the capability to use images for task statements.
 - **Indicator for active task**: Mark the active/displayed task on the map.
 - **Implement Dark Mode**: Introduce Dark Mode to protect the eyes.
+- **Insight into other answer options**: Following the example of ISTQB® exams, content from the glossary and curriculum has been incorporated, providing added value for learners by also showing incorrect answer options. This feature should be considered for other tests as well.
 
 ### Items to be Done
 
@@ -43,11 +46,18 @@ This helps to avoid errors in self-created questions and answers.
 - **Write tests**: Test thoroughly and ensure that TestPrepWeb works consistently across different browsers and devices.
 - **Separation of mock exams by period of realization**: Separate mock exams by period of realization and implement a
   selection menu at the start of the application.
+- **Guidance for using jsonschema.json**: Write a guide on how to use the jsonschema.json, for both IDE-dependent and IDE-independent settings.
 
 ## Planned Features
 
 - **Responsive Design**: Optimization of the quiz application for various screen sizes and devices.
 - **Languages**: Make the application multilingual.
+- **Customizable Themes**: Self-explanatory.
+- **Import Options**: Allow questions and answers to be imported (ideally schema-independent).
+- **Customizable Quiz Modules**: Enable users to create their own quiz modules based on specific topics or difficulty levels.
+- **Save and Continue**: Feature that allows users to save their progress and resume at a later time.
+- **Detailed Statistics**: Provide detailed statistics about user performance, including areas of strength and those needing improvement.
+- **Customizable Reports**: Allow users to create and export customizable reports on their performance and progress.
 
 ## Continuous Development
 
