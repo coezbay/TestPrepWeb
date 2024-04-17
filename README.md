@@ -37,7 +37,9 @@ Simply test the current status through this [Link](https://coezbay.github.io/Tes
 - **Images for task statements**: Added the capability to use images for task statements.
 - **Indicator for active task**: Mark the active/displayed task on the map.
 - **Implement Dark Mode**: Introduce Dark Mode to protect the eyes.
-- **Insight into other answer options**: Following the example of ISTQB® exams, content from the glossary and curriculum has been incorporated, providing added value for learners by also showing incorrect answer options. This feature should be considered for other tests as well.
+- **Insight into other answer options**: Following the example of ISTQB® exams, content from the glossary and curriculum
+  has been incorporated, providing added value for learners by also showing incorrect answer options. This feature
+  should be considered for other tests as well.
 
 ### Items to be Done
 
@@ -46,7 +48,8 @@ Simply test the current status through this [Link](https://coezbay.github.io/Tes
 - **Write tests**: Test thoroughly and ensure that TestPrepWeb works consistently across different browsers and devices.
 - **Separation of mock exams by period of realization**: Separate mock exams by period of realization and implement a
   selection menu at the start of the application.
-- **Guidance for using jsonschema.json**: Write a guide on how to use the jsonschema.json, for both IDE-dependent and IDE-independent settings.
+- **Guidance for using jsonschema.json**: Write a guide on how to use the jsonschema.json, for both IDE-dependent and
+  IDE-independent settings.
 
 ## Planned Features
 
@@ -54,9 +57,11 @@ Simply test the current status through this [Link](https://coezbay.github.io/Tes
 - **Languages**: Make the application multilingual.
 - **Customizable Themes**: Self-explanatory.
 - **Import Options**: Allow questions and answers to be imported (ideally schema-independent).
-- **Customizable Quiz Modules**: Enable users to create their own quiz modules based on specific topics or difficulty levels.
+- **Customizable Quiz Modules**: Enable users to create their own quiz modules based on specific topics or difficulty
+  levels.
 - **Save and Continue**: Feature that allows users to save their progress and resume at a later time.
-- **Detailed Statistics**: Provide detailed statistics about user performance, including areas of strength and those needing improvement.
+- **Detailed Statistics**: Provide detailed statistics about user performance, including areas of strength and those
+  needing improvement.
 - **Customizable Reports**: Allow users to create and export customizable reports on their performance and progress.
 
 ## Continuous Development
@@ -89,47 +94,56 @@ I would like to thank all those involved for making this information freely avai
 
 ## Running TestPrepWeb Locally
 
-TestPrepWeb is a straightforward web application consisting of HTML, CSS, and JavaScript files. Running TestPrepWeb locally on your computer doesn't require any special web servers or environments. Follow these steps to start the quiz locally:
+TestPrepWeb is a straightforward web application consisting of HTML, CSS, and JavaScript files. Running TestPrepWeb
+locally on your computer doesn't require any special web servers or environments. Follow these steps to start the quiz
+locally:
 
 1. **Clone the Git repository** or download the project files:
-  - Clone the Git repository (if Git is installed):
-    ```
-    git clone https://github.com/coezbay/TestPrepWeb.git
-    ```
-  - Or download the project files as a ZIP archive from the GitHub page and unzip them.
+
+- Clone the Git repository (if Git is installed):
+  ```
+  git clone https://github.com/coezbay/TestPrepWeb.git
+  ```
+- Or download the project files as a ZIP archive from the GitHub page and unzip them.
 
 2. **Open the project in an editor:**
-  - Open the project folder in a code editor of your choice (e.g., IntelliJ, Visual Studio, Visual Studio Code, Sublime Text, Atom, etc.).
+
+- Open the project folder in a code editor of your choice (e.g., IntelliJ, Visual Studio, Visual Studio Code, Sublime
+  Text, Atom, etc.).
 
 3. **Open the `index.html` file in a web browser:**
-  - Navigate to the `index.html` file in the project folder.
-  - Open the `index.html` file with a web browser of your choice (e.g., Google Chrome, Firefox, Safari).
+
+- Navigate to the `index.html` file in the project folder.
+- Open the `index.html` file with a web browser of your choice (e.g., Google Chrome, Firefox, Safari).
 
 4. **Edit the quiz questions and answers:**
-  - Edit the `fragen.json` file to add your own questions and answers or modify existing ones.
-  - Use the `jsonschema.json` to validate the structure of your questions and answers.
 
-By following these steps, you can instantly run and test the quiz on your local computer. Changes to the files (HTML, CSS, JavaScript, JSON) will be reflected upon reloading the page in the browser.
+- Edit the `fragen.json` file to add your own questions and answers or modify existing ones.
+- Use the `jsonschema.json` to validate the structure of your questions and answers.
+
+By following these steps, you can instantly run and test the quiz on your local computer. Changes to the files (HTML,
+CSS, JavaScript, JSON) will be reflected upon reloading the page in the browser.
 
 ## Development Server
 
-For more advanced development or if you want to utilize features like live-reload, you can use a simple development server. Here are some options:
+For more advanced development or if you want to utilize features like live-reload, you can use a simple development
+server. Here are some options:
 
 - **Visual Studio Code Live Server:**
-  - Install the Live Server Extension in Visual Studio Code.
-  - Right-click on the `index.html` file and select "Open with Live Server".
+    - Install the Live Server Extension in Visual Studio Code.
+    - Right-click on the `index.html` file and select "Open with Live Server".
 
 - **Use a Simple HTTP Server:**
-  - Install Node.js and npm on your computer.
-  - Install http-server globally with npm:
-    ```
-    npm install -g http-server
-    ```
-  - Navigate to the project folder in the terminal or command prompt and start the server with:
-    ```
-    http-server
-    ```
-  - Open the displayed URL in the browser.
+    - Install Node.js and npm on your computer.
+    - Install http-server globally with npm:
+      ```
+      npm install -g http-server
+      ```
+    - Navigate to the project folder in the terminal or command prompt and start the server with:
+      ```
+      http-server
+      ```
+    - Open the displayed URL in the browser.
 
 These tools allow you to see changes to the code in real-time in the browser without having to manually reload.
 

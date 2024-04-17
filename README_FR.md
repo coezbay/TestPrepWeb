@@ -39,6 +39,9 @@ Testez simplement l'état actuel via ce [lien](https://coezbay.github.io/TestPre
 - **Images pour les questions** : Il devrait être possible d'utiliser des images pour les questions.
 - **Indicateur de la question active** : Marquer la question active/affichée dans l'aperçu.
 - **Mode sombre** : Intégration d'un mode sombre pour le confort des yeux.
+- **Aperçu des autres options de réponse** : Après l'intégration des contenus du glossaire et du programme des examens
+  ISTQB®, il est maintenant possible de montrer les options de réponse incorrectes, ce qui offre une valeur ajoutée pour
+  les apprenants. Cette fonctionnalité devrait être envisagée pour d'autres tests également.
 
 ### À faire
 
@@ -52,7 +55,17 @@ Testez simplement l'état actuel via ce [lien](https://coezbay.github.io/TestPre
 ## Fonctionnalités prévues
 
 - **Conception réactive** : Optimisation de l'application quiz pour différentes tailles d'écran et appareils.
-- **Langues** : Rendre l'application disponible en plusieurs langues
+- **Langues** : Rendre l'application disponible en plusieurs langues.
+- **Thèmes personnalisables** : Explication auto-suffisante.
+- **Options d'importation** : Permettre l'importation de questions et réponses (idéalement indépendantes du schéma).
+- **Modules de quiz personnalisables** : Permettre aux utilisateurs de créer leurs propres modules de quiz basés sur des
+  thèmes spécifiques ou des niveaux de difficulté.
+- **Sauvegarder et continuer** : Fonction permettant aux utilisateurs de sauvegarder leur progression et de reprendre
+  plus tard.
+- **Statistiques détaillées** : Fournir des statistiques détaillées sur les performances des utilisateurs, y compris les
+  domaines où ils excellent et ceux nécessitant des améliorations.
+- **Rapports personnalisables** : Permettre aux utilisateurs de créer et d'exporter des rapports personnalisés sur leurs
+  performances et leurs progrès.
 
 ## Développement continu
 
@@ -87,49 +100,60 @@ Je remercie tous les participants qui mettent toutes ces informations librement 
 
 ## Exécution locale de TestPrepWeb
 
-TestPrepWeb est une application web simple composée de fichiers HTML, CSS et JavaScript. Pour exécuter TestPrepWeb localement sur votre ordinateur, aucun serveur web spécial ou environnement spécifique n'est nécessaire. Suivez ces étapes pour démarrer le quiz localement :
+TestPrepWeb est une application web simple composée de fichiers HTML, CSS et JavaScript. Pour exécuter TestPrepWeb
+localement sur votre ordinateur, aucun serveur web spécial ou environnement spécifique n'est nécessaire. Suivez ces
+étapes pour démarrer le quiz localement :
 
 1. **Clonez le dépôt Git** ou téléchargez les fichiers du projet :
-  - Clonez le dépôt Git (si Git est installé) :
-    ```
-    git clone https://github.com/coezbay/TestPrepWeb.git
-    ```
-  - Ou téléchargez les fichiers du projet sous forme d'archive ZIP depuis la page GitHub et décompressez-les.
+
+- Clonez le dépôt Git (si Git est installé) :
+  ```
+  git clone https://github.com/coezbay/TestPrepWeb.git
+  ```
+- Ou téléchargez les fichiers du projet sous forme d'archive ZIP depuis la page GitHub et décompressez-les.
 
 2. **Ouvrez le projet dans un éditeur :**
-  - Ouvrez le dossier du projet dans un éditeur de code de votre choix (par exemple, IntelliJ, Visual Studio, Visual Studio Code, Sublime Text, Atom, etc.).
+
+- Ouvrez le dossier du projet dans un éditeur de code de votre choix (par exemple, IntelliJ, Visual Studio, Visual
+  Studio Code, Sublime Text, Atom, etc.).
 
 3. **Ouvrez le fichier `index.html` dans un navigateur web :**
-  - Naviguez jusqu'au fichier `index.html` dans le dossier du projet.
-  - Ouvrez le fichier `index.html` avec un navigateur web de votre choix (par exemple, Google Chrome, Firefox, Safari).
+
+- Naviguez jusqu'au fichier `index.html` dans le dossier du projet.
+- Ouvrez le fichier `index.html` avec un navigateur web de votre choix (par exemple, Google Chrome, Firefox, Safari).
 
 4. **Modifiez les questions et les réponses du quiz :**
-  - Modifiez le fichier `fragen.json` pour ajouter vos propres questions et réponses ou pour modifier celles existantes.
-  - Utilisez le fichier `jsonschema.json` pour valider la structure de vos questions et réponses.
 
-En suivant ces étapes, vous pouvez immédiatement exécuter et tester le quiz sur votre ordinateur local. Les modifications apportées aux fichiers (HTML, CSS, JavaScript, JSON) seront visibles après le rechargement de la page dans le navigateur.
+- Modifiez le fichier `fragen.json` pour ajouter vos propres questions et réponses ou pour modifier celles existantes.
+- Utilisez le fichier `jsonschema.json` pour valider la structure de vos questions et réponses.
+
+En suivant ces étapes, vous pouvez immédiatement exécuter et tester le quiz sur votre ordinateur local. Les
+modifications apportées aux fichiers (HTML, CSS, JavaScript, JSON) seront visibles après le rechargement de la page dans
+le navigateur.
 
 ## Serveur de développement
 
-Pour un développement plus avancé ou si vous souhaitez utiliser des fonctionnalités comme le rechargement en direct, vous pouvez utiliser un serveur de développement simple. Voici quelques options :
+Pour un développement plus avancé ou si vous souhaitez utiliser des fonctionnalités comme le rechargement en direct,
+vous pouvez utiliser un serveur de développement simple. Voici quelques options :
 
 - **Serveur Live de Visual Studio Code :**
-  - Installez l'extension Live Server dans Visual Studio Code.
-  - Faites un clic droit sur le fichier `index.html` et sélectionnez "Ouvrir avec Live Server".
+    - Installez l'extension Live Server dans Visual Studio Code.
+    - Faites un clic droit sur le fichier `index.html` et sélectionnez "Ouvrir avec Live Server".
 
 - **Utilisez un serveur HTTP simple :**
-  - Installez Node.js et npm sur votre ordinateur.
-  - Installez http-server globalement avec npm :
-    ```
-    npm install -g http-server
-    ```
-  - Naviguez jusqu'au dossier du projet dans le terminal ou l'invite de commande et démarrez le serveur avec :
-    ```
-    http-server
-    ```
-  - Ouvrez l'URL affichée dans le navigateur.
+    - Installez Node.js et npm sur votre ordinateur.
+    - Installez http-server globalement avec npm :
+      ```
+      npm install -g http-server
+      ```
+    - Naviguez jusqu'au dossier du projet dans le terminal ou l'invite de commande et démarrez le serveur avec :
+      ```
+      http-server
+      ```
+    - Ouvrez l'URL affichée dans le navigateur.
 
-Ces outils vous permettent de voir les modifications du code en temps réel dans le navigateur sans avoir à recharger manuellement.
+Ces outils vous permettent de voir les modifications du code en temps réel dans le navigateur sans avoir à recharger
+manuellement.
 
 ## Licence
 

@@ -39,8 +39,8 @@ Teste den aktuellen Stand einfach über diesen [Link](https://coezbay.github.io/
 - **Indikator für aktive Aufgabe**: Aktive/Angezeigte Aufgabe in der Map markieren.
 - **Dark Mode einbauen**: Dark Mode für die Schonung der Augen.
 - **Einsicht anderer Antwortmöglichkeiten**: Nachdem beispielsweise bei den ISTQB® Prüfungen, Inhalte aus dem Glossar
-    und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
-    Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
+  und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
+  Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
 
 ### Noch zu erledigen
 
@@ -58,13 +58,19 @@ Teste den aktuellen Stand einfach über diesen [Link](https://coezbay.github.io/
 - **Sprachen**: Anwendung multilingual zur Verfügung stellen
 - **Individualisierbare Themes**: Selbsterklärend
 - **Import-Möglichkeiten**: Frage und Antworten (Im Best-Case - Schema unabhängig)
-- **Benutzerdefinierte Quiz-Module**: Benutzern ermöglichen ihre eigenen Quiz-Module basierend auf spezifischen Themen oder Schwierigkeitsgraden zusammenzustellen.
-- **Speichern und Fortfahren**: Funktion, mit der Benutzer ihren Fortschritt speichern und zu einem späteren Zeitpunkt wieder aufnehmen können.
-- **Detaillierte Statistiken**: Detaillierte Statistiken über die Leistung des Benutzers, einschließlich Bereichen, in denen sie gut abschneiden, und Bereichen, die Verbesserung erfordern.
-- **Anpassbare Berichte**: Benutzern, die Erstellung von anpassbaren Berichten über ihre Leistung und Fortschritte zu erstellen und zu exportieren.
+- **Benutzerdefinierte Quiz-Module**: Benutzern ermöglichen ihre eigenen Quiz-Module basierend auf spezifischen Themen
+  oder Schwierigkeitsgraden zusammenzustellen.
+- **Speichern und Fortfahren**: Funktion, mit der Benutzer ihren Fortschritt speichern und zu einem späteren Zeitpunkt
+  wieder aufnehmen können.
+- **Detaillierte Statistiken**: Detaillierte Statistiken über die Leistung des Benutzers, einschließlich Bereichen, in
+  denen sie gut abschneiden, und Bereichen, die Verbesserung erfordern.
+- **Anpassbare Berichte**: Benutzern, die Erstellung von anpassbaren Berichten über ihre Leistung und Fortschritte zu
+  erstellen und zu exportieren.
 
 ## Zugänglichkeit und Inklusion
-- **Barrierefreiheitsoptionen**: Sicher stellen, dass die Anwendung für Benutzer mit verschiedenen Behinderungen zugänglich ist, z.B. durch Sprachausgabe oder leicht verständliche Bedienelemente.
+
+- **Barrierefreiheitsoptionen**: Sicher stellen, dass die Anwendung für Benutzer mit verschiedenen Behinderungen
+  zugänglich ist, z.B. durch Sprachausgabe oder leicht verständliche Bedienelemente.
 
 ## Kontinuierliche Entwicklung
 
