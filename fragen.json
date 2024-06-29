@@ -10,10 +10,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Das ist die Glossardefinition von Qualitätssicherung.",
+      "a": "FALSCH<br><br>Das ist die Glossardefinition von Qualitätssicherung.<br><br>Korrekt ist b)<br><br>Der Grad, zu dem eine Komponente oder ein System die expliziten und impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt",
       "b": "KORREKT<br><br>Das ist die Glossardefinition von Qualität.",
-      "c": "FALSCH<br><br>Das ist die Glossardefinition von IT-Sicherheit.",
-      "d": "FALSCH<br><br>Das ist die Glossardefinition von Qualitätskosten."
+      "c": "FALSCH<br><br>Das ist die Glossardefinition von IT-Sicherheit.<br><br>Korrekt ist b)<br><br>Der Grad, zu dem eine Komponente oder ein System die expliziten und impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt",
+      "d": "FALSCH<br><br>Das ist die Glossardefinition von Qualitätskosten.<br><br>Korrekt ist b)<br><br>Der Grad, zu dem eine Komponente oder ein System die expliziten und impliziten Bedürfnisse seiner verschiedenen Stakeholder erfüllt"
     }
   },
   {
@@ -28,9 +28,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT<br><br>Dies ist ein (im Lehrplan) aufgeführtes Ziel.",
-      "b": "FALSCH<br><br>Dies ist Debugging.",
-      "c": "FALSCH<br><br>Dies ist eine Aktivität innerhalb der Testausführung innerhalb des Testprozesses.",
-      "d": "FALSCH<br><br>Dies ist Teil der Fehlersuche."
+      "b": "FALSCH<br><br>Dies ist Debugging.<br><br>Korrekt ist Antwort a)<br><br>Verhindern von Fehlerzuständen",
+      "c": "FALSCH<br><br>Dies ist eine Aktivität innerhalb der Testausführung innerhalb des Testprozesses.<br><br> Korrekt ist Antwort a)<br><br>Verhindern von Fehlerzuständen",
+      "d": "FALSCH<br><br>Dies ist Teil der Fehlersuche.<br><br> Korrekt ist Antwort a)<br><br>Verhindern von Fehlerzuständen"
     }
   },
   {
@@ -44,9 +44,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br>Die Grundursache ist die Ablenkung, die der Programmierer beim Programmieren erfahren hat.",
-      "b": "FALSCH<br><br>Das Akzeptieren von ungültigen Eingängen ist die Fehlerwirkung.",
-      "c": "FALSCH<br><br>Die Fehlhandlung ist der Denkfehler, der dazu geführt hat, dass der Fehler in den Code eingebaut wurde.",
+      "a": "FALSCH<br><br>Die Grundursache ist die Ablenkung, die der Programmierer beim Programmieren erfahren hat.<br><br>Korrekt ist Antwort d)<br><br>Fehlerzustand",
+      "b": "FALSCH<br><br>Das Akzeptieren von ungültigen Eingängen ist die Fehlerwirkung.<br><br>Korrekt ist Antwort d)<br><br>Fehlerzustand",
+      "c": "FALSCH<br><br>Die Fehlhandlung ist der Denkfehler, der dazu geführt hat, dass der Fehler in den Code eingebaut wurde.<br><br>Korrekt ist Antwort d)<br><br>Fehlerzustand",
       "d": "KORREKT<br><br>Das Problem im Code ist ein Fehlerzustand."
     }
   },
@@ -61,10 +61,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Die Fehlerhäufung hat damit zu tun, wo Fehlerzustände (Defekte) am wahrscheinlichsten zu finden sind, nicht, ob alle gefunden werden können.",
+      "a": "FALSCH<br><br>Die Fehlerhäufung hat damit zu tun, wo Fehlerzustände (Defekte) am wahrscheinlichsten zu finden sind, nicht, ob alle gefunden werden können.<br><br>Korrekt ist Antwort b)<br><br>Testen zeigt die Anwesenheit von Fehlerzuständen",
       "b": "KORREKT<br><br>Testen kann das Vorhandensein von Fehlern zeigen, aber nicht deren Abwesenheit beweisen, was es unmöglich macht, zu wissen, ob Sie alle Bugs erwischt haben. Außerdem macht es die Unmöglichkeit des vollständigen Testens für Sie unmöglich, alle Fehlerzustände zu erwischen.",
-      "c": "FALSCH<br><br>Dieses Prinzip besagt, dass Sie viele Fehler finden und beseitigen können, aber trotzdem ein erfolgloses Software-Produkt veröffentlichen können, was nicht das ist, was der Product Owner von Ihnen verlangt.",
-      "d": "FALSCH<br><br>Die Grundursachenanalyse ist kein Testprinzip."
+      "c": "FALSCH<br><br>Dieses Prinzip besagt, dass Sie viele Fehler finden und beseitigen können, aber trotzdem ein erfolgloses Software-Produkt veröffentlichen können, was nicht das ist, was der Product Owner von Ihnen verlangt.<br><br>Korrekt ist Antwort b)<br><br>Testen zeigt die Anwesenheit von Fehlerzuständen",
+      "d": "FALSCH<br><br>Die Grundursachenanalyse ist kein Testprinzip.<br><br>Korrekt ist Antwort b)<br><br>Testen zeigt die Anwesenheit von Fehlerzuständen"
     }
   },
   {
@@ -78,9 +78,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br>Der Programmierer scheint Komponententests an seinem eigenen Code durchzuführen.",
-      "b": "FALSCH<br><br>Codeüberdeckung ist nützlich für Komponententests, aber es ist keine Tester-Denkweise.",
-      "c": "FALSCH<br><br>Die Denkweise des Programmierers beinhaltet die Überlegung, was mit dem Code falsch sein könnte, aber das ist nicht die Denkweise eines Testers.",
+      "a": "FALSCH<br><br>Der Programmierer scheint Komponententests an seinem eigenen Code durchzuführen.<br><br>Korrekt ist Antwort d)<br><br>Detailgenauigkeit",
+      "b": "FALSCH<br><br>Codeüberdeckung ist nützlich für Komponententests, aber es ist keine Tester-Denkweise.<br><br>Korrekt ist Antwort d)<br><br>Detailgenauigkeit",
+      "c": "FALSCH<br><br>Die Denkweise des Programmierers beinhaltet die Überlegung, was mit dem Code falsch sein könnte, aber das ist nicht die Denkweise eines Testers.<br><br>Korrekt ist Antwort d)<br><br>Detailgenauigkeit",
       "d": "KORREKT<br><br>Diese Denkweise des Testers, die Detailgenauigkeit, hilft den Programmierern, Fehler während der Komponententests zu finden."
     }
   },
@@ -95,8 +95,8 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br> Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>1D Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen</li><li>2B Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht</li><li>3A Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen einzubeziehen</li><li>4C Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko<br>Daher ist die Option d) KORREKT.",
-      "b": "FALSCH<br><br> Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>1D Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen</li><li>2B Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht</li><li>3A Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen einzubeziehen</li><li>4C Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko<br>Daher ist die Option d) KORREKT.",
+      "a": "FALSCH<br><br>Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>1D Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen</li><li>2B Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht</li><li>3A Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen einzubeziehen</li><li>4C Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko<br>Daher ist die Option d) KORREKT.",
+      "b": "FALSCH<br><br>Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>1D Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen</li><li>2B Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht</li><li>3A Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen einzubeziehen</li><li>4C Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko<br>Daher ist die Option d) KORREKT.",
       "c": "FALSCH<br><br>Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>1D Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen</li><li>2B Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht</li><li>3A Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen einzubeziehen</li><li>4C Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko<br>Daher ist die Option d) KORREKT.",
       "d": "KORREKT<br><br>Begründung:<br>Verfolgbarkeit (syn. Rückverfolgbarkeit, eng. traceability) hilft bei:<ol style=\"list-style-type: circle;\"><li>1D Auswahl von Regressionstests im Hinblick auf die Analyse der Auswirkungen von Änderungen</li><li>2B Bewertung der Vollständigkeit der Testausführung, die das Testen nachvollziehbarer macht</li><li>3A Identifizieren, welche User-Stories offene Fehlerberichte haben, was die Verständlichkeit von Teststatusberichten verbessert, um den Status von Testbasis Elementen einzubeziehen</li><li>4C Bewertung, ob die Anzahl der Tests für jede Anforderung mit dem Grad des Produktrisikos übereinstimmt, was Informationen zur Bewertung der Testprozessqualität liefert, d. h. Ausrichtung des Testaufwands am Risiko<br>Daher ist die Option d) KORREKT."
     }
@@ -112,10 +112,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br> Das frühzeitige Erkennen von erforderlichen Tests ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation.",
-      "b": "FALSCH<br><br> Die Sicherstellung ordnungsgemäßer Prozessdurchführung gehört eher zur Qualitätssicherung als zum Beitrag des Testens in dieser Situation.",
-      "c": "KORREKT<br><br> Die Verringerung des Risikos grundlegender Entwurfsfehler ist der beste Beitrag des Testens zu dieser Situation, da die Datenbankstruktur eng mit dem Design verbunden ist und Performanzprobleme ein erhebliches Produktrisiko darstellen können.",
-      "d": "FALSCH<br><br> Die Verringerung des Risikos nicht testbarer Funktionalität ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation, da der Tester hier ein potenzielles Performanzproblem identifiziert hat, das nichts mit nicht testbarer Funktionalität zu tun hat."
+      "a": "FALSCH<br><br>Das frühzeitige Erkennen von erforderlichen Tests ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation.<br><br>Korrekt ist Antwort c)<br><br>Verringerung des Risikos grundlegender Entwurfsfehler",
+      "b": "FALSCH<br><br>Die Sicherstellung ordnungsgemäßer Prozessdurchführung gehört eher zur Qualitätssicherung als zum Beitrag des Testens in dieser Situation.<br><br>Korrekt ist Antwort c)<br><br>Verringerung des Risikos grundlegender Entwurfsfehler",
+      "c": "KORREKT<br><br>Die Verringerung des Risikos grundlegender Entwurfsfehler ist der beste Beitrag des Testens zu dieser Situation, da die Datenbankstruktur eng mit dem Design verbunden ist und Performanzprobleme ein erhebliches Produktrisiko darstellen können.",
+      "d": "FALSCH<br><br>Die Verringerung des Risikos nicht testbarer Funktionalität ist zwar wichtig, jedoch nicht der beste Beitrag des Testens zu dieser Situation, da der Tester hier ein potenzielles Performanzproblem identifiziert hat, das nichts mit nicht testbarer Funktionalität zu tun hat.<br><br>Korrekt ist Antwort c)<br><br>Verringerung des Risikos grundlegender Entwurfsfehler"
     }
   },
   {
@@ -129,10 +129,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br> Das Analysieren eines Fehlerzustands ist eher Teil des Debuggings als des Testens.",
+      "a": "FALSCH<br><br> Das Analysieren eines Fehlerzustands ist eher Teil des Debuggings als des Testens.<br><br>Korrekt ist Antwort b)<br><br>Entwerfen von Testdaten",
       "b": "KORREKT<br><br> Das Entwerfen von Testdaten ist eine typische Aufgabe im Rahmen des Testprozesses, da es für die Testimplementierung wichtig ist, geeignete Testdaten zu erstellen.",
-      "c": "FALSCH<br><br> Die Zuordnung von Testobjektversionen ist in der Regel Teil des Konfigurationsmanagements und nicht speziell eine Aufgabe im Testprozess.",
-      "d": "FALSCH<br><br> Das Schreiben einer User Story ist keine direkte Testaktivität und fällt normalerweise in den Verantwortungsbereich des Product Owners."
+      "c": "FALSCH<br><br> Die Zuordnung von Testobjektversionen ist in der Regel Teil des Konfigurationsmanagements und nicht speziell eine Aufgabe im Testprozess.<br><br>Korrekt ist Antwort b)<br><br>Entwerfen von Testdaten",
+      "d": "FALSCH<br><br> Das Schreiben einer User Story ist keine direkte Testaktivität und fällt normalerweise in den Verantwortungsbereich des Product Owners.<br><br>Korrekt ist Antwort b)<br><br>Entwerfen von Testdaten"
     }
   },
   {
@@ -146,10 +146,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br> Dieser Test entspricht zwar der Beschreibung eines Integrationstests, ist aber ein nicht-funktionaler Test.",
-      "b": "KORREKT<br><br> Dieser Test entspricht der Beschreibung eines Integrationstests und es handelt sich um einen nicht-funktionalen Test.",
-      "c": "FALSCH<br><br> Dieser Test entspricht nicht der Beschreibung eines Komponententests und es handelt sich nicht um einen funktionalen Test.",
-      "d": "FALSCH<br><br> Obwohl dieser Test ein nicht-funktionaler Test ist, entspricht er nicht der Beschreibung eines Komponententests."
+      "a": "FALSCH<br><br>Dieser Test entspricht zwar der Beschreibung eines Integrationstests, ist aber ein nicht-funktionaler Test.<br><br>Korrekt ist Antwort b)<br><br>Ein nicht-funktionaler Test während der Integrationsteststufe",
+      "b": "KORREKT<br><br>Dieser Test entspricht der Beschreibung eines Integrationstests und es handelt sich um einen nicht-funktionalen Test.",
+      "c": "FALSCH<br><br>Dieser Test entspricht nicht der Beschreibung eines Komponententests und es handelt sich nicht um einen funktionalen Test.<br><br>Korrekt ist Antwort b)<br><br>Ein nicht-funktionaler Test während der Integrationsteststufe",
+      "d": "FALSCH<br><br>Obwohl dieser Test ein nicht-funktionaler Test ist, entspricht er nicht der Beschreibung eines Komponententests.<br><br>Korrekt ist Antwort b)<br><br>Ein nicht-funktionaler Test während der Integrationsteststufe"
     }
   },
   {
@@ -163,10 +163,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br> Während die Auswirkungsanalyse während der Wartungstests nützlich ist, ist sie für Fehlernachtests nicht notwendig, da sich Fehlernachtests auf die beabsichtigten Auswirkungen einer Fehlerbehebung oder einer anderen Änderung beziehen.",
-      "b": "FALSCH<br><br> Fehlernachtests und Regressionstests sind zwei separate Aktivitäten, und Fehlernachtests sind nicht Teil des Systementwurfs.",
-      "c": "KORREKT<br><br> Die Auswirkungsanalyse kann verwendet werden, um Regressionstests für Wartungstests auszuwählen.",
-      "d": "FALSCH<br><br> Fehlernachtests sind nicht Teil der Auswirkungsanalyse, obwohl Fehlernachtests typischerweise während der Wartungstests durchgeführt werden."
+      "a": "FALSCH<br><br>Während die Auswirkungsanalyse während der Wartungstests nützlich ist, ist sie für Fehlernachtests nicht notwendig, da sich Fehlernachtests auf die beabsichtigten Auswirkungen einer Fehlerbehebung oder einer anderen Änderung beziehen.<br><br>Korrekt ist Antwort c)<br><br>Die Auswirkungsanalyse ist nützlich für Regressionstests während der Wartungstests",
+      "b": "FALSCH<br><br>Fehlernachtests und Regressionstests sind zwei separate Aktivitäten, und Fehlernachtests sind nicht Teil des Systementwurfs.<br><br>Korrekt ist Antwort c)<br><br>Die Auswirkungsanalyse ist nützlich für Regressionstests während der Wartungstests",
+      "c": "KORREKT<br><br>Die Auswirkungsanalyse kann verwendet werden, um Regressionstests für Wartungstests auszuwählen.",
+      "d": "FALSCH<br><br>Fehlernachtests sind nicht Teil der Auswirkungsanalyse, obwohl Fehlernachtests typischerweise während der Wartungstests durchgeführt werden.<br><br>Korrekt ist Antwort c)<br><br>Die Auswirkungsanalyse ist nützlich für Regressionstests während der Wartungstests"
     }
   },
   {
@@ -180,14 +180,14 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "KORREKT<br><br> Begründung:<br><br>Performanztests sind eine Testart, keine Teststufe. Komponententests konzentrieren sich auf Fehlerzustände in separat testbaren Modulen oder Objekten, Integrationstests auf Fehlerzustände in Schnittstellen und Interaktionen, Systemtests auf Fehlerzustände im gesamten Testobjekt, und Abnahmetests sind typischerweise nicht auf die Identifizierung von Fehlerzuständen ausgerichtet.<br><br>Daher ist c) die KORREKTE Antwort.",
-      "d": "FALSCH"
+      "a": "FALSCH<br><br>Begründung:<br><br>Performanztests sind eine Testart, keine Teststufe. Komponententests konzentrieren sich auf Fehlerzustände in separat testbaren Modulen oder Objekten, Integrationstests auf Fehlerzustände in Schnittstellen und Interaktionen, Systemtests auf Fehlerzustände im gesamten Testobjekt, und Abnahmetests sind typischerweise nicht auf die Identifizierung von Fehlerzuständen ausgerichtet.<br><br>Daher ist c) die KORREKTE Antwort.",
+      "b": "FALSCH<br><br>Begründung:<br><br>Performanztests sind eine Testart, keine Teststufe. Komponententests konzentrieren sich auf Fehlerzustände in separat testbaren Modulen oder Objekten, Integrationstests auf Fehlerzustände in Schnittstellen und Interaktionen, Systemtests auf Fehlerzustände im gesamten Testobjekt, und Abnahmetests sind typischerweise nicht auf die Identifizierung von Fehlerzuständen ausgerichtet.<br><br>Daher ist c) die KORREKTE Antwort.",
+      "c": "KORREKT<br><br>Begründung:<br><br>Performanztests sind eine Testart, keine Teststufe. Komponententests konzentrieren sich auf Fehlerzustände in separat testbaren Modulen oder Objekten, Integrationstests auf Fehlerzustände in Schnittstellen und Interaktionen, Systemtests auf Fehlerzustände im gesamten Testobjekt, und Abnahmetests sind typischerweise nicht auf die Identifizierung von Fehlerzuständen ausgerichtet.<br><br>Daher ist c) die KORREKTE Antwort.",
+      "d": "FALSCH<br><br>Begründung:<br><br>Performanztests sind eine Testart, keine Teststufe. Komponententests konzentrieren sich auf Fehlerzustände in separat testbaren Modulen oder Objekten, Integrationstests auf Fehlerzustände in Schnittstellen und Interaktionen, Systemtests auf Fehlerzustände im gesamten Testobjekt, und Abnahmetests sind typischerweise nicht auf die Identifizierung von Fehlerzuständen ausgerichtet.<br><br>Daher ist c) die KORREKTE Antwort."
     }
   },
   {
-    "frage": "Ein Betriebssystem-Softwareprodukt für den Massenmarkt ist so konzipiert, dass es auf jeder PC-Hardware mit einem Prozessor der x86-Familie läuft. Sie führen eine Reihe von Tests durch, um nach Fehlerzuständen im Zusammenhang mit der Unterstützung der verschiedenen PCs zu suchen, die einen solchen Prozessor verwenden, und um Vertrauen zu schaffen, dass wichtige PC-Marken funktionieren. Welche Art von Test führen Sie durch?<br><br>Wählen Sie EINE Option aus.",
+    "frage": "Ein Betriebssystem-Softwareprodukt für den Massenmarkt ist so konzipiert, dass es auf jeder PC-Hardware mit einem Prozessor der x86-Familie läuft. Sie führen eine Reihe von Tests durch, um nach Fehlerzuständen im Zusammenhang mit der Unterstützung der verschiedenen PCs zu suchen, die einen solchen Prozessor verwenden und um Vertrauen zu schaffen, dass wichtige PC-Marken funktionieren. Welche Art von Test führen Sie durch?<br><br>Wählen Sie EINE Option aus.",
     "inhalte": [],
     "antworten": {
       "a": "Performanztest",
@@ -197,9 +197,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br> Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein Performanztest.",
-      "b": "FALSCH<br><br> Prozessortest ist keine definierte Testart und beschreibt nicht die Art von Test, der durchgeführt wird.",
-      "c": "FALSCH<br><br> Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein funktionaler Test.",
+      "a": "FALSCH<br><br> Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein Performanztest.<br><br>Korrekt ist daher Antwort d)<br><br>Übertragbarkeitstest",
+      "b": "FALSCH<br><br> Prozessortest ist keine definierte Testart und beschreibt nicht die Art von Test, der durchgeführt wird.<br><br>Korrekt ist daher Antwort d)<br><br>Übertragbarkeitstest",
+      "c": "FALSCH<br><br> Der beschriebene Test ist ein nicht-funktionaler Test, speziell ein Übertragbarkeitstest, und kein funktionaler Test.<br><br>Korrekt ist daher Antwort d)<br><br>Übertragbarkeitstest",
       "d": "KORREKT<br><br> Das Testen unterstützter Geräte, um sicherzustellen, dass das Betriebssystem auf verschiedenen PCs mit x86-Prozessoren läuft, ist ein nicht-funktionaler Test, nämlich ein Übertragbarkeitstest."
     }
   },
@@ -214,10 +214,10 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "KORREKT<br><br> Begründung:<br><br>Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind.<br><br>Daher ist d) die KORREKTE Antwort."
+      "a": "FALSCH<br><br>Begründung:<br><br>Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind.<br><br>Daher ist d) die KORREKTE Antwort.",
+      "b": "FALSCH<br><br>Begründung:<br><br>Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind.<br><br>Daher ist d) die KORREKTE Antwort.",
+      "c": "FALSCH<br><br>Begründung:<br><br>Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind.<br><br>Daher ist d) die KORREKTE Antwort.",
+      "d": "KORREKT<br><br>Begründung:<br><br>Die Änderung im Verhalten kann entweder funktional oder nicht-funktional sein. Sie müssen änderungsbezogene Tests durchführen, von denen einige Fehlernachtests und andere Regressionstests sind.<br><br>Daher ist d) die KORREKTE Antwort."
     }
   },
   {
@@ -231,10 +231,10 @@
     },
     "korrekteAntwort": "a",
     "feedback": {
-      "a": "KORREKT<br><br> Der Moderator leitet die Überprüfungssitzungen und ist verantwortlich für den Ablauf und die Einhaltung des Prozesses.",
-      "b": "FALSCH<br><br> Die Rolle des Programmierers ist nicht die eines Leiters einer Inspektionssitzung bei einer formalen Überprüfung.",
-      "c": "FALSCH<br><br> Der Autor ist normalerweise die Person, die den zu überprüfenden Artikel geschrieben hat und nicht zwangsläufig der Leiter der Inspektionssitzung.",
-      "d": "FALSCH<br><br> Der Projektleiter ist nicht speziell dafür zuständig, eine Inspektionssitzung zu leiten."
+      "a": "KORREKT<br><br> Der Moderator leitet die Überprüfungssitzungen und ist verantwortlich für den Ablauf und die Einhaltung des Prozesses.<br><br>Korrekt ist daher Antwort a)<br><br>Moderator",
+      "b": "FALSCH<br><br> Die Rolle des Programmierers ist nicht die eines Leiters einer Inspektionssitzung bei einer formalen Überprüfung.<br><br>Korrekt ist daher Antwort a)<br><br>Moderator",
+      "c": "FALSCH<br><br> Der Autor ist normalerweise die Person, die den zu überprüfenden Artikel geschrieben hat und nicht zwangsläufig der Leiter der Inspektionssitzung.<br><br>Korrekt ist daher Antwort a)<br><br>Moderator",
+      "d": "FALSCH<br><br> Der Projektleiter ist nicht speziell dafür zuständig, eine Inspektionssitzung zu leiten.<br><br>Korrekt ist daher Antwort a)<br><br>Moderator"
     }
   },
   {
@@ -248,9 +248,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br> Beim statischen Testen wird das Testobjekt nicht ausgeführt, es wird lediglich geprüft, ohne dass der Code ausgeführt wird.",
-      "b": "FALSCH<br><br> Statische Tests können auch manuell durchgeführt werden, ohne dass unbedingt ein Werkzeug erforderlich ist.",
-      "c": "FALSCH<br><br> Die Kosteneffizienz von Fehlerbehebungen hängt nicht unbedingt davon ab, ob sie in statischen oder dynamischen Tests gefunden werden, sondern von der Phase, in der sie gefunden und behoben werden.",
+      "a": "FALSCH<br><br> Beim statischen Testen wird das Testobjekt nicht ausgeführt, es wird lediglich geprüft, ohne dass der Code ausgeführt wird.<br><br>Korrekt ist daher die Antwort d)<br><br>Es handelt sich um einen statischen Test, da bei statischen Tests das Testobjekt nicht ausgeführt wird",
+      "b": "FALSCH<br><br> Statische Tests können auch manuell durchgeführt werden, ohne dass unbedingt ein Werkzeug erforderlich ist.<br><br>Korrekt ist daher die Antwort d)<br><br>Es handelt sich um einen statischen Test, da bei statischen Tests das Testobjekt nicht ausgeführt wird",
+      "c": "FALSCH<br><br> Die Kosteneffizienz von Fehlerbehebungen hängt nicht unbedingt davon ab, ob sie in statischen oder dynamischen Tests gefunden werden, sondern von der Phase, in der sie gefunden und behoben werden.<br><br>Korrekt ist daher die Antwort d)<br><br>Es handelt sich um einen statischen Test, da bei statischen Tests das Testobjekt nicht ausgeführt wird",
       "d": "KORREKT<br><br> Beim statischen Testen wird das Testobjekt nicht ausgeführt, sondern es werden Artefakte wie Code, Dokumente oder User Stories überprüft."
     }
   },
@@ -265,10 +265,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br> Technische Reviews sind für technische Dokumente wie Systemarchitektur geeignet, daher ist die Auswahl der Review-Art angemessen.",
-      "b": "KORREKT<br><br> In diesem Szenario fehlt es an ausreichender Zeit für die Vorbereitung, da das technische Review innerhalb einer Woche angekündigt wird und keine Anpassungen an der Arbeitsliste der Teilnehmer vorgenommen wurden. Dies kann die Qualität des Reviews beeinträchtigen.",
-      "c": "FALSCH<br><br> Das Fehlen ausreichender Metriken zur Bewertung des Autors ist nicht der Hauptgrund für den Mangel an Erfolgsfaktoren in diesem Szenario.",
-      "d": "FALSCH<br><br> Eine gut geleitete Review-Sitzung ist wichtig, aber es gibt keinen spezifischen Hinweis darauf, dass die Sitzung nicht gut geleitet wird."
+      "a": "FALSCH<br><br>Technische Reviews sind für technische Dokumente wie Systemarchitektur geeignet, daher ist die Auswahl der Review-Art angemessen.<br><br>Daher lautet die korrekte Antwort b)<br><br>Ausreichend Zeit zur Vorbereitung",
+      "b": "KORREKT<br><br>In diesem Szenario fehlt es an ausreichender Zeit für die Vorbereitung, da das technische Review innerhalb einer Woche angekündigt wird und keine Anpassungen an der Arbeitsliste der Teilnehmer vorgenommen wurden. Dies kann die Qualität des Reviews beeinträchtigen.",
+      "c": "FALSCH<br><br>Das Fehlen ausreichender Metriken zur Bewertung des Autors ist nicht der Hauptgrund für den Mangel an Erfolgsfaktoren in diesem Szenario.<br><br>Daher lautet die korrekte Antwort b)<br><br>Ausreichend Zeit zur Vorbereitung",
+      "d": "FALSCH<br><br>Eine gut geleitete Review-Sitzung ist wichtig, aber es gibt keinen spezifischen Hinweis darauf, dass die Sitzung nicht gut geleitet wird.<br><br>Daher lautet die korrekte Antwort b)<br><br>Ausreichend Zeit zur Vorbereitung"
     }
   },
   {
@@ -282,14 +282,14 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br> Reviews reduzieren die Gesamtkosten der Qualität, anstatt sie zu steigern.",
-      "b": "FALSCH<br><br> Die gesteigerte Geschwindigkeit ist ein Indikator für die gesteigerte Entwicklungsproduktivität, die nicht direkt mit Testkostenreduktion in Verbindung steht.",
-      "c": "KORREKT<br><br> Die gesteigerte Entwicklungsproduktivität, die durch effektivere Reviews und Korrekturen von Fehlerzuständen erreicht wird, führt dazu, dass das Team schneller arbeitet und mehr Arbeit in jeder Iteration erledigt, was sich in einer höheren Geschwindigkeit des Teams niederschlägt.",
-      "d": "FALSCH<br><br> Dieser Vorteil ist nicht direkt mit der gesteigerten Geschwindigkeit des Teams verbunden."
+      "a": "FALSCH<br><br>Reviews reduzieren die Gesamtkosten der Qualität, anstatt sie zu steigern.<br><br>Daher lautet die korrekte Antwort c)<br><br>Steigerung der Entwicklungsproduktivität",
+      "b": "FALSCH<br><br>Die gesteigerte Geschwindigkeit ist ein Indikator für die gesteigerte Entwicklungsproduktivität, die nicht direkt mit Testkostenreduktion in Verbindung steht.<br><br>Daher lautet die korrekte Antwort c)<br><br>Steigerung der Entwicklungsproduktivität",
+      "c": "KORREKT<br><br>Die gesteigerte Entwicklungsproduktivität, die durch effektivere Reviews und Korrekturen von Fehlerzuständen erreicht wird, führt dazu, dass das Team schneller arbeitet und mehr Arbeit in jeder Iteration erledigt, was sich in einer höheren Geschwindigkeit des Teams niederschlägt.",
+      "d": "FALSCH<br><br>Dieser Vorteil ist nicht direkt mit der gesteigerten Geschwindigkeit des Teams verbunden.<br><br>Daher lautet die korrekte Antwort c)<br><br>Steigerung der Entwicklungsproduktivität"
     }
   },
   {
-    "frage": "Sie arbeiten an einem Entwicklungsprojekt für ein Videospiel, das mit agilen Methoden entwickelt wird. Es basiert auf der griechischen Mythologie und Geschichte, und die Spieler können Schlüsselrollen in Szenarien wie den Schlachten zwischen Griechen und Trojanern übernehmen.<br><br>Betrachten Sie die folgende User-Story und die zugehörigen Akzeptanzkriterien:<br><br>Als Spieler möchte ich in der Lage sein, den Stab des Midas (ein neues magisches Objekt) zu erwerben, damit ich Objekte und andere Spieler in Gold verwandeln kann.<br><br><ul class='ac-liste'><li>Der Stab muss auf jedes Objekt oder jeden Spieler – egal welcher Größe – wirken, das von dem Spieler, der den Stab hält, irgendwo berührt werden kann</li><li>Das Halten des Stabes verwandelt den Spieler, der ihn hält, nicht in Gold</li><li>Jeder Gegenstand oder Spieler, der vom Stab berührt wird, verwandelt sich innerhalb einer Millisekunde vollständig in Gold</li><li>Der Stab erscheint wie in Prototyp O.W.RoM gezeigt</li><li>Die Transformation beginnt an der Kontaktstelle mit dem Stab und bewegt sich mit einer Geschwindigkeit von einem Meter pro Millisekunde</li></ul>Sie nehmen an einer checklistenbasierten Reviewsitzung zu dieser User Story teil.<br><br>Diese User-Story und die zugehörigen Akzeptanzkriterien enthalten welche der folgenden typischen Fehler, die durch statische Tests bei dieser Art von Arbeitsprodukt identifiziert werden können?<br><br>Wählen Sie EINE Option aus.",
+    "frage": "Sie arbeiten an einem Entwicklungsprojekt für ein Videospiel, das mit agilen Methoden entwickelt wird. Es basiert auf der griechischen Mythologie und Geschichte und die Spieler können Schlüsselrollen in Szenarien wie den Schlachten zwischen Griechen und Trojanern übernehmen.<br><br>Betrachten Sie die folgende User-Story und die zugehörigen Akzeptanzkriterien:<br><br>Als Spieler möchte ich in der Lage sein, den Stab des Midas (ein neues magisches Objekt) zu erwerben, damit ich Objekte und andere Spieler in Gold verwandeln kann.<br><br><ul class='ac-liste'><li>Der Stab muss auf jedes Objekt oder jeden Spieler – egal welcher Größe – wirken, das von dem Spieler, der den Stab hält, irgendwo berührt werden kann</li><li>Das Halten des Stabes verwandelt den Spieler, der ihn hält, nicht in Gold</li><li>Jeder Gegenstand oder Spieler, der vom Stab berührt wird, verwandelt sich innerhalb einer Millisekunde vollständig in Gold</li><li>Der Stab erscheint wie in Prototyp O.W.RoM gezeigt</li><li>Die Transformation beginnt an der Kontaktstelle mit dem Stab und bewegt sich mit einer Geschwindigkeit von einem Meter pro Millisekunde</li></ul>Sie nehmen an einer checklistenbasierten Reviewsitzung zu dieser User Story teil.<br><br>Diese User-Story und die zugehörigen Akzeptanzkriterien enthalten welche der folgenden typischen Fehler, die durch statische Tests bei dieser Art von Arbeitsprodukt identifiziert werden können?<br><br>Wählen Sie EINE Option aus.",
     "inhalte": [],
     "antworten": {
       "a": "Abweichung von Normen",
@@ -299,10 +299,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Während die Abweichung von Standards typisch ist, wird uns kein Standard vorgegeben, dem die User Stories entsprechen sollen.",
+      "a": "FALSCH<br><br>Während die Abweichung von Standards typisch ist, wird uns kein Standard vorgegeben, dem die User Stories entsprechen sollen.<br><br>Die korrekte Antwort lautet b)<br><br>Widersprüche",
       "b": "KORREKT<br><br>Widerspruch (Inkonsistenz) ist ein typischer Anforderungsfehler. AC3 und AC5 widersprechen sich, wenn der Stab ein Objekt berührt, das sich mehr als 1 Meter in jede Richtung vom Berührungspunkt aus erstreckt, da AC1 die Größe der zu berührenden Objekte nicht begrenzt.",
-      "c": "FALSCH<br><br>Während Sicherheitslücken typische Fehler sind, gibt es hier nichts, was mit Sicherheit zu tun hat.",
-      "d": "FALSCH<br><br>Obwohl (Test-)Überdeckungslücken typische Fehler sind, einschließlich fehlender Tests für Abnahmekriterien, erhalten wir keine Informationen darüber, welche Tests vorhanden sind und welche nicht."
+      "c": "FALSCH<br><br>Während Sicherheitslücken typische Fehler sind, gibt es hier nichts, was mit Sicherheit zu tun hat.<br><br>Die korrekte Antwort lautet b)<br><br>Widersprüche",
+      "d": "FALSCH<br><br>Obwohl (Test-)Überdeckungslücken typische Fehler sind, einschließlich fehlender Tests für Abnahmekriterien, erhalten wir keine Informationen darüber, welche Tests vorhanden sind und welche nicht.<br><br>Die korrekte Antwort lautet b)<br><br>Widersprüche"
     }
   },
   {
@@ -316,9 +316,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br>Dies ist die Glossardefinition von Bedingungsüberdeckung.",
-      "b": "FALSCH<br><br>Die Entscheidungsüberdeckung ist eine höhere Ebene der Überdeckung und die beiden Begriffe sind im Glossar nicht als Synonyme definiert.",
-      "c": "FALSCH<br><br>Das ist die Glossar-Definition von Anweisungsüberdeckung.",
+      "a": "FALSCH<br><br>Dies ist die Glossardefinition von Bedingungsüberdeckung.<br><br>Korrekt ist Antwort d)<br><br>Die Überdeckung von Entscheidungsergebnissen",
+      "b": "FALSCH<br><br>Die Entscheidungsüberdeckung ist eine höhere Ebene der Überdeckung und die beiden Begriffe sind im Glossar nicht als Synonyme definiert.<br><br>Korrekt ist Antwort d)<br><br>Die Überdeckung von Entscheidungsergebnissen",
+      "c": "FALSCH<br><br>Das ist die Glossar-Definition von Anweisungsüberdeckung.<br><br>Korrekt ist Antwort d)<br><br>Die Überdeckung von Entscheidungsergebnissen",
       "d": "KORREKT<br><br>Die Überdeckung von Entscheidungsergebnissen ist die Glossar-Definition des Begriffs Entscheidungsüberdeckung, der auf Entscheidungen angewendet wird."
     }
   },
@@ -333,10 +333,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Strukturbasierte oder White-Box-Verfahren basieren auf einer Analyse der Architektur, des detaillierten Designs, der internen Struktur oder des Codes des Testobjekts.",
-      "b": "KORREKT<br><br>Black-Box-Testverfahren basieren auf einer Analyse der entsprechenden Testbasis (z. B. formale Anforderungsdokumente, Spezifikationen, Anwendungsfälle, User Stories oder Geschäftsprozesse), die funktionales und nicht-funktionales Verhalten beschreiben.",
-      "c": "FALSCH<br><br>Erfahrungsbasierte Techniken nutzen die Erfahrung von Entwicklern, Testern und Benutzern, um zu bestimmen, was getestet werden soll.",
-      "d": "FALSCH<br><br>Intuitive Testfallermittlung ist eine Art von erfahrungsbasiertem Testen, dass kein Blackbox-Test ist."
+      "a": "FALSCH<br><br>Strukturbasierte oder White-Box-Verfahren basieren auf einer Analyse der Architektur, des detaillierten Designs, der internen Struktur oder des Codes des Testobjekts.<br><br>Korrekt ist Antwort b)<br><br>Black-Box",
+      "b": "KORREKT<br><br>Black-Box-Testverfahren basieren auf einer Analyse der entsprechenden Testbasis (z. B. formale Anforderungsdokumente, Spezifikationen, Anwendungsfälle, User Stories oder Geschäftsprozesse), die funktionales und nicht-funktionales Verhalten beschreiben.<br><br>Daher ist Antwort b) korrekt",
+      "c": "FALSCH<br><br>Erfahrungsbasierte Techniken nutzen die Erfahrung von Entwicklern, Testern und Benutzern, um zu bestimmen, was getestet werden soll.<br><br>Korrekt ist Antwort b)<br><br>Black-Box",
+      "d": "FALSCH<br><br>Intuitive Testfallermittlung ist eine Art von erfahrungsbasiertem Testen, dass kein Blackbox-Test ist.<br><br>Korrekt ist Antwort b)<br><br>Black-Box"
     }
   },
   {
@@ -351,9 +351,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT<br><br>Exploratives Testen ist eine Form des erfahrungsbasierten Testens, das von den Fähigkeiten und der Erfahrung des Testers profitiert.",
-      "b": "FALSCH<br><br>Exploratives Testen ist nützlich, um formale Testverfahren zu ergänzen.",
-      "c": "FALSCH<br><br>Beim sitzungsbasierten Testmanagement werden explorative Tests innerhalb eines definierten Zeitrahmens durchgeführt, und der Tester verwendet eine Test-Charta, die Testziele enthält, um das Testen anzuleiten.",
-      "d": "FALSCH<br><br>Exploratives Testen kann die Verwendung anderer Black-Box-, White-Box und erfahrungsbasierter Techniken beinhalten, die in diesem Lehrplan genannt werden."
+      "b": "FALSCH<br><br>Exploratives Testen ist nützlich, um formale Testverfahren zu ergänzen.<br><br>Korrekt ist Antwort a)<br><br>Erfahrene Tester, die ähnliche Anwendungen und Technologien getestet haben, schneiden bei explorativen Tests wahrscheinlich besser ab als weniger erfahrene Tester",
+      "c": "FALSCH<br><br>Beim sitzungsbasierten Testmanagement werden explorative Tests innerhalb eines definierten Zeitrahmens durchgeführt, und der Tester verwendet eine Test-Charta, die Testziele enthält, um das Testen anzuleiten.<br><br>Korrekt ist Antwort a)<br><br>Erfahrene Tester, die ähnliche Anwendungen und Technologien getestet haben, schneiden bei explorativen Tests wahrscheinlich besser ab als weniger erfahrene Tester",
+      "d": "FALSCH<br><br>Exploratives Testen kann die Verwendung anderer Black-Box-, White-Box und erfahrungsbasierter Techniken beinhalten, die in diesem Lehrplan genannt werden.<br><br>Korrekt ist Antwort a)<br><br>Erfahrene Tester, die ähnliche Anwendungen und Technologien getestet haben, schneiden bei explorativen Tests wahrscheinlich besser ab als weniger erfahrene Tester"
     }
   },
   {
@@ -367,10 +367,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br>Das Buch bietet einen allgemeinen Leitfaden und ist kein formales Anforderungsdokument, keine Spezifikation oder eine Sammlung von Anwendungsfällen, User Stories oder Geschäftsprozessen",
-      "b": "FALSCH<br><br>Während Sie die Liste als eine Reihe von Test-Chartas betrachten könnten, ähnelt sie eher der Liste von Testbedingungen",
+      "a": "FALSCH<br><br>Das Buch bietet einen allgemeinen Leitfaden und ist kein formales Anforderungsdokument, keine Spezifikation oder eine Sammlung von Anwendungsfällen, User Stories oder Geschäftsprozessen<br><br>Korrekt ist Antwort c)<br><br>Checklistenbasiert<br><br>Die Liste der Best Practices für die Benutzeroberfläche ist die Liste der Testbedingungen",
+      "b": "FALSCH<br><br>Während Sie die Liste als eine Reihe von Test-Chartas betrachten könnten, ähnelt sie eher der Liste von Testbedingungen<br><br>Korrekt ist Antwort c)<br><br>Checklistenbasiert<br><br>Die Liste der Best Practices für die Benutzeroberfläche ist die Liste der Testbedingungen",
       "c": "KORREKT<br><br>Die Liste der Best Practices für die Benutzeroberfläche ist die Liste der Testbedingungen",
-      "d": "FALSCH<br><br>Die Tests konzentrieren sich nicht auf Fehler, die auftreten könnten, sondern auf die Erkenntnis, was für den Benutzer wichtig ist, im Sinne der Leichtigkeit der Nutzung (Benutzerfreundlichkeit)."
+      "d": "FALSCH<br><br>Die Tests konzentrieren sich nicht auf Fehler, die auftreten könnten, sondern auf die Erkenntnis, was für den Benutzer wichtig ist, im Sinne der Leichtigkeit der Nutzung (Benutzerfreundlichkeit).<br><br>Korrekt ist Antwort c)<br><br>Checklistenbasiert<br><br>Die Liste der Best Practices für die Benutzeroberfläche ist die Liste der Testbedingungen"
     }
   },
   {
@@ -384,9 +384,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br>Anweisungstests führen die Anweisungen im Code aus, was dazu führen kann, dass bestimmte Ansagen bezogen auf Jahrestage nicht getestet werden.",
-      "b": "FALSCH<br><br>Wenn in der Test-Charta nicht ausdrücklich erwähnt wird, dass sowohl das Vorhandensein als auch das Nichtvorhandensein jeder Art von Begrüßung getestet wird, kann die Abdeckung für einen explorativen Test schwer zu beurteilen sein.",
-      "c": "FALSCH<br><br>Das Testen von Zustandsübergängen ist nützlich für Situationen, in denen das Testobjekt abhängig von aktuellen Bedingungen oder der Vorgeschichte unterschiedlich auf eine Eingabe reagiert. In diesem Fall muss das Testobjekt jedoch entscheiden, ob das aktuelle Datum mit einem bestimmten Meilenstein übereinstimmt und somit die entsprechende Ansage angezeigt werden soll.",
+      "a": "FALSCH<br><br>Anweisungstests führen die Anweisungen im Code aus, was dazu führen kann, dass bestimmte Ansagen bezogen auf Jahrestage nicht getestet werden.<br><br>Korrekt ist Antwort d)<br><br>Entscheidungstest<br><br>Entscheidungstests beinhalten Testfälle, die den Kontrollflüssen folgen, die von einem Entscheidungspunkt ausgehen, was in diesem Fall die Entscheidung wäre, ob eine Ansage bezogen auf einen Jahrestag gemacht werden soll oder nicht.",
+      "b": "FALSCH<br><br>Wenn in der Test-Charta nicht ausdrücklich erwähnt wird, dass sowohl das Vorhandensein als auch das Nichtvorhandensein jeder Art von Begrüßung getestet wird, kann die Abdeckung für einen explorativen Test schwer zu beurteilen sein.<br><br>Korrekt ist Antwort d)<br><br>Entscheidungstest<br><br>Entscheidungstests beinhalten Testfälle, die den Kontrollflüssen folgen, die von einem Entscheidungspunkt ausgehen, was in diesem Fall die Entscheidung wäre, ob eine Ansage bezogen auf einen Jahrestag gemacht werden soll oder nicht.",
+      "c": "FALSCH<br><br>Das Testen von Zustandsübergängen ist nützlich für Situationen, in denen das Testobjekt abhängig von aktuellen Bedingungen oder der Vorgeschichte unterschiedlich auf eine Eingabe reagiert. In diesem Fall muss das Testobjekt jedoch entscheiden, ob das aktuelle Datum mit einem bestimmten Meilenstein übereinstimmt und somit die entsprechende Ansage angezeigt werden soll.<br><br>Korrekt ist Antwort d)<br><br>Entscheidungstest<br><br>Entscheidungstests beinhalten Testfälle, die den Kontrollflüssen folgen, die von einem Entscheidungspunkt ausgehen, was in diesem Fall die Entscheidung wäre, ob eine Ansage bezogen auf einen Jahrestag gemacht werden soll oder nicht.",
       "d": "KORREKT<br><br>Entscheidungstests beinhalten Testfälle, die den Kontrollflüssen folgen, die von einem Entscheidungspunkt ausgehen, was in diesem Fall die Entscheidung wäre, ob eine Ansage bezogen auf einen Jahrestag gemacht werden soll oder nicht."
     }
   },
@@ -402,9 +402,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT<br><br>Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch der Bedingungen, unter denen sie umgangen wird.",
-      "b": "FALSCH<br><br>Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch, wenn sie umgangen wird.",
-      "c": "FALSCH<br><br>Checklisten basieren auf Erfahrung, Fehlerdaten, Wissen darüber, was für den Benutzer wichtig ist, und einem Verständnis darüber, warum und wie Software versagt, wobei nichts davon zur Aufnahme einer solchen Testbedingung geführt haben dürfte.",
-      "d": "FALSCH<br><br>Es ist zwar möglich, dass ein Entwickler die irrtümliche Annahme macht, dass es immer mindestens eine Transaktion in einem Monat für jedes Konto gibt, aber nur Entscheidungstests garantieren das Testen dieser Bedingung."
+      "b": "FALSCH<br><br>Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch, wenn sie umgangen wird.<br><br>Daher ist Antwort a) korrekt.",
+      "c": "FALSCH<br><br>Checklisten basieren auf Erfahrung, Fehlerdaten, Wissen darüber, was für den Benutzer wichtig ist, und einem Verständnis darüber, warum und wie Software versagt, wobei nichts davon zur Aufnahme einer solchen Testbedingung geführt haben dürfte.<br><br>Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch, wenn sie umgangen wird.<br><br>Daher ist Antwort a) korrekt.",
+      "d": "FALSCH<br><br>Es ist zwar möglich, dass ein Entwickler die irrtümliche Annahme macht, dass es immer mindestens eine Transaktion in einem Monat für jedes Konto gibt, aber nur Entscheidungstests garantieren das Testen dieser Bedingung.<br><br>Für ein Schleifenkonstrukt erfordert die Anweisungsüberdeckung nur, dass alle Anweisungen innerhalb der Schleife ausgeführt werden, aber die Entscheidungsüberdeckung erfordert das Testen sowohl der Bedingungen, unter denen die Schleife ausgeführt wird, als auch, wenn sie umgangen wird.<br><br>Daher ist Antwort a) korrekt."
     }
   },
   {
@@ -503,10 +503,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br>Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden.",
-      "b": "FALSCH<br><br>Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden.",
+      "a": "FALSCH<br><br>Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden.<br><br>Für jede Spalte in der Entscheidungstabelle gibt es mindestens einen Test. Für Spalte eins sind jedoch zwei Tests erforderlich, einer, bei dem das Konto ungültig ist, und ein weiterer, bei dem das Konto gültig ist, aber das Kennwort ungültig ist, sodass die Mindestanzahl an Tests vier beträgt.<br><br>Daher ist Option c) KORREKT.",
+      "b": "FALSCH<br><br>Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden.<br><br>Für jede Spalte in der Entscheidungstabelle gibt es mindestens einen Test. Für Spalte eins sind jedoch zwei Tests erforderlich, einer, bei dem das Konto ungültig ist, und ein weiterer, bei dem das Konto gültig ist, aber das Kennwort ungültig ist, sodass die Mindestanzahl an Tests vier beträgt.<br><br>Daher ist Option c) KORREKT.",
       "c": "KORREKT<br><br>Für jede Spalte in der Entscheidungstabelle gibt es mindestens einen Test. Für Spalte eins sind jedoch zwei Tests erforderlich, einer, bei dem das Konto ungültig ist, und ein weiterer, bei dem das Konto gültig ist, aber das Kennwort ungültig ist, sodass die Mindestanzahl an Tests vier beträgt.<br><br>Daher ist Option c) KORREKT.",
-      "d": "FALSCH<br><br>Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden."
+      "d": "FALSCH<br><br>Die Anzahl der Tests sollte basierend auf den Äquivalenzklassen und der Entscheidungstabelle bestimmt werden.<br><br>Für jede Spalte in der Entscheidungstabelle gibt es mindestens einen Test. Für Spalte eins sind jedoch zwei Tests erforderlich, einer, bei dem das Konto ungültig ist, und ein weiterer, bei dem das Konto gültig ist, aber das Kennwort ungültig ist, sodass die Mindestanzahl an Tests vier beträgt.<br><br>Daher ist Option c) KORREKT."
     }
   },
   {
@@ -530,9 +530,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT<br><br>Begründung:<br><br>Jeder Übergang muss mindestens einmal durchlaufen werden. Dabei kann der erste Test einen erfolgreichen Kauf, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf das Tanken, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf den Kraftstofftyp und der letzte Test das Einführen einer ungültigen Kreditkarte abdecken. Die Reihenfolge ist zwar unerheblich, aber bei weniger als vier Tests wird einer der Übergänge vom Eingang zum Warten auf den Kunden nicht abgedeckt oder die Regeln darüber, wo ein Test beginnt oder endet, werden verletzt. Mehr als vier Tests beinhalten Tests, die bereits abgedeckte Übergänge erneut durchlaufen.<br><br>Daher ist Option a) KORREKT.",
-      "b": "FALSCH",
-      "c": "FALSCH",
-      "d": "FALSCH"
+      "b": "FALSCH<br><br>Begründung:<br><br>Jeder Übergang muss mindestens einmal durchlaufen werden. Dabei kann der erste Test einen erfolgreichen Kauf, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf das Tanken, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf den Kraftstofftyp und der letzte Test das Einführen einer ungültigen Kreditkarte abdecken. Die Reihenfolge ist zwar unerheblich, aber bei weniger als vier Tests wird einer der Übergänge vom Eingang zum Warten auf den Kunden nicht abgedeckt oder die Regeln darüber, wo ein Test beginnt oder endet, werden verletzt. Mehr als vier Tests beinhalten Tests, die bereits abgedeckte Übergänge erneut durchlaufen.<br><br>Daher ist Option a) KORREKT.",
+      "c": "FALSCH<br><br>Begründung:<br><br>Jeder Übergang muss mindestens einmal durchlaufen werden. Dabei kann der erste Test einen erfolgreichen Kauf, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf das Tanken, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf den Kraftstofftyp und der letzte Test das Einführen einer ungültigen Kreditkarte abdecken. Die Reihenfolge ist zwar unerheblich, aber bei weniger als vier Tests wird einer der Übergänge vom Eingang zum Warten auf den Kunden nicht abgedeckt oder die Regeln darüber, wo ein Test beginnt oder endet, werden verletzt. Mehr als vier Tests beinhalten Tests, die bereits abgedeckte Übergänge erneut durchlaufen.<br><br>Daher ist Option a) KORREKT.",
+      "d": "FALSCH<br><br>Begründung:<br><br>Jeder Übergang muss mindestens einmal durchlaufen werden. Dabei kann der erste Test einen erfolgreichen Kauf, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf das Tanken, der nächste Test Abbruch oder Zeitüberschreitung vom Warten auf den Kraftstofftyp und der letzte Test das Einführen einer ungültigen Kreditkarte abdecken. Die Reihenfolge ist zwar unerheblich, aber bei weniger als vier Tests wird einer der Übergänge vom Eingang zum Warten auf den Kunden nicht abgedeckt oder die Regeln darüber, wo ein Test beginnt oder endet, werden verletzt. Mehr als vier Tests beinhalten Tests, die bereits abgedeckte Übergänge erneut durchlaufen.<br><br>Daher ist Option a) KORREKT."
     }
   },
   {
@@ -563,9 +563,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br>Während diese Informationen für Entwickler nützlich sind, geben sie Managern kein Gefühl für die Auswirkungen auf die Produktqualität.",
-      "b": "FALSCH<br><br>Diese Zusammenfassung liefert Entwicklern oder Managern nicht die notwendigen Informationen und greift die Entwickler an.",
-      "c": "FALSCH<br><br>Diese Zusammenfassung liefert Entwicklern oder Managern nicht die notwendigen Informationen.",
+      "a": "FALSCH<br><br>Während diese Informationen für Entwickler nützlich sind, geben sie Managern kein Gefühl für die Auswirkungen auf die Produktqualität.<br><br>Die korrekte Antwort ist d)<br><br>Typische Überweisungstransaktion führt zur Unterbrechung der Kundensitzung, mit einer Verzögerung der Verfügbarkeit beim Versuch, die Verbindung wiederherzustellen<br><br>Diese Zusammenfassung vermittelt ein gutes Gefühl für den Ausfall und seine Auswirkungen.",
+      "b": "FALSCH<br><br>Diese Zusammenfassung liefert Entwicklern oder Managern nicht die notwendigen Informationen und greift die Entwickler an.<br><br>Die korrekte Antwort ist d)<br><br>Typische Überweisungstransaktion führt zur Unterbrechung der Kundensitzung, mit einer Verzögerung der Verfügbarkeit beim Versuch, die Verbindung wiederherzustellen<br><br>Diese Zusammenfassung vermittelt ein gutes Gefühl für den Ausfall und seine Auswirkungen.",
+      "c": "FALSCH<br><br>Diese Zusammenfassung liefert Entwicklern oder Managern nicht die notwendigen Informationen.<br><br>Die korrekte Antwort ist d)<br><br>Typische Überweisungstransaktion führt zur Unterbrechung der Kundensitzung, mit einer Verzögerung der Verfügbarkeit beim Versuch, die Verbindung wiederherzustellen<br><br>Diese Zusammenfassung vermittelt ein gutes Gefühl für den Ausfall und seine Auswirkungen.",
       "d": "KORREKT<br><br>Diese Zusammenfassung vermittelt ein gutes Gefühl für den Ausfall und seine Auswirkungen."
     }
   },
@@ -628,10 +628,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.",
+      "a": "FALSCH<br><br>Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.<br><br>Daher ist Option b) KORREKT.",
       "b": "FALSCH<br><br>Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.<br><br>Daher ist Option b) KORREKT.",
-      "c": "KORREKT<br><br>Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.",
-      "d": "FALSCH<br><br>Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen."
+      "c": "KORREKT<br><br>Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.<br><br>Daher ist Option b) KORREKT.",
+      "d": "FALSCH<br><br>Begründung:<br><br>Der Test 01.001 muss zuerst ausgeführt werden, gefolgt von 01.002, um Abhängigkeiten zu erfüllen. Danach sollten 01.004 und 01.003 in beliebiger Reihenfolge ausgeführt werden, gefolgt von 01.005, um die Priorität zu erfüllen.<br><br>Daher ist Option b) KORREKT."
     }
   },
   {
@@ -646,9 +646,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT<br><br>Der Prozentsatz der vorbereiteten Testfälle ist eine übliche Metrik während der Testvorbereitung, während der Prozentsatz der bestandenen, fehlgeschlagenen, nicht ausgeführten Testfälle usw. während der Testausführung üblich ist.",
-      "b": "FALSCH<br><br> Fehlerberichte werden typischerweise während der Testausführung erfasst, basierend auf den gefundenen Fehlern.",
-      "c": "FALSCH<br><br> Die Vorbereitung der Testumgebung ist Teil der Implementierung und würde im Allgemeinen vor der Testausführung abgeschlossen sein.",
-      "d": "FALSCH<br><br> Fehlerzustände werden typischerweise während der Testausführung gemeldet, basierend auf den gefundenen Fehlerwirkungen, so dass die Kosten für das Finden des nächsten Fehlerzustands nur während der Testausführung verfügbar sind."
+      "b": "FALSCH<br><br> Fehlerberichte werden typischerweise während der Testausführung erfasst, basierend auf den gefundenen Fehlern.<br><br>Korrekt ist Antwort a)<br><br>Der Prozentsatz der vorbereiteten Testfälle ist eine übliche Metrik während der Testvorbereitung, während der Prozentsatz der bestandenen, fehlgeschlagenen, nicht ausgeführten Testfälle usw. während der Testausführung üblich ist.",
+      "c": "FALSCH<br><br> Die Vorbereitung der Testumgebung ist Teil der Implementierung und würde im Allgemeinen vor der Testausführung abgeschlossen sein.<br><br>Korrekt ist Antwort a)<br><br>Der Prozentsatz der vorbereiteten Testfälle ist eine übliche Metrik während der Testvorbereitung, während der Prozentsatz der bestandenen, fehlgeschlagenen, nicht ausgeführten Testfälle usw. während der Testausführung üblich ist.",
+      "d": "FALSCH<br><br> Fehlerzustände werden typischerweise während der Testausführung gemeldet, basierend auf den gefundenen Fehlerwirkungen, so dass die Kosten für das Finden des nächsten Fehlerzustands nur während der Testausführung verfügbar sind.<br><br>Korrekt ist Antwort a)<br><br>Der Prozentsatz der vorbereiteten Testfälle ist eine übliche Metrik während der Testvorbereitung, während der Prozentsatz der bestandenen, fehlgeschlagenen, nicht ausgeführten Testfälle usw. während der Testausführung üblich ist."
     }
   },
   {
@@ -679,10 +679,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br>Wenn unzureichende Entwicklertests das Problem wären, würde der Fehlernachtests in Schritt 3 nicht bestehen.",
-      "b": "FALSCH<br><br>Derselbe Tester, der den Fehlernachtests in Schritt 3 erfolgreich durchgeführt hat, wiederholt ihn in Schritt 5.",
+      "a": "FALSCH<br><br>Wenn unzureichende Entwicklertests das Problem wären, würde der Fehlernachtests in Schritt 3 nicht bestehen.<br><br>Korrekt ist c)<br><br>Das Konfigurationsmanagement bewahrt die Integrität der Software. Wenn ein Test, der in Schritt 3 bestanden wurde, in Schritt 5 fehlschlägt, dann ist etwas zwischen diesen beiden Schritten anders. Ein möglicher Unterschied ist das Testobjekt, die hier aufgeführte Option. Ein weiterer möglicher Unterschied ist der zwischen der Entwicklungsumgebung und der Testumgebung, aber das ist keine hier aufgeführte Option.",
+      "b": "FALSCH<br><br>Derselbe Tester, der den Fehlernachtests in Schritt 3 erfolgreich durchgeführt hat, wiederholt ihn in Schritt 5.<br><br>Korrekt ist c)<br><br>Das Konfigurationsmanagement bewahrt die Integrität der Software. Wenn ein Test, der in Schritt 3 bestanden wurde, in Schritt 5 fehlschlägt, dann ist etwas zwischen diesen beiden Schritten anders. Ein möglicher Unterschied ist das Testobjekt, die hier aufgeführte Option. Ein weiterer möglicher Unterschied ist der zwischen der Entwicklungsumgebung und der Testumgebung, aber das ist keine hier aufgeführte Option.",
       "c": "KORREKT<br><br>Das Konfigurationsmanagement bewahrt die Integrität der Software. Wenn ein Test, der in Schritt 3 bestanden wurde, in Schritt 5 fehlschlägt, dann ist etwas zwischen diesen beiden Schritten anders. Ein möglicher Unterschied ist das Testobjekt, die hier aufgeführte Option. Ein weiterer möglicher Unterschied ist der zwischen der Entwicklungsumgebung und der Testumgebung, aber das ist keine hier aufgeführte Option.",
-      "d": "FALSCH<br><br>Wenn die Entwickler den Fehler nicht beheben würden, würde der Fehlernachtest in Schritt 3 nicht erfolgreich sein."
+      "d": "FALSCH<br><br>Wenn die Entwickler den Fehler nicht beheben würden, würde der Fehlernachtest in Schritt 3 nicht erfolgreich sein.<br><br>Korrekt ist c)<br><br>Das Konfigurationsmanagement bewahrt die Integrität der Software. Wenn ein Test, der in Schritt 3 bestanden wurde, in Schritt 5 fehlschlägt, dann ist etwas zwischen diesen beiden Schritten anders. Ein möglicher Unterschied ist das Testobjekt, die hier aufgeführte Option. Ein weiterer möglicher Unterschied ist der zwischen der Entwicklungsumgebung und der Testumgebung, aber das ist keine hier aufgeführte Option."
     }
   },
   {
@@ -696,10 +696,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Die beiden Methoden werden nacheinander verwendet, nicht gleichzeitig.",
+      "a": "FALSCH<br><br>Die beiden Methoden werden nacheinander verwendet, nicht gleichzeitig.<br><br>Korrekt ist b)<br><br>Die primären Informationsquellen stammen von den erfahrenen Testern, die die Experten sind. Die Branchendurchschnittswerte des Beraters ergänzen die ursprüngliche Schätzung aus veröffentlichten Metriken.",
       "b": "KORREKT<br><br>Die primären Informationsquellen stammen von den erfahrenen Testern, die die Experten sind. Die Branchendurchschnittswerte des Beraters ergänzen die ursprüngliche Schätzung aus veröffentlichten Metriken.",
-      "c": "FALSCH<br><br>Der expertenbasierte Ansatz ist der primäre Ansatz, der durch einen metrikbasierten Ansatz ergänzt wird.",
-      "d": "FALSCH<br><br>Wir wissen nicht, ob dieses Projekt agilen Methoden folgt, und Burndown Charts stammen nicht von externen Beratern."
+      "c": "FALSCH<br><br>Der expertenbasierte Ansatz ist der primäre Ansatz, der durch einen metrikbasierten Ansatz ergänzt wird.<br><br>Korrekt ist b)<br><br>Die primären Informationsquellen stammen von den erfahrenen Testern, die die Experten sind. Die Branchendurchschnittswerte des Beraters ergänzen die ursprüngliche Schätzung aus veröffentlichten Metriken.",
+      "d": "FALSCH<br><br>Wir wissen nicht, ob dieses Projekt agilen Methoden folgt und Burndown Charts stammen nicht von externen Beratern.<br><br>Korrekt ist b)<br><br>Die primären Informationsquellen stammen von den erfahrenen Testern, die die Experten sind. Die Branchendurchschnittswerte des Beraters ergänzen die ursprüngliche Schätzung aus veröffentlichten Metriken."
     }
   },
   {
@@ -713,9 +713,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br>Während das Erkennen verschiedener Arten von Fehlern ein Vorteil der Unabhängigkeit des Testens ist, gibt es in dem Szenario hier noch keinen Code, der fehlschlagen kann, und das Problem ist, dass der Entwickler und der Product Owner beide unterschiedliche Dinge über die Abnahmekriterien annehmen.",
-      "b": "FALSCH<br><br>Der Verlust des Verantwortungsbewusstseins der Entwickler für die Qualität ist ein Nachteil, kein Vorteil",
-      "c": "FALSCH<br><br>Während der Effekt der Entdeckung dieser Unstimmigkeit die frühere Beseitigung des Fehlerzustands ist, können Fehlerzustände vor der Codierung von verschiedenen Personen frühzeitig entdeckt werden, nicht nur von unabhängigen Testern.",
+      "a": "FALSCH<br><br>Während das Erkennen verschiedener Arten von Fehlern ein Vorteil der Unabhängigkeit des Testens ist, gibt es in dem Szenario hier noch keinen Code, der fehlschlagen kann, und das Problem ist, dass der Entwickler und der Product Owner beide unterschiedliche Dinge über die Abnahmekriterien annehmen.<br><br>Korrekt ist d)<br><br>Die Annahmen der Stakeholder in Frage zu stellen, ist ein Vorteil der Unabhängigkeit des Testers und hier gehen sowohl der Entwickler als auch der Product Owner von unterschiedlichen Annahmen bezüglich der Abnahmekriterien aus.",
+      "b": "FALSCH<br><br>Der Verlust des Verantwortungsbewusstseins der Entwickler für die Qualität ist ein Nachteil, kein Vorteil<br><br>Korrekt ist d)<br><br>Die Annahmen der Stakeholder in Frage zu stellen, ist ein Vorteil der Unabhängigkeit des Testers und hier gehen sowohl der Entwickler als auch der Product Owner von unterschiedlichen Annahmen bezüglich der Abnahmekriterien aus.",
+      "c": "FALSCH<br><br>Während der Effekt der Entdeckung dieser Unstimmigkeit die frühere Beseitigung des Fehlerzustands ist, können Fehlerzustände vor der Codierung von verschiedenen Personen frühzeitig entdeckt werden, nicht nur von unabhängigen Testern.<br><br>Korrekt ist d)<br><br>Die Annahmen der Stakeholder in Frage zu stellen, ist ein Vorteil der Unabhängigkeit des Testers und hier gehen sowohl der Entwickler als auch der Product Owner von unterschiedlichen Annahmen bezüglich der Abnahmekriterien aus.",
       "d": "KORREKT<br><br>Die Annahmen der Stakeholder in Frage zu stellen, ist ein Vorteil der Unabhängigkeit des Testers, und hier gehen sowohl der Entwickler als auch der Product Owner von unterschiedlichen Annahmen bezüglich der Abnahmekriterien aus."
     }
   },
@@ -730,10 +730,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Während der Umfang ein Thema ist, das in einem Testkonzept angesprochen wird, ist die Implementierung einer risikobasierten Teststrategie in diesem Projekt die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt angesprochen werden.",
+      "a": "FALSCH<br><br>Während der Umfang ein Thema ist, das in einem Testkonzept angesprochen wird, ist die Implementierung einer risikobasierten Teststrategie in diesem Projekt die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt angesprochen werden.<br><br>Daher ist b) korrekt",
       "b": "KORREKT<br><br>Die Testvorgehensweise ist ein Thema, das in einem Testkonzept angesprochen wird, und die Implementierung einer risikobasierten Teststrategie in diesem Projekt ist die allgemeine Testvorgehensweise.",
-      "c": "FALSCH<br><br>Während Metriken für die Testüberwachung und -steuerung ein Thema sind, das in einem Testkonzept behandelt wird, ist die Implementierung einer risikobasierten Teststrategie in diesem Projekt die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt behandelt werden.",
-      "d": "FALSCH<br><br>Konfigurationsmanagement ist kein Thema, das in einem Testkonzept angesprochen wird."
+      "c": "FALSCH<br><br>Während Metriken für die Testüberwachung und -steuerung ein Thema sind, das in einem Testkonzept behandelt wird, ist die Implementierung einer risikobasierten Teststrategie in diesem Projekt die allgemeine Testvorgehensweise, daher sollte dieses Thema in diesem Abschnitt behandelt werden.<br><br>Daher ist b) korrekt",
+      "d": "FALSCH<br><br>Konfigurationsmanagement ist kein Thema, das in einem Testkonzept angesprochen wird.<br><br>Daher ist b) korrekt"
     }
   },
   {

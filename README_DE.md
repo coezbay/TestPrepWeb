@@ -41,6 +41,7 @@ Teste den aktuellen Stand einfach über diesen [Link](https://coezbay.github.io/
 - **Einsicht anderer Antwortmöglichkeiten**: Nachdem beispielsweise bei den ISTQB® Prüfungen, Inhalte aus dem Glossar
   und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
   Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
+- **Erweiterte Runde mit fehlerhaften Antworten** Die Möglichkeit, eine weitere Runde mit ausschließlich falsch beantworteten Fragen einzuleiten
 
 ### Noch zu erledigen
 
