@@ -764,9 +764,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br> Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie das Werkzeug durch den Piloten viel besser verstehen.",
-      "b": "FALSCH<br><br> Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie Ihre Testprozesse maßgeschneidert haben.",
-      "c": "FALSCH<br><br> Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie einen Ansatz zur Verwendung des Werkzeugs und der damit verbundenen Arbeitsprodukte standardisiert haben.",
+      "a": "FALSCH<br><br> Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie das Werkzeug durch den Piloten viel besser verstehen.<br><br>Korrekt ist d)<br><br>Die Bewertung der Vorteile sowie die Konfiguration der Erfassung von Metriken sind die beiden Ziele, die in dieser Liste fehlen.",
+      "b": "FALSCH<br><br> Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie Ihre Testprozesse maßgeschneidert haben.<br><br>Korrekt ist d)<br><br>Die Bewertung der Vorteile sowie die Konfiguration der Erfassung von Metriken sind die beiden Ziele, die in dieser Liste fehlen.",
+      "c": "FALSCH<br><br> Dies ist ein Ziel für einen Piloten, aber Sie haben es erreicht, weil Sie einen Ansatz zur Verwendung des Werkzeugs und der damit verbundenen Arbeitsprodukte standardisiert haben.<br><br>Korrekt ist d)<br><br>Die Bewertung der Vorteile sowie die Konfiguration der Erfassung von Metriken sind die beiden Ziele, die in dieser Liste fehlen.",
       "d": "KORREKT<br><br> Die Bewertung der Vorteile sowie die Konfiguration der Erfassung von Metriken sind die beiden Ziele, die in dieser Liste fehlen."
     }
   },
@@ -782,9 +782,9 @@
     "korrekteAntwort": "a",
     "feedback": {
       "a": "KORREKT<br><br> Testmanagementwerkzeuge unterstützen die mit dem Testmanager verbundenen Aktivitäten einschließlich Metriken.",
-      "b": "FALSCH<br><br> Metriken der statischen Code-Analyse würden sich nur auf den Code beziehen, nicht auf das Testen als Ganzes",
-      "c": "FALSCH<br><br> Diese Werkzeuge berichten nur über die Testbasis-Überdeckung und die Codeüberdeckung, nicht über das Testen als Ganzes.",
-      "d": "FALSCH<br><br> Testwerkzeuge für das modellbasierte Testen konzentrieren sich auf einen bestimmten Bereich, nicht auf das Testen als Ganzes."
+      "b": "FALSCH<br><br> Metriken der statischen Code-Analyse würden sich nur auf den Code beziehen, nicht auf das Testen als Ganzes<br><br>KORREKT ist a)<br><br> Testmanagementwerkzeuge unterstützen die mit dem Testmanager verbundenen Aktivitäten einschließlich Metriken.",
+      "c": "FALSCH<br><br> Diese Werkzeuge berichten nur über die Testbasis-Überdeckung und die Codeüberdeckung, nicht über das Testen als Ganzes.<br><br>KORREKT ist a)<br><br> Testmanagementwerkzeuge unterstützen die mit dem Testmanager verbundenen Aktivitäten einschließlich Metriken.",
+      "d": "FALSCH<br><br> Testwerkzeuge für das modellbasierte Testen konzentrieren sich auf einen bestimmten Bereich, nicht auf das Testen als Ganzes.<br><br>KORREKT ist a)<br><br> Testmanagementwerkzeuge unterstützen die mit dem Testmanager verbundenen Aktivitäten einschließlich Metriken."
     }
   },
   {
@@ -832,10 +832,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br>Dies ist ein Beispiel für einen vom Entwickler begangenen Fehler (Fehlhandlung).",
-      "b": "FALSCH<br><br>Dies ist ein Beispiel für einen Fehlerzustand (etwas, das im Code falsch ist und einen Fehler verursachen kann).",
+      "a": "FALSCH<br><br>Dies ist ein Beispiel für einen vom Entwickler begangenen Fehler (Fehlhandlung).<br><br>Korrekt ist Antwort c)<br><br>Dies ist eine Abweichung von der erwarteten Funktionalität - ein Tempomat sollte nicht von der Lautstärkeeinstellung des Radios betroffen sein.",
+      "b": "FALSCH<br><br>Dies ist ein Beispiel für einen Fehlerzustand (etwas, das im Code falsch ist und einen Fehler verursachen kann).<br><br>Korrekt ist Antwort c)<br><br>Dies ist eine Abweichung von der erwarteten Funktionalität - ein Tempomat sollte nicht von der Lautstärkeeinstellung des Radios betroffen sein.",
       "c": "KORREKT<br><br>Dies ist eine Abweichung von der erwarteten Funktionalität - ein Tempomat sollte nicht von der Lautstärkeeinstellung des Radios betroffen sein.",
-      "d": "FALSCH<br><br>Dies ist ein Beispiel für einen Defekt (Fehlerzustand in einer Spezifikation, die eine Fehlerwirkung verursachen kann, wenn gegen die Spezifikation anschließend implementiert wird)."
+      "d": "FALSCH<br><br>Dies ist ein Beispiel für einen Defekt (Fehlerzustand in einer Spezifikation, die eine Fehlerwirkung verursachen kann, wenn gegen die Spezifikation anschließend implementiert wird).<br><br>Korrekt ist Antwort c)<br><br>Dies ist eine Abweichung von der erwarteten Funktionalität - ein Tempomat sollte nicht von der Lautstärkeeinstellung des Radios betroffen sein."
     }
   },
   {
@@ -849,10 +849,10 @@
     },
     "korrekteAntwort": "c",
     "feedback": {
-      "a": "FALSCH<br><br>Die mangelnde Vertrautheit des Anforderungsmanagers mit der Fitnessdomäne ist eine Grundursache für einen Fehlerzustand.",
-      "b": "FALSCH<br><br>Die fehlende Schulung des Testers im zustandsbasierten Testen war eine Grundursache für den Fehler.",
+      "a": "FALSCH<br><br>Die mangelnde Vertrautheit des Anforderungsmanagers mit der Fitnessdomäne ist eine Grundursache für einen Fehlerzustand.<br><br>Korrekt ist Antwort c)<br><br>Die fehlerhaft implementierte Konfigurationsvariable stellt einen Fehlerzustand in der Software des Fitness-Trackers dar, der zu Standortproblemen führen kann. Die Grundursache ist „Eine vom Entwickler für die GPS-Funktion fehlerhaft implementierte Konfigurationsvariable. (V.3.0)",
+      "b": "FALSCH<br><br>Die fehlende Schulung des Testers im zustandsbasierten Testen war eine Grundursache für den Fehler.<br><br>Korrekt ist Antwort c)<br><br>Die fehlerhaft implementierte Konfigurationsvariable stellt einen Fehlerzustand in der Software des Fitness-Trackers dar, der zu Standortproblemen führen kann. Die Grundursache ist „Eine vom Entwickler für die GPS-Funktion fehlerhaft implementierte Konfigurationsvariable. (V.3.0)",
       "c": "KORREKT<br><br>Die fehlerhaft implementierte Konfigurationsvariable stellt einen Fehlerzustand in der Software des Fitness-Trackers dar, der zu Standortproblemen führen kann. Die Grundursache ist „Eine vom Entwickler für die GPS-Funktion fehlerhaft implementierte Konfigurationsvariable. (V.3.0)",
-      "d": "FALSCH<br><br>Die mangelnde Erfahrung bei der Gestaltung von Benutzeroberflächen für tragbare Geräte ist eine Grundursache für einen Fehlerzustand."
+      "d": "FALSCH<br><br>Die mangelnde Erfahrung bei der Gestaltung von Benutzeroberflächen für tragbare Geräte ist eine Grundursache für einen Fehlerzustand.<br><br>Korrekt ist Antwort c)<br><br>Die fehlerhaft implementierte Konfigurationsvariable stellt einen Fehlerzustand in der Software des Fitness-Trackers dar, der zu Standortproblemen führen kann. Die Grundursache ist „Eine vom Entwickler für die GPS-Funktion fehlerhaft implementierte Konfigurationsvariable. (V.3.0)"
     }
   },
   {
@@ -866,9 +866,9 @@
     },
     "korrekteAntwort": "d",
     "feedback": {
-      "a": "FALSCH<br><br>„Vorsicht vor dem Pestizid-Paradoxon“ befasst sich mit dem erneuten Ausführen der gleichen Tests und der Verringerung ihrer Wirksamkeit bei der Fehlersuche.",
-      "b": "FALSCH<br><br>– Dieses Prinzip des Testens befasst sich mit der Durchführung von Tests, die je nach Kontext unterschiedlich sind (z. B. Spiele vs. sicherheitskritisch).",
-      "c": "FALSCH<br><br>Dieses Prinzip des Testens betrifft den Unterschied zwischen einem getesteten und einem festen System und einem validierten System. Keine \"Fehler\" bedeutet nicht, dass das System einsatzbereit ist.",
+      "a": "FALSCH<br><br>„Vorsicht vor dem Pestizid-Paradoxon“ befasst sich mit dem erneuten Ausführen der gleichen Tests und der Verringerung ihrer Wirksamkeit bei der Fehlersuche.<br><br>Korrekt ist Antwort d)<br><br>Wenn eine Häufung von Fehlerzuständen identifiziert werden (Bereiche des Systems, die mehr Fehler enthalten als der Durchschnitt), sollte der Testaufwand auf diese Bereiche ausgerichtet sein.",
+      "b": "FALSCH<br><br>– Dieses Prinzip des Testens befasst sich mit der Durchführung von Tests, die je nach Kontext unterschiedlich sind (z. B. Spiele vs. sicherheitskritisch).<br><br>Korrekt ist Antwort d)<br><br>Wenn eine Häufung von Fehlerzuständen identifiziert werden (Bereiche des Systems, die mehr Fehler enthalten als der Durchschnitt), sollte der Testaufwand auf diese Bereiche ausgerichtet sein.",
+      "c": "FALSCH<br><br>Dieses Prinzip des Testens betrifft den Unterschied zwischen einem getesteten und einem festen System und einem validierten System. Keine \"Fehler\" bedeutet nicht, dass das System einsatzbereit ist.<br><br>Korrekt ist Antwort d)<br><br>Wenn eine Häufung von Fehlerzuständen identifiziert werden (Bereiche des Systems, die mehr Fehler enthalten als der Durchschnitt), sollte der Testaufwand auf diese Bereiche ausgerichtet sein.",
       "d": "KORREKT<br><br>Wenn eine Häufung von Fehlerzuständen identifiziert werden (Bereiche des Systems, die mehr Fehler enthalten als der Durchschnitt), sollte der Testaufwand auf diese Bereiche ausgerichtet sein."
     }
   },
@@ -900,10 +900,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br> Die Verfolgbarkeit ermöglicht die Verknüpfung vorhandener Testfälle mit aktualisierten und gelöschten Anforderungen (obwohl keine neuen Anforderungen unterstützt werden), sie hilft jedoch nicht bei der Automatisierung von Wartungstests.",
+      "a": "FALSCH<br><br> Die Verfolgbarkeit ermöglicht die Verknüpfung vorhandener Testfälle mit aktualisierten und gelöschten Anforderungen (obwohl keine neuen Anforderungen unterstützt werden), sie hilft jedoch nicht bei der Automatisierung von Wartungstests.<br><br>Deshalb ist Antwort b) korrekt",
       "b": "KORREKT<br><br> Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Wenn alle Testfälle mit Anforderungen verknüpft sind, kann bei jeder Hinzufügung eines neuen Testfalls (mit Verfolgbarkeit) festgestellt werden, ob zuvor nicht abgedeckte Anforderungen durch den neuen Testfall abgedeckt werden.",
-      "c": "FALSCH<br><br> Die Verfolgbarkeit zwischen Testbasis und Testartefakten liefert keine Informationen darüber, welche Tester Fehler mit hohem Schweregrad festgestellt haben, und selbst wenn diese Informationen ermittelt werden könnten, wäre dies von begrenztem Wert.",
-      "d": "FALSCH<br><br> – Bereiche die durch eine Änderung DIREKT betroffen sind, können durch die Verfolgbarkeit identifiziert werden. Seiteneffekte betreffen jedoch die Bereiche welche NICHT DIREKT betroffen und damit NICHT VERFOLGBAR sind."
+      "c": "FALSCH<br><br> Die Verfolgbarkeit zwischen Testbasis und Testartefakten liefert keine Informationen darüber, welche Tester Fehler mit hohem Schweregrad festgestellt haben, und selbst wenn diese Informationen ermittelt werden könnten, wäre dies von begrenztem Wert.<br><br>Deshalb ist Antwort b) korrekt",
+      "d": "FALSCH<br><br> – Bereiche die durch eine Änderung DIREKT betroffen sind, können durch die Verfolgbarkeit identifiziert werden. Seiteneffekte betreffen jedoch die Bereiche welche NICHT DIREKT betroffen und damit NICHT VERFOLGBAR sind.<br><br>Deshalb ist Antwort b) korrekt"
     }
   },
   {
@@ -917,20 +917,20 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br> Sowohl Entwickler als auch Tester profitieren von Erfahrung.",
+      "a": "FALSCH<br><br> Sowohl Entwickler als auch Tester profitieren von Erfahrung.<br><br>Antwort b) ist korrekt",
       "b": "KORREKT<br><br> Begründung: (CTFL CORE Syllabus 2018, V.3.1; Glossar V.3.3)<br><br>Entwickler sind häufig stärker am Entwurf und an der Erstellung von Lösungen interessiert als daran, darüber nachzudenken, was an diesen Lösungen falsch sein könnte (Siehe CTFL CORE Lehrplan 2018, Abschnitt 1.5.2).<br><br>1.5.2 Denkweisen von Testern und Entwicklern<br><br>Entwickler und Tester denken oft unterschiedlich. Das Hauptziel der Entwicklung ist es, ein Produkt zu entwerfen und zu erstellen. Wie schon zuvor erwähnt, beinhalten die Ziele des Testens die Verifizierung und Validierung des Produkts, das Finden von Fehlerzuständen vor Inbetriebnahme usw. Dies sind unterschiedliche Sets an Zielen, die unterschiedliche Denkweisen erfordern. Diese Denkweisen zusammenzuführen hilft dabei, ein höheres Maß an Produktqualität zu erreichen.<br><br>Eine Denkweise spiegelt die Annahmen und bevorzugten Methoden eines Menschen für die Entscheidungsfindung und Problemlösung wider. Die Denkweise eines Testers sollte Neugier, professionellen Pessimismus, einen kritischen Blick, Detailgenauigkeit und die Motivation zu guter und positiver Kommunikation und Beziehungen beinhalten. Die Denkweise eines Testers wächst und reift mit steigender Erfahrung.<br><br>Die Denkweise eines Entwicklers kann einige der Elemente der Denkweise eines Testers enthalten, aber erfolgreiche Entwickler sind häufig stärker am Entwurf und an der Erstellung von Lösungen interessiert als daran, darüber nachzudenken, was an diesen Lösungen falsch sein könnte. Darüber hinaus erschwert ihnen das Phänomen Bestätigungsfehler, sich der von ihnen selbst begangenen Fehlhandlungen bewusst zu werden.<br><br>Mit der richtigen Denkweise können Entwickler ihren eigenen Code testen. Unterschiedliche Softwareentwicklungslebenszyklus-Modelle weisen oft verschiedene Möglichkeiten auf, wie die Tester und Testaktivitäten organisiert werden. Die Durchführung einiger der Testaktivitäten von unabhängigen Testern erhöht die Effektivität der Fehlerfindung, was insbesondere bei großen, komplexen oder sicherheitskritischen Systemen von hoher Bedeutung ist. Unabhängige Tester bringen eine Sichtweise ein, die sich von denen der Autoren der Arbeitsergebnisse (d.h. Business-Analysten, Product Owner, Designer und Entwickler) unterscheidet, da sie andere kognitive Voreingenommenheiten als die Autoren haben.",
-      "c": "FALSCH<br><br> Sowohl Entwickler als auch Tester sollten gute Kommunikationsfähigkeiten haben.",
-      "d": "FALSCH<br><br> Sowohl Entwickler als auch Tester müssen auf Details achten."
+      "c": "FALSCH<br><br> Sowohl Entwickler als auch Tester sollten gute Kommunikationsfähigkeiten haben.<br><br>Antwort b) ist korrekt",
+      "d": "FALSCH<br><br> Sowohl Entwickler als auch Tester müssen auf Details achten.<br><br>Antwort b) ist korrekt"
     }
   },
   {
     "frage": "Betrachten Sie die folgenden Aussagen über die Beziehungen zwischen Softwareentwicklungsaktivitäten und Testaktivitäten im Softwareentwicklungslebenszyklus:<br><ol><li>Für jede Entwicklungsaktivität sollte es eine zugehörige Testaktivität geben.</li><li>Reviewaktivitäten sollten starten, sobald die finale Version der Dokumente verfügbar ist.</li><li>Testentwurf und Implementierung der Tests sollten während der entsprechenden Entwicklungsaktivitäten starten.</li><li>Testaktivitäten sollten schon in frühen Phasen des Softwareentwicklungslebenszyklus beginnen.</li></ol><br>Welche der folgenden Optionen zeigt KORREKT, welche dieser Aussagen wahr und welche falsch sind?<br><br>Wählen Sie genau EINE Option aus!",
     "inhalte": [],
     "antworten": {
-      "a": "Wahr – 1, 2; FALSCH<br><br>3, 4",
-      "b": "Wahr – 2, 3; FALSCH<br><br>1, 4",
-      "c": "Wahr – 1, 2, 4; FALSCH<br><br>3",
-      "d": "Wahr – 1, 4; FALSCH<br><br>2, 3"
+      "a": "Wahr – 1, 2;<br><br>FALSCH 3, 4",
+      "b": "Wahr – 2, 3;<br><br>FALSCH 1, 4",
+      "c": "Wahr – 1, 2, 4;<br><br>FALSCH 3",
+      "d": "Wahr – 1, 4;<br><br>FALSCH 2, 3"
     },
     "korrekteAntwort": "d",
     "feedback": {
@@ -1104,10 +1104,10 @@
     },
     "korrekteAntwort": "b",
     "feedback": {
-      "a": "FALSCH<br><br>Exploratives Testen wird meistens bei kurzfristigen Zeitvorgaben durchgeführt, daher sind intensive Untersuchungen des Hintergrunds des Testobjekts eher ungewöhnlich.",
+      "a": "FALSCH<br><br>Exploratives Testen wird meistens bei kurzfristigen Zeitvorgaben durchgeführt, daher sind intensive Untersuchungen des Hintergrunds des Testobjekts eher ungewöhnlich.<br><br>Antwort b) ist korrekt",
       "b": "KORREKT<br><br>Ein Testansatz, bei dem die Tests dynamisch entworfen und ausgeführt werden, basierend auf Wissen, der Erkundung des Testelements und den Ergebnissen früherer Tests.<br><br>(Definition Glossar V.3.3)<br><br>Ein Testansatz, bei dem die Tester auf der Grundlage ihres Wissens, der Erkundung des Testobjekts und der Ergebnisse früherer Tests dynamisch Tests entwerfen und durchführen.",
-      "c": "FALSCH<br><br>Basiert auf der Definition des Glossars für sitzungsbasiertes Testen, jedoch wurde Testdurchführung durch Testanalyse ersetzt.",
-      "d": "FALSCH<br><br>Basiert auf der Definition des Glossars für erfahrungsbasiertes Testen."
+      "c": "FALSCH<br><br>Basiert auf der Definition des Glossars für sitzungsbasiertes Testen, jedoch wurde Testdurchführung durch Testanalyse ersetzt.<br><br>Antwort b) ist korrekt",
+      "d": "FALSCH<br><br>Basiert auf der Definition des Glossars für erfahrungsbasiertes Testen.<br><br>Antwort b) ist korrekt"
     }
   },
   {
