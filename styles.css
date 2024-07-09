@@ -343,4 +343,41 @@ input:checked + .slider:before {
         margin: 20px auto;
         transform: scale(2);
     }
+
+    .start-container {
+        text-align: center;
+        margin: 50px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .start-container h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .start-container label,
+    .start-container select,
+    .start-container p,
+    .start-container input {
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .start-container button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .start-container button:hover {
+        background-color: #0056b3;
+    }
 }

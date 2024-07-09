@@ -35,20 +35,23 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
   dieser Übersicht anzuklicken, um die Aufgabenstellung zu jedem Zeitpunkt direkt zu betrachten.
 - **Bilder für Aufgabenstellung**: Es soll möglich sein, Bilder für die Aufgabenstellung zu verwenden.
 - **Indikator für aktive Aufgabe**: Aktive/Angezeigte Aufgabe in der Map markieren.
-- **Dark Mode einbauen**: Dark Mode für die Schonung der Augen.
+- **Startbildschirm spezifische JSON**: Auswahlmöglichkeit verschiedener bzw. spezifischer .json Dateien aus dem
+  WebSpace
+  und vom lokalen Speicher.
+- **Anleitung jsonschema.json**: Anleitung zur Nutzung der jsonschema.json schreiben. Für IDE's und IDE-unabhängig
+- **Einsicht anderer Antwortmöglichkeiten**: Nachdem beispielsweise bei den ISTQB® Prüfungen, Inhalte aus dem Glossar
+  und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
+  Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
 
 ### Noch zu erledigen
 
+- **Dark Mode einbauen**: Dark Mode-Einbau für die Schonung der Augen noch nicht vollständig funktionsfähig.
 - **Anpassung der Button-Positionen**: Sicherstellen, dass die "Zurück" und "Nächste Frage" Buttons unabhängig von der
   Textlänge der Frage oder den Antwortmöglichkeiten statisch bleiben.
 - **Tests schreiben**: Gründlich testen und sicherstellen, dass TestPrepWeb über verschiedene Browser und Endgeräte
   hinweg konsistent funktioniert.
 - **Trennung der Probeprüfungen nach Realisierungszeitraum**: Probeprüfungen nach Realisierungszeitraum trennen und ein
   Auswahlmenü beim Start der Anwendung implementieren.
-- **Anleitung jsonschema.json**: Anleitung zur Nutzung der jsonschema.json schreiben. Für IDE's und IDE-unabhängig
-- **Einsicht anderer Antwortmöglichkeiten**: Nachdem beispielsweise bei den ISTQB® Prüfungen, Inhalte aus dem Glossar
-  und dem Lehrplan eingepflegt wurden, können auch die fehlerhaften Antwortmöglichkeiten einen Mehrwert für die
-  Lernenden bieten. Diese Möglichkeit sollte auch bei anderen Tests in Betracht gezogen werden.
 
 ## Geplante Features
 
@@ -56,13 +59,20 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
 - **Sprachen**: Anwendung multilingual zur Verfügung stellen
 - **Individualisierbare Themes**: Selbsterklärend
 - **Import-Möglichkeiten**: Frage und Antworten (Im Best-Case - Schema unabhängig)
-- **Benutzerdefinierte Quiz-Module**: Benutzern ermöglichen ihre eigenen Quiz-Module basierend auf spezifischen Themen oder Schwierigkeitsgraden zusammenzustellen.
-- **Speichern und Fortfahren**: Funktion, mit der Benutzer ihren Fortschritt speichern und zu einem späteren Zeitpunkt wieder aufnehmen können.
-- **Detaillierte Statistiken**: Detaillierte Statistiken über die Leistung des Benutzers, einschließlich Bereichen, in denen sie gut abschneiden, und Bereichen, die Verbesserung erfordern.
-- **Anpassbare Berichte**: Benutzern, die Erstellung von anpassbaren Berichten über ihre Leistung und Fortschritte zu erstellen und zu exportieren.
+- **Benutzerdefinierte Quiz-Module**: Benutzern ermöglichen ihre eigenen Quiz-Module basierend auf spezifischen Themen
+  oder Schwierigkeitsgraden zusammenzustellen.
+- **Speichern und Fortfahren**: Funktion, mit der Benutzer ihren Fortschritt speichern und zu einem späteren Zeitpunkt
+  wieder aufnehmen können.
+- **Detaillierte Statistiken**: Detaillierte Statistiken über die Leistung des Benutzers, einschließlich Bereichen, in
+  denen sie gut abschneiden, und Bereichen, die Verbesserung erfordern.
+- **Anpassbare Berichte**: Benutzern, die Erstellung von anpassbaren Berichten über ihre Leistung und Fortschritte zu
+  erstellen und zu exportieren.
+- **Einstellungen für das Quiz**: Einstellungen wie Zeitlimit oder andere Einstellungen (Evtl. direkt im Sartbildschirm)
 
 ## Zugänglichkeit und Inklusion
-- **Barrierefreiheitsoptionen**: Sicher stellen, dass die Anwendung für Benutzer mit verschiedenen Behinderungen zugänglich ist, z.B. durch Sprachausgabe oder leicht verständliche Bedienelemente.
+
+- **Barrierefreiheitsoptionen**: Sicher stellen, dass die Anwendung für Benutzer mit verschiedenen Behinderungen
+  zugänglich ist, z.B. durch Sprachausgabe oder leicht verständliche Bedienelemente.
 
 ## Kontinuierliche Entwicklung
 

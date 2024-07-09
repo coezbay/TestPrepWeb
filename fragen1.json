@@ -1,0 +1,715 @@
+[
+  {
+    "frage": "Welche der folgenden Aussagen liefert das BESTE Beispiel für den 'KI-Effekt'?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Menschen verlieren ihren Arbeitsplatz, weil KI-basierte Systeme ihre Aufgaben billiger und besser erledigen",
+      "b": "Wettbewerbliche Computerspiele verlieren an Popularität, da KI-basierte Systeme immer gewinnen",
+      "c": "Regelbasierte Expertensysteme für die medizinische Diagnose werden nicht mehr als KI angesehen",
+      "d": "Die Menschen glauben, dass die KI die Welt übernehmen wird, wie in Filmen gezeigt"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Menschen in vielen Berufen könnten ihren Arbeitsplatz durch KI-basierte Systeme verlieren, aber das ist einfach ein Fortschritt und nicht der 'KI-Effekt'. Vergleiche Definition von KI-Effekt in CT-AI Lehrplan, Kapitel 1.1, Absatz 3.",
+      "b": "FALSCH – Bei dem KI-Effekt geht es nicht um den Vergleich zwischen KI-basierten System und dem Wettbewerb, sondern um die Wahrnehmung dessen, was KI ausmacht. Vergleiche Definition von KI-Effekt in CT-AI Lehrplan, Kapitel 1.1, Absatz 3.",
+      "c": "KORREKT – Der 'KI-Effekt' ist definiert als die Veränderung der Definition von KI im Zuge des technologischen Fortschritts. Regelbasierte Systeme für die medizinische Diagnose waren in den 1970er und 1980er Jahren beliebte Beispiele für KI, werden aber heute oft nicht als KI angesehen. Vergleiche CT-AI Lehrplan, Kapitel 1.1, Absatz 2, zweite Hälfte.",
+      "d": "FALSCH – Die Leichtgläubigkeit von Kinobesuchern, die glauben, dass Killerroboter die Welt erobern werden, ist nicht der 'KI-Effekt'. Vergleiche CT-AI Lehrplan, Kapitel 1.1, Absatz 2 zu Wettbewerb im Schach."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen ist KEINE Technologie, die zur Implementierung von KI verwendet wird?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Stützvektormaschinen",
+      "b": "Entscheidungsbäume",
+      "c": "TensorFlow",
+      "d": "Bayessche Modelle"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Stützvektormaschinen sind eine Form des maschinellen Lernens. Siehe CT-AI Lehrplan, Kapitel 1.4.",
+      "b": "FALSCH – Entscheidungsbäume sind eine Form des maschinellen Lernens. Siehe CT-AI Lehrplan, Kapitel 1.4.",
+      "c": "KORREKT – TensorFlow ist keine KI-Technik, sondern ein konkretes KI-Entwicklungsframework. Siehe CT-AI Lehrplan, Kapitel 1.5, letzter Aufzählungspunkt.",
+      "d": "FALSCH – Die Bayesschen Modelle sind eine Form des maschinellen Lernens. Siehe CT-AI Lehrplan, Kapitel 1.4."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen über die Hardware, die zur Implementierung von KI-basierten Systemen verwendet wird, ist am wahrscheinlichsten RICHTIG?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Die Prozessoren, die zum Trainieren eines mobilen Empfehlungssystems verwendet werden, müssen mit den Prozessoren des Mobiltelefons identisch sein.",
+      "b": "Grafikprozessoren (GPUs) sind eine gute Wahl für die Implementierung eines KI-basierten Bildverarbeitungssystems",
+      "c": "Deep-Learning-Systeme müssen mit KI-spezifischen Chips trainiert, bewertet und getestet werden",
+      "d": "Es ist immer besser, Prozessoren mit mehr Bits zu wählen, um eine ausreichende Genauigkeit für KI-basierte Systeme zu erreichen."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Die beiden Tätigkeiten des Trainings eines ML-Modells und der Inferenz aus diesem Modell sind recht unterschiedlich, so dass es normalerweise keinen Grund gibt, sie auf denselben Prozessoren durchzuführen. Vergleiche CT-AI Lehrplan, Kapitel 1.6, Absatz 1.",
+      "b": "KORREKT – Grafikprozessoren sind für die parallele Verarbeitung von Bildern mit Tausenden von Kernen ausgelegt, was in etwa dem entspricht, was für ein KI-basiertes Computer-Vision-System erforderlich ist, das höchstwahrscheinlich als neuronales Netz implementiert würde. Vergleiche CT-AI Lehrplan, Kapitel 1.6, Absatz 3, Satz 2.",
+      "c": "FALSCH – Es ist nach wie vor möglich, ein einfaches Deep-Learning-System auf einem PC mit begrenzter GPU-Unterstützung zu trainieren, zu bewerten und zu testen - es sind also keine speziellen Chips für KI erforderlich, aber sie wären viel schneller. Vergleiche CT-AI Lehrplan, Kapitel 1.6, Absatz 1, Satz 1 und 2: Auch universelle CPUs sind möglich.",
+      "d": "FALSCH – Viele KI-basierte Systeme konzentrieren sich nicht auf exakte Berechnungen, sondern eher auf probabilistischen Bestimmungen, so dass die Genauigkeit von Prozessoren mit vielen Bits oft unnötig ist. Vergleiche CT-AI Lehrplan, Kapitel 1.6, Absatz 2, Aufzählungspunkt 1."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt ein realistisches Risiko für das Transferlernen eines neuen Modells auf Basis eines vortrainierten Modells?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Die mit der Aufgabe betrauten Datenwissenschaftler kennen die erforderliche Funktion des neuen Modells nicht.",
+      "b": "Durch das Transferlernen sinkt die Transparenz der wiederverwendeten Teile des vortrainierten Modells.",
+      "c": "Verzerrungen aus dem zum Training des vortrainierten Modells könnten unerkannt übernommen werden.",
+      "d": "Die Verwendung derselben Datenvorbereitungsschritte für beide Modelle kann in unterschiedlichen funktionalen Leistungen münden."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Die mit der Aufgabe betrauten Datenwissenschaftler kennen eher die Unterschiede nicht. Siehe CT AI-Lehrplan, Kapitel 1.8.3, Aufzählungspunkt 2. Die Funktion des neuen Modells sollten sie sehr wohl kennen. Das ist immerhin ihr Job. Insofern könnte das durchaus ein generelles Risiko sein. Es ist jedoch nicht spezifisch für Transferlernen.",
+      "b": "FALSCH – Es kann eher dem vortrainierten Modell an Transparenz mangeln und dieser Mangel kann übernommen werden. Das heißt, dass insgesamt die Transparenz des neuen Modells geringer sein kann als die Transparenz eines komplett neu entwickelten Modells. Siehe CT AI-Lehrplan, Kapitel 1.8.3, Aufzählungspunkte 1, 4 und 5. Auf die Transparenz der wiederverwendeten Teile selbst hat die Wiederverwendung jedoch keinen Einfluss.",
+      "c": "KORREKT – Unzulänglichkeiten wie z. B. Verzerrungen im vortrainierten Modell können unerkannt übernommen werden. Siehe CT AI-Lehrplan, Kapitel 1.8.3, Aufzählungspunkt 4.",
+      "d": "FALSCH – Die Verwendung unterschiedlicher Datenvorbereitungsschritte kann in unterschiedlichen funktionalen Leistungen münden. Siehe CT AI-Lehrplan, Kapitel 1.8.3, Aufzählungspunkt 3. Durch die Verwendung derselben Schritte könnten Unzulänglichkeiten mit übernommen werden. Das würde jedoch nicht in unterschiedlicher funktionaler Leistung münden."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist AM EHESTEN geeignet, eine Anforderung an die Autonomie eines KI-basierten Systems zu spezifizieren?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Das System muss einen sicheren Abstand zu anderen Fahrzeugen einhalten, bis der Fahrer die Bremse oder das Gaspedal betätigt.",
+      "b": "Das System soll durch Fernüberwachung des E-Mail-Verkehrs die bevorzugte Art der Beantwortung von E-Mails lernen.",
+      "c": "Das System vergleicht seine Vorhersagen zu den Hauspreisen mit den tatsächlichen Verkaufspreisen, um festzustellen, ob es neu trainiert werden muss.",
+      "d": "Es muss möglich sein, das Verhalten des Systems in weniger als einem Tag so zu ändern, dass es mit verschiedenen Arten von Benutzern funktioniert."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Diese Anforderung definiert die menschlichen Eingriffe, die das Ende des autonom arbeitenden Systems bestimmen. Vergleiche CT-AI Lehrplan, Kapitel 2.2, Absatz 3: „In diesem Lehrplan wird Autonomie als die Fähigkeit des Systems betrachtet, über längere Zeiträume unabhängig von menschlicher Aufsicht und Kontrolle zu arbeiten.“",
+      "b": "FALSCH – Diese Anforderung spezifiziert eine erforderliche Funktion, wie das System selbstlernend arbeiten soll. Hier wird kein Bezug dazu hergestellt, ob das System unabhängig vom Menschen arbeiten soll. Vergleiche CT-AI Lehrplan, Kapitel 2.2, Absatz 3.",
+      "c": "FALSCH – Diese Anforderung legt fest, wie das System mit der Konzeptabweichung umgeht, die in diesem Fall höchstwahrscheinlich durch Veränderungen auf dem Immobilienmarkt verursacht wird. Hier wird kein Bezug dazu hergestellt, ob das System unabhängig vom Menschen arbeiten soll. Vergleiche CT-AI Lehrplan, Kapitel 2.2, Absatz 3.",
+      "d": "FALSCH – Es handelt sich um eine Anforderung an die Anpassungsfähigkeit – die maximale Zeit, die für eine Änderung des Systems benötigt werden sollte. Hier wird kein Bezug dazu hergestellt, ob das System unabhängig vom Menschen arbeiten soll. Vergleiche CT-AI Lehrplan, Kapitel 2.2, Absatz 3."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen über Verzerrungen in KI-basierten Systemen ist NICHT richtig?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Voreingenommenheit kann dadurch verursacht werden, dass die Nutzer eines Buchempfehlungssystems Entscheidungen treffen, die das System absichtlich dazu veranlassen, schlechte Vorschläge zu machen.",
+      "b": "Das System zur Vorhersage des Sterbealters von Arbeitnehmern kann verzerrt werden, wenn die Trainingsdaten aus einem Datensatz von Patienten stammen, die alle im Ruhestand sind.",
+      "c": "Die Verwendung von Trainingsdaten, die von Personen stammen, die eine Kreditkarte besitzen und verwenden, kann zu Verzerrungen im Kreditwürdigkeitssystem führen.",
+      "d": "Das Navigationssystem kann durch die Verwendung eines Routenplanungsalgorithmus verzerrt werden, der zu komplex ist, um ihn typischen Nutzern zu erklären."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Voreingenommenheit kann dadurch verursacht werden, dass die Nutzer absichtlich die Selbstlernfähigkeit eines KI-basierten Systems vergiften. Siehe „Stichprobenverzerrung“ in CT-AI Lehrplan, Kapitel 2.4, Absatz 3, Stichpunkt 2.",
+      "b": "FALSCH – Eine Verzerrung kann entstehen, wenn die Trainingsdaten nicht korrekt mit den Personen übereinstimmen, auf die das System angewendet werden soll. Zum Beispiel sind Angestellte in der Regel jünger als Patienten im Ruhestand. Siehe „Stichprobenverzerrung“ in CT-AI Lehrplan, Kapitel 2.4, Absatz 3, Stichpunkt 2.",
+      "c": "FALSCH – Eine Verzerrung kann entstehen, wenn die Trainingsdaten nicht korrekt mit den Personen übereinstimmen, auf die das System angewendet werden soll. So werden beispielsweise die meisten Kreditkartennutzer bereits als kreditwürdig eingestuft, was ein typisches Beispiel für eine Verzerrung der Stichprobe ist. Siehe „Stichprobenverzerrung“ in CT-AI Lehrplan, Kapitel 2.4, Absatz 3, Stichpunkt 2.",
+      "d": "KORREKT – Wenn der Algorithmus nicht erklärt werden kann, dann fehlt es ihm an Erklärbarkeit, aber das bedeutet nicht, dass er voreingenommen oder unvoreingenommen ist bzw. dass Verzerrung vorliegt. Mit Erklärbarkeit kann das Vertrauen gestärkt werden, siehe CT-AI Lehrplan, Kapitel 2.8, zweite Aufzählung, Stichpunkt 3."
+    }
+  },
+  {
+    "frage": "Welcher der folgenden Fälle ist AM EHESTEN ein Beispiel für Reward-Hacking?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Das Programmierer-Assistententool optimiert den Code, um die Antwortzeiten zu verkürzen und gleichzeitig sicherzustellen, dass die funktionalen Anforderungen erfüllt werden.",
+      "b": "Ein Anästhesiegerät, das die Patienten während der Operation stabil halten soll, gibt zu viele Dosen ab und die Patienten wachen nicht so schnell auf wie erwartet.",
+      "c": "Die Drittentwicklungsorganisation bezahlte ihre KI-Programmierer auf der Grundlage der Anzahl der von ihnen geschriebenen Codezeilen.",
+      "d": "Eine Art von KI, die bei Computerspielen gegen Menschen eingesetzt wird und darauf ausgerichtet ist, die höchste Punktzahl zu erreichen."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Es scheint, dass das Instrument seine beiden Ziele erreicht und keine nachteiligen Auswirkungen hat, so dass es sich wahrscheinlich nicht um 'Belohnungs-Hacking' handelt. Belohnungs-Hacking resultiert in unerwarteten oder gar schädlichen Funktionen, siehe CT-AI Lehrplan, Kapitel 2.7, Satz 1.",
+      "b": "KORREKT – Dies könnte ein 'Belohnungs-Hacking' sein (siehe CT-AI Lehrplan, Kapitel 2.7, Satz 1), wenn das System ein Ziel zum Nachteil anderer erreicht, in diesem Fall die Notwendigkeit, dass die Patienten aufwachen.",
+      "c": "FALSCH – Belohnungs-Hacking ist keine Form der Bezahlung von KI-Entwicklern. Siehe CT-AI Lehrplan, Kapitel 2.7, Satz 1.",
+      "d": "FALSCH – Einige spielerische KI-basierte Systeme werden durch eine Belohnungsfunktion gesteuert, aber dies ist kein 'Belohnungs-Hacking', bei dem es um unerwartete oder schädliche Ergebnisse geht, siehe CT-AI Lehrplan, Kapitel 2.7, Satz 1."
+    }
+  },
+  {
+    "frage": "Welche der nachstehend aufgeführten Eigenschaften eines KI-basierten Systems dürfte Schwierigkeiten verursachen, wenn es in einem sicherheitsrelevanten Bereich angewendet werden soll?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Probabilistisch",
+      "b": "Erklärbar",
+      "c": "Interpretierbar",
+      "d": "Deterministisch"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Probabilistisch - ein eindeutiges Problem für sicherheitsrelevante Systeme, siehe CT-AI Lehrplan, Kapitel 2.9 (eigentlich 2.8, wenn 2.5 nicht fehlen würde), Aufzählungspunkt 3.",
+      "b": "FALSCH – Erklärbar - normalerweise für sicherheitsrelevante Systeme erforderlich und somit nicht problematisch, vergleiche CT-AI Lehrplan Kapitel 2.8, letzter Aufzählungspunkt 'Erklärbarkeit'.",
+      "c": "FALSCH – Interpretierbar - normalerweise für sicherheitsrelevante Systeme erforderlich und somit nicht problematisch, vergleiche CT-AI Lehrplan Kapitel 2.8, vorletzter Aufzählungspunkt 'Interpretierbarkeit'.",
+      "d": "FALSCH – Deterministisch - normalerweise für sicherheitsrelevante Systeme erforderlich, siehe auch CT-AI Lehrplan Kapitel 2.9, zweiter Aufzählungspunkt 'Nicht-Determinismus', der ein Problem beschreibt. Somit ist Determinismus kein Problem."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt Klassifikation und Regression im Kontext des überwachten Lernens AM BESTEN?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Bei der Regression wird geprüft, ob sich die Testergebnisse des ML-Modells nicht ändern, wenn die gleichen Testdaten ausgeführt werden.",
+      "b": "Unter Klassifikation versteht man die Einteilung von nicht gekennzeichneten Daten in wenige vordefinierte Klassen.",
+      "c": "Klassifikation ist die Kennzeichnung der Daten für das Training des ML-Modells.",
+      "d": "Regression ist die Vorhersage der Anzahl der Klassen, die vom ML-Modell ausgegeben werden."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Regression im Kontext des überwachten Lernens bedeutet im Allgemeinen, dass das ML-Modell ein numerisches Ergebnis ausgibt. Vergleiche Definition von Regression in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 2, Aufzählungspunkt 2 und Absatz 3.",
+      "b": "KORREKT – Bei der Klassifikation werden die Eingabedaten für ein ML-Modell in eine von mehreren vordefinierten Klassen eingestuft. Vergleiche Definition von Klassifikation in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 2, Aufzählungspunkt 1.",
+      "c": "FALSCH – Für das Training beim überwachten Lernen müssen die Daten gekennzeichnet werden, aber diese Tätigkeit wird nicht als Klassifikation bezeichnet. Klassifikation im Kontext des überwachten Lernens bedeutet im Allgemeinen, dass das ML-Modell eine Eingabe in eine von wenigen vordefinierten Klassen eingeordnet. Vergleiche Definition von Klassifikation in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 2, Aufzählungspunkt 1.",
+      "d": "FALSCH – Regression bedeutet, dass die Ausgabe des ML-Modells numerisch ist, aber die Ausgabe ist nicht eine Anzahl von Klassen. Ein Beispiel für die numerische Aussage ist Vorhersage des Alters einer Person auf der Grundlage von Eingabedaten. Vergleiche Definition von Regression in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 2, Aufzählungspunkt 2."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt AM BESTEN ein Beispiel für Verstärkungslernen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Die mobile Spiele-App aktualisiert ihr Feedback, die Reaktionszeit und die Anzahl der Benutzeroptionen, die sie anbietet, je nachdem, wie viel die Spieler ausgeben",
+      "b": "Die Sprachübersetzungs-App sucht im Internet nach Texten in mehreren Sprachen, um die Übersetzungsfunktion zu verbessern",
+      "c": "Das Qualitätskontrollsystem in der Fabrik verwendet Videokameras und Audioanalysen, um fehlerhafte Produkte zu identifizieren, die von einem Mitarbeiter der Qualitätskontrolle überwacht werden",
+      "d": "Das System zur Vorhersage von Softwarekomponententests verwendet eine Reihe von Qualitätsmaßstäben, um festzustellen, welche Komponenten wahrscheinlich die meisten Fehler enthalten werden"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Der ausgegebene Betrag kann als die Belohnungsfunktion für dieses System betrachtet werden, wobei das System sein Verhalten ändert, um den ausgegebenen Betrag zu erhöhen. Vergleiche Definition von bestärkendem Lernen in CT-AI Lehrplan, Kapitel 3.1.3, Absatz 1.",
+      "b": "FALSCH – Die App verwendet Text in einer Sprache, die als Ausgangssprache betrachtet werden kann, und eine 'korrekte' Übersetzung dieser Quelle. Text und Übersetzung bilden dabei Paare von Eingabedaten. Die App stützt sich also auf eine Form des überwachten Lernens, ohne dass eine Belohnungsfunktion erwähnt wird. Vergleiche Definition von überwachtem Lernen vs. Definition von bestärkendem Lernen in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 1 und Kapitel 3.1.3, Absatz 1.",
+      "c": "FALSCH – Das System verwendet den menschlichen Qualitätskontrolleur als eine Art 'Goldstandard' und stützt sich somit auf eine Form des überwachten Lernens. Vergleiche Definition von überwachtem Lernen vs. Definition von bestärkendem Lernen in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 1 und Kapitel 3.1.3, Absatz 1.",
+      "d": "FALSCH – Es gibt keinen Hinweis darauf, dass eine Belohnungsfunktion wie im bestärkenden Lernen verwendet wird. Stattdessen ist es sehr wahrscheinlich, dass das Vorhersagesystem seine Fehlerbestimmung auf frühere Erfahrungen stützt. Daher stützt es sich wahrscheinlich auch auf ein überwachtes Lernsystem. Vergleiche Definition von bestärkendem Lernen in CT-AI Lehrplan, Kapitel 3.1.3, Absatz 1."
+    }
+  },
+  {
+    "frage": "Sie wurden um Ihre Meinung zu dem ML-Ansatz gebeten, der für ein neues System verwendet werden soll, das Teil des Verkehrsmanagements für eine SMART City ist. Die Idee ist, dass das neue System die Ampeln in der Stadt steuert, um einen reibungslosen Verkehrsfluss durch und um die Stadt zu gewährleisten. Welcher der folgenden Ansätze wird Ihrer Meinung nach AM EHESTEN Erfolg haben?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Unüberwachtes Lernen, das auf der Identifizierung von Clustern in der Stadt basiert, in denen die Verkehrsdichte über dem Durchschnitt liegt",
+      "b": "Eine Regressionslösung mit überwachtem Lernen, die auf Tausenden von Fahrten basiert, die sowohl mit der Länge als auch der Dauer der Fahrt gekennzeichnet sind",
+      "c": "Verstärkungslernen, das auf einer Belohnungsfunktion basiert, die Lösungen bestraft, die zu einer höheren Verkehrsüberlastung führen",
+      "d": "Eine Klassifizierungslösung mit überwachtem Lernen, die darauf basiert, dass Fahrer und Fahrgäste ihre bevorzugten Routen für die Fahrt durch die Stadt angeben"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Das unüberwachte Lernsystem sollte in der Lage sein, überlastete Bereiche zu identifizieren, aber das allein löst das Problem nicht, das Erkennen der Überlastung allein nicht zu einer Optimierung des Verkehrsflusses beiträgt. Vergleiche Definition von unüberwachten Lernen in CT-AI Lehrplan, Kapitel 3.1.2, Absatz 1, und Leitlinien zur Auswahl einer Art von ML in CT-AI Lehrplan, Kapitel 3.3, Aufzählungspunkte 6-8.",
+      "b": "FALSCH – Es ist unwahrscheinlich, dass mit einer Regressionslösung das gewünschte Ergebnis erzielt wird, da die vorhergesagte Geschwindigkeit der einzelnen Fahrten keine Gesamtlösung für die stadtweite Überlastung bietet. Vergleiche Definition von Regression beim überwachten Lernen in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 2, Aufzählungspunkt 2, und Leitlinien zur Auswahl einer Art von ML in CT-AI Lehrplan, Kapitel 3.3, Aufzählungspunkt 5.",
+      "c": "KORREKT – Ein sich ständig verbesserndes System des verstärkenden Lernens mit einer Belohnungsfunktion, die auf einem niedrigeren Grad der Überlastung als Maß für den Erfolg basiert, ist für diese Art von System gültig. Zudem interagiert das System hier über die Ampelsteuerung mit der Umwelt. Vergleiche Definition von bestärkendem Lernen in CT-AI Lehrplan, Kapitel 3.1.3, Absatz 1, und Leitlinien zur Auswahl einer Art von ML in CT-AI Lehrplan, Kapitel 3.3, Aufzählungspunkt 9.",
+      "d": "FALSCH – Diese Lösung hängt davon ab, dass Freiwillige subjektive Meinungen abgeben, was höchstwahrscheinlich zu einer Lösung führen wird, die sich immer wieder ändert, wenn das System bevorzugte Routen annimmt, die dann überlastet werden. Vergleiche Definition von Klassifikation beim überwachten Lernen in CT-AI Lehrplan, Kapitel 3.1.1, Absatz 2, Aufzählungspunkt 1, und Leitlinien zur Auswahl einer Art von ML in CT-AI Lehrplan, Kapitel 3.3, Aufzählungspunkt 4."
+    }
+  },
+  {
+    "frage": "Beim Testen eines trainierten Modells stellte ein ML-Ingenieur fest, dass das Modell bei der Evaluierung mit Validierungsdaten sehr genau war, bei unabhängigen Testdaten jedoch schlecht abschnitt. Welche der folgenden Optionen verursachte AM EHESTEN diese Situation?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Unteranpassung",
+      "b": "Konzeptdrift",
+      "c": "Überanpassung",
+      "d": "Schlechte Akzeptanzkriterien"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Das Modell schneidet bei den Validierungsdaten gut ab, es handelt sich also nicht um eine Unteranpassung. Vergleiche Definition von Unteranpassung in CT-AI Lehrplan, Kapitel 3.5.2.",
+      "b": "FALSCH – Der Konzeptdrift bezieht sich auf Änderungen nach der Phase Modelltraining und -validierung. Vergleiche Erläuterungen zu Konzeptdrift in CT-AI Lehrplan, Kapitel 7.6, Absatz 1.",
+      "c": "KORREKT – Die schlechte Leistung bei den unabhängigen Testdaten und die gute Leistung bei den Validierungsdaten lässt auf eine Überanpassung schließen. Vergleiche Definition von Überanpassung in CT-AI Lehrplan, Kapitel 3.5.1.",
+      "d": "FALSCH – Schlechte Akzeptanzkriterien sollten mit verschiedenen Datensätzen konsistent sein, so dass es unwahrscheinlich ist, dass sie zu einem Unterschied zwischen den Testergebnissen mit Validierungsdaten und unabhängigen Testdaten führen. Dies ergibt sich aus der geforderten Gleichwertigkeit von Trainings-, Validierungs- und Testdatensätzen. Vergleiche Erläuterungen zu Datensätzen im ML-Workflow in CT-AI Lehrplan, Kapitel 4.2, Absatz 1."
+    }
+  },
+  {
+    "frage": "Welches der folgenden Beispiele ist eine Herausforderung, die bei der Entwicklung und dem Testen einer ML-Lösung auftreten kann?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Für die Anonymisierung von Daten sind in der Regel Kenntnisse verschiedener ML-Algorithmen erforderlich",
+      "b": "Bei den verwendeten Daten kann es sich um unstrukturierte Daten handeln",
+      "c": "Ein großer Prozentsatz des Budgets wird allein für die Datenaufbereitung ausgegeben",
+      "d": "Die Skalierbarkeit der Datenpipeline ist eine Herausforderung beim Training des Modells"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Für die Anonymisierung von Daten sind keine Kenntnisse über ML-Algorithmen erforderlich. Es handelt sich um eine Herausforderung bei der Beschaffung von Testdaten. Vergleiche Testdaten zum Testen KI-basierter Systeme in CT-AI Lehrplan, Kapitel 7.3, Aufzählungspunkt 3.",
+      "b": "FALSCH – Unstrukturierte Daten stellen keine Herausforderung dar. Bilder, Audio, frei fließender Text sind alles Beispiele für unstrukturierte Daten. Auch durch die Datenvorverarbeitung, z. B. durch Bereinigung, Umwandlung oder Anreicherung im Rahmen der Datenvorbereitung, wird die grundsätzliche Eigenschaft, dass es sich um unstrukturierte Daten handelt, nicht geändert. Vergleiche Datenvorbereitung als Teil des ML-Workflows in CT-AI Lehrplan, Kapitel 4.1, Abschnitt Vorverarbeitung der Daten.",
+      "c": "KORREKT – Bis zu 43 % des Aufwands für ML-Workflows können auf die Datenvorbereitung entfallen. Vergleiche Datenvorbereitung als Teil des ML-Workflows in CT-AI Lehrplan, Kapitel 4.1, Absatz 1, und Herausforderungen bei der Datenvorbereitung in CT-AI Lehrplan, Kapitel 4.1.1, Aufzählungspunkt 4.",
+      "d": "FALSCH – Skalierbarkeit ist in der Regel eine Anforderung bei der Bereitstellung der Produktionsdatenpipeline und nicht beim Training. Vergleiche Herausforderungen bei der Datenvorbereitung in CT-AI Lehrplan, Kapitel 4.1.1, Aufzählungspunkt 3, und Unterschiede zwischen den Datenpipelines für das Training und den Betrieb in CT-AI Lehrplan, Kapitel 7.2.1, Absatz 2."
+    }
+  },
+  {
+    "frage": "Für das Training werden unzureichende Daten verwendet. Welche der folgenden Optionen weist AM EHESTEN auf dieses Problem mit der Datenqualität hin?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Es ist besonders aufwendig, das Modell mit den vorhandenen Daten zu trainieren. Wird dagegen ein Teil des Datensatzes für das Training nicht verwendet, führt das Training schneller zu positiven Ergebnissen.",
+      "b": "Das Modell arbeitet korrekt, bevorzugt aber bestimmte Konstellationen bei der Vorhersage übermäßig.",
+      "c": "Für das Training des Modells werden reale Kundendaten verwendet, obwohl die Einwilligung der Kunden nicht vorliegt.",
+      "d": "Das Modell kann nicht mit einem bestimmten Algorithmus trainiert werden, obwohl andere Algorithmen mit denselben Trainingsdaten funktionieren."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Da das Training des Modells besonders aufwendig und damit ressourcenintensiv ist, weist dies auf irrelevante Daten im Datensatz hin. Werden die irrelevanten Daten dagegen beim Training nicht genutzt, ist das Training schneller beendet. Vergleiche Erläuterung zu irrelevanten Daten in CT-AI Lehrplan, Kapitel 4.3, Tabelle 1, Zeile 11.",
+      "b": "FALSCH – Es handelt sich um ein verzerrtes Modell, das durch unvollständige, unausgewogene, unfaire, wenig vielfältige oder doppelte Daten verursacht werden kann. Vergleiche Erläuterung zum verzerrten Modell in CT-AI Lehrplan, Kapitel 4.4, Absatz 2, Aufzählungspunkt 2.",
+      "c": "FALSCH – Hier wurden Fragen des Datenschutzes nicht beachtet. Vergleiche Erläuterung zu Fragen des Datenschutzes in CT-AI Lehrplan, Kapitel 4.3, Tabelle 1, Zeile 12.",
+      "d": "KORREKT – Dass Modelle, die auf einigen Lernalgorithmen basieren, mit den Daten trainiert werden können, es jedoch bei einem bestimmten Algorithmus nicht funktioniert, liegt höchstwahrscheinlich daran, dass die Datenmenge für diesen bestimmten Algorithmus nicht ausreicht. Die erforderliche Mindestdatenmenge für verschiedene Algorithmen kann unterschiedlich sein. Vergleiche Erläuterung zu unzureichenden Daten in CT-AI Lehrplan, Kapitel 4.3, Tabelle 1, Zeile 5."
+    }
+  },
+  {
+    "frage": "DataSure ist ein Start-Up-Unternehmen mit einem Produkt, das verspricht, die Qualität von ML-Modellen zu verbessern. DataSure behauptet, dass diese Verbesserung durch die Überprüfung, ob die Daten korrekt gekennzeichnet wurden, erreicht wird. Welcher der folgenden Defekte hätte durch die Verwendung dieses Produkts AM EHESTEN verhindert werden können?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Das Modell weist Sicherheitslücken auf.",
+      "b": "Das Modell hat eine geringe Genauigkeit.",
+      "c": "Das Modell liefert Ergebnisse, die als nicht ausgewogen empfunden werden.",
+      "d": "Das Modell liefert verzerrte Ergebnisse."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Datenschutz- und Sicherheitsfragen werden nicht behandelt. Daher wird das Produkt Sicherheitsprobleme nicht verhindern. Vergleiche Datenqualität und ihre Auswirkungen auf das ML-Modell in CT-AI Lehrplan, Kapitel 4.4, Absatz 2, Aufzählungspunkt 3.",
+      "b": "KORREKT – Falsch gekennzeichnete Daten führen zu einer geringeren Genauigkeit des ML-Modells. Vergleiche Datenqualität und ihre Auswirkungen auf das ML-Modell in CT-AI Lehrplan, Kapitel 4.4, Absatz 2, Aufzählungspunkt 1.",
+      "c": "FALSCH – Ein Modell, das als nicht ausgewogen empfundene Ergebnisse liefert, ergibt sich aus unfairen Daten, nicht aus falsch gekennzeichneten Daten. Vergleiche Erläuterung zu unfairen Daten in CT-AI Lehrplan, Kapitel 4.3, Tabelle 1, Zeile 9.",
+      "d": "FALSCH – Ein verzerrtes Modell resultiert eher aus unvollständigen Daten, unausgewogenen Daten, unfairen Daten, unzureichender Datenvielfalt oder doppelten Daten als aus falsch gekennzeichneten Daten. Vergleiche Datenqualität und ihre Auswirkungen auf das ML-Modell in CT-AI Lehrplan, Kapitel 4.4, Absatz 2, Aufzählungspunkt 2."
+    }
+  },
+  {
+    "frage": "Als ein ML-Ingenieur feststellt, dass die Trainingsdaten nicht ausreichen, rotiert er gekennzeichnete Bilder, um zusätzliche Trainingsdaten zu erstellen. Welcher der folgenden Ansätze zur Kennzeichnung wird in diesem Beispiel angewandt?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Crowdsourcing",
+      "b": "Intern",
+      "c": "KI-unterstützt",
+      "d": "Ausgelagert"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Crowdsourcing bedeutet, dass eine große Anzahl von Menschen eine bestimmte Aufgabe übernimmt. In diesem Fall führt nur eine Person die Aufgabe aus. Vergleiche Definition von Crowdsourced in CT-AI Lehrplan, Kapitel 4.5.1, Absatz 1, Aufzählungspunkt 3.",
+      "b": "KORREKT – Hier erfolgt die Anreicherung bereits etikettierter Daten durch den ML-Entwickler selbst, also innerhalb des für die Datenkennzeichnung verantwortlichen Unternehmens. Vergleiche Definition von interner Kennzeichnung in CT-AI Lehrplan, Kapitel 4.5.1, Absatz 1, Aufzählungspunkt 1.",
+      "c": "FALSCH – Die KI wird nicht zur Kennzeichnung der Daten verwendet. Vergleiche Definition von KI-unterstützter Kennzeichnung in CT-AI Lehrplan, Kapitel 4.5.1, Absatz 1, Aufzählungspunkt 4.",
+      "d": "FALSCH – Der ML-Ingenieur hat die Aufgabe nicht an eine dritte Partei ausgelagert. Vergleiche Definition von ausgelagerter Kennzeichnung in CT-AI Lehrplan, Kapitel 4.5.1, Absatz 1, Aufzählungspunkt 2."
+    }
+  },
+  {
+    "frage": "Betrachten Sie die folgende Konfusionsmatrix für einen Bildklassifikator:<br>",
+    "inhalte": [
+      {
+        "typ": "tabelle",
+        "inhalt": {
+          "kopf": [
+            "Konfusionsmatrix",
+            "Tatsächlich positiv",
+            "Tatsächlich negativ"
+          ],
+          "koerper": [
+            [
+              "Vorhergesagt positiv",
+              "78",
+              "22"
+            ],
+            [
+              "Vorhergesagt negativ",
+              "6",
+              "14"
+            ]
+          ]
+        }
+      },
+      {
+        "typ": "text",
+        "inhalt": "Welche der folgenden Optionen stellt die Präzision des Klassifikators dar?<br><br>Wählen Sie EINE Option aus."
+      }
+    ],
+    "antworten": {
+      "a": "20/120 *100%",
+      "b": "78/120 *100%",
+      "c": "78/100 *100%",
+      "d": "22/100 *100%"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Siehe Antwort c) für die richtige Formel und Berechnung.",
+      "b": "FALSCH – Siehe Antwort c) für die richtige Formel und Berechnung.",
+      "c": "KORREKT – Die Formel für Präzision = RP/(RP+FP)*100 % = 78/(78+22)*100% = 78/100*100 % (siehe Kap. 5.1, 3. Absatz, 2. Aufzählungspunkt “Präzision”).",
+      "d": "FALSCH – Siehe Antwort c) für die richtige Formel und Berechnung."
+    }
+  },
+  {
+    "frage": "Für die verschiedenen Arten von ML-Problemen gibt es unterschiedliche funktionale Leistungsmetriken. Welche der folgenden Aussagen dazu ist korrekt?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Die Fläche unter der Kurve (AUC) zeigt, wie gut das Modell an die abhängigen Variablen angepasst ist.",
+      "b": "Der mittlere quadratische Fehler (MQF) gibt anhand der Messung der ROC-Kurve an, wie gut das Modell zwischen verschiedenen Klassen unterscheidet.",
+      "c": "Die Metrik R-Quadrat stellt dar, wie gut der Klassifikator trennt, d.h. wie gut das Modell zwischen den Klassen unterscheidet.",
+      "d": "Der Silhouettenwert basiert auf der Messung der durchschnittlichen clusterübergreifenden und clusterinternen Abstände der Datenpunkte."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Die Fläche unter der Kurve (AUC) stellt den Grad der Trennbarkeit eines Klassifikators dar (s. Kap. 5.2, 2. Absatz, 2. Aufzählungspunkt). Wie gut das Modell an die abhängigen Variablen angepasst ist, wird durch die Metrik R-Quadrat beurteilt (s. Kap. 5.2, 3. Absatz, 2. Aufzählungspunkt).",
+      "b": "FALSCH – Der mittlere quadratische Fehler ist der Durchschnitt der quadrierten Differenzen zwischen dem tatsächlichen Wert und dem vorhergesagten Wert (s. Kap. 5.2, 3. Absatz, 1. Aufzählungspunkt). Wie gut das Modell zwischen verschiedenen Klassen unterscheidet, zeigt die Fläche unter der Kurve (AUC) (s. Kap. 5.2, 2. Absatz, 2. Aufzählungspunkt).",
+      "c": "FALSCH – Die Metrik R-Quadrat wird für die überwachte Regression angewendet (s. Kap. 5.2, 3. Absatz, 2. Aufzählungspunkt) und nicht für Klassifikationsprobleme, das zeigt die Fläche unter der Kurve (AUC) (s. Kap. 5.2, 2. Absatz, Metriken für überwachte Klassifikation, 2. Aufzählungspunkt).",
+      "d": "KORREKT – siehe KI-Lehrplan, Abschnitt 5.2, 4. Absatz (Metriken für unüberwachte Clusterbildung), 3. Aufzählungspunkt."
+    }
+  },
+  {
+    "frage": "KnowYourPet ist eine App, die mithilfe von ML ermittelt, ob ein Haustier hungrig ist oder nicht. Es wird davon ausgegangen, dass ein Hund die meiste Zeit nicht hungrig ist, wie aus den Trainingsdaten hervorgeht. Wenn der Hund fälschlicherweise als hungrig eingestuft wird, kann dies zu einer Überfütterung des Hundes führen, was wiederum ernste gesundheitliche Probleme zur Folge haben kann. Welche der folgenden Metriken würden Sie wählen, um die Eignung des zu prüfenden Modells zu bestimmen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Genauigkeit",
+      "b": "Präzision",
+      "c": "Rückruf",
+      "d": "F1-Note"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Die Genauigkeit (RP + RN) / (RP + RN + FP + FN) ist nicht so sinnvoll, wenn ein Ungleichgewicht zwischen den erwarteten Klassen besteht, die nicht hungrige Klasse (FP+RN) in diesem Fall dominiert und nur große falsch-positive Ergebnisse FP gefährlich sind (Überfütterung). Genauigkeit: Siehe Kap. 5.1, 3. Absatz, 1. Aufzählungspunkt.",
+      "b": "KORREKT – Es sollte die Präzision RP / (RP + FP) * 100% herangezogen werden, da die Kosten für falsch-positive Ergebnisse FP (Überfütterung des Hundes) hoch sind (ernste Gesundheitsprobleme) und sich dies nur bei der Präzision entscheidend auswirkt (s. Kap. 5.1, 3. Absatz, 2. Aufzählungspunkt).",
+      "c": "FALSCH – Sensitivität ist nützlich, wenn die tatsächlich positiven Fälle RP+FN betrachtet werden sollen. Im vorliegenden Fall sind aber die falsch-positiven Fälle FP sehr wichtig, die bei der Sensitivität gar nicht kalkuliert werden (s. Kap. 5.1, 3. Absatz, 3. Aufzählungspunkt).",
+      "d": "FALSCH – Der F1-Score ist nützlich, wenn es ein Ungleichgewicht in den erwarteten Klassen gibt und wenn Präzision und Sensitivität ähnlich wichtig sind. Im vorliegenden Fall ist die Präzision aber viel wichtiger als die Sensitivität (s. Begründungen zu den Antworten b und c). F1-Score: Siehe Kap. 5.1, 3. Absatz, 4. Aufzählungspunkt."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt AM BESTEN ein tiefes neuronales Netz?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Es besteht aus einer hierarchischen Struktur von Neuronen, wobei die untersten (tiefsten) Neuronen die meisten Entscheidungen treffen.",
+      "b": "Es besteht aus miteinander verbundenen Neuronen, wobei jedes Neuron einen Bias und jede Verbindung ein Gewicht hat.",
+      "c": "Es besteht aus mehreren Schichten, wobei jede Schicht (mit Ausnahme der Eingabe- und Ausgabeschichten) mit jeder anderen Schicht verbunden ist und sich Fehler rückwärts durch das Netz fortpflanzen.",
+      "d": "Es besteht aus Schichten von Neuronen, von denen jede einen Aktivierungswert auf der Grundlage der anderen Neuronen in derselben Schicht erzeugt."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Ein neuronales Netz hat keine hierarchische Struktur mit einer Rangordnung von „oben“ bis „unten“, sondern Schichten: Eingabeschicht, Ausgabeschicht und dazwischen versteckte Schichten. Es gibt keine Regel über die Anzahl der Entscheidungen von Neuronen in einer Schicht (s. Kap. 6.1, 3. Absatz).",
+      "b": "KORREKT – Ein künstliches neuronales Netz besteht aus miteinander verbundenen Neuronen. Um einen Aktivierungswert zu berechnen, wird jedem Neuron ein Bias und jeder Verbindung ein Gewicht zugewiesen (s. Kap. 6.1, 5. Absatz).",
+      "c": "FALSCH – Ein neuronales Netz besteht aus mehreren Schichten, und Fehler werden durch das Netz rückwärts propagiert, aber die Schichten eines neuronalen Netzes sind nur mit den nächsten Schichten verbunden – nicht mit jeder anderen Schicht (s. Kap. 6.1, 4. Absatz).",
+      "d": "FALSCH – Ein neuronales Netz besteht aus Schichten von Neuronen, aber der Aktivierungswert basiert auf den Neuronen in der vorangegangenen Schicht – nicht in derselben Schicht (s. Kap. 6.1, 5. Absatz)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen beschreibt ein Überdeckungskriterium für neuronale Netze ZUTREFFEND?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Die Wertänderungsüberdeckung beruht darauf, dass einzelne Neuronen die Gesamtausgabe des neuronalen Netzes beeinflussen.",
+      "b": "Die Schwellenwertüberdeckung basiert auf Neuronen, die einen Aktivierungswert ausgeben, der größer als ein definierter Wert ist.",
+      "c": "Die Neuronenüberdeckung ist ein Maß für den Anteil der Neuronen, die zu einem beliebigen Zeitpunkt während des Tests aktiviert sind.",
+      "d": "Die Vorzeichenwechselüberdeckung misst die Abdeckung der Neuronen, die sowohl positive, negative als auch Null-Aktivierungswerte ausgeben."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Die Wertänderungsabdeckung ist ein Maß für den Anteil der aktivierten Neuronen, deren Aktivierungswerte sich um mehr als einen vorgegebenen Änderungsbetrag unterscheiden. Es geht nicht um die Gesamtleistung des neuronalen Netzes (s. Kap. 6.2, 4. Absatz, 4. Aufzählungspunkt).",
+      "b": "KORREKT – Die Schwellenwertabdeckung misst den Anteil der Neuronen, die während des Tests aktiviert werden und deren Wert größer ist als ein vorgegebener Schwellenwert (s. Kap. 6.2, 4. Absatz, 2. Aufzählungspunkt).",
+      "c": "FALSCH – Alle Neuronen werden potenziell jedes Mal 'aktiviert', wenn ein neuronales Netz 'ausgeführt' wird, jedoch ändern sich die von den Neuronen ausgegebenen Werte, was durch die Neuronenabdeckung gemessen wird. Die Abdeckung wird durch einen Wert größer als Null erreicht (s. Kap. 6.2, 4. Absatz, 1. Aufzählungspunkt).",
+      "d": "FALSCH – Die Vorzeichenwechselabdeckung ist ein Maß für den Anteil der Neuronen, die sowohl mit positiven als auch mit negativen Aktivierungswerten aktiviert werden, aber nicht mit Null (s. Kap. 6.2, 4. Absatz, 3. Aufzählungspunkt)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Anforderungen an ein KI-gestütztes System ist AM EHESTEN eine große Herausforderung beim Testen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Das System muss eine höhere Genauigkeit aufweisen als das System, welches es ersetzt.",
+      "b": "Die KI-Komponente des Systems muss eine 100%ige Genauigkeit aufweisen.",
+      "c": "Ein menschlicher Bediener sollte in der Lage sein, das System innerhalb von 1 Sekunde außer Kraft zu setzen.",
+      "d": "Das System soll die menschlichen Emotionen eines typischen Spielers nachahmen"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Dies ist eine spezifische Anforderung, wobei das zu ersetzende System als Testorakel dient. Das sollte daher in der Regel keine Probleme beim Testen verursachen (zur Definition von „Genauigkeit“ s. Kap. 5.1, 3. Absatz).",
+      "b": "FALSCH – Dies kann eine schwer zu erfüllende Anforderung sein, ist aber für die Prüfung kein Problem, da “Genauigkeit” exakt definiert und prüfbar ist (s. Kap. 5.1, 3. Absatz).",
+      "c": "FALSCH – Dies ist eine Anforderung, die mit einem Performanztest prüfbar ist (vgl. Kap. 4.5 im Lehrplan CTAL-TTA – Technical Test Analyst).",
+      "d": "KORREKT – Diese Anforderung ist äußerst komplex zu testen, ohne alle menschlichen Emotionen und die Art und Weise, wie das System sie nachahmen könnte, zu definieren (s. Kap. 7.1, 2. Absatz, 4. Aufzählungspunkt)."
+    }
+  },
+  {
+    "frage": "Welcher der folgenden Faktoren, der mit den Testdaten verbunden ist, kann das Testen von KI-basierten Systemen erschweren?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Beschaffung von Big Data mit hoher Geschwindigkeit",
+      "b": "Beschaffung von Daten aus einer einzigen Quelle",
+      "c": "Zu hohe Priorisierung der Überprüfung auf Fehlerzustände, die in die Datenpipeline eingebracht werden",
+      "d": "Die Unfairness von Daten (ein subjektives Qualitätsmerkmal), kann selten festgestellt werden"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Die Beschaffung von Daten für KI-Systeme, die große Mengen von Hochgeschwindigkeitsdaten verwenden, kann schwierig sein (s. Lehrplan, Kap. 7.3, 1. Absatz, erster Aufzählungspunkt).",
+      "b": "FALSCH – Die Beschaffung qualitativ hochwertiger Daten aus verschiedenen Quellen kann schwierig sein (s. Lehrplan, Kap. 4.1.1, zweiter Aufzählungspunkt). Die Beschaffung aus einer einzigen Quelle dürfte daher aber keine Probleme machen.",
+      "c": "FALSCH – Eine Herausforderung bei der Datenvorbereitung ist, dass “der Überprüfung auf Fehlerzustände, die ... in die Datenpipeline eingebracht werden, ... nicht genügend Priorität eingeräumt” wird (s. Lehrplan, Kap. 4.1.1, zweitletzter (Haupt-) Aufzählungspunkt).",
+      "d": "FALSCH – Laut Kap. 4.3, Tabelle 1, Zeile “Unfaire Daten” gilt: “Fairness ist ein subjektives Qualitätsmerkmal, kann aber oft festgestellt werden.”"
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen bzgl. der Automatisierungsverzerrung ist zutreffend?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Bei der Automatisierungsverzerrung prüft der Mensch die Empfehlungen des Systems gegen Eingaben aus anderen Quellen.",
+      "b": "Die Aufmerksamkeit eines menschlichen Fahrzeuginsassen hat nichts mit der Automatisierungsverzerrung zu tun.",
+      "c": "Wegen der Automatisierungsverzerrung muss die Qualität der menschlichen Eingaben, nicht aber die Qualität der Systemempfehlungen, getestet werden.",
+      "d": "Menschliche Entscheidungen können von geringerer Qualität sein, wenn sie von einem KI-basierten System empfohlen wurden."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – „Eine Form der Automatisierungsverzerrung besteht darin, dass der Mensch die Empfehlungen des Systems akzeptiert und die Eingaben aus anderen Quellen ... nicht berücksichtigt“ (s. Kap. 7.4, erster Aufzählungspunkt, erster Satz).",
+      "b": "FALSCH – Die Aufmerksamkeit eines menschlichen Fahrzeuginsassen hat durchaus etwas mit der Automatisierungsverzerrung zu tun, denn laut Lehrplan, Kap. 7.4, zweiter Aufzählungspunkt, 3. Satz, gilt bei der zweiten Form der Automatisierungsverzerrung: „Typischerweise wird der menschliche Fahrzeuginsasse allmählich zu vertrauensvoll gegenüber den Fähigkeiten des Systems, das Fahrzeug zu steuern, und beginnt, weniger aufmerksam zu sein.“",
+      "c": "FALSCH – Die Tester sollten „sowohl die Qualität der Systemempfehlungen als auch die Qualität der entsprechenden menschlichen Eingaben durch repräsentative Benutzer testen“ (Kap. 7.4, letzter Absatz).",
+      "d": "KORREKT – „Es hat sich gezeigt, dass die erste Form der Automatisierung („der Mensch akzeptiert die Empfehlungen des Systems“) die Qualität der getroffenen Entscheidungen typischerweise um 5 % verringert, aber je nach Systemkontext kann dieser Wert noch viel höher sein.“ (Kap. 7.4, erster Aufzählungspunkt, 1. und 3. Satz)."
+    }
+  },
+  {
+    "frage": "Eine ML-basierte Lösung zur Mauterhebung bestimmt die Art der einfahrenden Fahrzeuge anhand der von einer Kamera aufgenommenen Bilder. Es stehen verschiedene Kameratypen zur Verfügung, und der Lösungsanbieter behauptet, Kameras mit unterschiedlichen Auflösungen verwenden zu können. Die Bilder müssen im jpeg-Format mit einer Größe von 320 x 480 Pixeln vorliegen, um das Modell zu trainieren und das Ergebnis vorhersagen zu können. Das Modell sollte in der Lage sein, die Fahrzeugtypen mit einem bestimmten gewünschten hohen Genauigkeitsgrad zu klassifizieren und sollte auf Schwachstellen getestet werden. Jede Mautstelle verfügt über ein eigenes komplettes System, das mit keinem anderen System verbunden ist. Welche der folgenden Testarten sind die AM BESTEN geeigneten Optionen für die Tests, die Sie für Systemtests wählen würden?<br><br>Wählen Sie ZWEI Optionen aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Prüfung auf Konzeptdrift",
+      "b": "Widersprüchliche Tests",
+      "c": "Prüfung der Skalierbarkeit",
+      "d": "Prüfung der Fairness",
+      "e": "Testen von Datenpipelines"
+    },
+    "korrekteAntworten": ["b", "e"],
+    "feedback": {
+      "a": "FALSCH – Der Konzeptdrift wird nach der Einführung getestet und fokussiert auf eine Änderung der Einsatzumgebung. Siehe CT AI-Lehrplan, Kapitel 7.6. Dieses ist für das gegebene Szenario nicht relevant.",
+      "b": "KORREKT – Gegnerisches Testen ist wichtig, weil die Anforderungen besagen, dass das System gegen Schwachstellen getestet werden soll. Siehe CT AI-Lehrplan, Kapitel 9.1.1: hierbei geht es um falsche Vorhersagen des Systems, die durch Angreifer verursacht werden.",
+      "c": "FALSCH – Die Prüfung der Skalierbarkeit wurde nicht als eine der Anforderungen erwähnt. Es handelt sich um unabhängige, miteinander verbundene Systeme, die nicht mit anderen Systemen verbunden sind. Diese Option ist zwar nicht eindeutig ausgeschlossen, hat aber mit dem Fragetext nicht viel zu tun uns ist daher keine der wahrscheinlichsten Optionen.",
+      "d": "FALSCH – Fairness bedeutet, dass (positiv) verzerrte Daten für das Training verwendet werden. Siehe CT AI-Lehrplan, Kapitel 4.3. Da in dem beschriebenen Szenario kein Fall von positiver Diskriminierung bekannt ist, ist der Fairness-Test nicht relevant.",
+      "e": "KORREKT – Das Testen der Datenpipeline ist erforderlich, weil die Bilder in verschiedenen Formaten und Auflösungen vorliegen können. Damit das Modell trainiert werden kann, sollten alle Bilder das gleiche Format haben, daher ist dieser Test wichtig. Siehe CT AI-Lehrplan, Kapitel 7.7, Tabelle, Zeile 2."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt eine Herausforderung für das Testen selbstlernender Systeme?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Das Systemverhalten kann sich so stark ändern, dass anfangs entworfene Testfälle nicht mehr gültig sind. Das kann auch nicht durch einen besonders geschickten Testentwurf behoben werden.",
+      "b": "Im Rahmen der Weiterentwicklung des Systems müssen auch die Akzeptanzkriterien für Systemänderungen selbstlernend weiterentwickelt werden.",
+      "c": "Da sich die Einsatzumgebung des selbstlernenden Systems ändern kann, müssen Tests entworfen werden, die das Systemverhalten auch ohne das Wissen über die möglichen Einsatzumgebungen abdecken.",
+      "d": "Die Durchführung von Tests kann das Verhalten des selbstlernenden Systems beeinflussen. In Abhängigkeit von den verwendeten Testfällen kann es zu unerwünschten Verhaltensänderungen kommen."
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Der Entwurf von Testfällen, die auch bei geändertem Systemverhalten gültig bleiben, ist eine Herausforderung für den Test. Vergleiche CT AI-Lehrplan, Kapitel 8.1, erster Stichpunkt.",
+      "b": "FALSCH – Die Akzeptanzkriterien für Änderungen des selbstlernenden Systems müssen im Vorfeld definiert werden. Die Akzeptanz jeder Systemänderung wird darüber gesteuert. Wenn diese Kriterien sich ebenfalls im Verlauf der Zeit ändern, dann könnten zukünftige Systemänderungen nicht mehr positive Änderungen forcieren, sondern ggf. negative. Vergleiche CT AI-Lehrplan, Kapitel 8.1, zweiter Stichpunkt.",
+      "c": "FALSCH – Das Ziel ist nicht der Testentwurf ohne Wissen über die Einsatzumgebung. Das würde mögliche Angriffe durch Datenverunreinigungen ermöglichen. Stattdessen muss es das Ziel sein, alle Einsatzumgebungen abzudecken oder Akzeptanzkriterien für alle möglichen Änderungen der Einsatzumgebung zu spezifizieren. Vergleiche CT AI-Lehrplan, Kapitel 8.1, fünfter Stichpunkt.",
+      "d": "KORREKT – Unerwünschte Verhaltensänderungen sind eine Herausforderung beim Test selbstlernender Systeme. Vergleiche CT AI-Lehrplan, Kapitel 8.1, siebter / letzter Stichpunkt."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt einen gültigen Test auf Verzerrungen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Review der Quelle der Trainingsdaten und der Verfahren zur Datengewinnung, um algorithmische Verzerrungen zu identifizieren",
+      "b": "Messung des Einflusses von Systemeingaben auf -ausgaben mit Fokus auf Personen, für oder gegen die das System unangemessen verzerrt ist",
+      "c": "Beschaffung zusätzlicher Informationen über die Eingabedaten, um die Vorverarbeitung der Daten auf Verzerrungen prüfen zu können",
+      "d": "Review der Aktivitäten zu Training oder Optimierung des Modells, um Stichprobenverzerrungen finden zu können"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Mit dem Review der Quelle der Trainingsdaten und der Verfahren zur Datengewinnung findet man hauptsächlich Stichprobenverzerrungen. Siehe CT AI-Lehrplan, Kapitel 8.3, Stichpunkte 1 und 2.",
+      "b": "KORREKT – Diese Option beschreibt einen gültigen Test auf Verzerrungen. Vergleiche CT AI-Lehrplan, Kapitel 8.3, Stichpunkt 4.",
+      "c": "FALSCH – Die Beschaffung zusätzlicher Informationen kann sinnvoll sein, um „versteckte“ Variablen zu finden, die für die Bewertung der Verzerrung relevant sind, jedoch selbst keine Eingabe des Modells darstellen (siehe CT AI-Lehrplan, Kapitel 8.3, Stichpunkt 5). Das Review der Vorverarbeitung von Daten kann zwar sinnvoll sein (siehe CT AI-Lehrplan, Kapitel 8.3, Stichpunkt 3). Jedoch können die „versteckten“ Variablen aus der Beschaffung zusätzlicher Informationen keinen Einfluss auf die bisher implementierte Vorverarbeitung von Daten haben, da sie eben gar nicht verarbeitet werden. Daher ist diese Option in sich unlogisch.",
+      "d": "FALSCH – Mit dem Review der Aktivitäten zu Training oder Optimierung des Modells findet man vorrangig algorithmische Verzerrungen. Siehe CT AI-Lehrplan, Kapitel 8.3, Stichpunkte 1 und 2."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt eine Herausforderung beim Test komplexer, KI-basierter Systeme?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Das Testorakel-Problem in diesem Kontext besagt, dass KI-basierte Systeme oftmals ein schlechteres Testorakel finden als menschliche Tester.",
+      "b": "Durch die Komplexität des Verhaltens sind nur White-Box-Testverfahren sinnvoll, jedoch keine Black-Box-Testverfahren mehr.",
+      "c": "Die Komplexität KI-basierter Systeme und ihrer Tests nimmt zu, wenn diese Systeme probabilistisch agieren und nicht-deterministisch sind.",
+      "d": "Die Komplexität KI-basierter Systeme und ihrer Tests nimmt nicht weiter zu, nur weil die Systeme aus mehreren interagierenden Komponenten besteht."
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Dieses Testorakel-Problem besteht darin, dass das Verhalten solcher Systeme zu komplex ist, um von Menschen in der nötigen Tiefe verstanden zu werden, damit sie daraus ein Testorakel ableiten können. Siehe CT-AI Lehrplan, Kapitel 8.5, Absatz 1.",
+      "b": "FALSCH – Das Gegenteil ist der Fall. Da die Struktur solcher Systeme oftmals automatisch generiert ist, ist sie zu komplex, um daraus sinnvoll Tests für eine White-Box-Überdeckung abzuleiten. Daher sind oftmals nur Black-Box-Tests sinnvoll. Siehe CT-AI Lehrplan, Kapitel 8.5, Absatz 2.",
+      "c": "KORREKT – Probabilistische Ergebnisse und Nicht-Determinismus verschärfen die Komplexität der Systeme und somit auch des Tests für sie. Siehe CT-AI Lehrplan, Kapitel 8.5, Absatz 3.",
+      "d": "FALSCH – Siehe CT-AI Lehrplan, Kapitel 8.5, Absatz 4: „Die Probleme mit nicht-deterministischen Systemen werden noch verschärft, wenn ein KI-basiertes System aus mehreren interagierenden Komponenten besteht…“"
+    }
+  },
+  {
+    "frage": "Das Gesundheitsministerium setzt ein KI-basiertes System ein, um gefährdete Patientengruppen zu identifizieren, die unterstützt und beraten werden sollen, um zu verhindern, dass sie in Zukunft an Krankheiten leiden, für die sie anfällig sind. Die Ergebnisse werden auch anderen staatlichen Stellen und Krankenversicherungen zur Verfügung gestellt. Das System wird zunächst anhand eines umfangreichen Datensatzes trainiert, den das Gesundheitsministerium in zwei Umfragen bei 5 000 Männern über 50 Jahren und 25 000 Frauen über 30 Jahren erhoben hat. Das System wird weiterhin gefährdete Patienten identifizieren, indem es Informationen aus öffentlich zugänglichen sozialen Medien sammelt. Welche der folgenden Attribute sollten bei der Festlegung der Ziele und Akzeptanzkriterien für das System AM SORGFÄLTIGSTEN berücksichtigt werden?<br><br>Wählen Sie ZWEI Optionen aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Anpassungsfähigkeit",
+      "b": "Vorurteil",
+      "c": "Erklärbarkeit",
+      "d": "Flexibilität",
+      "e": "Autonomie"
+    },
+    "korrekteAntworten": ["b", "c"],
+    "feedback": {
+      "a": "FALSCH – Anpassbarkeit ist die Fähigkeit des Systems, verändert zu werden (normalerweise, um weiterhin die funktionalen und nicht-funktionalen Anforderungen zu erfüllen). Siehe CT-AI Lehrplan, Kapitel 8.8, Tabelle, Zeile 1. Es gibt keinen aus dem Szenario ersichtlichen Grund zu der Annahme, dass sich das betriebliche Umfeld für das System wesentlich ändern wird und somit auch keinen Grund zu der Annahme, dass das System geändert werden muss.",
+      "b": "KORREKT – Verzerrung bedeutet z. B., dass die für die Ausbildung verwendeten Daten verzerrt sind. Siehe CT-AI Lehrplan, Kapitel 8.8, Tabelle Zeile 6, sowie Kapitel 8.3. Hier liegt eine Verzerrung in den Daten bezüglich der biologischen Geschlechter (25.000 Frauen gegenüber 5.000 Männer) und gegenüber bestimmten Altersgruppen vor. Daher muss die Verzerrung sorgfältig berücksichtigt werden.",
+      "c": "KORREKT – Erklärbarkeit ist gefordert, wenn die Ergebnisse sich auf die identifizierten gefährdeten Patienten sowohl in medizinischer als auch in finanzieller Hinsicht beträchtlich auswirken können. Mit der Erklärbarkeit können mögliche Zusammenhänge zwischen Ein- und Ausgaben hergestellt werden. Siehe CT-AI Lehrplan, Kapitel 8.6, Absatz 4 und Kapitel 8.8. Sie sollten in der Lage sein zu sehen, warum sie evtl. als gefährdet eingestuft wurden, damit sie sicherstellen können, dass sie richtig ausgewählt wurden, und als Teil der Anforderungen an die Erklärbarkeit im Zusammenhang mit dem Datenschutz.",
+      "d": "FALSCH – Flexibilität ist die Fähigkeit eines Systems, sein Verhalten zu ändern. Siehe CT-AI Lehrplan, Kapitel 8.8, Tabelle, Zeile 2. Aber zum jetzigen Zeitpunkt gibt es auf Grundlage des Szenarios keinen Grund zu der Annahme, dass dieses System außerhalb der ursprünglichen Spezifikation verwendet werden muss, so dass nicht erwartet wird, dass sein Verhalten geändert werden muss.",
+      "e": "FALSCH – Autonomie ist die Fähigkeit des Systems, über die Notwendigkeit menschlicher Eingriffe selbst zu entscheiden. Siehe CT-AI Lehrplan, Kapitel 8.2, Absatz 1. Es gibt keinen Grund zu der Annahme, dass das System über längere Zeiträume hinweg ohne Eingriffe arbeiten können oder über die Notwendigkeit menschlicher Eingriffe entscheiden können muss."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen beschreibt eine valide Beziehung zwischen Tests von ML-Systemen und der Verhinderung von gegnerischen Angriffen oder Datenverunreinigungen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Das gegnerische Testen besteht daraus, durch die Durchführung gegnerischer Angriffe Schwachstellen zu finden und zu beheben.",
+      "b": "Vergleichendes Testen kann genutzt werden, um Abweichungen zwischen der vorherigen Version des Systems und der neuen Version zu finden.",
+      "c": "Nach der Identifikation gegnerischer Beispiele muss verhindert werden, dass diese mit dem System in Kontakt kommen können, z. B. durch eine Firewall.",
+      "d": "Da KI-basierte Systeme ständig weiterlernen und ihr Verhalten anpassen, ist der Einsatz von Regressionstests nicht sinnvoll."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Siehe CT-AI-Lehrplan, Kapitel 9.1.1, letzter Absatz.",
+      "b": "FALSCH – Vergleichendes Testen wird verwendet, wenn eine alternative Version des Systems als Pseudo-Orakel verwendet werden soll (evtl. bereits bestehend oder von einem anderen Team entwickelt). Siehe CT-AI Lehrplan, Kapitel 9.3, Absatz 1. Hier sollen jedoch Versionen desselben Systems verglichen werden. Es handelt sich also um A/B-Tests. Siehe CT-AI Lehrplan, Kapitel 9.1.2, letzter Absatz.",
+      "c": "FALSCH – Die identifizierten Beispiele werden zu den Trainingsdaten hinzugefügt, damit das System lernen kann, mit ihnen umzugehen. Siehe Kapitel 9.1.1, letzter Absatz.",
+      "d": "FALSCH – Mit einer entsprechend vertrauenswürdigen Testsuite kann durchaus festgestellt werden, ob ein System verunreinigt wurde. Vergleiche CT-AI Lehrplan, Kapitel 9.1.2, letzter Absatz, letzter Satz."
+    }
+  },
+  {
+    "frage": "Für welche der folgenden Situationen ist das paarweise Testen AM BESTEN geeignet?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Bei einer hohen Anzahl von Software-Testern für KI-basierte Systeme",
+      "b": "Bei einer hohen Anzahl von Systemkomponenten des KI-basierten Systems",
+      "c": "Bei einer hohen Anzahl von Testfällen für das KI-basierte System",
+      "d": "Bei einer sehr hohen Anzahl Parameter für das KI-basierte System"
+    },
+    "korrekteAntwort": "d",
+    "feedback": {
+      "a": "FALSCH – Das paarweise Testen bezieht sich auf eine hohe Anzahl Parameter, die für das KI-basierte System von Interesse sind. Siehe CT-AI Lehrplan, Kapitel 9.2, Absatz 1 und 3. Die Anzahl der Tester spielt hierfür keine Rolle. Zwar kann im Rahmen des Pair Programming auch der Einsatz mehrerer Entwickler / Tester am selben PC erwogen werden. Das ist dann aber nicht / sehr selten durch eine zu hohe Zahl an Testern bedingt.",
+      "b": "FALSCH – Das paarweise Testen bezieht sich auf eine hohe Anzahl Parameter, die für das KI-basierte System von Interesse sind. Siehe CT-AI Lehrplan, Kapitel 9.2, Absatz 1 und 3. Die Anzahl der Systemkomponenten spielt hierfür keine Rolle.",
+      "c": "FALSCH – Das paarweise Testen bezieht sich auf eine hohe Anzahl Parameter, die für das KI-basierte System von Interesse sind. Siehe CT-AI Lehrplan, Kapitel 9.2, Absatz 1 und 3. Eine hohe Anzahl an Testfällen ist hierfür irrelevant.",
+      "d": "KORREKT – Siehe CT-AI Lehrplan, Kapitel 9.2, Absatz 1, Absatz 3. Das paarweise Testen bezieht sich auf eine hohe Anzahl Parameter."
+    }
+  },
+  {
+    "frage": "Ein Testmanager beschließt, ein Nicht-KI-System mit ähnlicher Funktionalität wie das KI-basierte zu testende System (SUT) zu bauen, um den Systemtest zu unterstützen. Welche der folgenden Aussagen ist AM EHESTEN RICHTIG?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Der Testmanager hat sich für Back-to-Back-Tests entschieden, weil damit das Problem des Testorakels gelöst werden kann, indem ein Pseudo-Orakel verwendet wird",
+      "b": "Der Testmanager hat sich für A/B-Tests entschieden, weil damit das Problem des Testorakels gelöst werden kann, indem ein Pseudorakel verwendet wird",
+      "c": "Der Testmanager hat sich für Back-to-Back-Tests entschieden, weil die nicht-funktionalen Anforderungen des SUT anhand des Pseudo-Orakels verifiziert werden können",
+      "d": "Der Testmanager hat sich für A/B-Tests entschieden, weil die nicht-funktionalen Anforderungen des SUT anhand des Pseudo-Orakels verifiziert werden können"
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Es handelt sich um ein Beispiel für Vergleichendes Testen, bei denen das Nicht-AI-System als Pseudo-Orakel verwendet wird. Siehe CT AI-Lehrplan, Kapitel 9.3, Absatz 1: „Bei vergleichenden Tests wird eine alternative Version des Systems als Pseudo-Orakel verwendet“",
+      "b": "FALSCH – Bei A/B-Tests verwenden wir eine Variante des SUT zum Vergleich mit dem SUT. Siehe CT AI-Lehrplan, Kapitel 9.4, letzter Absatz: „bei A/B-Testen [werden] in der Regel zwei Varianten desselben Systems miteinander verglichen“. Hier haben wir lediglich zwei Systeme mit ähnlicher Funktionalität. Sie sind sogar derart unterschiedlich, dass es ein KI-basiertes und ein nicht auf KI basierendes System ist.",
+      "c": "FALSCH – Die Ressourcen und nicht-funktionalen Eigenschaften des Pseudo-Orakels und des SUT sind wahrscheinlich unterschiedlich, daher kann das alternative System nicht für nicht-funktionale Tests verwendet werden. Beim vergleichenden Test kann die Performance der beiden Systeme sehr unterschiedlich sein. Siehe CT-AI Lehrplan, Kapitel 9.3, Absatz 1, letzter Satz: „Es muss beispielsweise nicht so schnell ausgeführt werden…“",
+      "d": "FALSCH – Bei A/B-Tests verwenden wir eine Variante des SUT zum Vergleich mit dem SUT. Siehe CT AI-Lehrplan, Kapitel 9.4, letzter Absatz: „bei A/B-Testen [werden] in der Regel zwei Varianten desselben Systems miteinander verglichen“. Hier haben wir lediglich zwei Systeme mit ähnlicher Funktionalität. Sie sind sogar derart unterschiedlich, dass es ein KI-basiertes und ein nicht auf KI basierendes System ist."
+    }
+  },
+  {
+    "frage": "Ein KI-gestütztes Mobiltelefon-Empfehlungssystem bietet eine Liste von Mobiltelefonen an, und zwar auf der Grundlage seines Wissens über die angegebenen Präferenzen des Nutzers, d.h. möglichst großes Display, möglichst großer Speicher und lange Laufzeit des Akkus. Das System gibt für jede Konstellation dieser Größen einen akzeptablen Preis an.<br><br>Für den Test des Mobiltelefon-Empfehlungssystems werden drei Ausgangstestfälle (T1 bis T3) verwendet. Zusätzlich werden neue Testfälle A bis D vorgeschlagen.<br><br><table border='1'><tr><th></th><th>T1</th><th>T2</th><th>T3</th></tr><tr><td>Displaydiagonale</td><td>4 Zoll</td><td>4 Zoll</td><td>5 Zoll</td></tr><tr><td>Speichergröße</td><td>8 GB</td><td>16 GB</td><td>8 GB</td></tr><tr><td>Akkulaufzeit</td><td>36 Std.</td><td>24 Std.</td><td>16 Std.</td></tr><tr><td>Akzeptabler Preis</td><td>&lt;= 200 €</td><td>&gt;= 250 €</td><td>&gt;= 220 €</td></tr></table><br><br><table border='1'><tr><th></th><th>Test A</th><th>Test B</th><th>Test C</th><th>Test D</th></tr><tr><td>Displaydiagonale</td><td>4 Zoll</td><td>4 Zoll</td><td>5 Zoll</td><td>5 Zoll</td></tr><tr><td>Speichergröße</td><td>8 GB</td><td>16 GB</td><td>8 GB</td><td>8 GB</td></tr><tr><td>Akkulaufzeit</td><td>24 Std.</td><td>30 Std.</td><td>20 Std.</td><td>24 Std.</td></tr><tr><td>Akzeptabler Preis</td><td>&lt;= 200 €</td><td>&gt;= 250 €</td><td>&gt;= 220 €</td><td>&lt;= 200 €</td></tr></table><br><br>Welche der neuen Tests sind Folgetestfälle für metamorphes Testen?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "A, B sind Folgetestfälle; C, D sind keine Folgetestfälle",
+      "b": "A, C sind Folgetestfälle; B, D sind keine Folgetestfälle",
+      "c": "A, B, C sind Folgetestfälle; D ist kein Folgetestfall",
+      "d": "B, C, D sind Folgetestfälle; A ist kein Folgetestfall"
+    },
+    "korrekteAntwort": "c",
+    "feedback": {
+      "a": "FALSCH – Test C ist auch ein Folgetestfall.",
+      "b": "FALSCH – Test B ist auch ein Folgetestfall.",
+      "c": "KORREKT – A, B und C sind Folgetestfälle. D ist kein Folgetestfall. Die metamorphen Relationen sind: Eine Vergrößerung der Eingabewerte (Displaydiagonale, Speichergröße, Akkulaufzeit) zeigt bessere Eigenschaften des Mobiltelefons an und erhöht den Preis, der akzeptabel ist.",
+      "d": "FALSCH – Test D ist kein Folgetestfall."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen für KI-basierte Systeme ist eine korrekte Aussage bzgl. des erfahrungsbasierten Testens?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Beim explorativen Testen werden die Trainingsdaten mit Hilfe von Tools visualisiert, um verschiedene Aspekte der Daten zu betrachten.",
+      "b": "Bei der intuitiven Testfallermittlung werden die existierenden Testfälle dynamisch angepasst, zum Beispiel auf Basis des metamorphen Testens.",
+      "c": "Für das explorative Testen wird unter anderem die 'ML-Test-Checkliste' von Google verwendet.",
+      "d": "Das erfahrungsbasierte Testen erfordert die Berechnung der funktionalen Leistungsmetriken von ML."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Es handelt sich um eine explorative Datenanalyse, die eine explorative Methode ist (s. Kap. 9.6, 5. Absatz, letzte zwei Sätze).",
+      "b": "FALSCH – Dies ist ein Vorgehen beim explorativen Testen (s. Kap. 9.6, 3. Absatz). Die intuitive Testfallermittlung basiert dagegen auf dem Wissen von Testern über typische Entwicklerfehlhandlungen und Fehlerwirkungen in ähnlichen Systemen (s. Kap. 9.6, 2. Absatz).",
+      "c": "FALSCH – Dies ist eine checklistenbasierte Prüfung (s. Kap. 9.6, erster und sechster Absatz). Beim explorativem testen wird nicht mit Checklisten gearbeitet (s. Kap. 9.6, 3. Absatz).",
+      "d": "FALSCH – Die Berechnung der funktionalen Leistungsmetriken von ML (s. Kap. 5) ist für die Einschätzung der Qualität eines KI-Systems wichtig, hat aber mit erfahrungsbasiertem Testen nichts zu tun (s. Kap. 9.6)."
+    }
+  },
+  {
+    "frage": "LAIgal Systems verfügt über ein KI-basiertes Produkt zur Extraktion relevanter günstiger Urteile, die einem bestimmten Rechtsfall ähnlich sind. Dieses Produkt wird von Richtern an den Gerichten verwendet. Die Details des aktuellen Falles werden zur Verfügung gestellt, und das System erstellt entsprechende Urteile. Das System muss vor böswilligen Eingaben sicher sein. Ein ähnliches Open-Source-Produkt existiert und ist verfügbar. Das Fehlen eines geeigneten Testorakels stellt eine Herausforderung beim Testen dar. Welche der folgenden Testtechniken sollte gewählt werden, um die neue Version während des Systemtests zu testen?<br><br>Wählen Sie ZWEI Optionen aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "A/B-Tests",
+      "b": "Back-to-Back-Tests",
+      "c": "Widersprüchliche Tests",
+      "d": "Prüfung von Zustandsübergängen",
+      "e": "Berechnung funktionaler ML-Leistungskennzahlen"
+    },
+    "korrekteAntworten": ["b", "c"],
+    "feedback": {
+      "a": "FALSCH – A/B-Tests sind am nützlichsten, wenn zwei Varianten verglichen werden, um zu entscheiden, ob die neue Variante eine Verbesserung gegenüber der älteren Variante darstellt (s. Kap. 9.7, 1. Absatz, 2. Aufzählungspunkt). Hier handelt es sich aber um verschiedene Versionen.",
+      "b": "KORREKT – Bei Vergleichenden Tests wird ein gleichwertiges System als Pseudo-Orakel für Tests verwendet darstellt (s. Kap. 9.7, 1. Absatz, 1. Aufzählungspunkt). Hier liegt ein ähnliches Open-Source-Produkt vor.",
+      "c": "KORREKT – Gegnerisches Testen ist hier wichtig, da das System vor gegnerischen Eingaben sicher sein muss (s. Kap. 9.1.1, letzter Absatz).",
+      "d": "FALSCH – Zustandsübergangstests (s. Kap. 4.2.4, CTFL-Lehrplan V3.1D) könnten zwar nützlich sein, aber nichts im Szenario deutet darauf hin, dass Zustände des Systems eine wesentliche Rolle spielen. Daher sollte dieses Testverfahren nicht gewählt werden.",
+      "e": "FALSCH – Die Berechnung funktionaler Leistungsmetriken von ML ist in der Phase der Modellprüfung für Klassifizierungsprobleme geeignet (s. Kap. 5.1). Bei Nicht-Klassifizierungsproblemen ist sie in der Systemtestphase nicht angebracht."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist ein Beispiel für einen Unterschied zwischen einer Testumgebung für KI-basierte Systeme und einer Testumgebung für herkömmliche Systeme?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Testumgebungen für KI-basierte Systeme können einen Mechanismus erfordern, um festzustellen, wie eine bestimmte Entscheidung getroffen wird. Für herkömmliche Systeme wird das nicht verlangt.",
+      "b": "Testumgebungen für KI-basierte Systeme benötigen Simulatoren und virtuelle Umgebungen, während herkömmliche Systeme diese nicht benötigen.",
+      "c": "Testumgebungen für KI-basierte Systeme benötigen große Datenmengen, während herkömmliche Systeme keine großen Datenmengen benötigen.",
+      "d": "Testumgebungen für KI-basierte Multiagentenysteme müssen möglicherweise nicht-determiniert sein, Testumgebungen herkömmlicher Multiagentenysteme jedoch nicht."
+    },
+    "korrekteAntwort": "a",
+    "feedback": {
+      "a": "KORREKT – Für KI-Umgebungen müssen möglicherweise Erklärungsmechanismen vorgesehen werden – wenn es schwierig ist festzustellen, wie das System seine Entscheidungen getroffen hat (s. Kap. 10.1, 4. Aufzählungspunkt).",
+      "b": "FALSCH – Für konventionelle Systeme werden häufig Simulatoren und virtuelle Umgebungen benötigt (s. Kap. 10.2).",
+      "c": "FALSCH – Auch für konventionelle Systeme kann eine große Datenmenge erforderlich sein (s. Kap. 10.1, letzter Aufzählungspunkt).",
+      "d": "FALSCH – Nicht-Determinismus der Testumgebung ist gemäß Kap. 10.1, 3. Aufzählungspunkt, bei KI-Systemen möglicherweise nötig; für herkömmliche Multiagentensysteme gilt das aber auch, da es unkalkulierbare Zeitverzögerungen geben kann."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen bzgl. des Einsatzes von KI zur Analyse neuer Fehler ist AM EHESTEN korrekt?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Eine geringe Anzahl von Fehlerzuständen in einer neuen Anwendung kann mit Hilfe eines geeigneten ML-Ansatzes gut kategorisiert werden.",
+      "b": "Wenn eine große Anzahl von Fehlerzuständen bei einer kleinen Anwendung gemeldet wird, kann die Fehlerbehebungszeit durch Fehler-Triage optimiert werden.",
+      "c": "Die KI-basierte Kategorisierung von Fehlern ist für automatisierte Fehlermeldungssysteme und große Projekte nicht von Nutzen.",
+      "d": "Für ein neues Entwicklungsteam können ML-Modelle vorschlagen, welcher Entwickler am besten geeignet ist, bestimmte Fehler zu beheben."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Wenn eine kleine Anzahl von Fehlern kategorisiert werden muss und keine historischen Daten vorliegen, können bei einem ML-Ansatz keine Trainingsdaten verwendet werden (s. Kap. 3.3, 1. Aufzählungspunkt).",
+      "b": "KORREKT – Wenn eine große Anzahl von Fehlerzuständen bei einer kleinen Anwendung gemeldet wird, besteht höchstwahrscheinlich ein Nutzen durch die Möglichkeit, Duplikate zu identifizieren und damit die Fehlerbehebungszeit zu optimieren (s. Kap. 11.2, 1. Absatz und 1. Aufzählungspunkt, „Fehler-Triage“).",
+      "c": "FALSCH – Die KI-basierte Kategorisierung von Fehlern ist für automatisierte Fehlermeldungssysteme und große Projekte besonders nützlich (s. Kap. 11.2, 1. Aufzählungspunkt, letzter Satz).",
+      "d": "FALSCH – Damit die ML-Modelle den Entwickler empfehlen können, der am besten bestimmte Fehler beheben kann, müsste sie frühere/historische Daten über die Inhalte der Fehlermeldungen und Entwicklerzuordnungen zur Verfügung haben (s. Kap. 11.2, letzter Aufzählungspunkt „Zuweisung“)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Aussagen über die KI-basierte Testfallgenerierung ist korrekt?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Die Grundlage für die KI-basierte Erstellung der Testfälle bildet der Quellcode, aber nicht ein maschinenlesbares Testmodell.",
+      "b": "Das Testorakel-Problem bei der KI-basierten Erstellung der Testfälle kann durch vergleichendes Testen gelöst werden.",
+      "c": "Für KI-basiert generierte funktionale Testfälle sind stets erwartbare Ergebnisse verfügbar.",
+      "d": "Forschungen zeigen, dass KI-basierte Testfallgenerierungswerkzeuge keine gleichwertigen Überdeckungsgrade wie Fuzz-Testing-Werkzeuge erreichen."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Die Grundlage für die KI-basierte Erstellung der Testfälle bildet der Quellcode und ein maschinen-lesbares Testmodell (s. Kap. 11.3, 1. Absatz, 2. Satz).",
+      "b": "KORREKT – Das Testorakel-Problem bei der KI-basierten Erstellung der Testfälle wird durch vergleichendes Testen gelöst, wenn ein geeignetes System zur Verfügung steht, das als Pseudo-Orakel verwendet werden kann (s. Kap. 11.3, 2. Absatz, 2. Satz).",
+      "c": "FALSCH – „Wenn jedoch kein Testmodell, das die erforderlichen Verhaltensweisen definiert, als Grundlage für die Testfälle verwendet wird, leidet ... (die) Testfallgenerierung im Allgemeinen unter einem Testorakelproblem, da das KI-basierte Werkzeug nicht weiß, welche Ergebnisse für einen bestimmten Satz von Testdaten zu erwarten sind.“ (Kap. 11.3, 2. Absatz, 1. Satz).",
+      "d": "FALSCH – Forschungen, die KI-basierte Testfallgenerierungswerkzeuge mit ähnlichen ... Fuzz-Testing-Werkzeugen vergleichen, zeigen, dass die KI-basierten Werkzeuge einen gleichwertigen Überdeckungsgrad erreichen (s. Kap. 11.3, 3. Absatz, 1. Satz)."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen gibt RICHTIG an, wie ein KI-basiertes Tool die Optimierung von Regressionstestsuiten durchführen kann?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Durch die Analyse falsch positiver Testergebnisse",
+      "b": "Durch die Analyse von Informationen aus früheren Testaktivitäten",
+      "c": "Durch den Einsatz genetischer Algorithmen zur Erstellung neuer Testfälle",
+      "d": "Durch Aktualisierung der erwarteten Ergebnisse, um der Konzeptabweichung entgegenzuwirken"
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Das Ziel der Optimierung von Regressionstests ist es, den Umfang einer Testsuite zu verringern, Prioritäten zu setzen oder sie zu erweitern (s. Kap. 11.4, 1. Absatz), nicht aber, die Zahl der Fehlalarme zu reduzieren.",
+      "b": "KORREKT – Die Optimierung von Regressionstestsuiten erfolgt durch die Analyse von Informationen über frühere Testdurchführungen (s. Kap. 11.4, 2. Absatz).",
+      "c": "FALSCH – Gemäß Abschnitt 11.4 des Lehrplans wird die Optimierung von Regressionstests in der Regel anhand der Daten früherer Testausführungen durchgeführt (s. Kap. 11.4, 2. Absatz). Durch die Verwendung genetischer Algorithmen zur Erstellung neuer Tests wird die Regressionstestsuite aber nicht optimiert.",
+      "d": "FALSCH – Konzeptdrift bedeutet die Änderung der Einsatzumgebung der Software (s. Kap. 7.6). Wenn deswegen die Software geändert wurde, sind zusätzliche Regressionstestfälle nötig. Das führt aber nicht zu einer Optimierung der Regressionstestsuite."
+    }
+  },
+  {
+    "frage": "Welche der folgenden Optionen gibt zutreffend an, wie oder zu welchem Zweck ein KI-basiertes Testwerkzeug eine Fehlervorhersage durchführen kann?<br><br>Wählen Sie EINE Option aus.",
+    "inhalte": [],
+    "antworten": {
+      "a": "Durch die Analyse von Auffälligkeiten in Quellcode-Metriken – wie die Anzahl der Codezeilen und die zyklomatische Komplexität – können Fehler vorhergesagt werden.",
+      "b": "Die Vorhersage von Fehlerzuständen, die auf früheren Erfahrungen mit derselben Codebasis oder denselben Entwicklern beruht, sollte unter Verwendung eines KI-basierten Ansatzes erfolgen.",
+      "c": "Durch die Analyse von in der Vergangenheit beobachteter falsch positiver Testergebnisse können Fehler vorhergesagt werden.",
+      "d": "Zur Prioritätensetzung für den Test von Komponenten, die mehr Fehlerzustände enthalten als andere, sind auch unausgereifte Testwerkzeuge geeignet, wenn sie KI-basiert sind."
+    },
+    "korrekteAntwort": "b",
+    "feedback": {
+      "a": "FALSCH – Quellcode-Metriken wie die Anzahl der Codezeilen und die zyklomatische Komplexität sind nicht die besten Prädikatoren für die Vorhersage von Fehlern (s. Kap. 11.5, 3. Absatz, 2. Satz).",
+      "b": "KORREKT – Die Fehlervorhersage erfolgt durch die KI-basierte Suche nach Korrelationen zwischen Code-/Prozess-/Personal-Metriken und Fehlern in derselben Codebasis oder mit denselben Entwicklern (s. Kap. 11.5, 2. Absatz).",
+      "c": "FALSCH – Das Ziel der Fehlervorhersage besteht nicht darin, Fehler mit einem falsch-positiven Ergebnis zu identifizieren, sondern zu bestimmen, wie viele Fehlerzustände überhaupt vorhanden sind und ob sie gefunden werden können (s. Kap. 11.5, 1. Absatz).",
+      "d": "FALSCH – “Die Ergebnisse der Fehlervorhersage werden in der Regel dazu verwendet, Prioritäten für die Tests zu setzen (z. B. mehr Tests für Komponenten, für die mehr Fehlerzustände vorhergesagt werden).” “Diese Fähigkeit hängt von der Ausgereiftheit des verwendeten Werkzeugs ab.“ (s. Kap. 11.5, 1. Absatz, 3. und 2. Satz)."
+    }
+  }
+]

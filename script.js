@@ -3,18 +3,49 @@ let richtigBeantwortet = 0;
 let antwortVersuche = [];
 let aktuelleFrageIndex = 0;
 
-function ladeFragen() {
-    fetch('fragen.json')
+function startQuiz() {
+    const presetFile = document.getElementById('preset-files').value;
+    const fileInput = document.getElementById('file-input');
+
+    if (presetFile) {
+        ladeFragenAusServer(presetFile);
+    } else if (fileInput.files.length > 0) {
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+        reader.onload = function (event) {
+            try {
+                const fragen = JSON.parse(event.target.result);
+                starteQuizMitFragen(fragen);
+            } catch (error) {
+                alert('Fehler beim Laden der Datei. Bitte stellen Sie sicher, dass die Datei im korrekten Format vorliegt.');
+            }
+        };
+        reader.readAsText(file);
+    } else {
+        alert('Bitte wählen Sie eine .json-Datei aus.');
+    }
+}
+
+function ladeFragenAusServer(datei) {
+    fetch(datei)
         .then(response => response.json())
         .then(fragen => {
-            quizFragen = fragen;
-            antwortVersuche = fragen.map(() => false);
-            generiereFortschrittsMap();
-            frageAnzeigen(aktuelleFrageIndex);
+            starteQuizMitFragen(fragen);
         })
         .catch(error => {
             console.error("Fehler beim Laden der Fragen: ", error);
+            alert('Fehler beim Laden der Datei. Bitte versuchen Sie es erneut.');
         });
+}
+
+function starteQuizMitFragen(fragen) {
+    quizFragen = fragen;
+    antwortVersuche = fragen.map(() => false);
+    document.getElementById('start-container').style.display = 'none';
+    document.getElementById('quiz-container').style.display = 'flex';
+    document.getElementById('fortschritt-map-container').style.display = 'flex';
+    generiereFortschrittsMap();
+    frageAnzeigen(aktuelleFrageIndex);
 }
 
 function generiereFortschrittsMap() {
@@ -116,22 +147,22 @@ function generiereTabellenHTML(tabelle) {
 }
 
 function antwortAuswaehlen(antwort) {
+    const frage = quizFragen[aktuelleFrageIndex];
+    const korrekt = antwort === frage.korrekteAntwort;
+
     if (!antwortVersuche[aktuelleFrageIndex]) {
         antwortVersuche[aktuelleFrageIndex] = true;
-        const frage = quizFragen[aktuelleFrageIndex];
-        const korrekt = antwort === frage.korrekteAntwort;
-
         if (korrekt) {
             richtigBeantwortet++;
         }
-
-        aktualisiereRichtigeAntwortenAnzeige();
-        markiereFortschrittsPunkt(aktuelleFrageIndex, korrekt);
-        const feedbackContainer = document.getElementById('feedback-container');
-        feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
-        feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
-        feedbackContainer.style.display = 'block';
     }
+
+    aktualisiereRichtigeAntwortenAnzeige();
+    markiereFortschrittsPunkt(aktuelleFrageIndex, korrekt);
+    const feedbackContainer = document.getElementById('feedback-container');
+    feedbackContainer.innerHTML = `<p>${frage.feedback[antwort]}</p>`;
+    feedbackContainer.style.backgroundColor = korrekt ? 'lightgreen' : 'lightcoral';
+    feedbackContainer.style.display = 'block';
 }
 
 function markiereFortschrittsPunkt(index, korrekt) {
@@ -169,4 +200,8 @@ function anzeigenLeistung() {
     alert(`Du hast ${richtigBeantwortet} von ${quizFragen.length} Fragen beim ersten Versuch richtig beantwortet.`);
 }
 
-document.addEventListener('DOMContentLoaded', ladeFragen);
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('start-container').style.display = 'block';
+    document.getElementById('quiz-container').style.display = 'none';
+    document.getElementById('fortschritt-map-container').style.display = 'none';
+});

@@ -7,7 +7,20 @@
 </head>
 <body>
 <div class="main-wrapper">
-    <div class="quiz-container">
+    <div id="start-container" class="start-container">
+        <h1>Willkommen zum Quiz</h1>
+        <label for="preset-files">Wählen Sie eine vordefinierte Datei:</label>
+        <select id="preset-files">
+            <option value="" selected>-- Wählen Sie eine Datei --</option>
+            <option value="fragen.json">ISTQB Foundation Level</option>
+            <option value="fragen1.json">ISTQB AI</option>
+            <!-- Weitere Optionen können hier hinzugefügt werden -->
+        </select>
+        <p>Oder laden Sie eine Datei von der Festplatte:</p>
+        <input type="file" id="file-input" accept=".json">
+        <button onclick="startQuiz()">Start</button>
+    </div>
+    <div id="quiz-container" class="quiz-container" style="display:none;">
         <div id="quiz-progress">Frage 1 von X</div>
         <div id="quiz" role="main"></div>
         <div id="feedback-container" class="feedback-container" aria-live="polite"></div>
@@ -29,8 +42,7 @@
             <span id="mode-label">Dark Mode</span>
         </div>
     </div>
-    <div id="fortschritt-map-container">
-    </div>
+    <div id="fortschritt-map-container" style="display:none;"></div>
 </div>
 <script src="script.js"></script>
 </body>
