@@ -13,6 +13,8 @@ zu implementieren und zu validieren. Dies hilft, Fehler bei selbst erstellten Fr
 
 ## Aktueller Stand
 
+Teste den aktuellen Stand einfach über diesen [Link](https://coezbay.github.io/TestPrepWeb/).
+
 ### Erledigte Punkte
 
 - **Grundstruktur des Quiz**: Die Basisstruktur des Quiz mit Fragen, Antwortmöglichkeiten und Navigationsbuttons ("

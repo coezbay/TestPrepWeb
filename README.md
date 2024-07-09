@@ -12,6 +12,8 @@ This helps to avoid errors in self-created questions and answers.
 
 ## Current Status
 
+Simply test the current status through this [Link](https://coezbay.github.io/TestPrepWeb/).
+
 ### Completed Items
 
 - **Basic structure of the quiz**: The basic structure of the quiz with questions, answer options, and navigation
